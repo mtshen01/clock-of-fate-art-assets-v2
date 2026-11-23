@@ -1,0 +1,121 @@
+{
+  "version": 1,
+  "background": "art/ui/bg_hero_select",
+  "backgroundLoop": {
+    "type": "static-scene-plus-ember-sequence",
+    "emberPrefix": "art/home-v1/ember_",
+    "frameCount": 8,
+    "fps": 8,
+    "motionPeriodSeconds": 8
+  },
+  "heroes": {
+    "emberforged": {
+      "directory": "art/heroes/emberforged",
+      "frameWidth": 512,
+      "frameHeight": 512,
+      "uniqueFrames": 4,
+      "fps": 3,
+      "order": [
+        0,
+        1,
+        2,
+        3,
+        2,
+        1
+      ],
+      "periodSeconds": 2,
+      "portraitWidth": 384,
+      "portraitHeight": 512,
+      "footBaseline": 488,
+      "textureTrim": false
+    },
+    "apothecary": {
+      "directory": "art/heroes/apothecary",
+      "frameWidth": 512,
+      "frameHeight": 512,
+      "uniqueFrames": 4,
+      "fps": 3,
+      "order": [
+        0,
+        1,
+        2,
+        3,
+        2,
+        1
+      ],
+      "periodSeconds": 2,
+      "portraitWidth": 384,
+      "portraitHeight": 512,
+      "footBaseline": 488,
+      "textureTrim": false
+    },
+    "clockwright": {
+      "directory": "art/heroes/clockwright",
+      "frameWidth": 512,
+      "frameHeight": 512,
+      "uniqueFrames": 4,
+      "fps": 3,
+      "order": [
+        0,
+        1,
+        2,
+        3,
+        2,
+        1
+      ],
+      "periodSeconds": 2,
+      "portraitWidth": 384,
+      "portraitHeight": 512,
+      "footBaseline": 488,
+      "textureTrim": false
+    },
+    "lamplighter": {
+      "directory": "art/heroes/lamplighter",
+      "frameWidth": 512,
+      "frameHeight": 512,
+      "uniqueFrames": 4,
+      "fps": 3,
+      "order": [
+        0,
+        1,
+        2,
+        3,
+        2,
+        1
+      ],
+      "periodSeconds": 2,
+      "portraitWidth": 384,
+      "portraitHeight": 512,
+      "footBaseline": 488,
+      "textureTrim": false
+    },
+    "random": {
+      "directory": "art/heroes/random",
+      "frameWidth": 512,
+      "frameHeight": 512,
+      "uniqueFrames": 4,
+      "fps": 3,
+      "order": [
+        0,
+        1,
+        2,
+        3,
+        2,
+        1
+      ],
+      "periodSeconds": 2,
+      "portraitWidth": 384,
+      "portraitHeight": 512,
+      "footBaseline": 488,
+      "textureTrim": false
+    }
+  },
+  "ui": [
+    "btn_back_home.png",
+    "portrait_normal.png",
+    "portrait_selected.png",
+    "portrait_locked.png",
+    "portrait_random.png",
+    "detail_panel.png"
+  ]
+}

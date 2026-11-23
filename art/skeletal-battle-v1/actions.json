@@ -1,0 +1,86 @@
+{
+  "version": 1,
+  "heroes": {
+    "apothecary": {
+      "cards": {
+        "sts2_grand_finale": "heavy_attack"
+      }
+    },
+    "emberforged": {
+      "cards": {
+        "sts2_bludgeon": "heavy_attack",
+        "sts2_uppercut": "heavy_attack"
+      }
+    },
+    "regent": {
+      "cards": {
+        "sts2_monologue": "taunt",
+        "sts2_know_thy_place": "taunt",
+        "sts2_bombardment": "heavy_attack",
+        "sts2_hegemony": "heavy_attack",
+        "sts2_kingly_kick": "heavy_attack"
+      }
+    }
+  },
+  "enemies": {
+    "sts2_globe_head": {
+      "moves": {
+        "sts2_thunder_strike": "cast",
+        "sts2_galvanic_burst": "cast"
+      }
+    },
+    "sts2_flyconid": {
+      "moves": {
+        "sts2_frail_spores": "cast",
+        "sts2_vulnerable_spores": "cast"
+      }
+    },
+    "sts2_fuzzy_wurm_crawler": {
+      "moves": {
+        "sts2_first_acid_goop": "attack",
+        "sts2_acid_goop": "attack",
+        "sts2_inhale": "cast"
+      }
+    },
+    "sts2_infested_prism": {
+      "moves": {
+        "sts2_radiate": "cast",
+        "sts2_pulsate": "cast"
+      }
+    },
+    "sts2_kin_follower": {
+      "moves": {
+        "sts2_power_dance": "cast"
+      }
+    },
+    "sts2_wriggler": {
+      "moves": {
+        "sts2_wriggle": "cast"
+      }
+    },
+    "sts2_decimillipede_segment": {
+      "moves": {
+        "sts2_bulk": "cast",
+        "sts2_reattach": "cast"
+      }
+    },
+    "sts2_decimillipede_segment_front": {
+      "moves": {
+        "sts2_bulk": "cast",
+        "sts2_reattach": "cast"
+      }
+    },
+    "sts2_decimillipede_segment_middle": {
+      "moves": {
+        "sts2_bulk": "cast",
+        "sts2_reattach": "cast"
+      }
+    },
+    "sts2_decimillipede_segment_back": {
+      "moves": {
+        "sts2_bulk": "cast",
+        "sts2_reattach": "cast"
+      }
+    }
+  }
+}

@@ -1,0 +1,826 @@
+{
+  "version": 2,
+  "style": "已确认邪恶版：成熟比例、窄眼、尖锐轮廓、哥特墨线与哑光材质；待机微动",
+  "frameWidth": 384,
+  "frameHeight": 384,
+  "groundRatioMin": 0.6,
+  "groundRatioTarget": 0.72,
+  "monsters": [
+    {
+      "id": "batwing_shade",
+      "name": "蝠翼掠影",
+      "scene": "mine",
+      "groundAnchorY": 0.9010416666666666,
+      "actions": {
+        "idle": {
+          "label": "静止／待机",
+          "fps": 2,
+          "loop": true,
+          "order": [
+            0,
+            1,
+            2,
+            3,
+            2,
+            1
+          ],
+          "motion": "micro",
+          "frames": [
+            "monsters-v2/batwing_shade/idle_00.png",
+            "monsters-v2/batwing_shade/idle_01.png",
+            "monsters-v2/batwing_shade/idle_02.png",
+            "monsters-v2/batwing_shade/idle_03.png"
+          ],
+          "pivot": {
+            "x": 0.5,
+            "y": 0.09895833333333337
+          },
+          "trim": false
+        },
+        "defense": {
+          "label": "防御",
+          "fps": 7,
+          "loop": false,
+          "order": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "frames": [
+            "monsters-v2/batwing_shade/defense_00.png",
+            "monsters-v2/batwing_shade/defense_01.png",
+            "monsters-v2/batwing_shade/defense_02.png",
+            "monsters-v2/batwing_shade/defense_03.png"
+          ],
+          "pivot": {
+            "x": 0.5,
+            "y": 0.09895833333333337
+          },
+          "trim": false
+        },
+        "attack": {
+          "label": "攻击",
+          "fps": 8,
+          "loop": false,
+          "order": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "frames": [
+            "monsters-v2/batwing_shade/attack_00.png",
+            "monsters-v2/batwing_shade/attack_01.png",
+            "monsters-v2/batwing_shade/attack_02.png",
+            "monsters-v2/batwing_shade/attack_03.png"
+          ],
+          "pivot": {
+            "x": 0.5,
+            "y": 0.09895833333333337
+          },
+          "trim": false
+        },
+        "cast": {
+          "label": "施法",
+          "fps": 6,
+          "loop": false,
+          "order": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "frames": [
+            "monsters-v2/batwing_shade/cast_00.png",
+            "monsters-v2/batwing_shade/cast_01.png",
+            "monsters-v2/batwing_shade/cast_02.png",
+            "monsters-v2/batwing_shade/cast_03.png"
+          ],
+          "pivot": {
+            "x": 0.5,
+            "y": 0.09895833333333337
+          },
+          "trim": false
+        },
+        "death": {
+          "label": "死亡",
+          "fps": 5,
+          "loop": false,
+          "order": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "holdLastFrame": true,
+          "frames": [
+            "monsters-v2/batwing_shade/death_00.png",
+            "monsters-v2/batwing_shade/death_01.png",
+            "monsters-v2/batwing_shade/death_02.png",
+            "monsters-v2/batwing_shade/death_03.png"
+          ],
+          "pivot": {
+            "x": 0.5,
+            "y": 0.09895833333333337
+          },
+          "trim": false
+        }
+      },
+      "previewSize": 310
+    },
+    {
+      "id": "drill_worm",
+      "name": "钻孔蠕虫",
+      "scene": "mine",
+      "groundAnchorY": 0.9010416666666666,
+      "actions": {
+        "idle": {
+          "label": "静止／待机",
+          "fps": 2,
+          "loop": true,
+          "order": [
+            0,
+            0,
+            1,
+            1,
+            1,
+            0
+          ],
+          "motion": "micro",
+          "note": "选用相近两帧，触须微动",
+          "frames": [
+            "monsters-v2/drill_worm/idle_00.png",
+            "monsters-v2/drill_worm/idle_01.png",
+            "monsters-v2/drill_worm/idle_02.png",
+            "monsters-v2/drill_worm/idle_03.png"
+          ],
+          "pivot": {
+            "x": 0.5,
+            "y": 0.09895833333333337
+          },
+          "trim": false
+        },
+        "defense": {
+          "label": "防御",
+          "fps": 7,
+          "loop": false,
+          "order": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "frames": [
+            "monsters-v2/drill_worm/defense_00.png",
+            "monsters-v2/drill_worm/defense_01.png",
+            "monsters-v2/drill_worm/defense_02.png",
+            "monsters-v2/drill_worm/defense_03.png"
+          ],
+          "pivot": {
+            "x": 0.5,
+            "y": 0.09895833333333337
+          },
+          "trim": false
+        },
+        "attack": {
+          "label": "攻击",
+          "fps": 8,
+          "loop": false,
+          "order": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "frames": [
+            "monsters-v2/drill_worm/attack_00.png",
+            "monsters-v2/drill_worm/attack_01.png",
+            "monsters-v2/drill_worm/attack_02.png",
+            "monsters-v2/drill_worm/attack_03.png"
+          ],
+          "pivot": {
+            "x": 0.5,
+            "y": 0.09895833333333337
+          },
+          "trim": false
+        },
+        "cast": {
+          "label": "施法",
+          "fps": 6,
+          "loop": false,
+          "order": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "frames": [
+            "monsters-v2/drill_worm/cast_00.png",
+            "monsters-v2/drill_worm/cast_01.png",
+            "monsters-v2/drill_worm/cast_02.png",
+            "monsters-v2/drill_worm/cast_03.png"
+          ],
+          "pivot": {
+            "x": 0.5,
+            "y": 0.09895833333333337
+          },
+          "trim": false
+        },
+        "death": {
+          "label": "死亡",
+          "fps": 5,
+          "loop": false,
+          "order": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "holdLastFrame": true,
+          "frames": [
+            "monsters-v2/drill_worm/death_00.png",
+            "monsters-v2/drill_worm/death_01.png",
+            "monsters-v2/drill_worm/death_02.png",
+            "monsters-v2/drill_worm/death_03.png"
+          ],
+          "pivot": {
+            "x": 0.5,
+            "y": 0.09895833333333337
+          },
+          "trim": false
+        }
+      },
+      "previewSize": 271
+    },
+    {
+      "id": "moss_slime",
+      "name": "苔藓史莱姆",
+      "scene": "mine",
+      "groundAnchorY": 0.9010416666666666,
+      "actions": {
+        "idle": {
+          "label": "静止／待机",
+          "fps": 2,
+          "loop": true,
+          "order": [
+            0,
+            0,
+            2,
+            2,
+            2,
+            0
+          ],
+          "motion": "micro",
+          "note": "选用相近两帧，避免叶尖大摆幅",
+          "frames": [
+            "monsters-v2/moss_slime/idle_00.png",
+            "monsters-v2/moss_slime/idle_01.png",
+            "monsters-v2/moss_slime/idle_02.png",
+            "monsters-v2/moss_slime/idle_03.png"
+          ],
+          "pivot": {
+            "x": 0.5,
+            "y": 0.09895833333333337
+          },
+          "trim": false
+        },
+        "defense": {
+          "label": "防御",
+          "fps": 7,
+          "loop": false,
+          "order": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "frames": [
+            "monsters-v2/moss_slime/defense_00.png",
+            "monsters-v2/moss_slime/defense_01.png",
+            "monsters-v2/moss_slime/defense_02.png",
+            "monsters-v2/moss_slime/defense_03.png"
+          ],
+          "pivot": {
+            "x": 0.5,
+            "y": 0.09895833333333337
+          },
+          "trim": false
+        },
+        "attack": {
+          "label": "攻击",
+          "fps": 8,
+          "loop": false,
+          "order": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "frames": [
+            "monsters-v2/moss_slime/attack_00.png",
+            "monsters-v2/moss_slime/attack_01.png",
+            "monsters-v2/moss_slime/attack_02.png",
+            "monsters-v2/moss_slime/attack_03.png"
+          ],
+          "pivot": {
+            "x": 0.5,
+            "y": 0.09895833333333337
+          },
+          "trim": false
+        },
+        "cast": {
+          "label": "施法",
+          "fps": 6,
+          "loop": false,
+          "order": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "frames": [
+            "monsters-v2/moss_slime/cast_00.png",
+            "monsters-v2/moss_slime/cast_01.png",
+            "monsters-v2/moss_slime/cast_02.png",
+            "monsters-v2/moss_slime/cast_03.png"
+          ],
+          "pivot": {
+            "x": 0.5,
+            "y": 0.09895833333333337
+          },
+          "trim": false
+        },
+        "death": {
+          "label": "死亡",
+          "fps": 5,
+          "loop": false,
+          "order": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "holdLastFrame": true,
+          "frames": [
+            "monsters-v2/moss_slime/death_00.png",
+            "monsters-v2/moss_slime/death_01.png",
+            "monsters-v2/moss_slime/death_02.png",
+            "monsters-v2/moss_slime/death_03.png"
+          ],
+          "pivot": {
+            "x": 0.5,
+            "y": 0.09895833333333337
+          },
+          "trim": false
+        }
+      },
+      "previewSize": 314
+    },
+    {
+      "id": "mossling",
+      "name": "苔藓幼体",
+      "scene": "mine",
+      "groundAnchorY": 0.9010416666666666,
+      "actions": {
+        "idle": {
+          "label": "静止／待机",
+          "fps": 2,
+          "loop": true,
+          "order": [
+            0,
+            0,
+            1,
+            1,
+            1,
+            0
+          ],
+          "motion": "micro",
+          "note": "选用相近两帧，体型固定",
+          "frames": [
+            "monsters-v2/mossling/idle_00.png",
+            "monsters-v2/mossling/idle_01.png",
+            "monsters-v2/mossling/idle_02.png",
+            "monsters-v2/mossling/idle_03.png"
+          ],
+          "pivot": {
+            "x": 0.5,
+            "y": 0.09895833333333337
+          },
+          "trim": false
+        },
+        "defense": {
+          "label": "防御",
+          "fps": 7,
+          "loop": false,
+          "order": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "frames": [
+            "monsters-v2/mossling/defense_00.png",
+            "monsters-v2/mossling/defense_01.png",
+            "monsters-v2/mossling/defense_02.png",
+            "monsters-v2/mossling/defense_03.png"
+          ],
+          "pivot": {
+            "x": 0.5,
+            "y": 0.09895833333333337
+          },
+          "trim": false
+        },
+        "attack": {
+          "label": "攻击",
+          "fps": 8,
+          "loop": false,
+          "order": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "frames": [
+            "monsters-v2/mossling/attack_00.png",
+            "monsters-v2/mossling/attack_01.png",
+            "monsters-v2/mossling/attack_02.png",
+            "monsters-v2/mossling/attack_03.png"
+          ],
+          "pivot": {
+            "x": 0.5,
+            "y": 0.09895833333333337
+          },
+          "trim": false
+        },
+        "cast": {
+          "label": "施法",
+          "fps": 6,
+          "loop": false,
+          "order": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "frames": [
+            "monsters-v2/mossling/cast_00.png",
+            "monsters-v2/mossling/cast_01.png",
+            "monsters-v2/mossling/cast_02.png",
+            "monsters-v2/mossling/cast_03.png"
+          ],
+          "pivot": {
+            "x": 0.5,
+            "y": 0.09895833333333337
+          },
+          "trim": false
+        },
+        "death": {
+          "label": "死亡",
+          "fps": 5,
+          "loop": false,
+          "order": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "holdLastFrame": true,
+          "frames": [
+            "monsters-v2/mossling/death_00.png",
+            "monsters-v2/mossling/death_01.png",
+            "monsters-v2/mossling/death_02.png",
+            "monsters-v2/mossling/death_03.png"
+          ],
+          "pivot": {
+            "x": 0.5,
+            "y": 0.09895833333333337
+          },
+          "trim": false
+        }
+      },
+      "previewSize": 178
+    },
+    {
+      "id": "stone_sentinel",
+      "name": "石像哨兵",
+      "scene": "courtyard",
+      "groundAnchorY": 0.9010416666666666,
+      "actions": {
+        "idle": {
+          "label": "静止／待机",
+          "fps": 2,
+          "loop": true,
+          "order": [
+            0,
+            1,
+            2,
+            3,
+            2,
+            1
+          ],
+          "motion": "micro",
+          "frames": [
+            "monsters-v2/stone_sentinel/idle_00.png",
+            "monsters-v2/stone_sentinel/idle_01.png",
+            "monsters-v2/stone_sentinel/idle_02.png",
+            "monsters-v2/stone_sentinel/idle_03.png"
+          ],
+          "pivot": {
+            "x": 0.5,
+            "y": 0.09895833333333337
+          },
+          "trim": false
+        },
+        "defense": {
+          "label": "防御",
+          "fps": 7,
+          "loop": false,
+          "order": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "frames": [
+            "monsters-v2/stone_sentinel/defense_00.png",
+            "monsters-v2/stone_sentinel/defense_01.png",
+            "monsters-v2/stone_sentinel/defense_02.png",
+            "monsters-v2/stone_sentinel/defense_03.png"
+          ],
+          "pivot": {
+            "x": 0.5,
+            "y": 0.09895833333333337
+          },
+          "trim": false
+        },
+        "attack": {
+          "label": "攻击",
+          "fps": 8,
+          "loop": false,
+          "order": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "frames": [
+            "monsters-v2/stone_sentinel/attack_00.png",
+            "monsters-v2/stone_sentinel/attack_01.png",
+            "monsters-v2/stone_sentinel/attack_02.png",
+            "monsters-v2/stone_sentinel/attack_03.png"
+          ],
+          "pivot": {
+            "x": 0.5,
+            "y": 0.09895833333333337
+          },
+          "trim": false
+        },
+        "cast": {
+          "label": "施法",
+          "fps": 6,
+          "loop": false,
+          "order": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "frames": [
+            "monsters-v2/stone_sentinel/cast_00.png",
+            "monsters-v2/stone_sentinel/cast_01.png",
+            "monsters-v2/stone_sentinel/cast_02.png",
+            "monsters-v2/stone_sentinel/cast_03.png"
+          ],
+          "pivot": {
+            "x": 0.5,
+            "y": 0.09895833333333337
+          },
+          "trim": false
+        },
+        "death": {
+          "label": "死亡",
+          "fps": 5,
+          "loop": false,
+          "order": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "holdLastFrame": true,
+          "frames": [
+            "monsters-v2/stone_sentinel/death_00.png",
+            "monsters-v2/stone_sentinel/death_01.png",
+            "monsters-v2/stone_sentinel/death_02.png",
+            "monsters-v2/stone_sentinel/death_03.png"
+          ],
+          "pivot": {
+            "x": 0.5,
+            "y": 0.09895833333333337
+          },
+          "trim": false
+        }
+      },
+      "previewSize": 387
+    },
+    {
+      "id": "whisper_cultist",
+      "name": "低语信徒",
+      "scene": "town",
+      "groundAnchorY": 0.9010416666666666,
+      "actions": {
+        "idle": {
+          "label": "静止／待机",
+          "fps": 2,
+          "loop": true,
+          "order": [
+            0,
+            1,
+            2,
+            3,
+            2,
+            1
+          ],
+          "motion": "micro",
+          "frames": [
+            "monsters-v2/whisper_cultist/idle_00.png",
+            "monsters-v2/whisper_cultist/idle_01.png",
+            "monsters-v2/whisper_cultist/idle_02.png",
+            "monsters-v2/whisper_cultist/idle_03.png"
+          ],
+          "pivot": {
+            "x": 0.5,
+            "y": 0.09895833333333337
+          },
+          "trim": false
+        },
+        "defense": {
+          "label": "防御",
+          "fps": 7,
+          "loop": false,
+          "order": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "frames": [
+            "monsters-v2/whisper_cultist/defense_00.png",
+            "monsters-v2/whisper_cultist/defense_01.png",
+            "monsters-v2/whisper_cultist/defense_02.png",
+            "monsters-v2/whisper_cultist/defense_03.png"
+          ],
+          "pivot": {
+            "x": 0.5,
+            "y": 0.09895833333333337
+          },
+          "trim": false
+        },
+        "attack": {
+          "label": "攻击",
+          "fps": 8,
+          "loop": false,
+          "order": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "frames": [
+            "monsters-v2/whisper_cultist/attack_00.png",
+            "monsters-v2/whisper_cultist/attack_01.png",
+            "monsters-v2/whisper_cultist/attack_02.png",
+            "monsters-v2/whisper_cultist/attack_03.png"
+          ],
+          "pivot": {
+            "x": 0.5,
+            "y": 0.09895833333333337
+          },
+          "trim": false
+        },
+        "cast": {
+          "label": "施法",
+          "fps": 6,
+          "loop": false,
+          "order": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "frames": [
+            "monsters-v2/whisper_cultist/cast_00.png",
+            "monsters-v2/whisper_cultist/cast_01.png",
+            "monsters-v2/whisper_cultist/cast_02.png",
+            "monsters-v2/whisper_cultist/cast_03.png"
+          ],
+          "pivot": {
+            "x": 0.5,
+            "y": 0.09895833333333337
+          },
+          "trim": false
+        },
+        "death": {
+          "label": "死亡",
+          "fps": 5,
+          "loop": false,
+          "order": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "holdLastFrame": true,
+          "frames": [
+            "monsters-v2/whisper_cultist/death_00.png",
+            "monsters-v2/whisper_cultist/death_01.png",
+            "monsters-v2/whisper_cultist/death_02.png",
+            "monsters-v2/whisper_cultist/death_03.png"
+          ],
+          "pivot": {
+            "x": 0.5,
+            "y": 0.09895833333333337
+          },
+          "trim": false
+        }
+      },
+      "previewSize": 402
+    }
+  ],
+  "scenes": [
+    {
+      "id": "town",
+      "name": "锈钟镇夜巷",
+      "base": "battle-backgrounds-v1/town.png",
+      "width": 1280,
+      "height": 720,
+      "groundStartsAt": 0.33,
+      "groundHeightRatio": 0.6699999999999999,
+      "loopSeconds": 4,
+      "bakedFrameCount": 16,
+      "bakedFps": 4,
+      "lamps": [],
+      "source": "docs/art-source/battle-ground-v2/raw/town.png",
+      "backgroundArtVersion": "battle-ground-v2"
+    },
+    {
+      "id": "mine",
+      "name": "苔岩矿口",
+      "base": "battle-backgrounds-v1/mine.png",
+      "width": 1280,
+      "height": 720,
+      "groundStartsAt": 0.36,
+      "groundHeightRatio": 0.64,
+      "loopSeconds": 4,
+      "bakedFrameCount": 16,
+      "bakedFps": 4,
+      "lamps": [],
+      "source": "docs/art-source/battle-ground-v2/raw/mine.png",
+      "backgroundArtVersion": "battle-ground-v2"
+    },
+    {
+      "id": "courtyard",
+      "name": "钟楼石庭",
+      "base": "battle-backgrounds-v1/courtyard.png",
+      "width": 1280,
+      "height": 720,
+      "groundStartsAt": 0.33,
+      "groundHeightRatio": 0.6699999999999999,
+      "loopSeconds": 4,
+      "bakedFrameCount": 16,
+      "bakedFps": 4,
+      "lamps": [],
+      "source": "docs/art-source/battle-ground-v2/raw/courtyard.png",
+      "backgroundArtVersion": "battle-ground-v2"
+    }
+  ],
+  "fx": {
+    "mist": {
+      "frames": [
+        "battle-backgrounds-v1/mist_00.png",
+        "battle-backgrounds-v1/mist_01.png",
+        "battle-backgrounds-v1/mist_02.png",
+        "battle-backgrounds-v1/mist_03.png"
+      ],
+      "order": [
+        0,
+        1,
+        2,
+        3,
+        2,
+        1
+      ],
+      "fps": 3
+    },
+    "embers": {
+      "atlas": "home-v1/embers_atlas.png",
+      "columns": 4,
+      "rows": 2,
+      "frameSize": 128,
+      "fps": 8
+    }
+  },
+  "complete": true,
+  "backgroundArtVersion": "battle-ground-v2"
+}

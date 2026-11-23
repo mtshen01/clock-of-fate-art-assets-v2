@@ -1,0 +1,3394 @@
+{
+  "id": "sts2_lagavulin_matriarch",
+  "pivot": {
+    "x": 0.5,
+    "y": 0.16666666666666663
+  },
+  "visualBounds": {
+    "top": 0.38151041666666663,
+    "bottom": 0.16666666666666663
+  },
+  "pose": {
+    "frames": [
+      "art/monster-upgrade-20261118/sts2_lagavulin_matriarch/idle.png"
+    ],
+    "atlasRects": [
+      {
+        "x": 0,
+        "y": 0,
+        "width": 111,
+        "height": 87,
+        "offsetX": 136,
+        "offsetY": 235
+      }
+    ],
+    "order": [
+      0
+    ],
+    "fps": 1,
+    "loop": true,
+    "holdLastFrame": false
+  },
+  "moves": {
+    "sts2_sleep": {
+      "cues": [
+        {
+          "kind": "windup",
+          "key": "windup",
+          "target": "self",
+          "durationMs": 310,
+          "loop": false,
+          "anchor": [
+            80,
+            64
+          ],
+          "returnsToCaster": false,
+          "beam": false,
+          "sound": "monster-upgrade-20261118/sts2_lagavulin_matriarch/00",
+          "clip": {
+            "frames": [
+              "art/monster-upgrade-20261118/sts2_lagavulin_matriarch/fx-00.png"
+            ],
+            "atlasRects": [
+              {
+                "x": 170,
+                "y": 70,
+                "width": 1,
+                "height": 1,
+                "offsetX": 0,
+                "offsetY": 0
+              },
+              {
+                "x": 0,
+                "y": 36,
+                "width": 60,
+                "height": 32,
+                "offsetX": 49,
+                "offsetY": 46
+              },
+              {
+                "x": 0,
+                "y": 0,
+                "width": 59,
+                "height": 34,
+                "offsetX": 50,
+                "offsetY": 44
+              },
+              {
+                "x": 119,
+                "y": 0,
+                "width": 60,
+                "height": 33,
+                "offsetX": 49,
+                "offsetY": 45
+              },
+              {
+                "x": 61,
+                "y": 0,
+                "width": 56,
+                "height": 34,
+                "offsetX": 52,
+                "offsetY": 44
+              },
+              {
+                "x": 62,
+                "y": 36,
+                "width": 55,
+                "height": 32,
+                "offsetX": 52,
+                "offsetY": 46
+              },
+              {
+                "x": 119,
+                "y": 36,
+                "width": 51,
+                "height": 30,
+                "offsetX": 54,
+                "offsetY": 47
+              },
+              {
+                "x": 0,
+                "y": 70,
+                "width": 46,
+                "height": 29,
+                "offsetX": 56,
+                "offsetY": 47
+              },
+              {
+                "x": 48,
+                "y": 70,
+                "width": 43,
+                "height": 25,
+                "offsetX": 57,
+                "offsetY": 50
+              },
+              {
+                "x": 93,
+                "y": 70,
+                "width": 38,
+                "height": 22,
+                "offsetX": 58,
+                "offsetY": 51
+              },
+              {
+                "x": 133,
+                "y": 70,
+                "width": 35,
+                "height": 20,
+                "offsetX": 60,
+                "offsetY": 51
+              },
+              {
+                "x": 173,
+                "y": 70,
+                "width": 1,
+                "height": 1,
+                "offsetX": 0,
+                "offsetY": 0
+              }
+            ],
+            "order": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11
+            ],
+            "fps": 38.70967741935484,
+            "loop": false
+          }
+        },
+        {
+          "kind": "release",
+          "key": "source",
+          "target": "self",
+          "durationMs": 240,
+          "loop": false,
+          "anchor": [
+            80,
+            64
+          ],
+          "returnsToCaster": false,
+          "beam": false,
+          "sound": "monster-upgrade-20261118/sts2_lagavulin_matriarch/01",
+          "clip": {
+            "frames": [
+              "art/monster-upgrade-20261118/sts2_lagavulin_matriarch/fx-01.png"
+            ],
+            "atlasRects": [
+              {
+                "x": 504,
+                "y": 0,
+                "width": 1,
+                "height": 1,
+                "offsetX": 0,
+                "offsetY": 0
+              },
+              {
+                "x": 51,
+                "y": 0,
+                "width": 50,
+                "height": 40,
+                "offsetX": 56,
+                "offsetY": 44
+              },
+              {
+                "x": 0,
+                "y": 0,
+                "width": 49,
+                "height": 41,
+                "offsetX": 57,
+                "offsetY": 43
+              },
+              {
+                "x": 103,
+                "y": 0,
+                "width": 50,
+                "height": 40,
+                "offsetX": 56,
+                "offsetY": 43
+              },
+              {
+                "x": 269,
+                "y": 0,
+                "width": 53,
+                "height": 39,
+                "offsetX": 54,
+                "offsetY": 44
+              },
+              {
+                "x": 155,
+                "y": 0,
+                "width": 55,
+                "height": 39,
+                "offsetX": 53,
+                "offsetY": 45
+              },
+              {
+                "x": 212,
+                "y": 0,
+                "width": 55,
+                "height": 39,
+                "offsetX": 53,
+                "offsetY": 45
+              },
+              {
+                "x": 324,
+                "y": 0,
+                "width": 52,
+                "height": 38,
+                "offsetX": 54,
+                "offsetY": 45
+              },
+              {
+                "x": 378,
+                "y": 0,
+                "width": 47,
+                "height": 36,
+                "offsetX": 56,
+                "offsetY": 46
+              },
+              {
+                "x": 427,
+                "y": 0,
+                "width": 41,
+                "height": 32,
+                "offsetX": 59,
+                "offsetY": 48
+              },
+              {
+                "x": 470,
+                "y": 0,
+                "width": 32,
+                "height": 27,
+                "offsetX": 64,
+                "offsetY": 51
+              },
+              {
+                "x": 507,
+                "y": 0,
+                "width": 1,
+                "height": 1,
+                "offsetX": 0,
+                "offsetY": 0
+              }
+            ],
+            "order": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11
+            ],
+            "fps": 50,
+            "loop": false
+          }
+        },
+        {
+          "kind": "tail",
+          "key": "recovery",
+          "target": "self",
+          "durationMs": 210,
+          "loop": false,
+          "anchor": [
+            80,
+            64
+          ],
+          "returnsToCaster": false,
+          "beam": false,
+          "sound": "monster-upgrade-20261118/sts2_lagavulin_matriarch/02",
+          "clip": {
+            "frames": [
+              "art/monster-upgrade-20261118/sts2_lagavulin_matriarch/fx-02.png"
+            ],
+            "atlasRects": [
+              {
+                "x": 358,
+                "y": 0,
+                "width": 1,
+                "height": 1,
+                "offsetX": 0,
+                "offsetY": 0
+              },
+              {
+                "x": 290,
+                "y": 0,
+                "width": 32,
+                "height": 18,
+                "offsetX": 70,
+                "offsetY": 54
+              },
+              {
+                "x": 74,
+                "y": 0,
+                "width": 34,
+                "height": 19,
+                "offsetX": 67,
+                "offsetY": 54
+              },
+              {
+                "x": 0,
+                "y": 0,
+                "width": 35,
+                "height": 19,
+                "offsetX": 66,
+                "offsetY": 54
+              },
+              {
+                "x": 37,
+                "y": 0,
+                "width": 35,
+                "height": 19,
+                "offsetX": 65,
+                "offsetY": 54
+              },
+              {
+                "x": 110,
+                "y": 0,
+                "width": 34,
+                "height": 19,
+                "offsetX": 63,
+                "offsetY": 54
+              },
+              {
+                "x": 146,
+                "y": 0,
+                "width": 34,
+                "height": 18,
+                "offsetX": 62,
+                "offsetY": 55
+              },
+              {
+                "x": 182,
+                "y": 0,
+                "width": 34,
+                "height": 18,
+                "offsetX": 62,
+                "offsetY": 55
+              },
+              {
+                "x": 218,
+                "y": 0,
+                "width": 34,
+                "height": 18,
+                "offsetX": 61,
+                "offsetY": 55
+              },
+              {
+                "x": 254,
+                "y": 0,
+                "width": 34,
+                "height": 18,
+                "offsetX": 58,
+                "offsetY": 55
+              },
+              {
+                "x": 324,
+                "y": 0,
+                "width": 32,
+                "height": 15,
+                "offsetX": 59,
+                "offsetY": 56
+              },
+              {
+                "x": 361,
+                "y": 0,
+                "width": 1,
+                "height": 1,
+                "offsetX": 0,
+                "offsetY": 0
+              }
+            ],
+            "order": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11
+            ],
+            "fps": 57.142857142857146,
+            "loop": false
+          }
+        }
+      ],
+      "damages": false,
+      "noAction": false
+    },
+    "sts2_slash": {
+      "cues": [
+        {
+          "kind": "windup",
+          "key": "windup",
+          "target": "self",
+          "durationMs": 310,
+          "loop": false,
+          "anchor": [
+            80,
+            64
+          ],
+          "returnsToCaster": false,
+          "beam": false,
+          "sound": "monster-upgrade-20261118/sts2_lagavulin_matriarch/03",
+          "clip": {
+            "frames": [
+              "art/monster-upgrade-20261118/sts2_lagavulin_matriarch/fx-03.png"
+            ],
+            "atlasRects": [
+              {
+                "x": 510,
+                "y": 0,
+                "width": 1,
+                "height": 1,
+                "offsetX": 0,
+                "offsetY": 0
+              },
+              {
+                "x": 222,
+                "y": 0,
+                "width": 59,
+                "height": 25,
+                "offsetX": 49,
+                "offsetY": 48
+              },
+              {
+                "x": 57,
+                "y": 0,
+                "width": 57,
+                "height": 26,
+                "offsetX": 50,
+                "offsetY": 47
+              },
+              {
+                "x": 0,
+                "y": 0,
+                "width": 55,
+                "height": 27,
+                "offsetX": 52,
+                "offsetY": 47
+              },
+              {
+                "x": 116,
+                "y": 0,
+                "width": 52,
+                "height": 26,
+                "offsetX": 53,
+                "offsetY": 48
+              },
+              {
+                "x": 170,
+                "y": 0,
+                "width": 50,
+                "height": 26,
+                "offsetX": 54,
+                "offsetY": 48
+              },
+              {
+                "x": 283,
+                "y": 0,
+                "width": 49,
+                "height": 24,
+                "offsetX": 55,
+                "offsetY": 49
+              },
+              {
+                "x": 334,
+                "y": 0,
+                "width": 46,
+                "height": 22,
+                "offsetX": 56,
+                "offsetY": 50
+              },
+              {
+                "x": 382,
+                "y": 0,
+                "width": 44,
+                "height": 21,
+                "offsetX": 57,
+                "offsetY": 51
+              },
+              {
+                "x": 428,
+                "y": 0,
+                "width": 41,
+                "height": 20,
+                "offsetX": 59,
+                "offsetY": 51
+              },
+              {
+                "x": 471,
+                "y": 0,
+                "width": 37,
+                "height": 19,
+                "offsetX": 60,
+                "offsetY": 51
+              },
+              {
+                "x": 513,
+                "y": 0,
+                "width": 1,
+                "height": 1,
+                "offsetX": 0,
+                "offsetY": 0
+              }
+            ],
+            "order": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11
+            ],
+            "fps": 38.70967741935484,
+            "loop": false
+          }
+        },
+        {
+          "kind": "release",
+          "key": "source",
+          "target": "self",
+          "durationMs": 240,
+          "loop": false,
+          "anchor": [
+            80,
+            64
+          ],
+          "returnsToCaster": false,
+          "beam": false,
+          "sound": "monster-upgrade-20261118/sts2_lagavulin_matriarch/04",
+          "clip": {
+            "frames": [
+              "art/monster-upgrade-20261118/sts2_lagavulin_matriarch/fx-04.png"
+            ],
+            "atlasRects": [
+              {
+                "x": 642,
+                "y": 0,
+                "width": 1,
+                "height": 1,
+                "offsetX": 0,
+                "offsetY": 0
+              },
+              {
+                "x": 576,
+                "y": 0,
+                "width": 64,
+                "height": 39,
+                "offsetX": 47,
+                "offsetY": 37
+              },
+              {
+                "x": 509,
+                "y": 0,
+                "width": 65,
+                "height": 41,
+                "offsetX": 47,
+                "offsetY": 36
+              },
+              {
+                "x": 443,
+                "y": 0,
+                "width": 64,
+                "height": 42,
+                "offsetX": 48,
+                "offsetY": 36
+              },
+              {
+                "x": 313,
+                "y": 0,
+                "width": 63,
+                "height": 43,
+                "offsetX": 49,
+                "offsetY": 36
+              },
+              {
+                "x": 184,
+                "y": 0,
+                "width": 63,
+                "height": 44,
+                "offsetX": 49,
+                "offsetY": 36
+              },
+              {
+                "x": 378,
+                "y": 0,
+                "width": 63,
+                "height": 43,
+                "offsetX": 50,
+                "offsetY": 36
+              },
+              {
+                "x": 249,
+                "y": 0,
+                "width": 62,
+                "height": 44,
+                "offsetX": 51,
+                "offsetY": 36
+              },
+              {
+                "x": 0,
+                "y": 0,
+                "width": 61,
+                "height": 45,
+                "offsetX": 52,
+                "offsetY": 36
+              },
+              {
+                "x": 63,
+                "y": 0,
+                "width": 59,
+                "height": 45,
+                "offsetX": 54,
+                "offsetY": 37
+              },
+              {
+                "x": 124,
+                "y": 0,
+                "width": 58,
+                "height": 45,
+                "offsetX": 54,
+                "offsetY": 38
+              },
+              {
+                "x": 645,
+                "y": 0,
+                "width": 1,
+                "height": 1,
+                "offsetX": 0,
+                "offsetY": 0
+              }
+            ],
+            "order": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11
+            ],
+            "fps": 50,
+            "loop": false
+          }
+        },
+        {
+          "kind": "travel",
+          "key": "trail",
+          "target": "path",
+          "durationMs": 320,
+          "loop": false,
+          "anchor": [
+            80,
+            64
+          ],
+          "returnsToCaster": false,
+          "beam": false,
+          "sound": "monster-upgrade-20261118/sts2_lagavulin_matriarch/05",
+          "clip": {
+            "frames": [
+              "art/monster-upgrade-20261118/sts2_lagavulin_matriarch/fx-05.png"
+            ],
+            "atlasRects": [
+              {
+                "x": 0,
+                "y": 451,
+                "width": 1,
+                "height": 1,
+                "offsetX": 0,
+                "offsetY": 0
+              },
+              {
+                "x": 0,
+                "y": 410,
+                "width": 64,
+                "height": 39,
+                "offsetX": 48,
+                "offsetY": 37
+              },
+              {
+                "x": 0,
+                "y": 367,
+                "width": 64,
+                "height": 41,
+                "offsetX": 49,
+                "offsetY": 36
+              },
+              {
+                "x": 0,
+                "y": 323,
+                "width": 64,
+                "height": 42,
+                "offsetX": 49,
+                "offsetY": 36
+              },
+              {
+                "x": 0,
+                "y": 233,
+                "width": 63,
+                "height": 43,
+                "offsetX": 50,
+                "offsetY": 36
+              },
+              {
+                "x": 0,
+                "y": 141,
+                "width": 64,
+                "height": 44,
+                "offsetX": 50,
+                "offsetY": 36
+              },
+              {
+                "x": 0,
+                "y": 278,
+                "width": 63,
+                "height": 43,
+                "offsetX": 51,
+                "offsetY": 36
+              },
+              {
+                "x": 0,
+                "y": 187,
+                "width": 62,
+                "height": 44,
+                "offsetX": 52,
+                "offsetY": 36
+              },
+              {
+                "x": 0,
+                "y": 0,
+                "width": 61,
+                "height": 45,
+                "offsetX": 53,
+                "offsetY": 36
+              },
+              {
+                "x": 0,
+                "y": 47,
+                "width": 59,
+                "height": 45,
+                "offsetX": 55,
+                "offsetY": 37
+              },
+              {
+                "x": 0,
+                "y": 94,
+                "width": 57,
+                "height": 45,
+                "offsetX": 56,
+                "offsetY": 38
+              },
+              {
+                "x": 3,
+                "y": 451,
+                "width": 1,
+                "height": 1,
+                "offsetX": 0,
+                "offsetY": 0
+              }
+            ],
+            "order": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11
+            ],
+            "fps": 37.5,
+            "loop": false
+          }
+        },
+        {
+          "kind": "hit",
+          "key": "hit_target",
+          "target": "player",
+          "durationMs": 220,
+          "loop": false,
+          "anchor": [
+            80,
+            64
+          ],
+          "returnsToCaster": false,
+          "beam": false,
+          "sound": "monster-upgrade-20261118/sts2_lagavulin_matriarch/06",
+          "clip": {
+            "frames": [
+              "art/monster-upgrade-20261118/sts2_lagavulin_matriarch/fx-06.png"
+            ],
+            "atlasRects": [
+              {
+                "x": 0,
+                "y": 424,
+                "width": 1,
+                "height": 1,
+                "offsetX": 0,
+                "offsetY": 0
+              },
+              {
+                "x": 37,
+                "y": 392,
+                "width": 25,
+                "height": 23,
+                "offsetX": 67,
+                "offsetY": 54
+              },
+              {
+                "x": 0,
+                "y": 392,
+                "width": 35,
+                "height": 30,
+                "offsetX": 63,
+                "offsetY": 50
+              },
+              {
+                "x": 0,
+                "y": 353,
+                "width": 40,
+                "height": 37,
+                "offsetX": 60,
+                "offsetY": 47
+              },
+              {
+                "x": 0,
+                "y": 308,
+                "width": 48,
+                "height": 43,
+                "offsetX": 55,
+                "offsetY": 45
+              },
+              {
+                "x": 0,
+                "y": 211,
+                "width": 55,
+                "height": 48,
+                "offsetX": 52,
+                "offsetY": 43
+              },
+              {
+                "x": 0,
+                "y": 159,
+                "width": 56,
+                "height": 50,
+                "offsetX": 51,
+                "offsetY": 42
+              },
+              {
+                "x": 0,
+                "y": 0,
+                "width": 60,
+                "height": 52,
+                "offsetX": 48,
+                "offsetY": 41
+              },
+              {
+                "x": 0,
+                "y": 54,
+                "width": 63,
+                "height": 51,
+                "offsetX": 47,
+                "offsetY": 42
+              },
+              {
+                "x": 0,
+                "y": 107,
+                "width": 60,
+                "height": 50,
+                "offsetX": 48,
+                "offsetY": 42
+              },
+              {
+                "x": 0,
+                "y": 261,
+                "width": 59,
+                "height": 45,
+                "offsetX": 48,
+                "offsetY": 45
+              },
+              {
+                "x": 3,
+                "y": 424,
+                "width": 1,
+                "height": 1,
+                "offsetX": 0,
+                "offsetY": 0
+              }
+            ],
+            "order": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11
+            ],
+            "fps": 54.54545454545455,
+            "loop": false
+          }
+        },
+        {
+          "kind": "tail",
+          "key": "recovery",
+          "target": "self",
+          "durationMs": 210,
+          "loop": false,
+          "anchor": [
+            80,
+            64
+          ],
+          "returnsToCaster": false,
+          "beam": false,
+          "sound": "monster-upgrade-20261118/sts2_lagavulin_matriarch/07",
+          "clip": {
+            "frames": [
+              "art/monster-upgrade-20261118/sts2_lagavulin_matriarch/fx-07.png"
+            ],
+            "atlasRects": [
+              {
+                "x": 358,
+                "y": 0,
+                "width": 1,
+                "height": 1,
+                "offsetX": 0,
+                "offsetY": 0
+              },
+              {
+                "x": 290,
+                "y": 0,
+                "width": 32,
+                "height": 18,
+                "offsetX": 70,
+                "offsetY": 54
+              },
+              {
+                "x": 74,
+                "y": 0,
+                "width": 34,
+                "height": 19,
+                "offsetX": 67,
+                "offsetY": 54
+              },
+              {
+                "x": 0,
+                "y": 0,
+                "width": 35,
+                "height": 19,
+                "offsetX": 66,
+                "offsetY": 54
+              },
+              {
+                "x": 37,
+                "y": 0,
+                "width": 35,
+                "height": 19,
+                "offsetX": 65,
+                "offsetY": 54
+              },
+              {
+                "x": 110,
+                "y": 0,
+                "width": 34,
+                "height": 18,
+                "offsetX": 63,
+                "offsetY": 55
+              },
+              {
+                "x": 146,
+                "y": 0,
+                "width": 34,
+                "height": 18,
+                "offsetX": 62,
+                "offsetY": 55
+              },
+              {
+                "x": 182,
+                "y": 0,
+                "width": 34,
+                "height": 18,
+                "offsetX": 62,
+                "offsetY": 55
+              },
+              {
+                "x": 218,
+                "y": 0,
+                "width": 34,
+                "height": 18,
+                "offsetX": 61,
+                "offsetY": 55
+              },
+              {
+                "x": 254,
+                "y": 0,
+                "width": 34,
+                "height": 18,
+                "offsetX": 58,
+                "offsetY": 55
+              },
+              {
+                "x": 324,
+                "y": 0,
+                "width": 32,
+                "height": 16,
+                "offsetX": 59,
+                "offsetY": 55
+              },
+              {
+                "x": 361,
+                "y": 0,
+                "width": 1,
+                "height": 1,
+                "offsetX": 0,
+                "offsetY": 0
+              }
+            ],
+            "order": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11
+            ],
+            "fps": 57.142857142857146,
+            "loop": false
+          }
+        }
+      ],
+      "damages": true,
+      "noAction": false
+    },
+    "sts2_slash2": {
+      "cues": [
+        {
+          "kind": "windup",
+          "key": "windup",
+          "target": "self",
+          "durationMs": 310,
+          "loop": false,
+          "anchor": [
+            80,
+            64
+          ],
+          "returnsToCaster": false,
+          "beam": false,
+          "sound": "monster-upgrade-20261118/sts2_lagavulin_matriarch/08",
+          "clip": {
+            "frames": [
+              "art/monster-upgrade-20261118/sts2_lagavulin_matriarch/fx-08.png"
+            ],
+            "atlasRects": [
+              {
+                "x": 178,
+                "y": 76,
+                "width": 1,
+                "height": 1,
+                "offsetX": 0,
+                "offsetY": 0
+              },
+              {
+                "x": 0,
+                "y": 0,
+                "width": 60,
+                "height": 37,
+                "offsetX": 50,
+                "offsetY": 47
+              },
+              {
+                "x": 62,
+                "y": 0,
+                "width": 58,
+                "height": 35,
+                "offsetX": 51,
+                "offsetY": 48
+              },
+              {
+                "x": 122,
+                "y": 0,
+                "width": 56,
+                "height": 35,
+                "offsetX": 52,
+                "offsetY": 48
+              },
+              {
+                "x": 0,
+                "y": 39,
+                "width": 54,
+                "height": 35,
+                "offsetX": 53,
+                "offsetY": 47
+              },
+              {
+                "x": 56,
+                "y": 39,
+                "width": 51,
+                "height": 32,
+                "offsetX": 55,
+                "offsetY": 49
+              },
+              {
+                "x": 109,
+                "y": 39,
+                "width": 48,
+                "height": 30,
+                "offsetX": 56,
+                "offsetY": 50
+              },
+              {
+                "x": 0,
+                "y": 76,
+                "width": 46,
+                "height": 27,
+                "offsetX": 57,
+                "offsetY": 51
+              },
+              {
+                "x": 48,
+                "y": 76,
+                "width": 44,
+                "height": 26,
+                "offsetX": 58,
+                "offsetY": 51
+              },
+              {
+                "x": 94,
+                "y": 76,
+                "width": 42,
+                "height": 24,
+                "offsetX": 59,
+                "offsetY": 51
+              },
+              {
+                "x": 138,
+                "y": 76,
+                "width": 38,
+                "height": 21,
+                "offsetX": 62,
+                "offsetY": 51
+              },
+              {
+                "x": 181,
+                "y": 76,
+                "width": 1,
+                "height": 1,
+                "offsetX": 0,
+                "offsetY": 0
+              }
+            ],
+            "order": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11
+            ],
+            "fps": 38.70967741935484,
+            "loop": false
+          }
+        },
+        {
+          "kind": "release",
+          "key": "source",
+          "target": "self",
+          "durationMs": 240,
+          "loop": false,
+          "anchor": [
+            80,
+            64
+          ],
+          "returnsToCaster": false,
+          "beam": false,
+          "sound": "monster-upgrade-20261118/sts2_lagavulin_matriarch/09",
+          "clip": {
+            "frames": [
+              "art/monster-upgrade-20261118/sts2_lagavulin_matriarch/fx-09.png"
+            ],
+            "atlasRects": [
+              {
+                "x": 309,
+                "y": 34,
+                "width": 1,
+                "height": 1,
+                "offsetX": 0,
+                "offsetY": 0
+              },
+              {
+                "x": 256,
+                "y": 0,
+                "width": 56,
+                "height": 30,
+                "offsetX": 45,
+                "offsetY": 67
+              },
+              {
+                "x": 63,
+                "y": 34,
+                "width": 58,
+                "height": 29,
+                "offsetX": 44,
+                "offsetY": 68
+              },
+              {
+                "x": 186,
+                "y": 34,
+                "width": 59,
+                "height": 28,
+                "offsetX": 44,
+                "offsetY": 69
+              },
+              {
+                "x": 247,
+                "y": 34,
+                "width": 60,
+                "height": 27,
+                "offsetX": 44,
+                "offsetY": 70
+              },
+              {
+                "x": 123,
+                "y": 34,
+                "width": 61,
+                "height": 28,
+                "offsetX": 44,
+                "offsetY": 69
+              },
+              {
+                "x": 0,
+                "y": 34,
+                "width": 61,
+                "height": 29,
+                "offsetX": 44,
+                "offsetY": 68
+              },
+              {
+                "x": 193,
+                "y": 0,
+                "width": 61,
+                "height": 30,
+                "offsetX": 45,
+                "offsetY": 67
+              },
+              {
+                "x": 65,
+                "y": 0,
+                "width": 62,
+                "height": 31,
+                "offsetX": 45,
+                "offsetY": 66
+              },
+              {
+                "x": 0,
+                "y": 0,
+                "width": 63,
+                "height": 32,
+                "offsetX": 45,
+                "offsetY": 65
+              },
+              {
+                "x": 129,
+                "y": 0,
+                "width": 62,
+                "height": 31,
+                "offsetX": 46,
+                "offsetY": 65
+              },
+              {
+                "x": 312,
+                "y": 34,
+                "width": 1,
+                "height": 1,
+                "offsetX": 0,
+                "offsetY": 0
+              }
+            ],
+            "order": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11
+            ],
+            "fps": 50,
+            "loop": false
+          }
+        },
+        {
+          "kind": "travel",
+          "key": "trail",
+          "target": "path",
+          "durationMs": 320,
+          "loop": false,
+          "anchor": [
+            80,
+            64
+          ],
+          "returnsToCaster": false,
+          "beam": false,
+          "sound": "monster-upgrade-20261118/sts2_lagavulin_matriarch/10",
+          "clip": {
+            "frames": [
+              "art/monster-upgrade-20261118/sts2_lagavulin_matriarch/fx-10.png"
+            ],
+            "atlasRects": [
+              {
+                "x": 61,
+                "y": 286,
+                "width": 1,
+                "height": 1,
+                "offsetX": 0,
+                "offsetY": 0
+              },
+              {
+                "x": 0,
+                "y": 132,
+                "width": 56,
+                "height": 30,
+                "offsetX": 44,
+                "offsetY": 67
+              },
+              {
+                "x": 0,
+                "y": 195,
+                "width": 57,
+                "height": 29,
+                "offsetX": 44,
+                "offsetY": 68
+              },
+              {
+                "x": 0,
+                "y": 256,
+                "width": 58,
+                "height": 28,
+                "offsetX": 44,
+                "offsetY": 69
+              },
+              {
+                "x": 0,
+                "y": 286,
+                "width": 59,
+                "height": 27,
+                "offsetX": 44,
+                "offsetY": 70
+              },
+              {
+                "x": 0,
+                "y": 226,
+                "width": 60,
+                "height": 28,
+                "offsetX": 44,
+                "offsetY": 69
+              },
+              {
+                "x": 0,
+                "y": 164,
+                "width": 61,
+                "height": 29,
+                "offsetX": 44,
+                "offsetY": 68
+              },
+              {
+                "x": 0,
+                "y": 100,
+                "width": 62,
+                "height": 30,
+                "offsetX": 44,
+                "offsetY": 67
+              },
+              {
+                "x": 0,
+                "y": 34,
+                "width": 62,
+                "height": 31,
+                "offsetX": 44,
+                "offsetY": 66
+              },
+              {
+                "x": 0,
+                "y": 0,
+                "width": 62,
+                "height": 32,
+                "offsetX": 45,
+                "offsetY": 65
+              },
+              {
+                "x": 0,
+                "y": 67,
+                "width": 62,
+                "height": 31,
+                "offsetX": 45,
+                "offsetY": 65
+              },
+              {
+                "x": 0,
+                "y": 315,
+                "width": 1,
+                "height": 1,
+                "offsetX": 0,
+                "offsetY": 0
+              }
+            ],
+            "order": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11
+            ],
+            "fps": 37.5,
+            "loop": false
+          }
+        },
+        {
+          "kind": "hit",
+          "key": "hit_target",
+          "target": "player",
+          "durationMs": 220,
+          "loop": false,
+          "anchor": [
+            80,
+            64
+          ],
+          "returnsToCaster": false,
+          "beam": false,
+          "sound": "monster-upgrade-20261118/sts2_lagavulin_matriarch/11",
+          "clip": {
+            "frames": [
+              "art/monster-upgrade-20261118/sts2_lagavulin_matriarch/fx-11.png"
+            ],
+            "atlasRects": [
+              {
+                "x": 592,
+                "y": 0,
+                "width": 1,
+                "height": 1,
+                "offsetX": 0,
+                "offsetY": 0
+              },
+              {
+                "x": 562,
+                "y": 0,
+                "width": 28,
+                "height": 21,
+                "offsetX": 67,
+                "offsetY": 55
+              },
+              {
+                "x": 522,
+                "y": 0,
+                "width": 38,
+                "height": 29,
+                "offsetX": 64,
+                "offsetY": 50
+              },
+              {
+                "x": 473,
+                "y": 0,
+                "width": 47,
+                "height": 34,
+                "offsetX": 60,
+                "offsetY": 48
+              },
+              {
+                "x": 415,
+                "y": 0,
+                "width": 56,
+                "height": 38,
+                "offsetX": 55,
+                "offsetY": 45
+              },
+              {
+                "x": 351,
+                "y": 0,
+                "width": 62,
+                "height": 42,
+                "offsetX": 52,
+                "offsetY": 44
+              },
+              {
+                "x": 214,
+                "y": 0,
+                "width": 67,
+                "height": 43,
+                "offsetX": 50,
+                "offsetY": 43
+              },
+              {
+                "x": 71,
+                "y": 0,
+                "width": 68,
+                "height": 45,
+                "offsetX": 50,
+                "offsetY": 43
+              },
+              {
+                "x": 0,
+                "y": 0,
+                "width": 69,
+                "height": 45,
+                "offsetX": 49,
+                "offsetY": 43
+              },
+              {
+                "x": 141,
+                "y": 0,
+                "width": 71,
+                "height": 44,
+                "offsetX": 47,
+                "offsetY": 44
+              },
+              {
+                "x": 283,
+                "y": 0,
+                "width": 66,
+                "height": 42,
+                "offsetX": 49,
+                "offsetY": 45
+              },
+              {
+                "x": 595,
+                "y": 0,
+                "width": 1,
+                "height": 1,
+                "offsetX": 0,
+                "offsetY": 0
+              }
+            ],
+            "order": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11
+            ],
+            "fps": 54.54545454545455,
+            "loop": false
+          }
+        },
+        {
+          "kind": "block",
+          "key": "block_self",
+          "target": "self",
+          "durationMs": 380,
+          "loop": false,
+          "anchor": [
+            80,
+            64
+          ],
+          "returnsToCaster": false,
+          "beam": false,
+          "sound": "monster-upgrade-20261118/sts2_lagavulin_matriarch/12",
+          "clip": {
+            "frames": [
+              "art/monster-upgrade-20261118/sts2_lagavulin_matriarch/fx-12.png"
+            ],
+            "atlasRects": [
+              {
+                "x": 43,
+                "y": 429,
+                "width": 1,
+                "height": 1,
+                "offsetX": 0,
+                "offsetY": 0
+              },
+              {
+                "x": 0,
+                "y": 429,
+                "width": 41,
+                "height": 24,
+                "offsetX": 52,
+                "offsetY": 52
+              },
+              {
+                "x": 0,
+                "y": 356,
+                "width": 41,
+                "height": 36,
+                "offsetX": 53,
+                "offsetY": 46
+              },
+              {
+                "x": 0,
+                "y": 269,
+                "width": 43,
+                "height": 45,
+                "offsetX": 53,
+                "offsetY": 42
+              },
+              {
+                "x": 0,
+                "y": 168,
+                "width": 43,
+                "height": 52,
+                "offsetX": 55,
+                "offsetY": 38
+              },
+              {
+                "x": 0,
+                "y": 0,
+                "width": 43,
+                "height": 55,
+                "offsetX": 56,
+                "offsetY": 37
+              },
+              {
+                "x": 0,
+                "y": 57,
+                "width": 43,
+                "height": 55,
+                "offsetX": 57,
+                "offsetY": 37
+              },
+              {
+                "x": 0,
+                "y": 114,
+                "width": 45,
+                "height": 52,
+                "offsetX": 56,
+                "offsetY": 38
+              },
+              {
+                "x": 0,
+                "y": 222,
+                "width": 45,
+                "height": 45,
+                "offsetX": 56,
+                "offsetY": 42
+              },
+              {
+                "x": 0,
+                "y": 316,
+                "width": 44,
+                "height": 38,
+                "offsetX": 58,
+                "offsetY": 45
+              },
+              {
+                "x": 0,
+                "y": 394,
+                "width": 41,
+                "height": 33,
+                "offsetX": 60,
+                "offsetY": 47
+              },
+              {
+                "x": 0,
+                "y": 455,
+                "width": 1,
+                "height": 1,
+                "offsetX": 0,
+                "offsetY": 0
+              }
+            ],
+            "order": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11
+            ],
+            "fps": 31.57894736842105,
+            "loop": false
+          }
+        },
+        {
+          "kind": "tail",
+          "key": "recovery",
+          "target": "self",
+          "durationMs": 210,
+          "loop": false,
+          "anchor": [
+            80,
+            64
+          ],
+          "returnsToCaster": false,
+          "beam": false,
+          "sound": "monster-upgrade-20261118/sts2_lagavulin_matriarch/13",
+          "clip": {
+            "frames": [
+              "art/monster-upgrade-20261118/sts2_lagavulin_matriarch/fx-13.png"
+            ],
+            "atlasRects": [
+              {
+                "x": 358,
+                "y": 0,
+                "width": 1,
+                "height": 1,
+                "offsetX": 0,
+                "offsetY": 0
+              },
+              {
+                "x": 290,
+                "y": 0,
+                "width": 32,
+                "height": 18,
+                "offsetX": 70,
+                "offsetY": 54
+              },
+              {
+                "x": 74,
+                "y": 0,
+                "width": 34,
+                "height": 19,
+                "offsetX": 67,
+                "offsetY": 54
+              },
+              {
+                "x": 0,
+                "y": 0,
+                "width": 35,
+                "height": 19,
+                "offsetX": 66,
+                "offsetY": 54
+              },
+              {
+                "x": 37,
+                "y": 0,
+                "width": 35,
+                "height": 19,
+                "offsetX": 65,
+                "offsetY": 54
+              },
+              {
+                "x": 110,
+                "y": 0,
+                "width": 34,
+                "height": 18,
+                "offsetX": 63,
+                "offsetY": 55
+              },
+              {
+                "x": 146,
+                "y": 0,
+                "width": 34,
+                "height": 18,
+                "offsetX": 62,
+                "offsetY": 55
+              },
+              {
+                "x": 182,
+                "y": 0,
+                "width": 34,
+                "height": 18,
+                "offsetX": 62,
+                "offsetY": 55
+              },
+              {
+                "x": 218,
+                "y": 0,
+                "width": 34,
+                "height": 18,
+                "offsetX": 61,
+                "offsetY": 55
+              },
+              {
+                "x": 254,
+                "y": 0,
+                "width": 34,
+                "height": 18,
+                "offsetX": 58,
+                "offsetY": 55
+              },
+              {
+                "x": 324,
+                "y": 0,
+                "width": 32,
+                "height": 16,
+                "offsetX": 59,
+                "offsetY": 55
+              },
+              {
+                "x": 361,
+                "y": 0,
+                "width": 1,
+                "height": 1,
+                "offsetX": 0,
+                "offsetY": 0
+              }
+            ],
+            "order": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11
+            ],
+            "fps": 57.142857142857146,
+            "loop": false
+          }
+        }
+      ],
+      "damages": true,
+      "noAction": false
+    },
+    "sts2_disembowel": {
+      "cues": [
+        {
+          "kind": "windup",
+          "key": "windup",
+          "target": "self",
+          "durationMs": 310,
+          "loop": false,
+          "anchor": [
+            80,
+            64
+          ],
+          "returnsToCaster": false,
+          "beam": false,
+          "sound": "monster-upgrade-20261118/sts2_lagavulin_matriarch/14",
+          "clip": {
+            "frames": [
+              "art/monster-upgrade-20261118/sts2_lagavulin_matriarch/fx-14.png"
+            ],
+            "atlasRects": [
+              {
+                "x": 176,
+                "y": 97,
+                "width": 1,
+                "height": 1,
+                "offsetX": 0,
+                "offsetY": 0
+              },
+              {
+                "x": 125,
+                "y": 0,
+                "width": 63,
+                "height": 46,
+                "offsetX": 49,
+                "offsetY": 39
+              },
+              {
+                "x": 0,
+                "y": 0,
+                "width": 62,
+                "height": 47,
+                "offsetX": 50,
+                "offsetY": 38
+              },
+              {
+                "x": 0,
+                "y": 49,
+                "width": 62,
+                "height": 46,
+                "offsetX": 51,
+                "offsetY": 38
+              },
+              {
+                "x": 64,
+                "y": 0,
+                "width": 59,
+                "height": 47,
+                "offsetX": 52,
+                "offsetY": 37
+              },
+              {
+                "x": 64,
+                "y": 49,
+                "width": 55,
+                "height": 45,
+                "offsetX": 54,
+                "offsetY": 38
+              },
+              {
+                "x": 121,
+                "y": 49,
+                "width": 52,
+                "height": 42,
+                "offsetX": 55,
+                "offsetY": 40
+              },
+              {
+                "x": 0,
+                "y": 97,
+                "width": 50,
+                "height": 38,
+                "offsetX": 56,
+                "offsetY": 42
+              },
+              {
+                "x": 52,
+                "y": 97,
+                "width": 44,
+                "height": 33,
+                "offsetX": 57,
+                "offsetY": 46
+              },
+              {
+                "x": 98,
+                "y": 97,
+                "width": 39,
+                "height": 28,
+                "offsetX": 58,
+                "offsetY": 48
+              },
+              {
+                "x": 139,
+                "y": 97,
+                "width": 35,
+                "height": 23,
+                "offsetX": 60,
+                "offsetY": 51
+              },
+              {
+                "x": 179,
+                "y": 97,
+                "width": 1,
+                "height": 1,
+                "offsetX": 0,
+                "offsetY": 0
+              }
+            ],
+            "order": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11
+            ],
+            "fps": 38.70967741935484,
+            "loop": false
+          }
+        },
+        {
+          "kind": "release",
+          "key": "source",
+          "target": "self",
+          "durationMs": 240,
+          "loop": false,
+          "anchor": [
+            80,
+            64
+          ],
+          "returnsToCaster": false,
+          "beam": false,
+          "sound": "monster-upgrade-20261118/sts2_lagavulin_matriarch/15",
+          "clip": {
+            "frames": [
+              "art/monster-upgrade-20261118/sts2_lagavulin_matriarch/fx-15.png"
+            ],
+            "atlasRects": [
+              {
+                "x": 0,
+                "y": 451,
+                "width": 1,
+                "height": 1,
+                "offsetX": 0,
+                "offsetY": 0
+              },
+              {
+                "x": 0,
+                "y": 410,
+                "width": 64,
+                "height": 39,
+                "offsetX": 49,
+                "offsetY": 37
+              },
+              {
+                "x": 0,
+                "y": 367,
+                "width": 64,
+                "height": 41,
+                "offsetX": 50,
+                "offsetY": 36
+              },
+              {
+                "x": 0,
+                "y": 323,
+                "width": 64,
+                "height": 42,
+                "offsetX": 50,
+                "offsetY": 36
+              },
+              {
+                "x": 0,
+                "y": 233,
+                "width": 63,
+                "height": 43,
+                "offsetX": 51,
+                "offsetY": 36
+              },
+              {
+                "x": 0,
+                "y": 141,
+                "width": 63,
+                "height": 44,
+                "offsetX": 52,
+                "offsetY": 36
+              },
+              {
+                "x": 0,
+                "y": 278,
+                "width": 63,
+                "height": 43,
+                "offsetX": 52,
+                "offsetY": 36
+              },
+              {
+                "x": 0,
+                "y": 187,
+                "width": 62,
+                "height": 44,
+                "offsetX": 53,
+                "offsetY": 36
+              },
+              {
+                "x": 0,
+                "y": 0,
+                "width": 61,
+                "height": 45,
+                "offsetX": 54,
+                "offsetY": 36
+              },
+              {
+                "x": 0,
+                "y": 47,
+                "width": 59,
+                "height": 45,
+                "offsetX": 56,
+                "offsetY": 37
+              },
+              {
+                "x": 0,
+                "y": 94,
+                "width": 58,
+                "height": 45,
+                "offsetX": 57,
+                "offsetY": 38
+              },
+              {
+                "x": 3,
+                "y": 451,
+                "width": 1,
+                "height": 1,
+                "offsetX": 0,
+                "offsetY": 0
+              }
+            ],
+            "order": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11
+            ],
+            "fps": 50,
+            "loop": false
+          }
+        },
+        {
+          "kind": "travel",
+          "key": "trail",
+          "target": "path",
+          "durationMs": 320,
+          "loop": false,
+          "anchor": [
+            80,
+            64
+          ],
+          "returnsToCaster": false,
+          "beam": false,
+          "sound": "monster-upgrade-20261118/sts2_lagavulin_matriarch/16",
+          "clip": {
+            "frames": [
+              "art/monster-upgrade-20261118/sts2_lagavulin_matriarch/fx-16.png"
+            ],
+            "atlasRects": [
+              {
+                "x": 0,
+                "y": 451,
+                "width": 1,
+                "height": 1,
+                "offsetX": 0,
+                "offsetY": 0
+              },
+              {
+                "x": 0,
+                "y": 410,
+                "width": 64,
+                "height": 39,
+                "offsetX": 47,
+                "offsetY": 37
+              },
+              {
+                "x": 0,
+                "y": 367,
+                "width": 64,
+                "height": 41,
+                "offsetX": 48,
+                "offsetY": 36
+              },
+              {
+                "x": 0,
+                "y": 323,
+                "width": 64,
+                "height": 42,
+                "offsetX": 48,
+                "offsetY": 36
+              },
+              {
+                "x": 0,
+                "y": 233,
+                "width": 63,
+                "height": 43,
+                "offsetX": 49,
+                "offsetY": 36
+              },
+              {
+                "x": 0,
+                "y": 141,
+                "width": 63,
+                "height": 44,
+                "offsetX": 50,
+                "offsetY": 36
+              },
+              {
+                "x": 0,
+                "y": 278,
+                "width": 63,
+                "height": 43,
+                "offsetX": 50,
+                "offsetY": 36
+              },
+              {
+                "x": 0,
+                "y": 187,
+                "width": 62,
+                "height": 44,
+                "offsetX": 51,
+                "offsetY": 36
+              },
+              {
+                "x": 0,
+                "y": 0,
+                "width": 61,
+                "height": 45,
+                "offsetX": 52,
+                "offsetY": 36
+              },
+              {
+                "x": 0,
+                "y": 47,
+                "width": 59,
+                "height": 45,
+                "offsetX": 54,
+                "offsetY": 37
+              },
+              {
+                "x": 0,
+                "y": 94,
+                "width": 58,
+                "height": 45,
+                "offsetX": 55,
+                "offsetY": 38
+              },
+              {
+                "x": 3,
+                "y": 451,
+                "width": 1,
+                "height": 1,
+                "offsetX": 0,
+                "offsetY": 0
+              }
+            ],
+            "order": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11
+            ],
+            "fps": 37.5,
+            "loop": false
+          }
+        },
+        {
+          "kind": "hit",
+          "key": "hit_target",
+          "target": "player",
+          "durationMs": 220,
+          "loop": false,
+          "anchor": [
+            80,
+            64
+          ],
+          "returnsToCaster": false,
+          "beam": false,
+          "sound": "monster-upgrade-20261118/sts2_lagavulin_matriarch/17",
+          "clip": {
+            "frames": [
+              "art/monster-upgrade-20261118/sts2_lagavulin_matriarch/fx-17.png"
+            ],
+            "atlasRects": [
+              {
+                "x": 127,
+                "y": 107,
+                "width": 1,
+                "height": 1,
+                "offsetX": 0,
+                "offsetY": 0
+              },
+              {
+                "x": 106,
+                "y": 107,
+                "width": 19,
+                "height": 24,
+                "offsetX": 75,
+                "offsetY": 53
+              },
+              {
+                "x": 76,
+                "y": 107,
+                "width": 28,
+                "height": 34,
+                "offsetX": 74,
+                "offsetY": 47
+              },
+              {
+                "x": 40,
+                "y": 107,
+                "width": 34,
+                "height": 38,
+                "offsetX": 73,
+                "offsetY": 45
+              },
+              {
+                "x": 0,
+                "y": 107,
+                "width": 38,
+                "height": 46,
+                "offsetX": 72,
+                "offsetY": 41
+              },
+              {
+                "x": 0,
+                "y": 55,
+                "width": 43,
+                "height": 50,
+                "offsetX": 72,
+                "offsetY": 39
+              },
+              {
+                "x": 50,
+                "y": 0,
+                "width": 44,
+                "height": 53,
+                "offsetX": 72,
+                "offsetY": 37
+              },
+              {
+                "x": 0,
+                "y": 0,
+                "width": 48,
+                "height": 53,
+                "offsetX": 71,
+                "offsetY": 37
+              },
+              {
+                "x": 96,
+                "y": 0,
+                "width": 47,
+                "height": 51,
+                "offsetX": 71,
+                "offsetY": 37
+              },
+              {
+                "x": 45,
+                "y": 55,
+                "width": 47,
+                "height": 49,
+                "offsetX": 71,
+                "offsetY": 38
+              },
+              {
+                "x": 94,
+                "y": 55,
+                "width": 45,
+                "height": 48,
+                "offsetX": 72,
+                "offsetY": 37
+              },
+              {
+                "x": 130,
+                "y": 107,
+                "width": 1,
+                "height": 1,
+                "offsetX": 0,
+                "offsetY": 0
+              }
+            ],
+            "order": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11
+            ],
+            "fps": 54.54545454545455,
+            "loop": false
+          }
+        },
+        {
+          "kind": "tail",
+          "key": "recovery",
+          "target": "self",
+          "durationMs": 210,
+          "loop": false,
+          "anchor": [
+            80,
+            64
+          ],
+          "returnsToCaster": false,
+          "beam": false,
+          "sound": "monster-upgrade-20261118/sts2_lagavulin_matriarch/18",
+          "clip": {
+            "frames": [
+              "art/monster-upgrade-20261118/sts2_lagavulin_matriarch/fx-18.png"
+            ],
+            "atlasRects": [
+              {
+                "x": 358,
+                "y": 0,
+                "width": 1,
+                "height": 1,
+                "offsetX": 0,
+                "offsetY": 0
+              },
+              {
+                "x": 290,
+                "y": 0,
+                "width": 32,
+                "height": 18,
+                "offsetX": 70,
+                "offsetY": 54
+              },
+              {
+                "x": 74,
+                "y": 0,
+                "width": 34,
+                "height": 19,
+                "offsetX": 67,
+                "offsetY": 54
+              },
+              {
+                "x": 0,
+                "y": 0,
+                "width": 35,
+                "height": 19,
+                "offsetX": 66,
+                "offsetY": 54
+              },
+              {
+                "x": 37,
+                "y": 0,
+                "width": 35,
+                "height": 19,
+                "offsetX": 65,
+                "offsetY": 54
+              },
+              {
+                "x": 110,
+                "y": 0,
+                "width": 34,
+                "height": 19,
+                "offsetX": 63,
+                "offsetY": 54
+              },
+              {
+                "x": 146,
+                "y": 0,
+                "width": 34,
+                "height": 18,
+                "offsetX": 62,
+                "offsetY": 55
+              },
+              {
+                "x": 182,
+                "y": 0,
+                "width": 34,
+                "height": 18,
+                "offsetX": 62,
+                "offsetY": 55
+              },
+              {
+                "x": 218,
+                "y": 0,
+                "width": 34,
+                "height": 18,
+                "offsetX": 61,
+                "offsetY": 55
+              },
+              {
+                "x": 254,
+                "y": 0,
+                "width": 34,
+                "height": 18,
+                "offsetX": 58,
+                "offsetY": 55
+              },
+              {
+                "x": 324,
+                "y": 0,
+                "width": 32,
+                "height": 15,
+                "offsetX": 59,
+                "offsetY": 56
+              },
+              {
+                "x": 361,
+                "y": 0,
+                "width": 1,
+                "height": 1,
+                "offsetX": 0,
+                "offsetY": 0
+              }
+            ],
+            "order": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11
+            ],
+            "fps": 57.142857142857146,
+            "loop": false
+          }
+        }
+      ],
+      "damages": true,
+      "noAction": false
+    },
+    "sts2_soul_siphon": {
+      "cues": [
+        {
+          "kind": "windup",
+          "key": "windup",
+          "target": "self",
+          "durationMs": 310,
+          "loop": false,
+          "anchor": [
+            80,
+            64
+          ],
+          "returnsToCaster": false,
+          "beam": false,
+          "sound": "monster-upgrade-20261118/sts2_lagavulin_matriarch/19",
+          "clip": {
+            "frames": [
+              "art/monster-upgrade-20261118/sts2_lagavulin_matriarch/fx-19.png"
+            ],
+            "atlasRects": [
+              {
+                "x": 166,
+                "y": 70,
+                "width": 1,
+                "height": 1,
+                "offsetX": 0,
+                "offsetY": 0
+              },
+              {
+                "x": 0,
+                "y": 0,
+                "width": 56,
+                "height": 36,
+                "offsetX": 49,
+                "offsetY": 46
+              },
+              {
+                "x": 58,
+                "y": 0,
+                "width": 55,
+                "height": 35,
+                "offsetX": 50,
+                "offsetY": 46
+              },
+              {
+                "x": 115,
+                "y": 0,
+                "width": 52,
+                "height": 33,
+                "offsetX": 51,
+                "offsetY": 47
+              },
+              {
+                "x": 0,
+                "y": 38,
+                "width": 49,
+                "height": 30,
+                "offsetX": 53,
+                "offsetY": 49
+              },
+              {
+                "x": 51,
+                "y": 38,
+                "width": 47,
+                "height": 28,
+                "offsetX": 54,
+                "offsetY": 50
+              },
+              {
+                "x": 100,
+                "y": 38,
+                "width": 45,
+                "height": 26,
+                "offsetX": 55,
+                "offsetY": 51
+              },
+              {
+                "x": 0,
+                "y": 70,
+                "width": 43,
+                "height": 24,
+                "offsetX": 56,
+                "offsetY": 51
+              },
+              {
+                "x": 45,
+                "y": 70,
+                "width": 41,
+                "height": 23,
+                "offsetX": 57,
+                "offsetY": 51
+              },
+              {
+                "x": 88,
+                "y": 70,
+                "width": 39,
+                "height": 22,
+                "offsetX": 58,
+                "offsetY": 51
+              },
+              {
+                "x": 129,
+                "y": 70,
+                "width": 35,
+                "height": 20,
+                "offsetX": 60,
+                "offsetY": 51
+              },
+              {
+                "x": 169,
+                "y": 70,
+                "width": 1,
+                "height": 1,
+                "offsetX": 0,
+                "offsetY": 0
+              }
+            ],
+            "order": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11
+            ],
+            "fps": 38.70967741935484,
+            "loop": false
+          }
+        },
+        {
+          "kind": "release",
+          "key": "source",
+          "target": "self",
+          "durationMs": 240,
+          "loop": false,
+          "anchor": [
+            80,
+            64
+          ],
+          "returnsToCaster": false,
+          "beam": false,
+          "sound": "monster-upgrade-20261118/sts2_lagavulin_matriarch/20",
+          "clip": {
+            "frames": [
+              "art/monster-upgrade-20261118/sts2_lagavulin_matriarch/fx-20.png"
+            ],
+            "atlasRects": [
+              {
+                "x": 0,
+                "y": 243,
+                "width": 1,
+                "height": 1,
+                "offsetX": 0,
+                "offsetY": 0
+              },
+              {
+                "x": 0,
+                "y": 152,
+                "width": 32,
+                "height": 21,
+                "offsetX": 64,
+                "offsetY": 55
+              },
+              {
+                "x": 0,
+                "y": 175,
+                "width": 32,
+                "height": 21,
+                "offsetX": 63,
+                "offsetY": 53
+              },
+              {
+                "x": 0,
+                "y": 104,
+                "width": 32,
+                "height": 22,
+                "offsetX": 63,
+                "offsetY": 53
+              },
+              {
+                "x": 0,
+                "y": 0,
+                "width": 32,
+                "height": 24,
+                "offsetX": 62,
+                "offsetY": 52
+              },
+              {
+                "x": 0,
+                "y": 52,
+                "width": 31,
+                "height": 24,
+                "offsetX": 63,
+                "offsetY": 52
+              },
+              {
+                "x": 0,
+                "y": 78,
+                "width": 31,
+                "height": 24,
+                "offsetX": 62,
+                "offsetY": 52
+              },
+              {
+                "x": 0,
+                "y": 26,
+                "width": 32,
+                "height": 24,
+                "offsetX": 60,
+                "offsetY": 52
+              },
+              {
+                "x": 0,
+                "y": 128,
+                "width": 31,
+                "height": 22,
+                "offsetX": 61,
+                "offsetY": 53
+              },
+              {
+                "x": 0,
+                "y": 221,
+                "width": 32,
+                "height": 20,
+                "offsetX": 59,
+                "offsetY": 54
+              },
+              {
+                "x": 0,
+                "y": 198,
+                "width": 32,
+                "height": 21,
+                "offsetX": 58,
+                "offsetY": 54
+              },
+              {
+                "x": 3,
+                "y": 243,
+                "width": 1,
+                "height": 1,
+                "offsetX": 0,
+                "offsetY": 0
+              }
+            ],
+            "order": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11
+            ],
+            "fps": 50,
+            "loop": false
+          }
+        },
+        {
+          "kind": "status",
+          "key": "state_player_strength",
+          "target": "player",
+          "status": "strength",
+          "durationMs": 430,
+          "loop": false,
+          "anchor": [
+            80,
+            64
+          ],
+          "returnsToCaster": false,
+          "beam": false,
+          "sound": "monster-upgrade-20261118/sts2_lagavulin_matriarch/21",
+          "clip": {
+            "frames": [
+              "art/monster-upgrade-20261118/sts2_lagavulin_matriarch/fx-21.png"
+            ],
+            "atlasRects": [
+              {
+                "x": 405,
+                "y": 0,
+                "width": 1,
+                "height": 1,
+                "offsetX": 0,
+                "offsetY": 0
+              },
+              {
+                "x": 90,
+                "y": 0,
+                "width": 42,
+                "height": 38,
+                "offsetX": 58,
+                "offsetY": 44
+              },
+              {
+                "x": 0,
+                "y": 0,
+                "width": 43,
+                "height": 40,
+                "offsetX": 58,
+                "offsetY": 42
+              },
+              {
+                "x": 45,
+                "y": 0,
+                "width": 43,
+                "height": 38,
+                "offsetX": 58,
+                "offsetY": 44
+              },
+              {
+                "x": 134,
+                "y": 0,
+                "width": 43,
+                "height": 37,
+                "offsetX": 59,
+                "offsetY": 44
+              },
+              {
+                "x": 179,
+                "y": 0,
+                "width": 42,
+                "height": 36,
+                "offsetX": 60,
+                "offsetY": 45
+              },
+              {
+                "x": 223,
+                "y": 0,
+                "width": 38,
+                "height": 36,
+                "offsetX": 62,
+                "offsetY": 46
+              },
+              {
+                "x": 300,
+                "y": 0,
+                "width": 37,
+                "height": 35,
+                "offsetX": 63,
+                "offsetY": 48
+              },
+              {
+                "x": 263,
+                "y": 0,
+                "width": 35,
+                "height": 36,
+                "offsetX": 63,
+                "offsetY": 49
+              },
+              {
+                "x": 339,
+                "y": 0,
+                "width": 32,
+                "height": 35,
+                "offsetX": 63,
+                "offsetY": 51
+              },
+              {
+                "x": 373,
+                "y": 0,
+                "width": 30,
+                "height": 33,
+                "offsetX": 63,
+                "offsetY": 54
+              },
+              {
+                "x": 408,
+                "y": 0,
+                "width": 1,
+                "height": 1,
+                "offsetX": 0,
+                "offsetY": 0
+              }
+            ],
+            "order": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11
+            ],
+            "fps": 27.906976744186046,
+            "loop": false
+          }
+        },
+        {
+          "kind": "status",
+          "key": "state_player_dexterity",
+          "target": "player",
+          "status": "dexterity",
+          "durationMs": 430,
+          "loop": false,
+          "anchor": [
+            80,
+            64
+          ],
+          "returnsToCaster": false,
+          "beam": false,
+          "sound": "monster-upgrade-20261118/sts2_lagavulin_matriarch/22",
+          "clip": {
+            "frames": [
+              "art/monster-upgrade-20261118/sts2_lagavulin_matriarch/fx-22.png"
+            ],
+            "atlasRects": [
+              {
+                "x": 348,
+                "y": 0,
+                "width": 1,
+                "height": 1,
+                "offsetX": 0,
+                "offsetY": 0
+              },
+              {
+                "x": 0,
+                "y": 0,
+                "width": 33,
+                "height": 24,
+                "offsetX": 63,
+                "offsetY": 45
+              },
+              {
+                "x": 35,
+                "y": 0,
+                "width": 33,
+                "height": 24,
+                "offsetX": 63,
+                "offsetY": 47
+              },
+              {
+                "x": 70,
+                "y": 0,
+                "width": 33,
+                "height": 24,
+                "offsetX": 63,
+                "offsetY": 48
+              },
+              {
+                "x": 105,
+                "y": 0,
+                "width": 33,
+                "height": 24,
+                "offsetX": 63,
+                "offsetY": 50
+              },
+              {
+                "x": 140,
+                "y": 0,
+                "width": 33,
+                "height": 24,
+                "offsetX": 63,
+                "offsetY": 51
+              },
+              {
+                "x": 175,
+                "y": 0,
+                "width": 33,
+                "height": 24,
+                "offsetX": 63,
+                "offsetY": 53
+              },
+              {
+                "x": 210,
+                "y": 0,
+                "width": 33,
+                "height": 24,
+                "offsetX": 63,
+                "offsetY": 55
+              },
+              {
+                "x": 245,
+                "y": 0,
+                "width": 33,
+                "height": 24,
+                "offsetX": 63,
+                "offsetY": 56
+              },
+              {
+                "x": 280,
+                "y": 0,
+                "width": 33,
+                "height": 24,
+                "offsetX": 63,
+                "offsetY": 58
+              },
+              {
+                "x": 315,
+                "y": 0,
+                "width": 31,
+                "height": 24,
+                "offsetX": 64,
+                "offsetY": 59
+              },
+              {
+                "x": 351,
+                "y": 0,
+                "width": 1,
+                "height": 1,
+                "offsetX": 0,
+                "offsetY": 0
+              }
+            ],
+            "order": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11
+            ],
+            "fps": 27.906976744186046,
+            "loop": false
+          }
+        },
+        {
+          "kind": "status",
+          "key": "state_self_strength",
+          "target": "self",
+          "status": "strength",
+          "durationMs": 430,
+          "loop": false,
+          "anchor": [
+            80,
+            64
+          ],
+          "returnsToCaster": false,
+          "beam": false,
+          "sound": "monster-upgrade-20261118/sts2_lagavulin_matriarch/23",
+          "clip": {
+            "frames": [
+              "art/monster-upgrade-20261118/sts2_lagavulin_matriarch/fx-23.png"
+            ],
+            "atlasRects": [
+              {
+                "x": 450,
+                "y": 0,
+                "width": 1,
+                "height": 1,
+                "offsetX": 0,
+                "offsetY": 0
+              },
+              {
+                "x": 107,
+                "y": 0,
+                "width": 52,
+                "height": 32,
+                "offsetX": 56,
+                "offsetY": 56
+              },
+              {
+                "x": 53,
+                "y": 0,
+                "width": 52,
+                "height": 34,
+                "offsetX": 56,
+                "offsetY": 56
+              },
+              {
+                "x": 0,
+                "y": 0,
+                "width": 51,
+                "height": 35,
+                "offsetX": 58,
+                "offsetY": 55
+              },
+              {
+                "x": 161,
+                "y": 0,
+                "width": 51,
+                "height": 32,
+                "offsetX": 57,
+                "offsetY": 56
+              },
+              {
+                "x": 258,
+                "y": 0,
+                "width": 47,
+                "height": 31,
+                "offsetX": 58,
+                "offsetY": 56
+              },
+              {
+                "x": 214,
+                "y": 0,
+                "width": 42,
+                "height": 32,
+                "offsetX": 61,
+                "offsetY": 55
+              },
+              {
+                "x": 307,
+                "y": 0,
+                "width": 38,
+                "height": 31,
+                "offsetX": 63,
+                "offsetY": 54
+              },
+              {
+                "x": 347,
+                "y": 0,
+                "width": 35,
+                "height": 28,
+                "offsetX": 63,
+                "offsetY": 53
+              },
+              {
+                "x": 384,
+                "y": 0,
+                "width": 32,
+                "height": 27,
+                "offsetX": 63,
+                "offsetY": 51
+              },
+              {
+                "x": 418,
+                "y": 0,
+                "width": 30,
+                "height": 26,
+                "offsetX": 63,
+                "offsetY": 50
+              },
+              {
+                "x": 453,
+                "y": 0,
+                "width": 1,
+                "height": 1,
+                "offsetX": 0,
+                "offsetY": 0
+              }
+            ],
+            "order": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11
+            ],
+            "fps": 27.906976744186046,
+            "loop": false
+          }
+        },
+        {
+          "kind": "tail",
+          "key": "recovery",
+          "target": "self",
+          "durationMs": 210,
+          "loop": false,
+          "anchor": [
+            80,
+            64
+          ],
+          "returnsToCaster": false,
+          "beam": false,
+          "sound": "monster-upgrade-20261118/sts2_lagavulin_matriarch/24",
+          "clip": {
+            "frames": [
+              "art/monster-upgrade-20261118/sts2_lagavulin_matriarch/fx-24.png"
+            ],
+            "atlasRects": [
+              {
+                "x": 358,
+                "y": 0,
+                "width": 1,
+                "height": 1,
+                "offsetX": 0,
+                "offsetY": 0
+              },
+              {
+                "x": 290,
+                "y": 0,
+                "width": 32,
+                "height": 18,
+                "offsetX": 70,
+                "offsetY": 54
+              },
+              {
+                "x": 74,
+                "y": 0,
+                "width": 34,
+                "height": 19,
+                "offsetX": 67,
+                "offsetY": 54
+              },
+              {
+                "x": 0,
+                "y": 0,
+                "width": 35,
+                "height": 19,
+                "offsetX": 66,
+                "offsetY": 54
+              },
+              {
+                "x": 37,
+                "y": 0,
+                "width": 35,
+                "height": 19,
+                "offsetX": 65,
+                "offsetY": 54
+              },
+              {
+                "x": 110,
+                "y": 0,
+                "width": 34,
+                "height": 18,
+                "offsetX": 63,
+                "offsetY": 55
+              },
+              {
+                "x": 146,
+                "y": 0,
+                "width": 34,
+                "height": 18,
+                "offsetX": 62,
+                "offsetY": 55
+              },
+              {
+                "x": 182,
+                "y": 0,
+                "width": 34,
+                "height": 18,
+                "offsetX": 62,
+                "offsetY": 55
+              },
+              {
+                "x": 218,
+                "y": 0,
+                "width": 34,
+                "height": 18,
+                "offsetX": 61,
+                "offsetY": 55
+              },
+              {
+                "x": 254,
+                "y": 0,
+                "width": 34,
+                "height": 18,
+                "offsetX": 58,
+                "offsetY": 55
+              },
+              {
+                "x": 324,
+                "y": 0,
+                "width": 32,
+                "height": 15,
+                "offsetX": 59,
+                "offsetY": 56
+              },
+              {
+                "x": 361,
+                "y": 0,
+                "width": 1,
+                "height": 1,
+                "offsetX": 0,
+                "offsetY": 0
+              }
+            ],
+            "order": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11
+            ],
+            "fps": 57.142857142857146,
+            "loop": false
+          }
+        }
+      ],
+      "damages": false,
+      "noAction": false
+    }
+  },
+  "events": {},
+  "dependencies": []
+}

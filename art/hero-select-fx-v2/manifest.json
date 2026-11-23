@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "background": "bg_void",
+  "frameSize": 512,
+  "mist": {
+    "frames": 4,
+    "method": "crossfade",
+    "secondsPerFrame": 1.6
+  },
+  "summon": {
+    "frames": 4,
+    "method": "crossfade",
+    "durationSeconds": 0.72,
+    "footBaseline": 0.84
+  },
+  "generator": "built-in image_gen",
+  "runtime": "HeroSelectEffects.ts"
+}

@@ -1,0 +1,585 @@
+{
+  "version": 1,
+  "frameWidth": 512,
+  "frameHeight": 512,
+  "facing": "right",
+  "trim": false,
+  "pivot": {
+    "x": 0.5,
+    "y": 0.0859375
+  },
+  "footBaseline": 468,
+  "idle": {
+    "method": "single-pose-resize",
+    "maxVerticalScale": 1.006,
+    "periodSeconds": 3
+  },
+  "actions": {
+    "idle": {
+      "name": "静止 / 待机",
+      "fps": 2,
+      "order": [
+        0,
+        1,
+        2,
+        3,
+        2,
+        1
+      ],
+      "loop": true
+    },
+    "defense": {
+      "name": "防御",
+      "fps": 5,
+      "order": [
+        0,
+        1,
+        2,
+        2,
+        3
+      ],
+      "loop": false,
+      "returnTo": "idle"
+    },
+    "attack": {
+      "name": "攻击",
+      "fps": 7,
+      "order": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "loop": false,
+      "returnTo": "idle",
+      "impactFrame": 1
+    },
+    "heavy_attack": {
+      "name": "强力攻击",
+      "fps": 5,
+      "order": [
+        0,
+        0,
+        1,
+        2,
+        2,
+        3
+      ],
+      "loop": false,
+      "returnTo": "idle",
+      "impactFrame": 2
+    },
+    "death": {
+      "name": "死亡",
+      "fps": 5,
+      "order": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "loop": false,
+      "holdLast": true
+    },
+    "taunt": {
+      "name": "嘲讽",
+      "fps": 4,
+      "order": [
+        0,
+        1,
+        2,
+        2,
+        3
+      ],
+      "loop": false,
+      "returnTo": "idle"
+    }
+  },
+  "heroes": [
+    {
+      "id": "emberforged",
+      "name": "铸火骑士",
+      "actions": {
+        "idle": {
+          "name": "静止 / 待机",
+          "fps": 2,
+          "order": [
+            0,
+            1,
+            2,
+            3,
+            2,
+            1
+          ],
+          "loop": true,
+          "frames": [
+            "hero-actions-v1/emberforged/idle_00.png",
+            "hero-actions-v1/emberforged/idle_01.png",
+            "hero-actions-v1/emberforged/idle_02.png",
+            "hero-actions-v1/emberforged/idle_03.png"
+          ]
+        },
+        "defense": {
+          "name": "防御",
+          "fps": 5,
+          "order": [
+            0,
+            1,
+            2,
+            2,
+            3
+          ],
+          "loop": false,
+          "returnTo": "idle",
+          "frames": [
+            "hero-actions-v1/emberforged/defense_00.png",
+            "hero-actions-v1/emberforged/defense_01.png",
+            "hero-actions-v1/emberforged/defense_02.png",
+            "hero-actions-v1/emberforged/defense_03.png"
+          ]
+        },
+        "attack": {
+          "name": "攻击",
+          "fps": 7,
+          "order": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "loop": false,
+          "returnTo": "idle",
+          "impactFrame": 1,
+          "frames": [
+            "hero-actions-v1/emberforged/attack_00.png",
+            "hero-actions-v1/emberforged/attack_01.png",
+            "hero-actions-v1/emberforged/attack_02.png",
+            "hero-actions-v1/emberforged/attack_03.png"
+          ]
+        },
+        "heavy_attack": {
+          "name": "强力攻击",
+          "fps": 5,
+          "order": [
+            0,
+            0,
+            1,
+            2,
+            2,
+            3
+          ],
+          "loop": false,
+          "returnTo": "idle",
+          "impactFrame": 2,
+          "frames": [
+            "hero-actions-v1/emberforged/heavy_attack_00.png",
+            "hero-actions-v1/emberforged/heavy_attack_01.png",
+            "hero-actions-v1/emberforged/heavy_attack_02.png",
+            "hero-actions-v1/emberforged/heavy_attack_03.png"
+          ]
+        },
+        "death": {
+          "name": "死亡",
+          "fps": 5,
+          "order": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "loop": false,
+          "holdLast": true,
+          "frames": [
+            "hero-actions-v1/emberforged/death_00.png",
+            "hero-actions-v1/emberforged/death_01.png",
+            "hero-actions-v1/emberforged/death_02.png",
+            "hero-actions-v1/emberforged/death_03.png"
+          ]
+        },
+        "taunt": {
+          "name": "嘲讽",
+          "fps": 4,
+          "order": [
+            0,
+            1,
+            2,
+            2,
+            3
+          ],
+          "loop": false,
+          "returnTo": "idle",
+          "frames": [
+            "hero-actions-v1/emberforged/taunt_00.png",
+            "hero-actions-v1/emberforged/taunt_01.png",
+            "hero-actions-v1/emberforged/taunt_02.png",
+            "hero-actions-v1/emberforged/taunt_03.png"
+          ]
+        }
+      }
+    },
+    {
+      "id": "apothecary",
+      "name": "丛林猎手",
+      "actions": {
+        "idle": {
+          "name": "静止 / 待机",
+          "fps": 2,
+          "order": [
+            0,
+            1,
+            2,
+            3,
+            2,
+            1
+          ],
+          "loop": true,
+          "frames": [
+            "hero-actions-v1/apothecary/idle_00.png",
+            "hero-actions-v1/apothecary/idle_01.png",
+            "hero-actions-v1/apothecary/idle_02.png",
+            "hero-actions-v1/apothecary/idle_03.png"
+          ]
+        },
+        "defense": {
+          "name": "防御",
+          "fps": 5,
+          "order": [
+            0,
+            1,
+            2,
+            2,
+            3
+          ],
+          "loop": false,
+          "returnTo": "idle",
+          "frames": [
+            "hero-actions-v1/apothecary/defense_00.png",
+            "hero-actions-v1/apothecary/defense_01.png",
+            "hero-actions-v1/apothecary/defense_02.png",
+            "hero-actions-v1/apothecary/defense_03.png"
+          ]
+        },
+        "attack": {
+          "name": "攻击",
+          "fps": 7,
+          "order": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "loop": false,
+          "returnTo": "idle",
+          "impactFrame": 1,
+          "frames": [
+            "hero-actions-v1/apothecary/attack_00.png",
+            "hero-actions-v1/apothecary/attack_01.png",
+            "hero-actions-v1/apothecary/attack_02.png",
+            "hero-actions-v1/apothecary/attack_03.png"
+          ]
+        },
+        "heavy_attack": {
+          "name": "强力攻击",
+          "fps": 5,
+          "order": [
+            0,
+            0,
+            1,
+            2,
+            2,
+            3
+          ],
+          "loop": false,
+          "returnTo": "idle",
+          "impactFrame": 2,
+          "frames": [
+            "hero-actions-v1/apothecary/heavy_attack_00.png",
+            "hero-actions-v1/apothecary/heavy_attack_01.png",
+            "hero-actions-v1/apothecary/heavy_attack_02.png",
+            "hero-actions-v1/apothecary/heavy_attack_03.png"
+          ]
+        },
+        "death": {
+          "name": "死亡",
+          "fps": 5,
+          "order": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "loop": false,
+          "holdLast": true,
+          "frames": [
+            "hero-actions-v1/apothecary/death_00.png",
+            "hero-actions-v1/apothecary/death_01.png",
+            "hero-actions-v1/apothecary/death_02.png",
+            "hero-actions-v1/apothecary/death_03.png"
+          ]
+        },
+        "taunt": {
+          "name": "嘲讽",
+          "fps": 4,
+          "order": [
+            0,
+            1,
+            2,
+            2,
+            3
+          ],
+          "loop": false,
+          "returnTo": "idle",
+          "frames": [
+            "hero-actions-v1/apothecary/taunt_00.png",
+            "hero-actions-v1/apothecary/taunt_01.png",
+            "hero-actions-v1/apothecary/taunt_02.png",
+            "hero-actions-v1/apothecary/taunt_03.png"
+          ]
+        }
+      }
+    },
+    {
+      "id": "clockwright",
+      "name": "元素魔法师",
+      "actions": {
+        "idle": {
+          "name": "静止 / 待机",
+          "fps": 2,
+          "order": [
+            0,
+            1,
+            2,
+            3,
+            2,
+            1
+          ],
+          "loop": true,
+          "frames": [
+            "hero-actions-v1/clockwright/idle_00.png",
+            "hero-actions-v1/clockwright/idle_01.png",
+            "hero-actions-v1/clockwright/idle_02.png",
+            "hero-actions-v1/clockwright/idle_03.png"
+          ]
+        },
+        "defense": {
+          "name": "防御",
+          "fps": 5,
+          "order": [
+            0,
+            1,
+            2,
+            2,
+            3
+          ],
+          "loop": false,
+          "returnTo": "idle",
+          "frames": [
+            "hero-actions-v1/clockwright/defense_00.png",
+            "hero-actions-v1/clockwright/defense_01.png",
+            "hero-actions-v1/clockwright/defense_02.png",
+            "hero-actions-v1/clockwright/defense_03.png"
+          ]
+        },
+        "attack": {
+          "name": "攻击",
+          "fps": 7,
+          "order": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "loop": false,
+          "returnTo": "idle",
+          "impactFrame": 1,
+          "frames": [
+            "hero-actions-v1/clockwright/attack_00.png",
+            "hero-actions-v1/clockwright/attack_01.png",
+            "hero-actions-v1/clockwright/attack_02.png",
+            "hero-actions-v1/clockwright/attack_03.png"
+          ]
+        },
+        "heavy_attack": {
+          "name": "强力攻击",
+          "fps": 5,
+          "order": [
+            0,
+            0,
+            1,
+            2,
+            2,
+            3
+          ],
+          "loop": false,
+          "returnTo": "idle",
+          "impactFrame": 2,
+          "frames": [
+            "hero-actions-v1/clockwright/heavy_attack_00.png",
+            "hero-actions-v1/clockwright/heavy_attack_01.png",
+            "hero-actions-v1/clockwright/heavy_attack_02.png",
+            "hero-actions-v1/clockwright/heavy_attack_03.png"
+          ]
+        },
+        "death": {
+          "name": "死亡",
+          "fps": 5,
+          "order": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "loop": false,
+          "holdLast": true,
+          "frames": [
+            "hero-actions-v1/clockwright/death_00.png",
+            "hero-actions-v1/clockwright/death_01.png",
+            "hero-actions-v1/clockwright/death_02.png",
+            "hero-actions-v1/clockwright/death_03.png"
+          ]
+        },
+        "taunt": {
+          "name": "嘲讽",
+          "fps": 4,
+          "order": [
+            0,
+            1,
+            2,
+            2,
+            3
+          ],
+          "loop": false,
+          "returnTo": "idle",
+          "frames": [
+            "hero-actions-v1/clockwright/taunt_00.png",
+            "hero-actions-v1/clockwright/taunt_01.png",
+            "hero-actions-v1/clockwright/taunt_02.png",
+            "hero-actions-v1/clockwright/taunt_03.png"
+          ]
+        }
+      }
+    },
+    {
+      "id": "lamplighter",
+      "name": "客",
+      "actions": {
+        "idle": {
+          "name": "静止 / 待机",
+          "fps": 2,
+          "order": [
+            0,
+            1,
+            2,
+            3,
+            2,
+            1
+          ],
+          "loop": true,
+          "frames": [
+            "hero-actions-v1/lamplighter/idle_00.png",
+            "hero-actions-v1/lamplighter/idle_01.png",
+            "hero-actions-v1/lamplighter/idle_02.png",
+            "hero-actions-v1/lamplighter/idle_03.png"
+          ]
+        },
+        "defense": {
+          "name": "防御",
+          "fps": 5,
+          "order": [
+            0,
+            1,
+            2,
+            2,
+            3
+          ],
+          "loop": false,
+          "returnTo": "idle",
+          "frames": [
+            "hero-actions-v1/lamplighter/defense_00.png",
+            "hero-actions-v1/lamplighter/defense_01.png",
+            "hero-actions-v1/lamplighter/defense_02.png",
+            "hero-actions-v1/lamplighter/defense_03.png"
+          ]
+        },
+        "attack": {
+          "name": "攻击",
+          "fps": 7,
+          "order": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "loop": false,
+          "returnTo": "idle",
+          "impactFrame": 1,
+          "frames": [
+            "hero-actions-v1/lamplighter/attack_00.png",
+            "hero-actions-v1/lamplighter/attack_01.png",
+            "hero-actions-v1/lamplighter/attack_02.png",
+            "hero-actions-v1/lamplighter/attack_03.png"
+          ]
+        },
+        "heavy_attack": {
+          "name": "强力攻击",
+          "fps": 5,
+          "order": [
+            0,
+            0,
+            1,
+            2,
+            2,
+            3
+          ],
+          "loop": false,
+          "returnTo": "idle",
+          "impactFrame": 2,
+          "frames": [
+            "hero-actions-v1/lamplighter/heavy_attack_00.png",
+            "hero-actions-v1/lamplighter/heavy_attack_01.png",
+            "hero-actions-v1/lamplighter/heavy_attack_02.png",
+            "hero-actions-v1/lamplighter/heavy_attack_03.png"
+          ]
+        },
+        "death": {
+          "name": "死亡",
+          "fps": 5,
+          "order": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "loop": false,
+          "holdLast": true,
+          "frames": [
+            "hero-actions-v1/lamplighter/death_00.png",
+            "hero-actions-v1/lamplighter/death_01.png",
+            "hero-actions-v1/lamplighter/death_02.png",
+            "hero-actions-v1/lamplighter/death_03.png"
+          ]
+        },
+        "taunt": {
+          "name": "嘲讽",
+          "fps": 4,
+          "order": [
+            0,
+            1,
+            2,
+            2,
+            3
+          ],
+          "loop": false,
+          "returnTo": "idle",
+          "frames": [
+            "hero-actions-v1/lamplighter/taunt_00.png",
+            "hero-actions-v1/lamplighter/taunt_01.png",
+            "hero-actions-v1/lamplighter/taunt_02.png",
+            "hero-actions-v1/lamplighter/taunt_03.png"
+          ]
+        }
+      }
+    }
+  ],
+  "complete": true
+}

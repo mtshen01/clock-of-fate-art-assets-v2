@@ -1,0 +1,3259 @@
+{
+  "id": "sts2_magi_knight",
+  "pivot": {
+    "x": 0.5,
+    "y": 0.16666666666666663
+  },
+  "visualBounds": {
+    "top": 0.5833333333333333,
+    "bottom": 0.16666666666666663
+  },
+  "pose": {
+    "frames": [
+      "art/monster-upgrade-20261118/sts2_magi_knight/idle.png"
+    ],
+    "atlasRects": [
+      {
+        "x": 0,
+        "y": 0,
+        "width": 108,
+        "height": 165,
+        "offsetX": 138,
+        "offsetY": 158
+      }
+    ],
+    "order": [
+      0
+    ],
+    "fps": 1,
+    "loop": true,
+    "holdLastFrame": false
+  },
+  "moves": {
+    "sts2_power_shield": {
+      "cues": [
+        {
+          "kind": "windup",
+          "key": "windup",
+          "target": "self",
+          "durationMs": 310,
+          "loop": false,
+          "anchor": [
+            80,
+            64
+          ],
+          "returnsToCaster": false,
+          "beam": false,
+          "sound": "monster-upgrade-20261118/sts2_magi_knight/00",
+          "clip": {
+            "frames": [
+              "art/monster-upgrade-20261118/sts2_magi_knight/fx-00.png"
+            ],
+            "atlasRects": [
+              {
+                "x": 209,
+                "y": 62,
+                "width": 1,
+                "height": 1,
+                "offsetX": 0,
+                "offsetY": 0
+              },
+              {
+                "x": 0,
+                "y": 0,
+                "width": 57,
+                "height": 60,
+                "offsetX": 56,
+                "offsetY": 38
+              },
+              {
+                "x": 59,
+                "y": 0,
+                "width": 55,
+                "height": 55,
+                "offsetX": 56,
+                "offsetY": 40
+              },
+              {
+                "x": 116,
+                "y": 0,
+                "width": 51,
+                "height": 51,
+                "offsetX": 58,
+                "offsetY": 42
+              },
+              {
+                "x": 169,
+                "y": 0,
+                "width": 46,
+                "height": 48,
+                "offsetX": 61,
+                "offsetY": 43
+              },
+              {
+                "x": 0,
+                "y": 62,
+                "width": 43,
+                "height": 43,
+                "offsetX": 61,
+                "offsetY": 45
+              },
+              {
+                "x": 45,
+                "y": 62,
+                "width": 39,
+                "height": 40,
+                "offsetX": 63,
+                "offsetY": 46
+              },
+              {
+                "x": 86,
+                "y": 62,
+                "width": 34,
+                "height": 36,
+                "offsetX": 66,
+                "offsetY": 48
+              },
+              {
+                "x": 122,
+                "y": 62,
+                "width": 30,
+                "height": 31,
+                "offsetX": 68,
+                "offsetY": 50
+              },
+              {
+                "x": 154,
+                "y": 62,
+                "width": 28,
+                "height": 28,
+                "offsetX": 68,
+                "offsetY": 51
+              },
+              {
+                "x": 184,
+                "y": 62,
+                "width": 23,
+                "height": 24,
+                "offsetX": 70,
+                "offsetY": 53
+              },
+              {
+                "x": 212,
+                "y": 62,
+                "width": 1,
+                "height": 1,
+                "offsetX": 0,
+                "offsetY": 0
+              }
+            ],
+            "order": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11
+            ],
+            "fps": 38.70967741935484,
+            "loop": false
+          }
+        },
+        {
+          "kind": "release",
+          "key": "source",
+          "target": "self",
+          "durationMs": 240,
+          "loop": false,
+          "anchor": [
+            80,
+            64
+          ],
+          "returnsToCaster": false,
+          "beam": false,
+          "sound": "monster-upgrade-20261118/sts2_magi_knight/01",
+          "clip": {
+            "frames": [
+              "art/monster-upgrade-20261118/sts2_magi_knight/fx-01.png"
+            ],
+            "atlasRects": [
+              {
+                "x": 507,
+                "y": 0,
+                "width": 1,
+                "height": 1,
+                "offsetX": 0,
+                "offsetY": 0
+              },
+              {
+                "x": 221,
+                "y": 0,
+                "width": 47,
+                "height": 41,
+                "offsetX": 52,
+                "offsetY": 40
+              },
+              {
+                "x": 168,
+                "y": 0,
+                "width": 51,
+                "height": 41,
+                "offsetX": 52,
+                "offsetY": 40
+              },
+              {
+                "x": 57,
+                "y": 0,
+                "width": 54,
+                "height": 41,
+                "offsetX": 52,
+                "offsetY": 41
+              },
+              {
+                "x": 113,
+                "y": 0,
+                "width": 53,
+                "height": 41,
+                "offsetX": 54,
+                "offsetY": 42
+              },
+              {
+                "x": 0,
+                "y": 0,
+                "width": 55,
+                "height": 41,
+                "offsetX": 53,
+                "offsetY": 43
+              },
+              {
+                "x": 270,
+                "y": 0,
+                "width": 55,
+                "height": 40,
+                "offsetX": 53,
+                "offsetY": 44
+              },
+              {
+                "x": 327,
+                "y": 0,
+                "width": 52,
+                "height": 38,
+                "offsetX": 54,
+                "offsetY": 45
+              },
+              {
+                "x": 381,
+                "y": 0,
+                "width": 47,
+                "height": 36,
+                "offsetX": 56,
+                "offsetY": 46
+              },
+              {
+                "x": 430,
+                "y": 0,
+                "width": 41,
+                "height": 32,
+                "offsetX": 59,
+                "offsetY": 48
+              },
+              {
+                "x": 473,
+                "y": 0,
+                "width": 32,
+                "height": 27,
+                "offsetX": 64,
+                "offsetY": 51
+              },
+              {
+                "x": 510,
+                "y": 0,
+                "width": 1,
+                "height": 1,
+                "offsetX": 0,
+                "offsetY": 0
+              }
+            ],
+            "order": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11
+            ],
+            "fps": 50,
+            "loop": false
+          }
+        },
+        {
+          "kind": "travel",
+          "key": "trail",
+          "target": "path",
+          "durationMs": 320,
+          "loop": false,
+          "anchor": [
+            80,
+            64
+          ],
+          "returnsToCaster": false,
+          "beam": false,
+          "sound": "monster-upgrade-20261118/sts2_magi_knight/02",
+          "clip": {
+            "frames": [
+              "art/monster-upgrade-20261118/sts2_magi_knight/fx-02.png"
+            ],
+            "atlasRects": [
+              {
+                "x": 568,
+                "y": 0,
+                "width": 1,
+                "height": 1,
+                "offsetX": 0,
+                "offsetY": 0
+              },
+              {
+                "x": 259,
+                "y": 0,
+                "width": 67,
+                "height": 39,
+                "offsetX": 47,
+                "offsetY": 41
+              },
+              {
+                "x": 192,
+                "y": 0,
+                "width": 65,
+                "height": 40,
+                "offsetX": 49,
+                "offsetY": 41
+              },
+              {
+                "x": 0,
+                "y": 0,
+                "width": 65,
+                "height": 41,
+                "offsetX": 50,
+                "offsetY": 41
+              },
+              {
+                "x": 67,
+                "y": 0,
+                "width": 63,
+                "height": 41,
+                "offsetX": 51,
+                "offsetY": 42
+              },
+              {
+                "x": 132,
+                "y": 0,
+                "width": 58,
+                "height": 41,
+                "offsetX": 53,
+                "offsetY": 43
+              },
+              {
+                "x": 328,
+                "y": 0,
+                "width": 57,
+                "height": 39,
+                "offsetX": 53,
+                "offsetY": 45
+              },
+              {
+                "x": 387,
+                "y": 0,
+                "width": 53,
+                "height": 38,
+                "offsetX": 54,
+                "offsetY": 45
+              },
+              {
+                "x": 442,
+                "y": 0,
+                "width": 47,
+                "height": 36,
+                "offsetX": 56,
+                "offsetY": 46
+              },
+              {
+                "x": 491,
+                "y": 0,
+                "width": 41,
+                "height": 32,
+                "offsetX": 59,
+                "offsetY": 48
+              },
+              {
+                "x": 534,
+                "y": 0,
+                "width": 32,
+                "height": 27,
+                "offsetX": 64,
+                "offsetY": 51
+              },
+              {
+                "x": 571,
+                "y": 0,
+                "width": 1,
+                "height": 1,
+                "offsetX": 0,
+                "offsetY": 0
+              }
+            ],
+            "order": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11
+            ],
+            "fps": 37.5,
+            "loop": false
+          }
+        },
+        {
+          "kind": "hit",
+          "key": "hit_target",
+          "target": "player",
+          "durationMs": 220,
+          "loop": false,
+          "anchor": [
+            80,
+            64
+          ],
+          "returnsToCaster": false,
+          "beam": false,
+          "sound": "monster-upgrade-20261118/sts2_magi_knight/03",
+          "clip": {
+            "frames": [
+              "art/monster-upgrade-20261118/sts2_magi_knight/fx-03.png"
+            ],
+            "atlasRects": [
+              {
+                "x": 86,
+                "y": 537,
+                "width": 1,
+                "height": 1,
+                "offsetX": 0,
+                "offsetY": 0
+              },
+              {
+                "x": 49,
+                "y": 537,
+                "width": 35,
+                "height": 27,
+                "offsetX": 63,
+                "offsetY": 52
+              },
+              {
+                "x": 0,
+                "y": 537,
+                "width": 47,
+                "height": 40,
+                "offsetX": 59,
+                "offsetY": 45
+              },
+              {
+                "x": 0,
+                "y": 486,
+                "width": 56,
+                "height": 49,
+                "offsetX": 55,
+                "offsetY": 40
+              },
+              {
+                "x": 0,
+                "y": 427,
+                "width": 66,
+                "height": 57,
+                "offsetX": 51,
+                "offsetY": 36
+              },
+              {
+                "x": 0,
+                "y": 360,
+                "width": 73,
+                "height": 65,
+                "offsetX": 48,
+                "offsetY": 33
+              },
+              {
+                "x": 0,
+                "y": 291,
+                "width": 81,
+                "height": 67,
+                "offsetX": 45,
+                "offsetY": 32
+              },
+              {
+                "x": 0,
+                "y": 148,
+                "width": 85,
+                "height": 71,
+                "offsetX": 43,
+                "offsetY": 31
+              },
+              {
+                "x": 0,
+                "y": 0,
+                "width": 85,
+                "height": 73,
+                "offsetX": 42,
+                "offsetY": 30
+              },
+              {
+                "x": 0,
+                "y": 75,
+                "width": 87,
+                "height": 71,
+                "offsetX": 40,
+                "offsetY": 30
+              },
+              {
+                "x": 0,
+                "y": 221,
+                "width": 85,
+                "height": 68,
+                "offsetX": 40,
+                "offsetY": 32
+              },
+              {
+                "x": 0,
+                "y": 579,
+                "width": 1,
+                "height": 1,
+                "offsetX": 0,
+                "offsetY": 0
+              }
+            ],
+            "order": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11
+            ],
+            "fps": 54.54545454545455,
+            "loop": false
+          }
+        },
+        {
+          "kind": "block",
+          "key": "block_self",
+          "target": "self",
+          "durationMs": 380,
+          "loop": false,
+          "anchor": [
+            80,
+            64
+          ],
+          "returnsToCaster": false,
+          "beam": false,
+          "sound": "monster-upgrade-20261118/sts2_magi_knight/04",
+          "clip": {
+            "frames": [
+              "art/monster-upgrade-20261118/sts2_magi_knight/fx-04.png"
+            ],
+            "atlasRects": [
+              {
+                "x": 0,
+                "y": 466,
+                "width": 1,
+                "height": 1,
+                "offsetX": 0,
+                "offsetY": 0
+              },
+              {
+                "x": 0,
+                "y": 440,
+                "width": 41,
+                "height": 24,
+                "offsetX": 52,
+                "offsetY": 52
+              },
+              {
+                "x": 0,
+                "y": 364,
+                "width": 41,
+                "height": 36,
+                "offsetX": 53,
+                "offsetY": 46
+              },
+              {
+                "x": 0,
+                "y": 272,
+                "width": 41,
+                "height": 45,
+                "offsetX": 53,
+                "offsetY": 42
+              },
+              {
+                "x": 0,
+                "y": 114,
+                "width": 41,
+                "height": 52,
+                "offsetX": 55,
+                "offsetY": 38
+              },
+              {
+                "x": 0,
+                "y": 0,
+                "width": 41,
+                "height": 55,
+                "offsetX": 56,
+                "offsetY": 37
+              },
+              {
+                "x": 0,
+                "y": 57,
+                "width": 41,
+                "height": 55,
+                "offsetX": 57,
+                "offsetY": 37
+              },
+              {
+                "x": 0,
+                "y": 168,
+                "width": 41,
+                "height": 52,
+                "offsetX": 58,
+                "offsetY": 38
+              },
+              {
+                "x": 0,
+                "y": 222,
+                "width": 40,
+                "height": 48,
+                "offsetX": 59,
+                "offsetY": 42
+              },
+              {
+                "x": 0,
+                "y": 319,
+                "width": 42,
+                "height": 43,
+                "offsetX": 60,
+                "offsetY": 46
+              },
+              {
+                "x": 0,
+                "y": 402,
+                "width": 39,
+                "height": 36,
+                "offsetX": 62,
+                "offsetY": 51
+              },
+              {
+                "x": 3,
+                "y": 466,
+                "width": 1,
+                "height": 1,
+                "offsetX": 0,
+                "offsetY": 0
+              }
+            ],
+            "order": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11
+            ],
+            "fps": 31.57894736842105,
+            "loop": false
+          }
+        },
+        {
+          "kind": "tail",
+          "key": "recovery",
+          "target": "self",
+          "durationMs": 210,
+          "loop": false,
+          "anchor": [
+            80,
+            64
+          ],
+          "returnsToCaster": false,
+          "beam": false,
+          "sound": "monster-upgrade-20261118/sts2_magi_knight/05",
+          "clip": {
+            "frames": [
+              "art/monster-upgrade-20261118/sts2_magi_knight/fx-05.png"
+            ],
+            "atlasRects": [
+              {
+                "x": 358,
+                "y": 0,
+                "width": 1,
+                "height": 1,
+                "offsetX": 0,
+                "offsetY": 0
+              },
+              {
+                "x": 290,
+                "y": 0,
+                "width": 32,
+                "height": 18,
+                "offsetX": 70,
+                "offsetY": 54
+              },
+              {
+                "x": 74,
+                "y": 0,
+                "width": 34,
+                "height": 19,
+                "offsetX": 67,
+                "offsetY": 54
+              },
+              {
+                "x": 0,
+                "y": 0,
+                "width": 35,
+                "height": 19,
+                "offsetX": 66,
+                "offsetY": 54
+              },
+              {
+                "x": 37,
+                "y": 0,
+                "width": 35,
+                "height": 19,
+                "offsetX": 65,
+                "offsetY": 54
+              },
+              {
+                "x": 110,
+                "y": 0,
+                "width": 34,
+                "height": 19,
+                "offsetX": 63,
+                "offsetY": 54
+              },
+              {
+                "x": 146,
+                "y": 0,
+                "width": 34,
+                "height": 19,
+                "offsetX": 62,
+                "offsetY": 54
+              },
+              {
+                "x": 182,
+                "y": 0,
+                "width": 34,
+                "height": 19,
+                "offsetX": 62,
+                "offsetY": 54
+              },
+              {
+                "x": 218,
+                "y": 0,
+                "width": 34,
+                "height": 19,
+                "offsetX": 61,
+                "offsetY": 54
+              },
+              {
+                "x": 254,
+                "y": 0,
+                "width": 34,
+                "height": 19,
+                "offsetX": 58,
+                "offsetY": 54
+              },
+              {
+                "x": 324,
+                "y": 0,
+                "width": 32,
+                "height": 17,
+                "offsetX": 59,
+                "offsetY": 54
+              },
+              {
+                "x": 361,
+                "y": 0,
+                "width": 1,
+                "height": 1,
+                "offsetX": 0,
+                "offsetY": 0
+              }
+            ],
+            "order": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11
+            ],
+            "fps": 57.142857142857146,
+            "loop": false
+          }
+        }
+      ],
+      "damages": true,
+      "noAction": false
+    },
+    "sts2_dampen": {
+      "cues": [
+        {
+          "kind": "windup",
+          "key": "windup",
+          "target": "self",
+          "durationMs": 310,
+          "loop": false,
+          "anchor": [
+            80,
+            64
+          ],
+          "returnsToCaster": false,
+          "beam": false,
+          "sound": "monster-upgrade-20261118/sts2_magi_knight/06",
+          "clip": {
+            "frames": [
+              "art/monster-upgrade-20261118/sts2_magi_knight/fx-06.png"
+            ],
+            "atlasRects": [
+              {
+                "x": 502,
+                "y": 0,
+                "width": 1,
+                "height": 1,
+                "offsetX": 0,
+                "offsetY": 0
+              },
+              {
+                "x": 0,
+                "y": 0,
+                "width": 58,
+                "height": 26,
+                "offsetX": 49,
+                "offsetY": 51
+              },
+              {
+                "x": 60,
+                "y": 0,
+                "width": 57,
+                "height": 26,
+                "offsetX": 49,
+                "offsetY": 51
+              },
+              {
+                "x": 119,
+                "y": 0,
+                "width": 55,
+                "height": 26,
+                "offsetX": 50,
+                "offsetY": 51
+              },
+              {
+                "x": 176,
+                "y": 0,
+                "width": 54,
+                "height": 25,
+                "offsetX": 51,
+                "offsetY": 51
+              },
+              {
+                "x": 232,
+                "y": 0,
+                "width": 50,
+                "height": 25,
+                "offsetX": 53,
+                "offsetY": 51
+              },
+              {
+                "x": 284,
+                "y": 0,
+                "width": 46,
+                "height": 24,
+                "offsetX": 55,
+                "offsetY": 51
+              },
+              {
+                "x": 332,
+                "y": 0,
+                "width": 44,
+                "height": 23,
+                "offsetX": 56,
+                "offsetY": 51
+              },
+              {
+                "x": 378,
+                "y": 0,
+                "width": 42,
+                "height": 22,
+                "offsetX": 57,
+                "offsetY": 51
+              },
+              {
+                "x": 422,
+                "y": 0,
+                "width": 40,
+                "height": 21,
+                "offsetX": 58,
+                "offsetY": 51
+              },
+              {
+                "x": 464,
+                "y": 0,
+                "width": 36,
+                "height": 20,
+                "offsetX": 60,
+                "offsetY": 51
+              },
+              {
+                "x": 505,
+                "y": 0,
+                "width": 1,
+                "height": 1,
+                "offsetX": 0,
+                "offsetY": 0
+              }
+            ],
+            "order": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11
+            ],
+            "fps": 38.70967741935484,
+            "loop": false
+          }
+        },
+        {
+          "kind": "release",
+          "key": "source",
+          "target": "self",
+          "durationMs": 240,
+          "loop": false,
+          "anchor": [
+            80,
+            64
+          ],
+          "returnsToCaster": false,
+          "beam": false,
+          "sound": "monster-upgrade-20261118/sts2_magi_knight/07",
+          "clip": {
+            "frames": [
+              "art/monster-upgrade-20261118/sts2_magi_knight/fx-07.png"
+            ],
+            "atlasRects": [
+              {
+                "x": 525,
+                "y": 0,
+                "width": 1,
+                "height": 1,
+                "offsetX": 0,
+                "offsetY": 0
+              },
+              {
+                "x": 345,
+                "y": 0,
+                "width": 52,
+                "height": 37,
+                "offsetX": 47,
+                "offsetY": 41
+              },
+              {
+                "x": 234,
+                "y": 0,
+                "width": 55,
+                "height": 40,
+                "offsetX": 48,
+                "offsetY": 40
+              },
+              {
+                "x": 117,
+                "y": 0,
+                "width": 58,
+                "height": 41,
+                "offsetX": 48,
+                "offsetY": 41
+              },
+              {
+                "x": 0,
+                "y": 0,
+                "width": 57,
+                "height": 42,
+                "offsetX": 50,
+                "offsetY": 41
+              },
+              {
+                "x": 59,
+                "y": 0,
+                "width": 56,
+                "height": 42,
+                "offsetX": 52,
+                "offsetY": 42
+              },
+              {
+                "x": 177,
+                "y": 0,
+                "width": 55,
+                "height": 41,
+                "offsetX": 53,
+                "offsetY": 43
+              },
+              {
+                "x": 291,
+                "y": 0,
+                "width": 52,
+                "height": 38,
+                "offsetX": 54,
+                "offsetY": 45
+              },
+              {
+                "x": 399,
+                "y": 0,
+                "width": 47,
+                "height": 36,
+                "offsetX": 56,
+                "offsetY": 46
+              },
+              {
+                "x": 448,
+                "y": 0,
+                "width": 41,
+                "height": 32,
+                "offsetX": 59,
+                "offsetY": 48
+              },
+              {
+                "x": 491,
+                "y": 0,
+                "width": 32,
+                "height": 27,
+                "offsetX": 64,
+                "offsetY": 51
+              },
+              {
+                "x": 528,
+                "y": 0,
+                "width": 1,
+                "height": 1,
+                "offsetX": 0,
+                "offsetY": 0
+              }
+            ],
+            "order": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11
+            ],
+            "fps": 50,
+            "loop": false
+          }
+        },
+        {
+          "kind": "status",
+          "key": "state_player_sts2_dampen",
+          "target": "player",
+          "status": "sts2_dampen",
+          "durationMs": 430,
+          "loop": false,
+          "anchor": [
+            80,
+            64
+          ],
+          "returnsToCaster": false,
+          "beam": false,
+          "sound": "monster-upgrade-20261118/sts2_magi_knight/08",
+          "clip": {
+            "frames": [
+              "art/monster-upgrade-20261118/sts2_magi_knight/fx-08.png"
+            ],
+            "atlasRects": [
+              {
+                "x": 348,
+                "y": 0,
+                "width": 1,
+                "height": 1,
+                "offsetX": 0,
+                "offsetY": 0
+              },
+              {
+                "x": 0,
+                "y": 0,
+                "width": 33,
+                "height": 24,
+                "offsetX": 63,
+                "offsetY": 45
+              },
+              {
+                "x": 35,
+                "y": 0,
+                "width": 33,
+                "height": 24,
+                "offsetX": 63,
+                "offsetY": 47
+              },
+              {
+                "x": 70,
+                "y": 0,
+                "width": 33,
+                "height": 24,
+                "offsetX": 63,
+                "offsetY": 48
+              },
+              {
+                "x": 105,
+                "y": 0,
+                "width": 33,
+                "height": 24,
+                "offsetX": 63,
+                "offsetY": 50
+              },
+              {
+                "x": 140,
+                "y": 0,
+                "width": 33,
+                "height": 24,
+                "offsetX": 63,
+                "offsetY": 51
+              },
+              {
+                "x": 175,
+                "y": 0,
+                "width": 33,
+                "height": 24,
+                "offsetX": 63,
+                "offsetY": 53
+              },
+              {
+                "x": 210,
+                "y": 0,
+                "width": 33,
+                "height": 24,
+                "offsetX": 63,
+                "offsetY": 55
+              },
+              {
+                "x": 245,
+                "y": 0,
+                "width": 33,
+                "height": 24,
+                "offsetX": 63,
+                "offsetY": 56
+              },
+              {
+                "x": 280,
+                "y": 0,
+                "width": 33,
+                "height": 24,
+                "offsetX": 63,
+                "offsetY": 58
+              },
+              {
+                "x": 315,
+                "y": 0,
+                "width": 31,
+                "height": 24,
+                "offsetX": 64,
+                "offsetY": 59
+              },
+              {
+                "x": 351,
+                "y": 0,
+                "width": 1,
+                "height": 1,
+                "offsetX": 0,
+                "offsetY": 0
+              }
+            ],
+            "order": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11
+            ],
+            "fps": 27.906976744186046,
+            "loop": false
+          }
+        },
+        {
+          "kind": "tail",
+          "key": "recovery",
+          "target": "self",
+          "durationMs": 210,
+          "loop": false,
+          "anchor": [
+            80,
+            64
+          ],
+          "returnsToCaster": false,
+          "beam": false,
+          "sound": "monster-upgrade-20261118/sts2_magi_knight/09",
+          "clip": {
+            "frames": [
+              "art/monster-upgrade-20261118/sts2_magi_knight/fx-09.png"
+            ],
+            "atlasRects": [
+              {
+                "x": 358,
+                "y": 0,
+                "width": 1,
+                "height": 1,
+                "offsetX": 0,
+                "offsetY": 0
+              },
+              {
+                "x": 290,
+                "y": 0,
+                "width": 32,
+                "height": 18,
+                "offsetX": 70,
+                "offsetY": 54
+              },
+              {
+                "x": 74,
+                "y": 0,
+                "width": 34,
+                "height": 19,
+                "offsetX": 67,
+                "offsetY": 54
+              },
+              {
+                "x": 0,
+                "y": 0,
+                "width": 35,
+                "height": 19,
+                "offsetX": 66,
+                "offsetY": 54
+              },
+              {
+                "x": 37,
+                "y": 0,
+                "width": 35,
+                "height": 19,
+                "offsetX": 65,
+                "offsetY": 54
+              },
+              {
+                "x": 110,
+                "y": 0,
+                "width": 34,
+                "height": 18,
+                "offsetX": 63,
+                "offsetY": 55
+              },
+              {
+                "x": 146,
+                "y": 0,
+                "width": 34,
+                "height": 18,
+                "offsetX": 62,
+                "offsetY": 55
+              },
+              {
+                "x": 182,
+                "y": 0,
+                "width": 34,
+                "height": 18,
+                "offsetX": 62,
+                "offsetY": 55
+              },
+              {
+                "x": 218,
+                "y": 0,
+                "width": 34,
+                "height": 18,
+                "offsetX": 61,
+                "offsetY": 55
+              },
+              {
+                "x": 254,
+                "y": 0,
+                "width": 34,
+                "height": 18,
+                "offsetX": 58,
+                "offsetY": 55
+              },
+              {
+                "x": 324,
+                "y": 0,
+                "width": 32,
+                "height": 15,
+                "offsetX": 59,
+                "offsetY": 56
+              },
+              {
+                "x": 361,
+                "y": 0,
+                "width": 1,
+                "height": 1,
+                "offsetX": 0,
+                "offsetY": 0
+              }
+            ],
+            "order": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11
+            ],
+            "fps": 57.142857142857146,
+            "loop": false
+          }
+        }
+      ],
+      "damages": false,
+      "noAction": false
+    },
+    "sts2_prep": {
+      "cues": [
+        {
+          "kind": "windup",
+          "key": "windup",
+          "target": "self",
+          "durationMs": 310,
+          "loop": false,
+          "anchor": [
+            80,
+            64
+          ],
+          "returnsToCaster": false,
+          "beam": false,
+          "sound": "monster-upgrade-20261118/sts2_magi_knight/10",
+          "clip": {
+            "frames": [
+              "art/monster-upgrade-20261118/sts2_magi_knight/fx-10.png"
+            ],
+            "atlasRects": [
+              {
+                "x": 205,
+                "y": 62,
+                "width": 1,
+                "height": 1,
+                "offsetX": 0,
+                "offsetY": 0
+              },
+              {
+                "x": 0,
+                "y": 0,
+                "width": 56,
+                "height": 60,
+                "offsetX": 59,
+                "offsetY": 35
+              },
+              {
+                "x": 58,
+                "y": 0,
+                "width": 52,
+                "height": 56,
+                "offsetX": 60,
+                "offsetY": 37
+              },
+              {
+                "x": 112,
+                "y": 0,
+                "width": 49,
+                "height": 53,
+                "offsetX": 61,
+                "offsetY": 38
+              },
+              {
+                "x": 163,
+                "y": 0,
+                "width": 45,
+                "height": 49,
+                "offsetX": 63,
+                "offsetY": 40
+              },
+              {
+                "x": 0,
+                "y": 62,
+                "width": 41,
+                "height": 45,
+                "offsetX": 64,
+                "offsetY": 42
+              },
+              {
+                "x": 43,
+                "y": 62,
+                "width": 38,
+                "height": 40,
+                "offsetX": 65,
+                "offsetY": 44
+              },
+              {
+                "x": 83,
+                "y": 62,
+                "width": 35,
+                "height": 36,
+                "offsetX": 66,
+                "offsetY": 46
+              },
+              {
+                "x": 120,
+                "y": 62,
+                "width": 30,
+                "height": 32,
+                "offsetX": 68,
+                "offsetY": 48
+              },
+              {
+                "x": 152,
+                "y": 62,
+                "width": 27,
+                "height": 28,
+                "offsetX": 69,
+                "offsetY": 50
+              },
+              {
+                "x": 181,
+                "y": 62,
+                "width": 22,
+                "height": 24,
+                "offsetX": 71,
+                "offsetY": 52
+              },
+              {
+                "x": 208,
+                "y": 62,
+                "width": 1,
+                "height": 1,
+                "offsetX": 0,
+                "offsetY": 0
+              }
+            ],
+            "order": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11
+            ],
+            "fps": 38.70967741935484,
+            "loop": false
+          }
+        },
+        {
+          "kind": "release",
+          "key": "source",
+          "target": "self",
+          "durationMs": 240,
+          "loop": false,
+          "anchor": [
+            80,
+            64
+          ],
+          "returnsToCaster": false,
+          "beam": false,
+          "sound": "monster-upgrade-20261118/sts2_magi_knight/11",
+          "clip": {
+            "frames": [
+              "art/monster-upgrade-20261118/sts2_magi_knight/fx-11.png"
+            ],
+            "atlasRects": [
+              {
+                "x": 34,
+                "y": 380,
+                "width": 1,
+                "height": 1,
+                "offsetX": 0,
+                "offsetY": 0
+              },
+              {
+                "x": 0,
+                "y": 182,
+                "width": 57,
+                "height": 41,
+                "offsetX": 53,
+                "offsetY": 45
+              },
+              {
+                "x": 0,
+                "y": 0,
+                "width": 56,
+                "height": 45,
+                "offsetX": 52,
+                "offsetY": 42
+              },
+              {
+                "x": 0,
+                "y": 47,
+                "width": 57,
+                "height": 44,
+                "offsetX": 52,
+                "offsetY": 43
+              },
+              {
+                "x": 0,
+                "y": 138,
+                "width": 57,
+                "height": 42,
+                "offsetX": 51,
+                "offsetY": 43
+              },
+              {
+                "x": 0,
+                "y": 93,
+                "width": 56,
+                "height": 43,
+                "offsetX": 52,
+                "offsetY": 43
+              },
+              {
+                "x": 0,
+                "y": 225,
+                "width": 55,
+                "height": 41,
+                "offsetX": 53,
+                "offsetY": 44
+              },
+              {
+                "x": 0,
+                "y": 268,
+                "width": 52,
+                "height": 38,
+                "offsetX": 54,
+                "offsetY": 45
+              },
+              {
+                "x": 0,
+                "y": 308,
+                "width": 47,
+                "height": 36,
+                "offsetX": 56,
+                "offsetY": 46
+              },
+              {
+                "x": 0,
+                "y": 346,
+                "width": 41,
+                "height": 32,
+                "offsetX": 59,
+                "offsetY": 48
+              },
+              {
+                "x": 0,
+                "y": 380,
+                "width": 32,
+                "height": 27,
+                "offsetX": 64,
+                "offsetY": 51
+              },
+              {
+                "x": 37,
+                "y": 380,
+                "width": 1,
+                "height": 1,
+                "offsetX": 0,
+                "offsetY": 0
+              }
+            ],
+            "order": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11
+            ],
+            "fps": 50,
+            "loop": false
+          }
+        },
+        {
+          "kind": "block",
+          "key": "block_self",
+          "target": "self",
+          "durationMs": 380,
+          "loop": false,
+          "anchor": [
+            80,
+            64
+          ],
+          "returnsToCaster": false,
+          "beam": false,
+          "sound": "monster-upgrade-20261118/sts2_magi_knight/12",
+          "clip": {
+            "frames": [
+              "art/monster-upgrade-20261118/sts2_magi_knight/fx-12.png"
+            ],
+            "atlasRects": [
+              {
+                "x": 233,
+                "y": 57,
+                "width": 1,
+                "height": 1,
+                "offsetX": 0,
+                "offsetY": 0
+              },
+              {
+                "x": 190,
+                "y": 57,
+                "width": 41,
+                "height": 24,
+                "offsetX": 52,
+                "offsetY": 52
+              },
+              {
+                "x": 147,
+                "y": 57,
+                "width": 41,
+                "height": 36,
+                "offsetX": 53,
+                "offsetY": 46
+              },
+              {
+                "x": 0,
+                "y": 57,
+                "width": 41,
+                "height": 45,
+                "offsetX": 53,
+                "offsetY": 42
+              },
+              {
+                "x": 146,
+                "y": 0,
+                "width": 41,
+                "height": 52,
+                "offsetX": 55,
+                "offsetY": 38
+              },
+              {
+                "x": 49,
+                "y": 0,
+                "width": 44,
+                "height": 55,
+                "offsetX": 53,
+                "offsetY": 37
+              },
+              {
+                "x": 0,
+                "y": 0,
+                "width": 47,
+                "height": 55,
+                "offsetX": 51,
+                "offsetY": 37
+              },
+              {
+                "x": 95,
+                "y": 0,
+                "width": 49,
+                "height": 52,
+                "offsetX": 50,
+                "offsetY": 38
+              },
+              {
+                "x": 189,
+                "y": 0,
+                "width": 48,
+                "height": 46,
+                "offsetX": 51,
+                "offsetY": 42
+              },
+              {
+                "x": 43,
+                "y": 57,
+                "width": 52,
+                "height": 42,
+                "offsetX": 50,
+                "offsetY": 44
+              },
+              {
+                "x": 97,
+                "y": 57,
+                "width": 48,
+                "height": 40,
+                "offsetX": 53,
+                "offsetY": 45
+              },
+              {
+                "x": 236,
+                "y": 57,
+                "width": 1,
+                "height": 1,
+                "offsetX": 0,
+                "offsetY": 0
+              }
+            ],
+            "order": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11
+            ],
+            "fps": 31.57894736842105,
+            "loop": false
+          }
+        },
+        {
+          "kind": "tail",
+          "key": "recovery",
+          "target": "self",
+          "durationMs": 210,
+          "loop": false,
+          "anchor": [
+            80,
+            64
+          ],
+          "returnsToCaster": false,
+          "beam": false,
+          "sound": "monster-upgrade-20261118/sts2_magi_knight/13",
+          "clip": {
+            "frames": [
+              "art/monster-upgrade-20261118/sts2_magi_knight/fx-13.png"
+            ],
+            "atlasRects": [
+              {
+                "x": 358,
+                "y": 0,
+                "width": 1,
+                "height": 1,
+                "offsetX": 0,
+                "offsetY": 0
+              },
+              {
+                "x": 290,
+                "y": 0,
+                "width": 32,
+                "height": 18,
+                "offsetX": 70,
+                "offsetY": 54
+              },
+              {
+                "x": 74,
+                "y": 0,
+                "width": 34,
+                "height": 19,
+                "offsetX": 67,
+                "offsetY": 54
+              },
+              {
+                "x": 0,
+                "y": 0,
+                "width": 35,
+                "height": 19,
+                "offsetX": 66,
+                "offsetY": 54
+              },
+              {
+                "x": 37,
+                "y": 0,
+                "width": 35,
+                "height": 19,
+                "offsetX": 65,
+                "offsetY": 54
+              },
+              {
+                "x": 110,
+                "y": 0,
+                "width": 34,
+                "height": 18,
+                "offsetX": 63,
+                "offsetY": 55
+              },
+              {
+                "x": 146,
+                "y": 0,
+                "width": 34,
+                "height": 18,
+                "offsetX": 62,
+                "offsetY": 55
+              },
+              {
+                "x": 182,
+                "y": 0,
+                "width": 34,
+                "height": 18,
+                "offsetX": 62,
+                "offsetY": 55
+              },
+              {
+                "x": 218,
+                "y": 0,
+                "width": 34,
+                "height": 18,
+                "offsetX": 61,
+                "offsetY": 55
+              },
+              {
+                "x": 254,
+                "y": 0,
+                "width": 34,
+                "height": 18,
+                "offsetX": 58,
+                "offsetY": 55
+              },
+              {
+                "x": 324,
+                "y": 0,
+                "width": 32,
+                "height": 14,
+                "offsetX": 59,
+                "offsetY": 57
+              },
+              {
+                "x": 361,
+                "y": 0,
+                "width": 1,
+                "height": 1,
+                "offsetX": 0,
+                "offsetY": 0
+              }
+            ],
+            "order": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11
+            ],
+            "fps": 57.142857142857146,
+            "loop": false
+          }
+        }
+      ],
+      "damages": false,
+      "noAction": false
+    },
+    "sts2_magic_bomb": {
+      "cues": [
+        {
+          "kind": "windup",
+          "key": "windup",
+          "target": "self",
+          "durationMs": 310,
+          "loop": false,
+          "anchor": [
+            80,
+            64
+          ],
+          "returnsToCaster": false,
+          "beam": false,
+          "sound": "monster-upgrade-20261118/sts2_magi_knight/14",
+          "clip": {
+            "frames": [
+              "art/monster-upgrade-20261118/sts2_magi_knight/fx-14.png"
+            ],
+            "atlasRects": [
+              {
+                "x": 170,
+                "y": 49,
+                "width": 1,
+                "height": 1,
+                "offsetX": 0,
+                "offsetY": 0
+              },
+              {
+                "x": 0,
+                "y": 0,
+                "width": 55,
+                "height": 24,
+                "offsetX": 49,
+                "offsetY": 46
+              },
+              {
+                "x": 57,
+                "y": 0,
+                "width": 55,
+                "height": 23,
+                "offsetX": 50,
+                "offsetY": 47
+              },
+              {
+                "x": 114,
+                "y": 0,
+                "width": 53,
+                "height": 22,
+                "offsetX": 51,
+                "offsetY": 48
+              },
+              {
+                "x": 0,
+                "y": 26,
+                "width": 51,
+                "height": 21,
+                "offsetX": 52,
+                "offsetY": 49
+              },
+              {
+                "x": 53,
+                "y": 26,
+                "width": 48,
+                "height": 20,
+                "offsetX": 54,
+                "offsetY": 50
+              },
+              {
+                "x": 103,
+                "y": 26,
+                "width": 46,
+                "height": 19,
+                "offsetX": 55,
+                "offsetY": 51
+              },
+              {
+                "x": 0,
+                "y": 49,
+                "width": 44,
+                "height": 19,
+                "offsetX": 56,
+                "offsetY": 51
+              },
+              {
+                "x": 46,
+                "y": 49,
+                "width": 42,
+                "height": 19,
+                "offsetX": 57,
+                "offsetY": 51
+              },
+              {
+                "x": 90,
+                "y": 49,
+                "width": 40,
+                "height": 18,
+                "offsetX": 58,
+                "offsetY": 51
+              },
+              {
+                "x": 132,
+                "y": 49,
+                "width": 36,
+                "height": 17,
+                "offsetX": 60,
+                "offsetY": 51
+              },
+              {
+                "x": 173,
+                "y": 49,
+                "width": 1,
+                "height": 1,
+                "offsetX": 0,
+                "offsetY": 0
+              }
+            ],
+            "order": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11
+            ],
+            "fps": 38.70967741935484,
+            "loop": false
+          }
+        },
+        {
+          "kind": "release",
+          "key": "source",
+          "target": "self",
+          "durationMs": 240,
+          "loop": false,
+          "anchor": [
+            80,
+            64
+          ],
+          "returnsToCaster": false,
+          "beam": false,
+          "sound": "monster-upgrade-20261118/sts2_magi_knight/15",
+          "clip": {
+            "frames": [
+              "art/monster-upgrade-20261118/sts2_magi_knight/fx-15.png"
+            ],
+            "atlasRects": [
+              {
+                "x": 38,
+                "y": 206,
+                "width": 1,
+                "height": 1,
+                "offsetX": 0,
+                "offsetY": 0
+              },
+              {
+                "x": 0,
+                "y": 186,
+                "width": 37,
+                "height": 18,
+                "offsetX": 68,
+                "offsetY": 55
+              },
+              {
+                "x": 0,
+                "y": 142,
+                "width": 38,
+                "height": 20,
+                "offsetX": 67,
+                "offsetY": 54
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "width": 38,
+                "height": 21,
+                "offsetX": 67,
+                "offsetY": 54
+              },
+              {
+                "x": 0,
+                "y": 0,
+                "width": 39,
+                "height": 22,
+                "offsetX": 66,
+                "offsetY": 53
+              },
+              {
+                "x": 0,
+                "y": 24,
+                "width": 39,
+                "height": 22,
+                "offsetX": 66,
+                "offsetY": 53
+              },
+              {
+                "x": 0,
+                "y": 48,
+                "width": 39,
+                "height": 22,
+                "offsetX": 66,
+                "offsetY": 53
+              },
+              {
+                "x": 0,
+                "y": 72,
+                "width": 39,
+                "height": 22,
+                "offsetX": 66,
+                "offsetY": 53
+              },
+              {
+                "x": 0,
+                "y": 119,
+                "width": 38,
+                "height": 21,
+                "offsetX": 67,
+                "offsetY": 54
+              },
+              {
+                "x": 0,
+                "y": 164,
+                "width": 38,
+                "height": 20,
+                "offsetX": 67,
+                "offsetY": 54
+              },
+              {
+                "x": 0,
+                "y": 206,
+                "width": 36,
+                "height": 17,
+                "offsetX": 69,
+                "offsetY": 56
+              },
+              {
+                "x": 0,
+                "y": 225,
+                "width": 1,
+                "height": 1,
+                "offsetX": 0,
+                "offsetY": 0
+              }
+            ],
+            "order": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11
+            ],
+            "fps": 50,
+            "loop": false
+          }
+        },
+        {
+          "kind": "travel",
+          "key": "travel",
+          "target": "path",
+          "durationMs": 320,
+          "loop": false,
+          "anchor": [
+            126,
+            64
+          ],
+          "returnsToCaster": false,
+          "beam": false,
+          "sound": "monster-upgrade-20261118/sts2_magi_knight/16",
+          "clip": {
+            "frames": [
+              "art/monster-upgrade-20261118/sts2_magi_knight/fx-16.png"
+            ],
+            "atlasRects": [
+              {
+                "x": 0,
+                "y": 223,
+                "width": 1,
+                "height": 1,
+                "offsetX": 0,
+                "offsetY": 0
+              },
+              {
+                "x": 0,
+                "y": 184,
+                "width": 37,
+                "height": 18,
+                "offsetX": 98,
+                "offsetY": 52
+              },
+              {
+                "x": 0,
+                "y": 118,
+                "width": 38,
+                "height": 20,
+                "offsetX": 83,
+                "offsetY": 48
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "width": 39,
+                "height": 20,
+                "offsetX": 69,
+                "offsetY": 46
+              },
+              {
+                "x": 0,
+                "y": 0,
+                "width": 39,
+                "height": 22,
+                "offsetX": 58,
+                "offsetY": 43
+              },
+              {
+                "x": 0,
+                "y": 24,
+                "width": 39,
+                "height": 22,
+                "offsetX": 48,
+                "offsetY": 42
+              },
+              {
+                "x": 0,
+                "y": 48,
+                "width": 39,
+                "height": 22,
+                "offsetX": 39,
+                "offsetY": 42
+              },
+              {
+                "x": 0,
+                "y": 72,
+                "width": 38,
+                "height": 22,
+                "offsetX": 33,
+                "offsetY": 43
+              },
+              {
+                "x": 0,
+                "y": 140,
+                "width": 38,
+                "height": 20,
+                "offsetX": 28,
+                "offsetY": 46
+              },
+              {
+                "x": 0,
+                "y": 162,
+                "width": 38,
+                "height": 20,
+                "offsetX": 24,
+                "offsetY": 48
+              },
+              {
+                "x": 0,
+                "y": 204,
+                "width": 37,
+                "height": 17,
+                "offsetX": 23,
+                "offsetY": 53
+              },
+              {
+                "x": 3,
+                "y": 223,
+                "width": 1,
+                "height": 1,
+                "offsetX": 0,
+                "offsetY": 0
+              }
+            ],
+            "order": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11
+            ],
+            "fps": 37.5,
+            "loop": false
+          }
+        },
+        {
+          "kind": "hit",
+          "key": "hit_target",
+          "target": "player",
+          "durationMs": 220,
+          "loop": false,
+          "anchor": [
+            80,
+            64
+          ],
+          "returnsToCaster": false,
+          "beam": false,
+          "sound": "monster-upgrade-20261118/sts2_magi_knight/17",
+          "clip": {
+            "frames": [
+              "art/monster-upgrade-20261118/sts2_magi_knight/fx-17.png"
+            ],
+            "atlasRects": [
+              {
+                "x": 0,
+                "y": 410,
+                "width": 1,
+                "height": 1,
+                "offsetX": 0,
+                "offsetY": 0
+              },
+              {
+                "x": 40,
+                "y": 381,
+                "width": 33,
+                "height": 19,
+                "offsetX": 64,
+                "offsetY": 54
+              },
+              {
+                "x": 0,
+                "y": 381,
+                "width": 38,
+                "height": 27,
+                "offsetX": 62,
+                "offsetY": 49
+              },
+              {
+                "x": 0,
+                "y": 346,
+                "width": 46,
+                "height": 33,
+                "offsetX": 59,
+                "offsetY": 46
+              },
+              {
+                "x": 0,
+                "y": 305,
+                "width": 53,
+                "height": 39,
+                "offsetX": 56,
+                "offsetY": 42
+              },
+              {
+                "x": 0,
+                "y": 260,
+                "width": 60,
+                "height": 43,
+                "offsetX": 53,
+                "offsetY": 40
+              },
+              {
+                "x": 0,
+                "y": 212,
+                "width": 66,
+                "height": 46,
+                "offsetX": 50,
+                "offsetY": 38
+              },
+              {
+                "x": 0,
+                "y": 161,
+                "width": 70,
+                "height": 49,
+                "offsetX": 48,
+                "offsetY": 36
+              },
+              {
+                "x": 0,
+                "y": 108,
+                "width": 73,
+                "height": 51,
+                "offsetX": 47,
+                "offsetY": 35
+              },
+              {
+                "x": 0,
+                "y": 0,
+                "width": 75,
+                "height": 52,
+                "offsetX": 46,
+                "offsetY": 34
+              },
+              {
+                "x": 0,
+                "y": 54,
+                "width": 73,
+                "height": 52,
+                "offsetX": 46,
+                "offsetY": 34
+              },
+              {
+                "x": 3,
+                "y": 410,
+                "width": 1,
+                "height": 1,
+                "offsetX": 0,
+                "offsetY": 0
+              }
+            ],
+            "order": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11
+            ],
+            "fps": 54.54545454545455,
+            "loop": false
+          }
+        },
+        {
+          "kind": "tail",
+          "key": "recovery",
+          "target": "self",
+          "durationMs": 210,
+          "loop": false,
+          "anchor": [
+            80,
+            64
+          ],
+          "returnsToCaster": false,
+          "beam": false,
+          "sound": "monster-upgrade-20261118/sts2_magi_knight/18",
+          "clip": {
+            "frames": [
+              "art/monster-upgrade-20261118/sts2_magi_knight/fx-18.png"
+            ],
+            "atlasRects": [
+              {
+                "x": 358,
+                "y": 0,
+                "width": 1,
+                "height": 1,
+                "offsetX": 0,
+                "offsetY": 0
+              },
+              {
+                "x": 290,
+                "y": 0,
+                "width": 32,
+                "height": 19,
+                "offsetX": 70,
+                "offsetY": 53
+              },
+              {
+                "x": 74,
+                "y": 0,
+                "width": 34,
+                "height": 20,
+                "offsetX": 67,
+                "offsetY": 53
+              },
+              {
+                "x": 0,
+                "y": 0,
+                "width": 35,
+                "height": 20,
+                "offsetX": 66,
+                "offsetY": 53
+              },
+              {
+                "x": 37,
+                "y": 0,
+                "width": 35,
+                "height": 20,
+                "offsetX": 65,
+                "offsetY": 53
+              },
+              {
+                "x": 110,
+                "y": 0,
+                "width": 34,
+                "height": 20,
+                "offsetX": 63,
+                "offsetY": 53
+              },
+              {
+                "x": 146,
+                "y": 0,
+                "width": 34,
+                "height": 20,
+                "offsetX": 62,
+                "offsetY": 53
+              },
+              {
+                "x": 182,
+                "y": 0,
+                "width": 34,
+                "height": 20,
+                "offsetX": 62,
+                "offsetY": 53
+              },
+              {
+                "x": 218,
+                "y": 0,
+                "width": 34,
+                "height": 20,
+                "offsetX": 61,
+                "offsetY": 53
+              },
+              {
+                "x": 254,
+                "y": 0,
+                "width": 34,
+                "height": 20,
+                "offsetX": 58,
+                "offsetY": 53
+              },
+              {
+                "x": 324,
+                "y": 0,
+                "width": 32,
+                "height": 18,
+                "offsetX": 59,
+                "offsetY": 53
+              },
+              {
+                "x": 361,
+                "y": 0,
+                "width": 1,
+                "height": 1,
+                "offsetX": 0,
+                "offsetY": 0
+              }
+            ],
+            "order": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11
+            ],
+            "fps": 57.142857142857146,
+            "loop": false
+          }
+        }
+      ],
+      "damages": true,
+      "noAction": false
+    },
+    "sts2_ram": {
+      "cues": [
+        {
+          "kind": "windup",
+          "key": "windup",
+          "target": "self",
+          "durationMs": 310,
+          "loop": false,
+          "anchor": [
+            80,
+            64
+          ],
+          "returnsToCaster": false,
+          "beam": false,
+          "sound": "monster-upgrade-20261118/sts2_magi_knight/19",
+          "clip": {
+            "frames": [
+              "art/monster-upgrade-20261118/sts2_magi_knight/fx-19.png"
+            ],
+            "atlasRects": [
+              {
+                "x": 510,
+                "y": 0,
+                "width": 1,
+                "height": 1,
+                "offsetX": 0,
+                "offsetY": 0
+              },
+              {
+                "x": 54,
+                "y": 0,
+                "width": 58,
+                "height": 20,
+                "offsetX": 49,
+                "offsetY": 47
+              },
+              {
+                "x": 114,
+                "y": 0,
+                "width": 58,
+                "height": 20,
+                "offsetX": 50,
+                "offsetY": 47
+              },
+              {
+                "x": 174,
+                "y": 0,
+                "width": 55,
+                "height": 20,
+                "offsetX": 51,
+                "offsetY": 47
+              },
+              {
+                "x": 0,
+                "y": 0,
+                "width": 52,
+                "height": 21,
+                "offsetX": 53,
+                "offsetY": 46
+              },
+              {
+                "x": 231,
+                "y": 0,
+                "width": 50,
+                "height": 19,
+                "offsetX": 54,
+                "offsetY": 48
+              },
+              {
+                "x": 283,
+                "y": 0,
+                "width": 48,
+                "height": 18,
+                "offsetX": 55,
+                "offsetY": 49
+              },
+              {
+                "x": 333,
+                "y": 0,
+                "width": 46,
+                "height": 18,
+                "offsetX": 56,
+                "offsetY": 49
+              },
+              {
+                "x": 381,
+                "y": 0,
+                "width": 44,
+                "height": 16,
+                "offsetX": 57,
+                "offsetY": 51
+              },
+              {
+                "x": 427,
+                "y": 0,
+                "width": 42,
+                "height": 16,
+                "offsetX": 58,
+                "offsetY": 51
+              },
+              {
+                "x": 471,
+                "y": 0,
+                "width": 37,
+                "height": 16,
+                "offsetX": 60,
+                "offsetY": 51
+              },
+              {
+                "x": 513,
+                "y": 0,
+                "width": 1,
+                "height": 1,
+                "offsetX": 0,
+                "offsetY": 0
+              }
+            ],
+            "order": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11
+            ],
+            "fps": 38.70967741935484,
+            "loop": false
+          }
+        },
+        {
+          "kind": "release",
+          "key": "source",
+          "target": "self",
+          "durationMs": 240,
+          "loop": false,
+          "anchor": [
+            80,
+            64
+          ],
+          "returnsToCaster": false,
+          "beam": false,
+          "sound": "monster-upgrade-20261118/sts2_magi_knight/20",
+          "clip": {
+            "frames": [
+              "art/monster-upgrade-20261118/sts2_magi_knight/fx-20.png"
+            ],
+            "atlasRects": [
+              {
+                "x": 664,
+                "y": 0,
+                "width": 1,
+                "height": 1,
+                "offsetX": 0,
+                "offsetY": 0
+              },
+              {
+                "x": 612,
+                "y": 0,
+                "width": 50,
+                "height": 26,
+                "offsetX": 49,
+                "offsetY": 58
+              },
+              {
+                "x": 554,
+                "y": 0,
+                "width": 56,
+                "height": 26,
+                "offsetX": 45,
+                "offsetY": 58
+              },
+              {
+                "x": 491,
+                "y": 0,
+                "width": 61,
+                "height": 27,
+                "offsetX": 42,
+                "offsetY": 58
+              },
+              {
+                "x": 425,
+                "y": 0,
+                "width": 64,
+                "height": 27,
+                "offsetX": 40,
+                "offsetY": 58
+              },
+              {
+                "x": 356,
+                "y": 0,
+                "width": 67,
+                "height": 28,
+                "offsetX": 39,
+                "offsetY": 58
+              },
+              {
+                "x": 144,
+                "y": 0,
+                "width": 69,
+                "height": 28,
+                "offsetX": 39,
+                "offsetY": 58
+              },
+              {
+                "x": 0,
+                "y": 0,
+                "width": 70,
+                "height": 28,
+                "offsetX": 40,
+                "offsetY": 58
+              },
+              {
+                "x": 72,
+                "y": 0,
+                "width": 70,
+                "height": 28,
+                "offsetX": 42,
+                "offsetY": 58
+              },
+              {
+                "x": 286,
+                "y": 0,
+                "width": 68,
+                "height": 28,
+                "offsetX": 45,
+                "offsetY": 58
+              },
+              {
+                "x": 215,
+                "y": 0,
+                "width": 69,
+                "height": 28,
+                "offsetX": 46,
+                "offsetY": 58
+              },
+              {
+                "x": 667,
+                "y": 0,
+                "width": 1,
+                "height": 1,
+                "offsetX": 0,
+                "offsetY": 0
+              }
+            ],
+            "order": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11
+            ],
+            "fps": 50,
+            "loop": false
+          }
+        },
+        {
+          "kind": "travel",
+          "key": "trail",
+          "target": "path",
+          "durationMs": 320,
+          "loop": false,
+          "anchor": [
+            80,
+            64
+          ],
+          "returnsToCaster": false,
+          "beam": false,
+          "sound": "monster-upgrade-20261118/sts2_magi_knight/21",
+          "clip": {
+            "frames": [
+              "art/monster-upgrade-20261118/sts2_magi_knight/fx-21.png"
+            ],
+            "atlasRects": [
+              {
+                "x": 698,
+                "y": 0,
+                "width": 1,
+                "height": 1,
+                "offsetX": 0,
+                "offsetY": 0
+              },
+              {
+                "x": 644,
+                "y": 0,
+                "width": 52,
+                "height": 32,
+                "offsetX": 47,
+                "offsetY": 52
+              },
+              {
+                "x": 511,
+                "y": 0,
+                "width": 60,
+                "height": 35,
+                "offsetX": 41,
+                "offsetY": 49
+              },
+              {
+                "x": 444,
+                "y": 0,
+                "width": 65,
+                "height": 37,
+                "offsetX": 38,
+                "offsetY": 48
+              },
+              {
+                "x": 300,
+                "y": 0,
+                "width": 68,
+                "height": 38,
+                "offsetX": 36,
+                "offsetY": 47
+              },
+              {
+                "x": 227,
+                "y": 0,
+                "width": 71,
+                "height": 38,
+                "offsetX": 35,
+                "offsetY": 47
+              },
+              {
+                "x": 152,
+                "y": 0,
+                "width": 73,
+                "height": 38,
+                "offsetX": 35,
+                "offsetY": 47
+              },
+              {
+                "x": 0,
+                "y": 0,
+                "width": 74,
+                "height": 39,
+                "offsetX": 36,
+                "offsetY": 47
+              },
+              {
+                "x": 76,
+                "y": 0,
+                "width": 74,
+                "height": 38,
+                "offsetX": 38,
+                "offsetY": 48
+              },
+              {
+                "x": 370,
+                "y": 0,
+                "width": 72,
+                "height": 37,
+                "offsetX": 41,
+                "offsetY": 49
+              },
+              {
+                "x": 573,
+                "y": 0,
+                "width": 69,
+                "height": 34,
+                "offsetX": 46,
+                "offsetY": 52
+              },
+              {
+                "x": 701,
+                "y": 0,
+                "width": 1,
+                "height": 1,
+                "offsetX": 0,
+                "offsetY": 0
+              }
+            ],
+            "order": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11
+            ],
+            "fps": 37.5,
+            "loop": false
+          }
+        },
+        {
+          "kind": "hit",
+          "key": "hit_target",
+          "target": "player",
+          "durationMs": 220,
+          "loop": false,
+          "anchor": [
+            80,
+            64
+          ],
+          "returnsToCaster": false,
+          "beam": false,
+          "sound": "monster-upgrade-20261118/sts2_magi_knight/22",
+          "clip": {
+            "frames": [
+              "art/monster-upgrade-20261118/sts2_magi_knight/fx-22.png"
+            ],
+            "atlasRects": [
+              {
+                "x": 0,
+                "y": 513,
+                "width": 1,
+                "height": 1,
+                "offsetX": 0,
+                "offsetY": 0
+              },
+              {
+                "x": 46,
+                "y": 478,
+                "width": 35,
+                "height": 28,
+                "offsetX": 63,
+                "offsetY": 50
+              },
+              {
+                "x": 0,
+                "y": 478,
+                "width": 44,
+                "height": 33,
+                "offsetX": 59,
+                "offsetY": 46
+              },
+              {
+                "x": 0,
+                "y": 434,
+                "width": 52,
+                "height": 42,
+                "offsetX": 55,
+                "offsetY": 41
+              },
+              {
+                "x": 0,
+                "y": 381,
+                "width": 59,
+                "height": 51,
+                "offsetX": 51,
+                "offsetY": 35
+              },
+              {
+                "x": 0,
+                "y": 324,
+                "width": 66,
+                "height": 55,
+                "offsetX": 48,
+                "offsetY": 33
+              },
+              {
+                "x": 0,
+                "y": 261,
+                "width": 72,
+                "height": 61,
+                "offsetX": 45,
+                "offsetY": 29
+              },
+              {
+                "x": 0,
+                "y": 197,
+                "width": 76,
+                "height": 62,
+                "offsetX": 43,
+                "offsetY": 29
+              },
+              {
+                "x": 0,
+                "y": 66,
+                "width": 79,
+                "height": 64,
+                "offsetX": 42,
+                "offsetY": 28
+              },
+              {
+                "x": 0,
+                "y": 0,
+                "width": 82,
+                "height": 64,
+                "offsetX": 40,
+                "offsetY": 28
+              },
+              {
+                "x": 0,
+                "y": 132,
+                "width": 82,
+                "height": 63,
+                "offsetX": 40,
+                "offsetY": 27
+              },
+              {
+                "x": 3,
+                "y": 513,
+                "width": 1,
+                "height": 1,
+                "offsetX": 0,
+                "offsetY": 0
+              }
+            ],
+            "order": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11
+            ],
+            "fps": 54.54545454545455,
+            "loop": false
+          }
+        },
+        {
+          "kind": "tail",
+          "key": "recovery",
+          "target": "self",
+          "durationMs": 210,
+          "loop": false,
+          "anchor": [
+            80,
+            64
+          ],
+          "returnsToCaster": false,
+          "beam": false,
+          "sound": "monster-upgrade-20261118/sts2_magi_knight/23",
+          "clip": {
+            "frames": [
+              "art/monster-upgrade-20261118/sts2_magi_knight/fx-23.png"
+            ],
+            "atlasRects": [
+              {
+                "x": 358,
+                "y": 0,
+                "width": 1,
+                "height": 1,
+                "offsetX": 0,
+                "offsetY": 0
+              },
+              {
+                "x": 290,
+                "y": 0,
+                "width": 32,
+                "height": 18,
+                "offsetX": 70,
+                "offsetY": 54
+              },
+              {
+                "x": 74,
+                "y": 0,
+                "width": 34,
+                "height": 19,
+                "offsetX": 67,
+                "offsetY": 54
+              },
+              {
+                "x": 0,
+                "y": 0,
+                "width": 35,
+                "height": 19,
+                "offsetX": 66,
+                "offsetY": 54
+              },
+              {
+                "x": 37,
+                "y": 0,
+                "width": 35,
+                "height": 19,
+                "offsetX": 65,
+                "offsetY": 54
+              },
+              {
+                "x": 110,
+                "y": 0,
+                "width": 34,
+                "height": 19,
+                "offsetX": 63,
+                "offsetY": 54
+              },
+              {
+                "x": 146,
+                "y": 0,
+                "width": 34,
+                "height": 18,
+                "offsetX": 62,
+                "offsetY": 55
+              },
+              {
+                "x": 182,
+                "y": 0,
+                "width": 34,
+                "height": 18,
+                "offsetX": 62,
+                "offsetY": 55
+              },
+              {
+                "x": 218,
+                "y": 0,
+                "width": 34,
+                "height": 18,
+                "offsetX": 61,
+                "offsetY": 55
+              },
+              {
+                "x": 254,
+                "y": 0,
+                "width": 34,
+                "height": 18,
+                "offsetX": 58,
+                "offsetY": 55
+              },
+              {
+                "x": 324,
+                "y": 0,
+                "width": 32,
+                "height": 15,
+                "offsetX": 59,
+                "offsetY": 56
+              },
+              {
+                "x": 361,
+                "y": 0,
+                "width": 1,
+                "height": 1,
+                "offsetX": 0,
+                "offsetY": 0
+              }
+            ],
+            "order": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11
+            ],
+            "fps": 57.142857142857146,
+            "loop": false
+          }
+        }
+      ],
+      "damages": true,
+      "noAction": false
+    }
+  },
+  "events": {},
+  "dependencies": []
+}

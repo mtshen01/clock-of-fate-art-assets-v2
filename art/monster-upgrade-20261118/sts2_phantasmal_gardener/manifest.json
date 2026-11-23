@@ -1,0 +1,2588 @@
+{
+  "id": "sts2_phantasmal_gardener",
+  "pivot": {
+    "x": 0.5,
+    "y": 0.16666666666666663
+  },
+  "visualBounds": {
+    "top": 0.5221354166666667,
+    "bottom": 0.16666666666666663
+  },
+  "pose": {
+    "frames": [
+      "art/monster-upgrade-20261118/sts2_phantasmal_gardener/idle.png"
+    ],
+    "atlasRects": [
+      {
+        "x": 0,
+        "y": 0,
+        "width": 146,
+        "height": 142,
+        "offsetX": 119,
+        "offsetY": 181
+      }
+    ],
+    "order": [
+      0
+    ],
+    "fps": 1,
+    "loop": true,
+    "holdLastFrame": false
+  },
+  "moves": {
+    "sts2_bite": {
+      "cues": [
+        {
+          "kind": "windup",
+          "key": "windup",
+          "target": "self",
+          "durationMs": 310,
+          "loop": false,
+          "anchor": [
+            80,
+            64
+          ],
+          "returnsToCaster": false,
+          "beam": false,
+          "sound": "monster-upgrade-20261118/sts2_phantasmal_gardener/00",
+          "clip": {
+            "frames": [
+              "art/monster-upgrade-20261118/sts2_phantasmal_gardener/fx-00.png"
+            ],
+            "atlasRects": [
+              {
+                "x": 36,
+                "y": 342,
+                "width": 1,
+                "height": 1,
+                "offsetX": 0,
+                "offsetY": 0
+              },
+              {
+                "x": 0,
+                "y": 85,
+                "width": 53,
+                "height": 39,
+                "offsetX": 49,
+                "offsetY": 44
+              },
+              {
+                "x": 0,
+                "y": 126,
+                "width": 53,
+                "height": 39,
+                "offsetX": 50,
+                "offsetY": 45
+              },
+              {
+                "x": 0,
+                "y": 43,
+                "width": 51,
+                "height": 40,
+                "offsetX": 51,
+                "offsetY": 45
+              },
+              {
+                "x": 0,
+                "y": 0,
+                "width": 49,
+                "height": 41,
+                "offsetX": 52,
+                "offsetY": 44
+              },
+              {
+                "x": 0,
+                "y": 167,
+                "width": 47,
+                "height": 39,
+                "offsetX": 53,
+                "offsetY": 45
+              },
+              {
+                "x": 0,
+                "y": 208,
+                "width": 44,
+                "height": 37,
+                "offsetX": 55,
+                "offsetY": 46
+              },
+              {
+                "x": 0,
+                "y": 247,
+                "width": 42,
+                "height": 33,
+                "offsetX": 56,
+                "offsetY": 49
+              },
+              {
+                "x": 0,
+                "y": 282,
+                "width": 41,
+                "height": 29,
+                "offsetX": 57,
+                "offsetY": 51
+              },
+              {
+                "x": 0,
+                "y": 313,
+                "width": 39,
+                "height": 27,
+                "offsetX": 58,
+                "offsetY": 51
+              },
+              {
+                "x": 0,
+                "y": 342,
+                "width": 34,
+                "height": 24,
+                "offsetX": 60,
+                "offsetY": 51
+              },
+              {
+                "x": 39,
+                "y": 342,
+                "width": 1,
+                "height": 1,
+                "offsetX": 0,
+                "offsetY": 0
+              }
+            ],
+            "order": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11
+            ],
+            "fps": 38.70967741935484,
+            "loop": false
+          }
+        },
+        {
+          "kind": "release",
+          "key": "source",
+          "target": "self",
+          "durationMs": 240,
+          "loop": false,
+          "anchor": [
+            80,
+            64
+          ],
+          "returnsToCaster": false,
+          "beam": false,
+          "sound": "monster-upgrade-20261118/sts2_phantasmal_gardener/01",
+          "clip": {
+            "frames": [
+              "art/monster-upgrade-20261118/sts2_phantasmal_gardener/fx-01.png"
+            ],
+            "atlasRects": [
+              {
+                "x": 418,
+                "y": 0,
+                "width": 1,
+                "height": 1,
+                "offsetX": 0,
+                "offsetY": 0
+              },
+              {
+                "x": 350,
+                "y": 0,
+                "width": 32,
+                "height": 20,
+                "offsetX": 47,
+                "offsetY": 52
+              },
+              {
+                "x": 272,
+                "y": 0,
+                "width": 37,
+                "height": 23,
+                "offsetX": 43,
+                "offsetY": 50
+              },
+              {
+                "x": 186,
+                "y": 0,
+                "width": 41,
+                "height": 24,
+                "offsetX": 40,
+                "offsetY": 49
+              },
+              {
+                "x": 94,
+                "y": 0,
+                "width": 44,
+                "height": 26,
+                "offsetX": 38,
+                "offsetY": 48
+              },
+              {
+                "x": 0,
+                "y": 0,
+                "width": 45,
+                "height": 27,
+                "offsetX": 37,
+                "offsetY": 47
+              },
+              {
+                "x": 47,
+                "y": 0,
+                "width": 45,
+                "height": 27,
+                "offsetX": 37,
+                "offsetY": 47
+              },
+              {
+                "x": 140,
+                "y": 0,
+                "width": 44,
+                "height": 26,
+                "offsetX": 38,
+                "offsetY": 48
+              },
+              {
+                "x": 229,
+                "y": 0,
+                "width": 41,
+                "height": 24,
+                "offsetX": 40,
+                "offsetY": 49
+              },
+              {
+                "x": 311,
+                "y": 0,
+                "width": 37,
+                "height": 23,
+                "offsetX": 43,
+                "offsetY": 50
+              },
+              {
+                "x": 384,
+                "y": 0,
+                "width": 32,
+                "height": 20,
+                "offsetX": 47,
+                "offsetY": 52
+              },
+              {
+                "x": 421,
+                "y": 0,
+                "width": 1,
+                "height": 1,
+                "offsetX": 0,
+                "offsetY": 0
+              }
+            ],
+            "order": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11
+            ],
+            "fps": 50,
+            "loop": false
+          }
+        },
+        {
+          "kind": "travel",
+          "key": "trail",
+          "target": "path",
+          "durationMs": 320,
+          "loop": false,
+          "anchor": [
+            80,
+            64
+          ],
+          "returnsToCaster": false,
+          "beam": false,
+          "sound": "monster-upgrade-20261118/sts2_phantasmal_gardener/02",
+          "clip": {
+            "frames": [
+              "art/monster-upgrade-20261118/sts2_phantasmal_gardener/fx-02.png"
+            ],
+            "atlasRects": [
+              {
+                "x": 418,
+                "y": 0,
+                "width": 1,
+                "height": 1,
+                "offsetX": 0,
+                "offsetY": 0
+              },
+              {
+                "x": 350,
+                "y": 0,
+                "width": 32,
+                "height": 20,
+                "offsetX": 47,
+                "offsetY": 53
+              },
+              {
+                "x": 272,
+                "y": 0,
+                "width": 37,
+                "height": 23,
+                "offsetX": 43,
+                "offsetY": 51
+              },
+              {
+                "x": 186,
+                "y": 0,
+                "width": 41,
+                "height": 25,
+                "offsetX": 40,
+                "offsetY": 50
+              },
+              {
+                "x": 94,
+                "y": 0,
+                "width": 44,
+                "height": 26,
+                "offsetX": 38,
+                "offsetY": 49
+              },
+              {
+                "x": 0,
+                "y": 0,
+                "width": 45,
+                "height": 26,
+                "offsetX": 37,
+                "offsetY": 49
+              },
+              {
+                "x": 47,
+                "y": 0,
+                "width": 45,
+                "height": 26,
+                "offsetX": 37,
+                "offsetY": 49
+              },
+              {
+                "x": 140,
+                "y": 0,
+                "width": 44,
+                "height": 26,
+                "offsetX": 38,
+                "offsetY": 49
+              },
+              {
+                "x": 229,
+                "y": 0,
+                "width": 41,
+                "height": 25,
+                "offsetX": 40,
+                "offsetY": 50
+              },
+              {
+                "x": 311,
+                "y": 0,
+                "width": 37,
+                "height": 23,
+                "offsetX": 43,
+                "offsetY": 51
+              },
+              {
+                "x": 384,
+                "y": 0,
+                "width": 32,
+                "height": 20,
+                "offsetX": 47,
+                "offsetY": 53
+              },
+              {
+                "x": 421,
+                "y": 0,
+                "width": 1,
+                "height": 1,
+                "offsetX": 0,
+                "offsetY": 0
+              }
+            ],
+            "order": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11
+            ],
+            "fps": 37.5,
+            "loop": false
+          }
+        },
+        {
+          "kind": "hit",
+          "key": "hit_target",
+          "target": "player",
+          "durationMs": 220,
+          "loop": false,
+          "anchor": [
+            80,
+            64
+          ],
+          "returnsToCaster": false,
+          "beam": false,
+          "sound": "monster-upgrade-20261118/sts2_phantasmal_gardener/03",
+          "clip": {
+            "frames": [
+              "art/monster-upgrade-20261118/sts2_phantasmal_gardener/fx-03.png"
+            ],
+            "atlasRects": [
+              {
+                "x": 86,
+                "y": 493,
+                "width": 1,
+                "height": 1,
+                "offsetX": 0,
+                "offsetY": 0
+              },
+              {
+                "x": 49,
+                "y": 493,
+                "width": 35,
+                "height": 28,
+                "offsetX": 63,
+                "offsetY": 51
+              },
+              {
+                "x": 0,
+                "y": 493,
+                "width": 47,
+                "height": 37,
+                "offsetX": 59,
+                "offsetY": 48
+              },
+              {
+                "x": 0,
+                "y": 444,
+                "width": 57,
+                "height": 47,
+                "offsetX": 55,
+                "offsetY": 43
+              },
+              {
+                "x": 0,
+                "y": 389,
+                "width": 68,
+                "height": 53,
+                "offsetX": 51,
+                "offsetY": 40
+              },
+              {
+                "x": 0,
+                "y": 330,
+                "width": 74,
+                "height": 57,
+                "offsetX": 48,
+                "offsetY": 39
+              },
+              {
+                "x": 0,
+                "y": 266,
+                "width": 82,
+                "height": 62,
+                "offsetX": 45,
+                "offsetY": 38
+              },
+              {
+                "x": 0,
+                "y": 0,
+                "width": 86,
+                "height": 66,
+                "offsetX": 43,
+                "offsetY": 36
+              },
+              {
+                "x": 0,
+                "y": 68,
+                "width": 88,
+                "height": 65,
+                "offsetX": 42,
+                "offsetY": 36
+              },
+              {
+                "x": 0,
+                "y": 135,
+                "width": 88,
+                "height": 65,
+                "offsetX": 40,
+                "offsetY": 37
+              },
+              {
+                "x": 0,
+                "y": 202,
+                "width": 86,
+                "height": 62,
+                "offsetX": 40,
+                "offsetY": 39
+              },
+              {
+                "x": 0,
+                "y": 532,
+                "width": 1,
+                "height": 1,
+                "offsetX": 0,
+                "offsetY": 0
+              }
+            ],
+            "order": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11
+            ],
+            "fps": 54.54545454545455,
+            "loop": false
+          }
+        },
+        {
+          "kind": "tail",
+          "key": "recovery",
+          "target": "self",
+          "durationMs": 210,
+          "loop": false,
+          "anchor": [
+            80,
+            64
+          ],
+          "returnsToCaster": false,
+          "beam": false,
+          "sound": "monster-upgrade-20261118/sts2_phantasmal_gardener/04",
+          "clip": {
+            "frames": [
+              "art/monster-upgrade-20261118/sts2_phantasmal_gardener/fx-04.png"
+            ],
+            "atlasRects": [
+              {
+                "x": 358,
+                "y": 0,
+                "width": 1,
+                "height": 1,
+                "offsetX": 0,
+                "offsetY": 0
+              },
+              {
+                "x": 290,
+                "y": 0,
+                "width": 32,
+                "height": 18,
+                "offsetX": 70,
+                "offsetY": 54
+              },
+              {
+                "x": 74,
+                "y": 0,
+                "width": 34,
+                "height": 19,
+                "offsetX": 67,
+                "offsetY": 54
+              },
+              {
+                "x": 0,
+                "y": 0,
+                "width": 35,
+                "height": 19,
+                "offsetX": 66,
+                "offsetY": 54
+              },
+              {
+                "x": 37,
+                "y": 0,
+                "width": 35,
+                "height": 19,
+                "offsetX": 65,
+                "offsetY": 54
+              },
+              {
+                "x": 110,
+                "y": 0,
+                "width": 34,
+                "height": 19,
+                "offsetX": 63,
+                "offsetY": 54
+              },
+              {
+                "x": 146,
+                "y": 0,
+                "width": 34,
+                "height": 18,
+                "offsetX": 62,
+                "offsetY": 55
+              },
+              {
+                "x": 182,
+                "y": 0,
+                "width": 34,
+                "height": 18,
+                "offsetX": 62,
+                "offsetY": 55
+              },
+              {
+                "x": 218,
+                "y": 0,
+                "width": 34,
+                "height": 18,
+                "offsetX": 61,
+                "offsetY": 55
+              },
+              {
+                "x": 254,
+                "y": 0,
+                "width": 34,
+                "height": 18,
+                "offsetX": 58,
+                "offsetY": 55
+              },
+              {
+                "x": 324,
+                "y": 0,
+                "width": 32,
+                "height": 15,
+                "offsetX": 59,
+                "offsetY": 56
+              },
+              {
+                "x": 361,
+                "y": 0,
+                "width": 1,
+                "height": 1,
+                "offsetX": 0,
+                "offsetY": 0
+              }
+            ],
+            "order": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11
+            ],
+            "fps": 57.142857142857146,
+            "loop": false
+          }
+        }
+      ],
+      "damages": true,
+      "noAction": false
+    },
+    "sts2_lash": {
+      "cues": [
+        {
+          "kind": "windup",
+          "key": "windup",
+          "target": "self",
+          "durationMs": 310,
+          "loop": false,
+          "anchor": [
+            80,
+            64
+          ],
+          "returnsToCaster": false,
+          "beam": false,
+          "sound": "monster-upgrade-20261118/sts2_phantasmal_gardener/05",
+          "clip": {
+            "frames": [
+              "art/monster-upgrade-20261118/sts2_phantasmal_gardener/fx-05.png"
+            ],
+            "atlasRects": [
+              {
+                "x": 163,
+                "y": 58,
+                "width": 1,
+                "height": 1,
+                "offsetX": 0,
+                "offsetY": 0
+              },
+              {
+                "x": 95,
+                "y": 30,
+                "width": 57,
+                "height": 24,
+                "offsetX": 49,
+                "offsetY": 48
+              },
+              {
+                "x": 106,
+                "y": 0,
+                "width": 55,
+                "height": 27,
+                "offsetX": 50,
+                "offsetY": 47
+              },
+              {
+                "x": 0,
+                "y": 0,
+                "width": 53,
+                "height": 28,
+                "offsetX": 51,
+                "offsetY": 45
+              },
+              {
+                "x": 55,
+                "y": 0,
+                "width": 49,
+                "height": 28,
+                "offsetX": 53,
+                "offsetY": 45
+              },
+              {
+                "x": 46,
+                "y": 30,
+                "width": 47,
+                "height": 25,
+                "offsetX": 54,
+                "offsetY": 47
+              },
+              {
+                "x": 0,
+                "y": 30,
+                "width": 44,
+                "height": 26,
+                "offsetX": 55,
+                "offsetY": 46
+              },
+              {
+                "x": 0,
+                "y": 58,
+                "width": 42,
+                "height": 23,
+                "offsetX": 56,
+                "offsetY": 49
+              },
+              {
+                "x": 44,
+                "y": 58,
+                "width": 40,
+                "height": 22,
+                "offsetX": 57,
+                "offsetY": 49
+              },
+              {
+                "x": 86,
+                "y": 58,
+                "width": 38,
+                "height": 19,
+                "offsetX": 58,
+                "offsetY": 51
+              },
+              {
+                "x": 126,
+                "y": 58,
+                "width": 35,
+                "height": 19,
+                "offsetX": 60,
+                "offsetY": 51
+              },
+              {
+                "x": 166,
+                "y": 58,
+                "width": 1,
+                "height": 1,
+                "offsetX": 0,
+                "offsetY": 0
+              }
+            ],
+            "order": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11
+            ],
+            "fps": 38.70967741935484,
+            "loop": false
+          }
+        },
+        {
+          "kind": "release",
+          "key": "source",
+          "target": "self",
+          "durationMs": 240,
+          "loop": false,
+          "anchor": [
+            80,
+            64
+          ],
+          "returnsToCaster": false,
+          "beam": false,
+          "sound": "monster-upgrade-20261118/sts2_phantasmal_gardener/06",
+          "clip": {
+            "frames": [
+              "art/monster-upgrade-20261118/sts2_phantasmal_gardener/fx-06.png"
+            ],
+            "atlasRects": [
+              {
+                "x": 0,
+                "y": 451,
+                "width": 1,
+                "height": 1,
+                "offsetX": 0,
+                "offsetY": 0
+              },
+              {
+                "x": 0,
+                "y": 410,
+                "width": 64,
+                "height": 39,
+                "offsetX": 47,
+                "offsetY": 37
+              },
+              {
+                "x": 0,
+                "y": 367,
+                "width": 64,
+                "height": 41,
+                "offsetX": 48,
+                "offsetY": 36
+              },
+              {
+                "x": 0,
+                "y": 323,
+                "width": 63,
+                "height": 42,
+                "offsetX": 49,
+                "offsetY": 36
+              },
+              {
+                "x": 0,
+                "y": 233,
+                "width": 64,
+                "height": 43,
+                "offsetX": 49,
+                "offsetY": 36
+              },
+              {
+                "x": 0,
+                "y": 141,
+                "width": 63,
+                "height": 44,
+                "offsetX": 50,
+                "offsetY": 36
+              },
+              {
+                "x": 0,
+                "y": 278,
+                "width": 62,
+                "height": 43,
+                "offsetX": 51,
+                "offsetY": 36
+              },
+              {
+                "x": 0,
+                "y": 187,
+                "width": 62,
+                "height": 44,
+                "offsetX": 51,
+                "offsetY": 36
+              },
+              {
+                "x": 0,
+                "y": 0,
+                "width": 61,
+                "height": 45,
+                "offsetX": 52,
+                "offsetY": 36
+              },
+              {
+                "x": 0,
+                "y": 47,
+                "width": 60,
+                "height": 45,
+                "offsetX": 53,
+                "offsetY": 37
+              },
+              {
+                "x": 0,
+                "y": 94,
+                "width": 58,
+                "height": 45,
+                "offsetX": 55,
+                "offsetY": 38
+              },
+              {
+                "x": 3,
+                "y": 451,
+                "width": 1,
+                "height": 1,
+                "offsetX": 0,
+                "offsetY": 0
+              }
+            ],
+            "order": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11
+            ],
+            "fps": 50,
+            "loop": false
+          }
+        },
+        {
+          "kind": "travel",
+          "key": "trail",
+          "target": "path",
+          "durationMs": 320,
+          "loop": false,
+          "anchor": [
+            80,
+            64
+          ],
+          "returnsToCaster": false,
+          "beam": false,
+          "sound": "monster-upgrade-20261118/sts2_phantasmal_gardener/07",
+          "clip": {
+            "frames": [
+              "art/monster-upgrade-20261118/sts2_phantasmal_gardener/fx-07.png"
+            ],
+            "atlasRects": [
+              {
+                "x": 0,
+                "y": 451,
+                "width": 1,
+                "height": 1,
+                "offsetX": 0,
+                "offsetY": 0
+              },
+              {
+                "x": 0,
+                "y": 410,
+                "width": 63,
+                "height": 39,
+                "offsetX": 49,
+                "offsetY": 37
+              },
+              {
+                "x": 0,
+                "y": 367,
+                "width": 64,
+                "height": 41,
+                "offsetX": 49,
+                "offsetY": 36
+              },
+              {
+                "x": 0,
+                "y": 323,
+                "width": 63,
+                "height": 42,
+                "offsetX": 50,
+                "offsetY": 36
+              },
+              {
+                "x": 0,
+                "y": 233,
+                "width": 64,
+                "height": 43,
+                "offsetX": 50,
+                "offsetY": 36
+              },
+              {
+                "x": 0,
+                "y": 141,
+                "width": 63,
+                "height": 44,
+                "offsetX": 51,
+                "offsetY": 36
+              },
+              {
+                "x": 0,
+                "y": 278,
+                "width": 62,
+                "height": 43,
+                "offsetX": 52,
+                "offsetY": 36
+              },
+              {
+                "x": 0,
+                "y": 187,
+                "width": 62,
+                "height": 44,
+                "offsetX": 52,
+                "offsetY": 36
+              },
+              {
+                "x": 0,
+                "y": 0,
+                "width": 61,
+                "height": 45,
+                "offsetX": 53,
+                "offsetY": 36
+              },
+              {
+                "x": 0,
+                "y": 47,
+                "width": 60,
+                "height": 45,
+                "offsetX": 54,
+                "offsetY": 37
+              },
+              {
+                "x": 0,
+                "y": 94,
+                "width": 58,
+                "height": 45,
+                "offsetX": 56,
+                "offsetY": 38
+              },
+              {
+                "x": 3,
+                "y": 451,
+                "width": 1,
+                "height": 1,
+                "offsetX": 0,
+                "offsetY": 0
+              }
+            ],
+            "order": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11
+            ],
+            "fps": 37.5,
+            "loop": false
+          }
+        },
+        {
+          "kind": "hit",
+          "key": "hit_target",
+          "target": "player",
+          "durationMs": 220,
+          "loop": false,
+          "anchor": [
+            80,
+            64
+          ],
+          "returnsToCaster": false,
+          "beam": false,
+          "sound": "monster-upgrade-20261118/sts2_phantasmal_gardener/08",
+          "clip": {
+            "frames": [
+              "art/monster-upgrade-20261118/sts2_phantasmal_gardener/fx-08.png"
+            ],
+            "atlasRects": [
+              {
+                "x": 0,
+                "y": 451,
+                "width": 1,
+                "height": 1,
+                "offsetX": 0,
+                "offsetY": 0
+              },
+              {
+                "x": 41,
+                "y": 416,
+                "width": 28,
+                "height": 24,
+                "offsetX": 66,
+                "offsetY": 52
+              },
+              {
+                "x": 0,
+                "y": 416,
+                "width": 39,
+                "height": 33,
+                "offsetX": 61,
+                "offsetY": 47
+              },
+              {
+                "x": 0,
+                "y": 374,
+                "width": 47,
+                "height": 40,
+                "offsetX": 58,
+                "offsetY": 43
+              },
+              {
+                "x": 0,
+                "y": 326,
+                "width": 54,
+                "height": 46,
+                "offsetX": 54,
+                "offsetY": 40
+              },
+              {
+                "x": 0,
+                "y": 275,
+                "width": 61,
+                "height": 49,
+                "offsetX": 51,
+                "offsetY": 39
+              },
+              {
+                "x": 0,
+                "y": 167,
+                "width": 67,
+                "height": 52,
+                "offsetX": 47,
+                "offsetY": 37
+              },
+              {
+                "x": 0,
+                "y": 0,
+                "width": 70,
+                "height": 55,
+                "offsetX": 45,
+                "offsetY": 35
+              },
+              {
+                "x": 0,
+                "y": 57,
+                "width": 71,
+                "height": 53,
+                "offsetX": 44,
+                "offsetY": 36
+              },
+              {
+                "x": 0,
+                "y": 112,
+                "width": 70,
+                "height": 53,
+                "offsetX": 45,
+                "offsetY": 37
+              },
+              {
+                "x": 0,
+                "y": 221,
+                "width": 67,
+                "height": 52,
+                "offsetX": 45,
+                "offsetY": 37
+              },
+              {
+                "x": 3,
+                "y": 451,
+                "width": 1,
+                "height": 1,
+                "offsetX": 0,
+                "offsetY": 0
+              }
+            ],
+            "order": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11
+            ],
+            "fps": 54.54545454545455,
+            "loop": false
+          }
+        },
+        {
+          "kind": "tail",
+          "key": "recovery",
+          "target": "self",
+          "durationMs": 210,
+          "loop": false,
+          "anchor": [
+            80,
+            64
+          ],
+          "returnsToCaster": false,
+          "beam": false,
+          "sound": "monster-upgrade-20261118/sts2_phantasmal_gardener/09",
+          "clip": {
+            "frames": [
+              "art/monster-upgrade-20261118/sts2_phantasmal_gardener/fx-09.png"
+            ],
+            "atlasRects": [
+              {
+                "x": 358,
+                "y": 0,
+                "width": 1,
+                "height": 1,
+                "offsetX": 0,
+                "offsetY": 0
+              },
+              {
+                "x": 290,
+                "y": 0,
+                "width": 32,
+                "height": 18,
+                "offsetX": 70,
+                "offsetY": 54
+              },
+              {
+                "x": 74,
+                "y": 0,
+                "width": 34,
+                "height": 19,
+                "offsetX": 67,
+                "offsetY": 54
+              },
+              {
+                "x": 0,
+                "y": 0,
+                "width": 35,
+                "height": 19,
+                "offsetX": 66,
+                "offsetY": 54
+              },
+              {
+                "x": 37,
+                "y": 0,
+                "width": 35,
+                "height": 19,
+                "offsetX": 65,
+                "offsetY": 54
+              },
+              {
+                "x": 110,
+                "y": 0,
+                "width": 34,
+                "height": 18,
+                "offsetX": 63,
+                "offsetY": 55
+              },
+              {
+                "x": 146,
+                "y": 0,
+                "width": 34,
+                "height": 18,
+                "offsetX": 62,
+                "offsetY": 55
+              },
+              {
+                "x": 182,
+                "y": 0,
+                "width": 34,
+                "height": 18,
+                "offsetX": 62,
+                "offsetY": 55
+              },
+              {
+                "x": 218,
+                "y": 0,
+                "width": 34,
+                "height": 18,
+                "offsetX": 61,
+                "offsetY": 55
+              },
+              {
+                "x": 254,
+                "y": 0,
+                "width": 34,
+                "height": 18,
+                "offsetX": 58,
+                "offsetY": 55
+              },
+              {
+                "x": 324,
+                "y": 0,
+                "width": 32,
+                "height": 16,
+                "offsetX": 59,
+                "offsetY": 55
+              },
+              {
+                "x": 361,
+                "y": 0,
+                "width": 1,
+                "height": 1,
+                "offsetX": 0,
+                "offsetY": 0
+              }
+            ],
+            "order": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11
+            ],
+            "fps": 57.142857142857146,
+            "loop": false
+          }
+        }
+      ],
+      "damages": true,
+      "noAction": false
+    },
+    "sts2_flail": {
+      "cues": [
+        {
+          "kind": "windup",
+          "key": "windup",
+          "target": "self",
+          "durationMs": 310,
+          "loop": false,
+          "anchor": [
+            80,
+            64
+          ],
+          "returnsToCaster": false,
+          "beam": false,
+          "sound": "monster-upgrade-20261118/sts2_phantasmal_gardener/10",
+          "clip": {
+            "frames": [
+              "art/monster-upgrade-20261118/sts2_phantasmal_gardener/fx-10.png"
+            ],
+            "atlasRects": [
+              {
+                "x": 512,
+                "y": 0,
+                "width": 1,
+                "height": 1,
+                "offsetX": 0,
+                "offsetY": 0
+              },
+              {
+                "x": 224,
+                "y": 0,
+                "width": 59,
+                "height": 39,
+                "offsetX": 50,
+                "offsetY": 48
+              },
+              {
+                "x": 0,
+                "y": 0,
+                "width": 57,
+                "height": 41,
+                "offsetX": 51,
+                "offsetY": 47
+              },
+              {
+                "x": 59,
+                "y": 0,
+                "width": 55,
+                "height": 41,
+                "offsetX": 52,
+                "offsetY": 47
+              },
+              {
+                "x": 116,
+                "y": 0,
+                "width": 53,
+                "height": 41,
+                "offsetX": 53,
+                "offsetY": 47
+              },
+              {
+                "x": 171,
+                "y": 0,
+                "width": 51,
+                "height": 41,
+                "offsetX": 54,
+                "offsetY": 48
+              },
+              {
+                "x": 285,
+                "y": 0,
+                "width": 48,
+                "height": 38,
+                "offsetX": 56,
+                "offsetY": 49
+              },
+              {
+                "x": 335,
+                "y": 0,
+                "width": 46,
+                "height": 35,
+                "offsetX": 57,
+                "offsetY": 50
+              },
+              {
+                "x": 383,
+                "y": 0,
+                "width": 44,
+                "height": 32,
+                "offsetX": 58,
+                "offsetY": 51
+              },
+              {
+                "x": 429,
+                "y": 0,
+                "width": 41,
+                "height": 29,
+                "offsetX": 59,
+                "offsetY": 51
+              },
+              {
+                "x": 472,
+                "y": 0,
+                "width": 38,
+                "height": 24,
+                "offsetX": 61,
+                "offsetY": 51
+              },
+              {
+                "x": 515,
+                "y": 0,
+                "width": 1,
+                "height": 1,
+                "offsetX": 0,
+                "offsetY": 0
+              }
+            ],
+            "order": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11
+            ],
+            "fps": 38.70967741935484,
+            "loop": false
+          }
+        },
+        {
+          "kind": "release",
+          "key": "source",
+          "target": "self",
+          "durationMs": 240,
+          "loop": false,
+          "anchor": [
+            80,
+            64
+          ],
+          "returnsToCaster": false,
+          "beam": false,
+          "sound": "monster-upgrade-20261118/sts2_phantasmal_gardener/11",
+          "clip": {
+            "frames": [
+              "art/monster-upgrade-20261118/sts2_phantasmal_gardener/fx-11.png"
+            ],
+            "atlasRects": [
+              {
+                "x": 644,
+                "y": 0,
+                "width": 1,
+                "height": 1,
+                "offsetX": 0,
+                "offsetY": 0
+              },
+              {
+                "x": 578,
+                "y": 0,
+                "width": 64,
+                "height": 39,
+                "offsetX": 51,
+                "offsetY": 37
+              },
+              {
+                "x": 511,
+                "y": 0,
+                "width": 65,
+                "height": 41,
+                "offsetX": 51,
+                "offsetY": 36
+              },
+              {
+                "x": 445,
+                "y": 0,
+                "width": 64,
+                "height": 42,
+                "offsetX": 52,
+                "offsetY": 36
+              },
+              {
+                "x": 315,
+                "y": 0,
+                "width": 63,
+                "height": 43,
+                "offsetX": 53,
+                "offsetY": 36
+              },
+              {
+                "x": 186,
+                "y": 0,
+                "width": 63,
+                "height": 44,
+                "offsetX": 53,
+                "offsetY": 36
+              },
+              {
+                "x": 380,
+                "y": 0,
+                "width": 63,
+                "height": 43,
+                "offsetX": 54,
+                "offsetY": 36
+              },
+              {
+                "x": 251,
+                "y": 0,
+                "width": 62,
+                "height": 44,
+                "offsetX": 55,
+                "offsetY": 36
+              },
+              {
+                "x": 0,
+                "y": 0,
+                "width": 61,
+                "height": 45,
+                "offsetX": 56,
+                "offsetY": 36
+              },
+              {
+                "x": 63,
+                "y": 0,
+                "width": 61,
+                "height": 45,
+                "offsetX": 56,
+                "offsetY": 37
+              },
+              {
+                "x": 126,
+                "y": 0,
+                "width": 58,
+                "height": 45,
+                "offsetX": 58,
+                "offsetY": 38
+              },
+              {
+                "x": 647,
+                "y": 0,
+                "width": 1,
+                "height": 1,
+                "offsetX": 0,
+                "offsetY": 0
+              }
+            ],
+            "order": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11
+            ],
+            "fps": 50,
+            "loop": false
+          }
+        },
+        {
+          "kind": "travel",
+          "key": "trail",
+          "target": "path",
+          "durationMs": 320,
+          "loop": false,
+          "anchor": [
+            80,
+            64
+          ],
+          "returnsToCaster": false,
+          "beam": false,
+          "sound": "monster-upgrade-20261118/sts2_phantasmal_gardener/12",
+          "clip": {
+            "frames": [
+              "art/monster-upgrade-20261118/sts2_phantasmal_gardener/fx-12.png"
+            ],
+            "atlasRects": [
+              {
+                "x": 642,
+                "y": 0,
+                "width": 1,
+                "height": 1,
+                "offsetX": 0,
+                "offsetY": 0
+              },
+              {
+                "x": 576,
+                "y": 0,
+                "width": 64,
+                "height": 39,
+                "offsetX": 46,
+                "offsetY": 37
+              },
+              {
+                "x": 509,
+                "y": 0,
+                "width": 65,
+                "height": 41,
+                "offsetX": 46,
+                "offsetY": 36
+              },
+              {
+                "x": 443,
+                "y": 0,
+                "width": 64,
+                "height": 42,
+                "offsetX": 47,
+                "offsetY": 36
+              },
+              {
+                "x": 313,
+                "y": 0,
+                "width": 63,
+                "height": 43,
+                "offsetX": 48,
+                "offsetY": 36
+              },
+              {
+                "x": 184,
+                "y": 0,
+                "width": 63,
+                "height": 44,
+                "offsetX": 48,
+                "offsetY": 36
+              },
+              {
+                "x": 378,
+                "y": 0,
+                "width": 63,
+                "height": 43,
+                "offsetX": 49,
+                "offsetY": 36
+              },
+              {
+                "x": 249,
+                "y": 0,
+                "width": 62,
+                "height": 44,
+                "offsetX": 50,
+                "offsetY": 36
+              },
+              {
+                "x": 0,
+                "y": 0,
+                "width": 61,
+                "height": 45,
+                "offsetX": 51,
+                "offsetY": 36
+              },
+              {
+                "x": 63,
+                "y": 0,
+                "width": 59,
+                "height": 45,
+                "offsetX": 53,
+                "offsetY": 37
+              },
+              {
+                "x": 124,
+                "y": 0,
+                "width": 58,
+                "height": 45,
+                "offsetX": 53,
+                "offsetY": 38
+              },
+              {
+                "x": 645,
+                "y": 0,
+                "width": 1,
+                "height": 1,
+                "offsetX": 0,
+                "offsetY": 0
+              }
+            ],
+            "order": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11
+            ],
+            "fps": 37.5,
+            "loop": false
+          }
+        },
+        {
+          "kind": "hit",
+          "key": "hit_target",
+          "target": "player",
+          "durationMs": 220,
+          "loop": false,
+          "anchor": [
+            80,
+            64
+          ],
+          "returnsToCaster": false,
+          "beam": false,
+          "sound": "monster-upgrade-20261118/sts2_phantasmal_gardener/13",
+          "clip": {
+            "frames": [
+              "art/monster-upgrade-20261118/sts2_phantasmal_gardener/fx-13.png"
+            ],
+            "atlasRects": [
+              {
+                "x": 610,
+                "y": 0,
+                "width": 1,
+                "height": 1,
+                "offsetX": 0,
+                "offsetY": 0
+              },
+              {
+                "x": 580,
+                "y": 0,
+                "width": 28,
+                "height": 21,
+                "offsetX": 66,
+                "offsetY": 54
+              },
+              {
+                "x": 539,
+                "y": 0,
+                "width": 39,
+                "height": 29,
+                "offsetX": 60,
+                "offsetY": 50
+              },
+              {
+                "x": 488,
+                "y": 0,
+                "width": 49,
+                "height": 34,
+                "offsetX": 55,
+                "offsetY": 48
+              },
+              {
+                "x": 427,
+                "y": 0,
+                "width": 59,
+                "height": 39,
+                "offsetX": 49,
+                "offsetY": 46
+              },
+              {
+                "x": 360,
+                "y": 0,
+                "width": 65,
+                "height": 42,
+                "offsetX": 46,
+                "offsetY": 45
+              },
+              {
+                "x": 289,
+                "y": 0,
+                "width": 69,
+                "height": 44,
+                "offsetX": 44,
+                "offsetY": 45
+              },
+              {
+                "x": 149,
+                "y": 0,
+                "width": 70,
+                "height": 45,
+                "offsetX": 44,
+                "offsetY": 45
+              },
+              {
+                "x": 0,
+                "y": 0,
+                "width": 73,
+                "height": 46,
+                "offsetX": 42,
+                "offsetY": 45
+              },
+              {
+                "x": 75,
+                "y": 0,
+                "width": 72,
+                "height": 45,
+                "offsetX": 43,
+                "offsetY": 46
+              },
+              {
+                "x": 221,
+                "y": 0,
+                "width": 66,
+                "height": 45,
+                "offsetX": 46,
+                "offsetY": 46
+              },
+              {
+                "x": 613,
+                "y": 0,
+                "width": 1,
+                "height": 1,
+                "offsetX": 0,
+                "offsetY": 0
+              }
+            ],
+            "order": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11
+            ],
+            "fps": 54.54545454545455,
+            "loop": false
+          }
+        },
+        {
+          "kind": "tail",
+          "key": "recovery",
+          "target": "self",
+          "durationMs": 210,
+          "loop": false,
+          "anchor": [
+            80,
+            64
+          ],
+          "returnsToCaster": false,
+          "beam": false,
+          "sound": "monster-upgrade-20261118/sts2_phantasmal_gardener/14",
+          "clip": {
+            "frames": [
+              "art/monster-upgrade-20261118/sts2_phantasmal_gardener/fx-14.png"
+            ],
+            "atlasRects": [
+              {
+                "x": 358,
+                "y": 0,
+                "width": 1,
+                "height": 1,
+                "offsetX": 0,
+                "offsetY": 0
+              },
+              {
+                "x": 290,
+                "y": 0,
+                "width": 32,
+                "height": 18,
+                "offsetX": 70,
+                "offsetY": 54
+              },
+              {
+                "x": 74,
+                "y": 0,
+                "width": 34,
+                "height": 19,
+                "offsetX": 67,
+                "offsetY": 54
+              },
+              {
+                "x": 0,
+                "y": 0,
+                "width": 35,
+                "height": 19,
+                "offsetX": 66,
+                "offsetY": 54
+              },
+              {
+                "x": 37,
+                "y": 0,
+                "width": 35,
+                "height": 19,
+                "offsetX": 65,
+                "offsetY": 54
+              },
+              {
+                "x": 110,
+                "y": 0,
+                "width": 34,
+                "height": 18,
+                "offsetX": 63,
+                "offsetY": 55
+              },
+              {
+                "x": 146,
+                "y": 0,
+                "width": 34,
+                "height": 18,
+                "offsetX": 62,
+                "offsetY": 55
+              },
+              {
+                "x": 182,
+                "y": 0,
+                "width": 34,
+                "height": 18,
+                "offsetX": 62,
+                "offsetY": 55
+              },
+              {
+                "x": 218,
+                "y": 0,
+                "width": 34,
+                "height": 18,
+                "offsetX": 61,
+                "offsetY": 55
+              },
+              {
+                "x": 254,
+                "y": 0,
+                "width": 34,
+                "height": 18,
+                "offsetX": 58,
+                "offsetY": 55
+              },
+              {
+                "x": 324,
+                "y": 0,
+                "width": 32,
+                "height": 14,
+                "offsetX": 59,
+                "offsetY": 57
+              },
+              {
+                "x": 361,
+                "y": 0,
+                "width": 1,
+                "height": 1,
+                "offsetX": 0,
+                "offsetY": 0
+              }
+            ],
+            "order": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11
+            ],
+            "fps": 57.142857142857146,
+            "loop": false
+          }
+        }
+      ],
+      "damages": true,
+      "noAction": false
+    },
+    "sts2_enlarge": {
+      "cues": [
+        {
+          "kind": "windup",
+          "key": "windup",
+          "target": "self",
+          "durationMs": 310,
+          "loop": false,
+          "anchor": [
+            80,
+            64
+          ],
+          "returnsToCaster": false,
+          "beam": false,
+          "sound": "monster-upgrade-20261118/sts2_phantasmal_gardener/15",
+          "clip": {
+            "frames": [
+              "art/monster-upgrade-20261118/sts2_phantasmal_gardener/fx-15.png"
+            ],
+            "atlasRects": [
+              {
+                "x": 521,
+                "y": 0,
+                "width": 1,
+                "height": 1,
+                "offsetX": 0,
+                "offsetY": 0
+              },
+              {
+                "x": 176,
+                "y": 0,
+                "width": 59,
+                "height": 33,
+                "offsetX": 50,
+                "offsetY": 48
+              },
+              {
+                "x": 0,
+                "y": 0,
+                "width": 58,
+                "height": 34,
+                "offsetX": 51,
+                "offsetY": 48
+              },
+              {
+                "x": 60,
+                "y": 0,
+                "width": 57,
+                "height": 34,
+                "offsetX": 52,
+                "offsetY": 48
+              },
+              {
+                "x": 119,
+                "y": 0,
+                "width": 55,
+                "height": 34,
+                "offsetX": 53,
+                "offsetY": 48
+              },
+              {
+                "x": 237,
+                "y": 0,
+                "width": 53,
+                "height": 33,
+                "offsetX": 54,
+                "offsetY": 48
+              },
+              {
+                "x": 292,
+                "y": 0,
+                "width": 50,
+                "height": 32,
+                "offsetX": 55,
+                "offsetY": 49
+              },
+              {
+                "x": 344,
+                "y": 0,
+                "width": 46,
+                "height": 29,
+                "offsetX": 56,
+                "offsetY": 50
+              },
+              {
+                "x": 392,
+                "y": 0,
+                "width": 43,
+                "height": 27,
+                "offsetX": 58,
+                "offsetY": 51
+              },
+              {
+                "x": 437,
+                "y": 0,
+                "width": 41,
+                "height": 25,
+                "offsetX": 59,
+                "offsetY": 51
+              },
+              {
+                "x": 480,
+                "y": 0,
+                "width": 39,
+                "height": 22,
+                "offsetX": 60,
+                "offsetY": 51
+              },
+              {
+                "x": 524,
+                "y": 0,
+                "width": 1,
+                "height": 1,
+                "offsetX": 0,
+                "offsetY": 0
+              }
+            ],
+            "order": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11
+            ],
+            "fps": 38.70967741935484,
+            "loop": false
+          }
+        },
+        {
+          "kind": "release",
+          "key": "source",
+          "target": "self",
+          "durationMs": 240,
+          "loop": false,
+          "anchor": [
+            80,
+            64
+          ],
+          "returnsToCaster": false,
+          "beam": false,
+          "sound": "monster-upgrade-20261118/sts2_phantasmal_gardener/16",
+          "clip": {
+            "frames": [
+              "art/monster-upgrade-20261118/sts2_phantasmal_gardener/fx-16.png"
+            ],
+            "atlasRects": [
+              {
+                "x": 34,
+                "y": 393,
+                "width": 1,
+                "height": 1,
+                "offsetX": 0,
+                "offsetY": 0
+              },
+              {
+                "x": 0,
+                "y": 99,
+                "width": 51,
+                "height": 47,
+                "offsetX": 48,
+                "offsetY": 44
+              },
+              {
+                "x": 0,
+                "y": 148,
+                "width": 54,
+                "height": 46,
+                "offsetX": 49,
+                "offsetY": 43
+              },
+              {
+                "x": 0,
+                "y": 0,
+                "width": 55,
+                "height": 48,
+                "offsetX": 51,
+                "offsetY": 42
+              },
+              {
+                "x": 0,
+                "y": 50,
+                "width": 55,
+                "height": 47,
+                "offsetX": 52,
+                "offsetY": 42
+              },
+              {
+                "x": 0,
+                "y": 196,
+                "width": 55,
+                "height": 42,
+                "offsetX": 53,
+                "offsetY": 44
+              },
+              {
+                "x": 0,
+                "y": 240,
+                "width": 55,
+                "height": 39,
+                "offsetX": 53,
+                "offsetY": 45
+              },
+              {
+                "x": 0,
+                "y": 281,
+                "width": 52,
+                "height": 38,
+                "offsetX": 54,
+                "offsetY": 45
+              },
+              {
+                "x": 0,
+                "y": 321,
+                "width": 47,
+                "height": 36,
+                "offsetX": 56,
+                "offsetY": 46
+              },
+              {
+                "x": 0,
+                "y": 359,
+                "width": 41,
+                "height": 32,
+                "offsetX": 59,
+                "offsetY": 48
+              },
+              {
+                "x": 0,
+                "y": 393,
+                "width": 32,
+                "height": 27,
+                "offsetX": 64,
+                "offsetY": 51
+              },
+              {
+                "x": 37,
+                "y": 393,
+                "width": 1,
+                "height": 1,
+                "offsetX": 0,
+                "offsetY": 0
+              }
+            ],
+            "order": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11
+            ],
+            "fps": 50,
+            "loop": false
+          }
+        },
+        {
+          "kind": "status",
+          "key": "state_self_strength",
+          "target": "self",
+          "status": "strength",
+          "durationMs": 430,
+          "loop": false,
+          "anchor": [
+            80,
+            64
+          ],
+          "returnsToCaster": false,
+          "beam": false,
+          "sound": "monster-upgrade-20261118/sts2_phantasmal_gardener/17",
+          "clip": {
+            "frames": [
+              "art/monster-upgrade-20261118/sts2_phantasmal_gardener/fx-17.png"
+            ],
+            "atlasRects": [
+              {
+                "x": 142,
+                "y": 66,
+                "width": 1,
+                "height": 1,
+                "offsetX": 0,
+                "offsetY": 0
+              },
+              {
+                "x": 0,
+                "y": 0,
+                "width": 46,
+                "height": 33,
+                "offsetX": 62,
+                "offsetY": 55
+              },
+              {
+                "x": 48,
+                "y": 0,
+                "width": 46,
+                "height": 32,
+                "offsetX": 61,
+                "offsetY": 55
+              },
+              {
+                "x": 96,
+                "y": 0,
+                "width": 47,
+                "height": 31,
+                "offsetX": 60,
+                "offsetY": 55
+              },
+              {
+                "x": 0,
+                "y": 35,
+                "width": 46,
+                "height": 29,
+                "offsetX": 60,
+                "offsetY": 55
+              },
+              {
+                "x": 48,
+                "y": 35,
+                "width": 43,
+                "height": 28,
+                "offsetX": 60,
+                "offsetY": 55
+              },
+              {
+                "x": 93,
+                "y": 35,
+                "width": 41,
+                "height": 27,
+                "offsetX": 61,
+                "offsetY": 55
+              },
+              {
+                "x": 0,
+                "y": 66,
+                "width": 37,
+                "height": 26,
+                "offsetX": 63,
+                "offsetY": 54
+              },
+              {
+                "x": 39,
+                "y": 66,
+                "width": 35,
+                "height": 26,
+                "offsetX": 63,
+                "offsetY": 53
+              },
+              {
+                "x": 76,
+                "y": 66,
+                "width": 32,
+                "height": 26,
+                "offsetX": 63,
+                "offsetY": 51
+              },
+              {
+                "x": 110,
+                "y": 66,
+                "width": 30,
+                "height": 26,
+                "offsetX": 63,
+                "offsetY": 50
+              },
+              {
+                "x": 145,
+                "y": 66,
+                "width": 1,
+                "height": 1,
+                "offsetX": 0,
+                "offsetY": 0
+              }
+            ],
+            "order": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11
+            ],
+            "fps": 27.906976744186046,
+            "loop": false
+          }
+        },
+        {
+          "kind": "tail",
+          "key": "recovery",
+          "target": "self",
+          "durationMs": 210,
+          "loop": false,
+          "anchor": [
+            80,
+            64
+          ],
+          "returnsToCaster": false,
+          "beam": false,
+          "sound": "monster-upgrade-20261118/sts2_phantasmal_gardener/18",
+          "clip": {
+            "frames": [
+              "art/monster-upgrade-20261118/sts2_phantasmal_gardener/fx-18.png"
+            ],
+            "atlasRects": [
+              {
+                "x": 358,
+                "y": 0,
+                "width": 1,
+                "height": 1,
+                "offsetX": 0,
+                "offsetY": 0
+              },
+              {
+                "x": 290,
+                "y": 0,
+                "width": 32,
+                "height": 19,
+                "offsetX": 70,
+                "offsetY": 53
+              },
+              {
+                "x": 74,
+                "y": 0,
+                "width": 34,
+                "height": 20,
+                "offsetX": 67,
+                "offsetY": 53
+              },
+              {
+                "x": 0,
+                "y": 0,
+                "width": 35,
+                "height": 20,
+                "offsetX": 66,
+                "offsetY": 53
+              },
+              {
+                "x": 37,
+                "y": 0,
+                "width": 35,
+                "height": 20,
+                "offsetX": 65,
+                "offsetY": 53
+              },
+              {
+                "x": 110,
+                "y": 0,
+                "width": 34,
+                "height": 20,
+                "offsetX": 63,
+                "offsetY": 53
+              },
+              {
+                "x": 146,
+                "y": 0,
+                "width": 34,
+                "height": 20,
+                "offsetX": 62,
+                "offsetY": 53
+              },
+              {
+                "x": 182,
+                "y": 0,
+                "width": 34,
+                "height": 20,
+                "offsetX": 62,
+                "offsetY": 53
+              },
+              {
+                "x": 218,
+                "y": 0,
+                "width": 34,
+                "height": 20,
+                "offsetX": 61,
+                "offsetY": 53
+              },
+              {
+                "x": 254,
+                "y": 0,
+                "width": 34,
+                "height": 20,
+                "offsetX": 58,
+                "offsetY": 53
+              },
+              {
+                "x": 324,
+                "y": 0,
+                "width": 32,
+                "height": 18,
+                "offsetX": 59,
+                "offsetY": 53
+              },
+              {
+                "x": 361,
+                "y": 0,
+                "width": 1,
+                "height": 1,
+                "offsetX": 0,
+                "offsetY": 0
+              }
+            ],
+            "order": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11
+            ],
+            "fps": 57.142857142857146,
+            "loop": false
+          }
+        }
+      ],
+      "damages": false,
+      "noAction": false
+    }
+  },
+  "events": {},
+  "dependencies": []
+}

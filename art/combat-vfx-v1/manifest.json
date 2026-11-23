@@ -1,0 +1,243 @@
+{
+  "version": 1,
+  "frameSize": 512,
+  "style": "邪恶哥特手绘；命中特效按怪物材质区分；攻击提升为暗红光圈单次脉冲",
+  "pivot": {
+    "x": 0.5,
+    "y": 0.5
+  },
+  "trim": false,
+  "effects": [
+    {
+      "id": "hit_batwing",
+      "name": "蝠翼爪痕",
+      "monster": "batwing_shade",
+      "category": "hit",
+      "fps": 12,
+      "size": 190,
+      "layer": "front",
+      "frames": [
+        "combat-vfx-v1/hit_batwing/frame_00.png",
+        "combat-vfx-v1/hit_batwing/frame_01.png",
+        "combat-vfx-v1/hit_batwing/frame_02.png",
+        "combat-vfx-v1/hit_batwing/frame_03.png"
+      ],
+      "order": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "loop": false,
+      "hideOnComplete": true,
+      "durationSeconds": 0.3333333333333333,
+      "fadeOutSeconds": 0.1,
+      "origin": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "anchor": "torso",
+      "blend": "normal"
+    },
+    {
+      "id": "hit_drill",
+      "name": "钻头冲击",
+      "monster": "drill_worm",
+      "category": "hit",
+      "fps": 10,
+      "size": 210,
+      "layer": "front",
+      "frames": [
+        "combat-vfx-v1/hit_drill/frame_00.png",
+        "combat-vfx-v1/hit_drill/frame_01.png",
+        "combat-vfx-v1/hit_drill/frame_02.png",
+        "combat-vfx-v1/hit_drill/frame_03.png"
+      ],
+      "order": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "loop": false,
+      "hideOnComplete": true,
+      "durationSeconds": 0.4,
+      "fadeOutSeconds": 0.1,
+      "origin": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "anchor": "torso",
+      "blend": "normal"
+    },
+    {
+      "id": "hit_moss",
+      "name": "苔藓荆刺",
+      "monster": "moss_slime",
+      "category": "hit",
+      "fps": 10,
+      "size": 210,
+      "layer": "front",
+      "frames": [
+        "combat-vfx-v1/hit_moss/frame_00.png",
+        "combat-vfx-v1/hit_moss/frame_01.png",
+        "combat-vfx-v1/hit_moss/frame_02.png",
+        "combat-vfx-v1/hit_moss/frame_03.png"
+      ],
+      "order": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "loop": false,
+      "hideOnComplete": true,
+      "durationSeconds": 0.4,
+      "fadeOutSeconds": 0.1,
+      "origin": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "anchor": "torso",
+      "blend": "normal"
+    },
+    {
+      "id": "hit_mossling",
+      "name": "幼体棘刺",
+      "monster": "mossling",
+      "category": "hit",
+      "fps": 12,
+      "size": 145,
+      "layer": "front",
+      "frames": [
+        "combat-vfx-v1/hit_mossling/frame_00.png",
+        "combat-vfx-v1/hit_mossling/frame_01.png",
+        "combat-vfx-v1/hit_mossling/frame_02.png",
+        "combat-vfx-v1/hit_mossling/frame_03.png"
+      ],
+      "order": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "loop": false,
+      "hideOnComplete": true,
+      "durationSeconds": 0.3333333333333333,
+      "fadeOutSeconds": 0.1,
+      "origin": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "anchor": "torso",
+      "blend": "normal"
+    },
+    {
+      "id": "hit_stone",
+      "name": "石像碎石",
+      "monster": "stone_sentinel",
+      "category": "hit",
+      "fps": 8,
+      "size": 240,
+      "layer": "front",
+      "frames": [
+        "combat-vfx-v1/hit_stone/frame_00.png",
+        "combat-vfx-v1/hit_stone/frame_01.png",
+        "combat-vfx-v1/hit_stone/frame_02.png",
+        "combat-vfx-v1/hit_stone/frame_03.png"
+      ],
+      "order": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "loop": false,
+      "hideOnComplete": true,
+      "durationSeconds": 0.5,
+      "fadeOutSeconds": 0.1,
+      "origin": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "anchor": "torso",
+      "blend": "normal"
+    },
+    {
+      "id": "hit_curse",
+      "name": "信徒暗咒",
+      "monster": "whisper_cultist",
+      "category": "hit",
+      "fps": 8,
+      "size": 225,
+      "layer": "front",
+      "frames": [
+        "combat-vfx-v1/hit_curse/frame_00.png",
+        "combat-vfx-v1/hit_curse/frame_01.png",
+        "combat-vfx-v1/hit_curse/frame_02.png",
+        "combat-vfx-v1/hit_curse/frame_03.png"
+      ],
+      "order": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "loop": false,
+      "hideOnComplete": true,
+      "durationSeconds": 0.5,
+      "fadeOutSeconds": 0.1,
+      "origin": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "anchor": "torso",
+      "blend": "normal"
+    },
+    {
+      "id": "buff_attack_up",
+      "name": "攻击提升",
+      "monster": null,
+      "category": "buff",
+      "fps": 8,
+      "size": 345,
+      "layer": "back",
+      "frames": [
+        "combat-vfx-v1/buff_attack_up/frame_00.png",
+        "combat-vfx-v1/buff_attack_up/frame_01.png",
+        "combat-vfx-v1/buff_attack_up/frame_02.png",
+        "combat-vfx-v1/buff_attack_up/frame_03.png"
+      ],
+      "order": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "loop": false,
+      "hideOnComplete": true,
+      "durationSeconds": 0.5,
+      "fadeOutSeconds": 0.1,
+      "origin": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "anchor": "torso",
+      "blend": "normal"
+    }
+  ],
+  "hitByMonster": {
+    "batwing_shade": "hit_batwing",
+    "drill_worm": "hit_drill",
+    "moss_slime": "hit_moss",
+    "mossling": "hit_mossling",
+    "stone_sentinel": "hit_stone",
+    "whisper_cultist": "hit_curse"
+  },
+  "attackUpStatuses": [
+    "strength",
+    "enrage",
+    "double_damage"
+  ],
+  "complete": true
+}

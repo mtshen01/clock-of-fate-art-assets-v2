@@ -1,0 +1,13 @@
+# 美术资源仓库：保持字节原样，不做换行转换
+* -text
+
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.webp binary
+*.mp3 binary
+*.ogg binary
+*.wav binary
+*.ttf binary
+*.otf binary

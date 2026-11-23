@@ -1,0 +1,67 @@
+CCEffect %{
+  techniques:
+  - passes:
+    - vert: hit-vs:vert
+      frag: hit-fs:frag
+      depthStencilState: { depthTest: false, depthWrite: false }
+      blendState:
+        targets:
+        - blend: true
+          blendSrc: src_alpha
+          blendDst: one_minus_src_alpha
+          blendDstAlpha: one_minus_src_alpha
+      rasterizerState: { cullMode: none }
+      properties:
+        flashParams: { value: [0, 0, 0, 0] }
+        rimParams: { value: [0, 2, 0, 0] }
+}%
+CCProgram hit-vs %{
+  precision highp float;
+  #include <builtin/uniforms/cc-global>
+  #if USE_LOCAL
+    #include <builtin/uniforms/cc-local>
+  #endif
+  in vec3 a_position;
+  in vec2 a_texCoord;
+  in vec4 a_color;
+  out vec2 uv0;
+  out vec4 color;
+  vec4 vert () {
+    vec4 pos = vec4(a_position, 1.0);
+    #if USE_LOCAL
+      pos = cc_matWorld * pos;
+    #endif
+    uv0 = a_texCoord; color = a_color;
+    return cc_matViewProj * pos;
+  }
+}%
+CCProgram hit-fs %{
+  precision highp float;
+  #include <builtin/internal/embedded-alpha>
+  in vec2 uv0;
+  in vec4 color;
+  #pragma builtin(local)
+  layout(set=2,binding=12) uniform sampler2D cc_spriteTexture;
+  uniform HitFlash { vec4 flashParams; vec4 rimParams; };
+  vec4 frag () {
+    vec4 c = CCSampleWithAlphaSeparated(cc_spriteTexture, uv0) * color;
+    // 银铁描边：以材质自身 alpha 边缘做 4 向采样，贴合透明轮廓。
+    // rimParams.x = 强度，rimParams.y = 512 贴图基准下的像素宽度。
+    vec2 stepUv = vec2(max(0.0, rimParams.y) * 0.001953125, 0.0);
+    vec2 uvL = clamp(uv0 - vec2(stepUv.x, 0.0), 0.0, 1.0);
+    vec2 uvR = clamp(uv0 + vec2(stepUv.x, 0.0), 0.0, 1.0);
+    vec2 uvU = clamp(uv0 + vec2(0.0, stepUv.x), 0.0, 1.0);
+    vec2 uvD = clamp(uv0 - vec2(0.0, stepUv.x), 0.0, 1.0);
+    float aL = CCSampleWithAlphaSeparated(cc_spriteTexture, uvL).a;
+    float aR = CCSampleWithAlphaSeparated(cc_spriteTexture, uvR).a;
+    float aU = CCSampleWithAlphaSeparated(cc_spriteTexture, uvU).a;
+    float aD = CCSampleWithAlphaSeparated(cc_spriteTexture, uvD).a;
+    float edge = clamp(max(max(aL, aR), max(aU, aD)) - c.a, 0.0, 1.0);
+    float rim = clamp(edge * clamp(rimParams.x, 0.0, 1.5), 0.0, 1.0);
+    vec3 silver = vec3(0.76, 0.84, 0.94);
+    c.rgb = mix(c.rgb, silver, rim);
+    c.a = max(c.a, rim * 0.92);
+    c.rgb = mix(c.rgb, vec3(1.0), clamp(flashParams.x, 0.0, 1.0));
+    return c;
+  }
+}%

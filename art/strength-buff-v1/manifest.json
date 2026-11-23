@@ -1,0 +1,130 @@
+{
+  "heroes": {
+    "apothecary": {
+      "footY": -56,
+      "visibleBottom": 1005,
+      "pivotY": 1005,
+      "scale": 0.13735691987513007,
+      "source": "heroes-skeleton-v2/apothecary/full.png",
+      "method": "opaque sole pixels within each hero own boot columns"
+    },
+    "clockwright": {
+      "footY": -56,
+      "visibleBottom": 1003,
+      "pivotY": 1003,
+      "scale": 0.1346938775510204,
+      "source": "heroes-skeleton-v2/clockwright/full.png",
+      "method": "opaque sole pixels within each hero own boot columns"
+    },
+    "emberforged": {
+      "footY": -56,
+      "visibleBottom": 985,
+      "pivotY": 985,
+      "scale": 0.14363438520130578,
+      "source": "heroes-skeleton-v2/emberforged/full.png",
+      "method": "opaque sole pixels within each hero own boot columns"
+    },
+    "lamplighter": {
+      "footY": -56,
+      "visibleBottom": 1010,
+      "pivotY": 1010,
+      "scale": 0.1346938775510204,
+      "source": "heroes-skeleton-v2/lamplighter/full.png",
+      "method": "opaque sole pixels within each hero own boot columns"
+    },
+    "regent": {
+      "footY": -56,
+      "visibleBottom": 973,
+      "pivotY": 973,
+      "scale": 0.14316702819956617,
+      "source": "heroes/regent/full.png",
+      "method": "opaque sole pixels within each hero own boot columns"
+    }
+  },
+  "monsters": {
+    "batwing_shade": {
+      "bottom": 0.8723958333333334,
+      "source": "monsters-v2/batwing_shade/idle_00.png"
+    },
+    "drill_worm": {
+      "bottom": 0.8932291666666666,
+      "source": "monsters-v2/drill_worm/idle_00.png"
+    },
+    "moss_slime": {
+      "bottom": 0.8958333333333334,
+      "source": "monsters-v2/moss_slime/idle_00.png"
+    },
+    "mossling": {
+      "bottom": 0.8932291666666666,
+      "source": "monsters-v2/mossling/idle_00.png"
+    },
+    "stone_sentinel": {
+      "bottom": 0.8958333333333334,
+      "source": "monsters-v2/stone_sentinel/idle_00.png"
+    },
+    "whisper_cultist": {
+      "bottom": 0.8984375,
+      "source": "monsters-v2/whisper_cultist/idle_00.png"
+    },
+    "sts2_decimillipede_segment": {
+      "bottom": 0.8984375,
+      "source": "expanded-actions-v1/sts2_decimillipede_segment/idle_00.png"
+    },
+    "sts2_byrdonis": {
+      "bottom": 0.8984375,
+      "source": "expanded-actions-v1/sts2_byrdonis/idle_00.png"
+    },
+    "sts2_entomancer": {
+      "bottom": 0.8984375,
+      "source": "expanded-actions-v1/sts2_entomancer/idle_00.png"
+    },
+    "sts2_infested_prism": {
+      "bottom": 0.890625,
+      "source": "expanded-actions-v1/sts2_infested_prism/idle_00.png"
+    },
+    "sts2_skulking_colony": {
+      "bottom": 0.9036458333333334,
+      "source": "expanded-actions-v1/sts2_skulking_colony/idle_00.png"
+    },
+    "sts2_terror_eel": {
+      "bottom": 0.9036458333333334,
+      "source": "expanded-actions-v1/sts2_terror_eel/idle_00.png"
+    },
+    "sts2_phantasmal_gardener": {
+      "bottom": 0.8932291666666666,
+      "source": "expanded-actions-v1/sts2_phantasmal_gardener/idle_00.png"
+    },
+    "sts2_rocket": {
+      "bottom": 0.9010416666666666,
+      "source": "expanded-actions-v1/sts2_rocket/idle_00.png"
+    },
+    "sts2_torch_head_amalgam": {
+      "bottom": 0.9010416666666666,
+      "source": "expanded-actions-v1/sts2_torch_head_amalgam/idle_00.png"
+    },
+    "sts2_mecha_knight": {
+      "bottom": 0.90625,
+      "source": "expanded-actions-v1/sts2_mecha_knight/idle_00.png"
+    },
+    "sts2_bygone_effigy": {
+      "bottom": 0.9088541666666666,
+      "source": "expanded-actions-v1/sts2_bygone_effigy/idle_00.png"
+    },
+    "sts2_lagavulin_matriarch": {
+      "bottom": 0.8984375,
+      "source": "expanded-actions-v1/sts2_lagavulin_matriarch/idle_00.png"
+    },
+    "sts2_flail_knight": {
+      "bottom": 0.90625,
+      "source": "expanded-actions-v1/sts2_flail_knight/idle_00.png"
+    },
+    "sts2_soul_nexus": {
+      "bottom": 0.8802083333333334,
+      "source": "expanded-actions-v1/sts2_soul_nexus/idle_00.png"
+    },
+    "sts2_soul_fysh": {
+      "bottom": 0.8958333333333334,
+      "source": "expanded-actions-v1/sts2_soul_fysh/idle_00.png"
+    }
+  }
+}

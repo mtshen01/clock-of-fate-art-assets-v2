@@ -1,0 +1,2856 @@
+{
+  "id": "sts2_kin_priest",
+  "pivot": {
+    "x": 0.5,
+    "y": 0.16666666666666663
+  },
+  "visualBounds": {
+    "top": 0.47135416666666663,
+    "bottom": 0.16666666666666663
+  },
+  "pose": {
+    "frames": [
+      "art/monster-upgrade-20261118/sts2_kin_priest/idle.png"
+    ],
+    "atlasRects": [
+      {
+        "x": 0,
+        "y": 0,
+        "width": 80,
+        "height": 121,
+        "offsetX": 152,
+        "offsetY": 201
+      }
+    ],
+    "order": [
+      0
+    ],
+    "fps": 1,
+    "loop": true,
+    "holdLastFrame": false
+  },
+  "moves": {
+    "sts2_orb_of_frailty": {
+      "cues": [
+        {
+          "kind": "windup",
+          "key": "windup",
+          "target": "self",
+          "durationMs": 310,
+          "loop": false,
+          "anchor": [
+            80,
+            64
+          ],
+          "returnsToCaster": false,
+          "beam": false,
+          "sound": "monster-upgrade-20261118/sts2_kin_priest/00",
+          "clip": {
+            "frames": [
+              "art/monster-upgrade-20261118/sts2_kin_priest/fx-00.png"
+            ],
+            "atlasRects": [
+              {
+                "x": 176,
+                "y": 67,
+                "width": 1,
+                "height": 1,
+                "offsetX": 0,
+                "offsetY": 0
+              },
+              {
+                "x": 0,
+                "y": 0,
+                "width": 59,
+                "height": 34,
+                "offsetX": 49,
+                "offsetY": 49
+              },
+              {
+                "x": 61,
+                "y": 0,
+                "width": 57,
+                "height": 33,
+                "offsetX": 50,
+                "offsetY": 49
+              },
+              {
+                "x": 120,
+                "y": 0,
+                "width": 55,
+                "height": 31,
+                "offsetX": 51,
+                "offsetY": 50
+              },
+              {
+                "x": 0,
+                "y": 36,
+                "width": 53,
+                "height": 29,
+                "offsetX": 52,
+                "offsetY": 51
+              },
+              {
+                "x": 55,
+                "y": 36,
+                "width": 50,
+                "height": 28,
+                "offsetX": 54,
+                "offsetY": 51
+              },
+              {
+                "x": 107,
+                "y": 36,
+                "width": 48,
+                "height": 27,
+                "offsetX": 55,
+                "offsetY": 51
+              },
+              {
+                "x": 0,
+                "y": 67,
+                "width": 46,
+                "height": 26,
+                "offsetX": 56,
+                "offsetY": 51
+              },
+              {
+                "x": 48,
+                "y": 67,
+                "width": 43,
+                "height": 24,
+                "offsetX": 57,
+                "offsetY": 51
+              },
+              {
+                "x": 93,
+                "y": 67,
+                "width": 41,
+                "height": 23,
+                "offsetX": 58,
+                "offsetY": 51
+              },
+              {
+                "x": 136,
+                "y": 67,
+                "width": 38,
+                "height": 20,
+                "offsetX": 60,
+                "offsetY": 51
+              },
+              {
+                "x": 179,
+                "y": 67,
+                "width": 1,
+                "height": 1,
+                "offsetX": 0,
+                "offsetY": 0
+              }
+            ],
+            "order": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11
+            ],
+            "fps": 38.70967741935484,
+            "loop": false
+          }
+        },
+        {
+          "kind": "release",
+          "key": "source",
+          "target": "self",
+          "durationMs": 240,
+          "loop": false,
+          "anchor": [
+            80,
+            64
+          ],
+          "returnsToCaster": false,
+          "beam": false,
+          "sound": "monster-upgrade-20261118/sts2_kin_priest/01",
+          "clip": {
+            "frames": [
+              "art/monster-upgrade-20261118/sts2_kin_priest/fx-01.png"
+            ],
+            "atlasRects": [
+              {
+                "x": 38,
+                "y": 206,
+                "width": 1,
+                "height": 1,
+                "offsetX": 0,
+                "offsetY": 0
+              },
+              {
+                "x": 0,
+                "y": 186,
+                "width": 37,
+                "height": 18,
+                "offsetX": 68,
+                "offsetY": 55
+              },
+              {
+                "x": 0,
+                "y": 142,
+                "width": 38,
+                "height": 20,
+                "offsetX": 67,
+                "offsetY": 54
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "width": 38,
+                "height": 21,
+                "offsetX": 67,
+                "offsetY": 54
+              },
+              {
+                "x": 0,
+                "y": 0,
+                "width": 39,
+                "height": 22,
+                "offsetX": 66,
+                "offsetY": 53
+              },
+              {
+                "x": 0,
+                "y": 24,
+                "width": 39,
+                "height": 22,
+                "offsetX": 66,
+                "offsetY": 53
+              },
+              {
+                "x": 0,
+                "y": 48,
+                "width": 39,
+                "height": 22,
+                "offsetX": 66,
+                "offsetY": 53
+              },
+              {
+                "x": 0,
+                "y": 72,
+                "width": 39,
+                "height": 22,
+                "offsetX": 66,
+                "offsetY": 53
+              },
+              {
+                "x": 0,
+                "y": 119,
+                "width": 38,
+                "height": 21,
+                "offsetX": 67,
+                "offsetY": 54
+              },
+              {
+                "x": 0,
+                "y": 164,
+                "width": 38,
+                "height": 20,
+                "offsetX": 67,
+                "offsetY": 54
+              },
+              {
+                "x": 0,
+                "y": 206,
+                "width": 36,
+                "height": 17,
+                "offsetX": 69,
+                "offsetY": 56
+              },
+              {
+                "x": 0,
+                "y": 225,
+                "width": 1,
+                "height": 1,
+                "offsetX": 0,
+                "offsetY": 0
+              }
+            ],
+            "order": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11
+            ],
+            "fps": 50,
+            "loop": false
+          }
+        },
+        {
+          "kind": "travel",
+          "key": "travel",
+          "target": "path",
+          "durationMs": 320,
+          "loop": false,
+          "anchor": [
+            126,
+            64
+          ],
+          "returnsToCaster": false,
+          "beam": false,
+          "sound": "monster-upgrade-20261118/sts2_kin_priest/02",
+          "clip": {
+            "frames": [
+              "art/monster-upgrade-20261118/sts2_kin_priest/fx-02.png"
+            ],
+            "atlasRects": [
+              {
+                "x": 0,
+                "y": 223,
+                "width": 1,
+                "height": 1,
+                "offsetX": 0,
+                "offsetY": 0
+              },
+              {
+                "x": 0,
+                "y": 184,
+                "width": 37,
+                "height": 18,
+                "offsetX": 98,
+                "offsetY": 52
+              },
+              {
+                "x": 0,
+                "y": 118,
+                "width": 38,
+                "height": 20,
+                "offsetX": 83,
+                "offsetY": 48
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "width": 39,
+                "height": 20,
+                "offsetX": 69,
+                "offsetY": 46
+              },
+              {
+                "x": 0,
+                "y": 0,
+                "width": 39,
+                "height": 22,
+                "offsetX": 58,
+                "offsetY": 43
+              },
+              {
+                "x": 0,
+                "y": 24,
+                "width": 39,
+                "height": 22,
+                "offsetX": 48,
+                "offsetY": 42
+              },
+              {
+                "x": 0,
+                "y": 48,
+                "width": 39,
+                "height": 22,
+                "offsetX": 39,
+                "offsetY": 42
+              },
+              {
+                "x": 0,
+                "y": 72,
+                "width": 38,
+                "height": 22,
+                "offsetX": 33,
+                "offsetY": 43
+              },
+              {
+                "x": 0,
+                "y": 140,
+                "width": 38,
+                "height": 20,
+                "offsetX": 28,
+                "offsetY": 46
+              },
+              {
+                "x": 0,
+                "y": 162,
+                "width": 38,
+                "height": 20,
+                "offsetX": 24,
+                "offsetY": 48
+              },
+              {
+                "x": 0,
+                "y": 204,
+                "width": 37,
+                "height": 17,
+                "offsetX": 23,
+                "offsetY": 53
+              },
+              {
+                "x": 3,
+                "y": 223,
+                "width": 1,
+                "height": 1,
+                "offsetX": 0,
+                "offsetY": 0
+              }
+            ],
+            "order": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11
+            ],
+            "fps": 37.5,
+            "loop": false
+          }
+        },
+        {
+          "kind": "hit",
+          "key": "hit_target",
+          "target": "player",
+          "durationMs": 220,
+          "loop": false,
+          "anchor": [
+            80,
+            64
+          ],
+          "returnsToCaster": false,
+          "beam": false,
+          "sound": "monster-upgrade-20261118/sts2_kin_priest/03",
+          "clip": {
+            "frames": [
+              "art/monster-upgrade-20261118/sts2_kin_priest/fx-03.png"
+            ],
+            "atlasRects": [
+              {
+                "x": 35,
+                "y": 357,
+                "width": 1,
+                "height": 1,
+                "offsetX": 0,
+                "offsetY": 0
+              },
+              {
+                "x": 0,
+                "y": 357,
+                "width": 33,
+                "height": 18,
+                "offsetX": 64,
+                "offsetY": 55
+              },
+              {
+                "x": 0,
+                "y": 331,
+                "width": 37,
+                "height": 24,
+                "offsetX": 62,
+                "offsetY": 52
+              },
+              {
+                "x": 0,
+                "y": 300,
+                "width": 41,
+                "height": 29,
+                "offsetX": 60,
+                "offsetY": 49
+              },
+              {
+                "x": 0,
+                "y": 265,
+                "width": 48,
+                "height": 33,
+                "offsetX": 56,
+                "offsetY": 47
+              },
+              {
+                "x": 0,
+                "y": 226,
+                "width": 54,
+                "height": 37,
+                "offsetX": 53,
+                "offsetY": 45
+              },
+              {
+                "x": 0,
+                "y": 184,
+                "width": 59,
+                "height": 40,
+                "offsetX": 51,
+                "offsetY": 43
+              },
+              {
+                "x": 0,
+                "y": 140,
+                "width": 62,
+                "height": 42,
+                "offsetX": 49,
+                "offsetY": 42
+              },
+              {
+                "x": 0,
+                "y": 94,
+                "width": 65,
+                "height": 44,
+                "offsetX": 48,
+                "offsetY": 41
+              },
+              {
+                "x": 0,
+                "y": 0,
+                "width": 65,
+                "height": 45,
+                "offsetX": 48,
+                "offsetY": 40
+              },
+              {
+                "x": 0,
+                "y": 47,
+                "width": 64,
+                "height": 45,
+                "offsetX": 48,
+                "offsetY": 40
+              },
+              {
+                "x": 38,
+                "y": 357,
+                "width": 1,
+                "height": 1,
+                "offsetX": 0,
+                "offsetY": 0
+              }
+            ],
+            "order": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11
+            ],
+            "fps": 54.54545454545455,
+            "loop": false
+          }
+        },
+        {
+          "kind": "status",
+          "key": "state_player_frail",
+          "target": "player",
+          "status": "frail",
+          "durationMs": 430,
+          "loop": false,
+          "anchor": [
+            80,
+            64
+          ],
+          "returnsToCaster": false,
+          "beam": false,
+          "sound": "monster-upgrade-20261118/sts2_kin_priest/04",
+          "clip": {
+            "frames": [
+              "art/monster-upgrade-20261118/sts2_kin_priest/fx-04.png"
+            ],
+            "atlasRects": [
+              {
+                "x": 0,
+                "y": 237,
+                "width": 1,
+                "height": 1,
+                "offsetX": 0,
+                "offsetY": 0
+              },
+              {
+                "x": 0,
+                "y": 221,
+                "width": 39,
+                "height": 14,
+                "offsetX": 61,
+                "offsetY": 52
+              },
+              {
+                "x": 0,
+                "y": 160,
+                "width": 40,
+                "height": 20,
+                "offsetX": 60,
+                "offsetY": 52
+              },
+              {
+                "x": 0,
+                "y": 110,
+                "width": 40,
+                "height": 23,
+                "offsetX": 60,
+                "offsetY": 53
+              },
+              {
+                "x": 0,
+                "y": 56,
+                "width": 40,
+                "height": 25,
+                "offsetX": 60,
+                "offsetY": 54
+              },
+              {
+                "x": 0,
+                "y": 0,
+                "width": 40,
+                "height": 26,
+                "offsetX": 60,
+                "offsetY": 55
+              },
+              {
+                "x": 0,
+                "y": 28,
+                "width": 40,
+                "height": 26,
+                "offsetX": 60,
+                "offsetY": 57
+              },
+              {
+                "x": 0,
+                "y": 83,
+                "width": 40,
+                "height": 25,
+                "offsetX": 60,
+                "offsetY": 59
+              },
+              {
+                "x": 0,
+                "y": 135,
+                "width": 40,
+                "height": 23,
+                "offsetX": 60,
+                "offsetY": 61
+              },
+              {
+                "x": 0,
+                "y": 182,
+                "width": 40,
+                "height": 20,
+                "offsetX": 60,
+                "offsetY": 63
+              },
+              {
+                "x": 0,
+                "y": 204,
+                "width": 38,
+                "height": 15,
+                "offsetX": 61,
+                "offsetY": 66
+              },
+              {
+                "x": 3,
+                "y": 237,
+                "width": 1,
+                "height": 1,
+                "offsetX": 0,
+                "offsetY": 0
+              }
+            ],
+            "order": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11
+            ],
+            "fps": 27.906976744186046,
+            "loop": false
+          }
+        },
+        {
+          "kind": "tail",
+          "key": "recovery",
+          "target": "self",
+          "durationMs": 210,
+          "loop": false,
+          "anchor": [
+            80,
+            64
+          ],
+          "returnsToCaster": false,
+          "beam": false,
+          "sound": "monster-upgrade-20261118/sts2_kin_priest/05",
+          "clip": {
+            "frames": [
+              "art/monster-upgrade-20261118/sts2_kin_priest/fx-05.png"
+            ],
+            "atlasRects": [
+              {
+                "x": 358,
+                "y": 0,
+                "width": 1,
+                "height": 1,
+                "offsetX": 0,
+                "offsetY": 0
+              },
+              {
+                "x": 290,
+                "y": 0,
+                "width": 32,
+                "height": 18,
+                "offsetX": 70,
+                "offsetY": 54
+              },
+              {
+                "x": 74,
+                "y": 0,
+                "width": 34,
+                "height": 19,
+                "offsetX": 67,
+                "offsetY": 54
+              },
+              {
+                "x": 0,
+                "y": 0,
+                "width": 35,
+                "height": 19,
+                "offsetX": 66,
+                "offsetY": 54
+              },
+              {
+                "x": 37,
+                "y": 0,
+                "width": 35,
+                "height": 19,
+                "offsetX": 65,
+                "offsetY": 54
+              },
+              {
+                "x": 110,
+                "y": 0,
+                "width": 34,
+                "height": 19,
+                "offsetX": 63,
+                "offsetY": 54
+              },
+              {
+                "x": 146,
+                "y": 0,
+                "width": 34,
+                "height": 19,
+                "offsetX": 62,
+                "offsetY": 54
+              },
+              {
+                "x": 182,
+                "y": 0,
+                "width": 34,
+                "height": 19,
+                "offsetX": 62,
+                "offsetY": 54
+              },
+              {
+                "x": 218,
+                "y": 0,
+                "width": 34,
+                "height": 19,
+                "offsetX": 61,
+                "offsetY": 54
+              },
+              {
+                "x": 254,
+                "y": 0,
+                "width": 34,
+                "height": 19,
+                "offsetX": 58,
+                "offsetY": 54
+              },
+              {
+                "x": 324,
+                "y": 0,
+                "width": 32,
+                "height": 17,
+                "offsetX": 59,
+                "offsetY": 54
+              },
+              {
+                "x": 361,
+                "y": 0,
+                "width": 1,
+                "height": 1,
+                "offsetX": 0,
+                "offsetY": 0
+              }
+            ],
+            "order": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11
+            ],
+            "fps": 57.142857142857146,
+            "loop": false
+          }
+        }
+      ],
+      "damages": true,
+      "noAction": false
+    },
+    "sts2_orb_of_weakness": {
+      "cues": [
+        {
+          "kind": "windup",
+          "key": "windup",
+          "target": "self",
+          "durationMs": 310,
+          "loop": false,
+          "anchor": [
+            80,
+            64
+          ],
+          "returnsToCaster": false,
+          "beam": false,
+          "sound": "monster-upgrade-20261118/sts2_kin_priest/06",
+          "clip": {
+            "frames": [
+              "art/monster-upgrade-20261118/sts2_kin_priest/fx-06.png"
+            ],
+            "atlasRects": [
+              {
+                "x": 177,
+                "y": 60,
+                "width": 1,
+                "height": 1,
+                "offsetX": 0,
+                "offsetY": 0
+              },
+              {
+                "x": 0,
+                "y": 0,
+                "width": 59,
+                "height": 30,
+                "offsetX": 49,
+                "offsetY": 49
+              },
+              {
+                "x": 61,
+                "y": 0,
+                "width": 57,
+                "height": 30,
+                "offsetX": 50,
+                "offsetY": 49
+              },
+              {
+                "x": 120,
+                "y": 0,
+                "width": 55,
+                "height": 28,
+                "offsetX": 51,
+                "offsetY": 50
+              },
+              {
+                "x": 0,
+                "y": 32,
+                "width": 53,
+                "height": 26,
+                "offsetX": 52,
+                "offsetY": 51
+              },
+              {
+                "x": 55,
+                "y": 32,
+                "width": 50,
+                "height": 25,
+                "offsetX": 54,
+                "offsetY": 51
+              },
+              {
+                "x": 107,
+                "y": 32,
+                "width": 48,
+                "height": 25,
+                "offsetX": 55,
+                "offsetY": 51
+              },
+              {
+                "x": 0,
+                "y": 60,
+                "width": 46,
+                "height": 24,
+                "offsetX": 56,
+                "offsetY": 51
+              },
+              {
+                "x": 48,
+                "y": 60,
+                "width": 44,
+                "height": 23,
+                "offsetX": 57,
+                "offsetY": 51
+              },
+              {
+                "x": 94,
+                "y": 60,
+                "width": 41,
+                "height": 22,
+                "offsetX": 58,
+                "offsetY": 51
+              },
+              {
+                "x": 137,
+                "y": 60,
+                "width": 38,
+                "height": 20,
+                "offsetX": 60,
+                "offsetY": 51
+              },
+              {
+                "x": 180,
+                "y": 60,
+                "width": 1,
+                "height": 1,
+                "offsetX": 0,
+                "offsetY": 0
+              }
+            ],
+            "order": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11
+            ],
+            "fps": 38.70967741935484,
+            "loop": false
+          }
+        },
+        {
+          "kind": "release",
+          "key": "source",
+          "target": "self",
+          "durationMs": 240,
+          "loop": false,
+          "anchor": [
+            80,
+            64
+          ],
+          "returnsToCaster": false,
+          "beam": false,
+          "sound": "monster-upgrade-20261118/sts2_kin_priest/07",
+          "clip": {
+            "frames": [
+              "art/monster-upgrade-20261118/sts2_kin_priest/fx-07.png"
+            ],
+            "atlasRects": [
+              {
+                "x": 38,
+                "y": 206,
+                "width": 1,
+                "height": 1,
+                "offsetX": 0,
+                "offsetY": 0
+              },
+              {
+                "x": 0,
+                "y": 186,
+                "width": 37,
+                "height": 18,
+                "offsetX": 68,
+                "offsetY": 55
+              },
+              {
+                "x": 0,
+                "y": 142,
+                "width": 38,
+                "height": 20,
+                "offsetX": 67,
+                "offsetY": 54
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "width": 38,
+                "height": 21,
+                "offsetX": 67,
+                "offsetY": 54
+              },
+              {
+                "x": 0,
+                "y": 0,
+                "width": 39,
+                "height": 22,
+                "offsetX": 66,
+                "offsetY": 53
+              },
+              {
+                "x": 0,
+                "y": 24,
+                "width": 39,
+                "height": 22,
+                "offsetX": 66,
+                "offsetY": 53
+              },
+              {
+                "x": 0,
+                "y": 48,
+                "width": 39,
+                "height": 22,
+                "offsetX": 66,
+                "offsetY": 53
+              },
+              {
+                "x": 0,
+                "y": 72,
+                "width": 39,
+                "height": 22,
+                "offsetX": 66,
+                "offsetY": 53
+              },
+              {
+                "x": 0,
+                "y": 119,
+                "width": 38,
+                "height": 21,
+                "offsetX": 67,
+                "offsetY": 54
+              },
+              {
+                "x": 0,
+                "y": 164,
+                "width": 38,
+                "height": 20,
+                "offsetX": 67,
+                "offsetY": 54
+              },
+              {
+                "x": 0,
+                "y": 206,
+                "width": 36,
+                "height": 17,
+                "offsetX": 69,
+                "offsetY": 56
+              },
+              {
+                "x": 0,
+                "y": 225,
+                "width": 1,
+                "height": 1,
+                "offsetX": 0,
+                "offsetY": 0
+              }
+            ],
+            "order": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11
+            ],
+            "fps": 50,
+            "loop": false
+          }
+        },
+        {
+          "kind": "travel",
+          "key": "travel",
+          "target": "path",
+          "durationMs": 320,
+          "loop": false,
+          "anchor": [
+            126,
+            64
+          ],
+          "returnsToCaster": false,
+          "beam": false,
+          "sound": "monster-upgrade-20261118/sts2_kin_priest/08",
+          "clip": {
+            "frames": [
+              "art/monster-upgrade-20261118/sts2_kin_priest/fx-08.png"
+            ],
+            "atlasRects": [
+              {
+                "x": 0,
+                "y": 223,
+                "width": 1,
+                "height": 1,
+                "offsetX": 0,
+                "offsetY": 0
+              },
+              {
+                "x": 0,
+                "y": 184,
+                "width": 37,
+                "height": 18,
+                "offsetX": 98,
+                "offsetY": 52
+              },
+              {
+                "x": 0,
+                "y": 118,
+                "width": 38,
+                "height": 20,
+                "offsetX": 83,
+                "offsetY": 48
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "width": 39,
+                "height": 20,
+                "offsetX": 69,
+                "offsetY": 46
+              },
+              {
+                "x": 0,
+                "y": 0,
+                "width": 39,
+                "height": 22,
+                "offsetX": 58,
+                "offsetY": 43
+              },
+              {
+                "x": 0,
+                "y": 24,
+                "width": 39,
+                "height": 22,
+                "offsetX": 48,
+                "offsetY": 42
+              },
+              {
+                "x": 0,
+                "y": 48,
+                "width": 39,
+                "height": 22,
+                "offsetX": 39,
+                "offsetY": 42
+              },
+              {
+                "x": 0,
+                "y": 72,
+                "width": 38,
+                "height": 22,
+                "offsetX": 33,
+                "offsetY": 43
+              },
+              {
+                "x": 0,
+                "y": 140,
+                "width": 38,
+                "height": 20,
+                "offsetX": 28,
+                "offsetY": 46
+              },
+              {
+                "x": 0,
+                "y": 162,
+                "width": 38,
+                "height": 20,
+                "offsetX": 24,
+                "offsetY": 48
+              },
+              {
+                "x": 0,
+                "y": 204,
+                "width": 37,
+                "height": 17,
+                "offsetX": 23,
+                "offsetY": 53
+              },
+              {
+                "x": 3,
+                "y": 223,
+                "width": 1,
+                "height": 1,
+                "offsetX": 0,
+                "offsetY": 0
+              }
+            ],
+            "order": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11
+            ],
+            "fps": 37.5,
+            "loop": false
+          }
+        },
+        {
+          "kind": "hit",
+          "key": "hit_target",
+          "target": "player",
+          "durationMs": 220,
+          "loop": false,
+          "anchor": [
+            80,
+            64
+          ],
+          "returnsToCaster": false,
+          "beam": false,
+          "sound": "monster-upgrade-20261118/sts2_kin_priest/09",
+          "clip": {
+            "frames": [
+              "art/monster-upgrade-20261118/sts2_kin_priest/fx-09.png"
+            ],
+            "atlasRects": [
+              {
+                "x": 74,
+                "y": 373,
+                "width": 1,
+                "height": 1,
+                "offsetX": 0,
+                "offsetY": 0
+              },
+              {
+                "x": 39,
+                "y": 373,
+                "width": 33,
+                "height": 18,
+                "offsetX": 64,
+                "offsetY": 57
+              },
+              {
+                "x": 0,
+                "y": 373,
+                "width": 37,
+                "height": 26,
+                "offsetX": 62,
+                "offsetY": 53
+              },
+              {
+                "x": 0,
+                "y": 339,
+                "width": 45,
+                "height": 32,
+                "offsetX": 60,
+                "offsetY": 51
+              },
+              {
+                "x": 0,
+                "y": 300,
+                "width": 53,
+                "height": 37,
+                "offsetX": 56,
+                "offsetY": 49
+              },
+              {
+                "x": 0,
+                "y": 256,
+                "width": 60,
+                "height": 42,
+                "offsetX": 53,
+                "offsetY": 47
+              },
+              {
+                "x": 0,
+                "y": 209,
+                "width": 66,
+                "height": 45,
+                "offsetX": 50,
+                "offsetY": 46
+              },
+              {
+                "x": 0,
+                "y": 159,
+                "width": 71,
+                "height": 48,
+                "offsetX": 48,
+                "offsetY": 45
+              },
+              {
+                "x": 0,
+                "y": 107,
+                "width": 73,
+                "height": 50,
+                "offsetX": 47,
+                "offsetY": 44
+              },
+              {
+                "x": 0,
+                "y": 0,
+                "width": 76,
+                "height": 52,
+                "offsetX": 46,
+                "offsetY": 43
+              },
+              {
+                "x": 0,
+                "y": 54,
+                "width": 76,
+                "height": 51,
+                "offsetX": 46,
+                "offsetY": 44
+              },
+              {
+                "x": 0,
+                "y": 401,
+                "width": 1,
+                "height": 1,
+                "offsetX": 0,
+                "offsetY": 0
+              }
+            ],
+            "order": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11
+            ],
+            "fps": 54.54545454545455,
+            "loop": false
+          }
+        },
+        {
+          "kind": "status",
+          "key": "state_player_weak",
+          "target": "player",
+          "status": "weak",
+          "durationMs": 430,
+          "loop": false,
+          "anchor": [
+            80,
+            64
+          ],
+          "returnsToCaster": false,
+          "beam": false,
+          "sound": "monster-upgrade-20261118/sts2_kin_priest/10",
+          "clip": {
+            "frames": [
+              "art/monster-upgrade-20261118/sts2_kin_priest/fx-10.png"
+            ],
+            "atlasRects": [
+              {
+                "x": 0,
+                "y": 260,
+                "width": 1,
+                "height": 1,
+                "offsetX": 0,
+                "offsetY": 0
+              },
+              {
+                "x": 0,
+                "y": 0,
+                "width": 23,
+                "height": 24,
+                "offsetX": 68,
+                "offsetY": 45
+              },
+              {
+                "x": 0,
+                "y": 26,
+                "width": 23,
+                "height": 24,
+                "offsetX": 68,
+                "offsetY": 47
+              },
+              {
+                "x": 0,
+                "y": 52,
+                "width": 23,
+                "height": 24,
+                "offsetX": 68,
+                "offsetY": 48
+              },
+              {
+                "x": 0,
+                "y": 78,
+                "width": 23,
+                "height": 24,
+                "offsetX": 68,
+                "offsetY": 50
+              },
+              {
+                "x": 0,
+                "y": 104,
+                "width": 23,
+                "height": 24,
+                "offsetX": 68,
+                "offsetY": 51
+              },
+              {
+                "x": 0,
+                "y": 130,
+                "width": 23,
+                "height": 24,
+                "offsetX": 68,
+                "offsetY": 53
+              },
+              {
+                "x": 0,
+                "y": 156,
+                "width": 23,
+                "height": 24,
+                "offsetX": 68,
+                "offsetY": 55
+              },
+              {
+                "x": 0,
+                "y": 182,
+                "width": 23,
+                "height": 24,
+                "offsetX": 68,
+                "offsetY": 56
+              },
+              {
+                "x": 0,
+                "y": 208,
+                "width": 23,
+                "height": 24,
+                "offsetX": 68,
+                "offsetY": 58
+              },
+              {
+                "x": 0,
+                "y": 234,
+                "width": 21,
+                "height": 24,
+                "offsetX": 69,
+                "offsetY": 59
+              },
+              {
+                "x": 3,
+                "y": 260,
+                "width": 1,
+                "height": 1,
+                "offsetX": 0,
+                "offsetY": 0
+              }
+            ],
+            "order": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11
+            ],
+            "fps": 27.906976744186046,
+            "loop": false
+          }
+        },
+        {
+          "kind": "tail",
+          "key": "recovery",
+          "target": "self",
+          "durationMs": 210,
+          "loop": false,
+          "anchor": [
+            80,
+            64
+          ],
+          "returnsToCaster": false,
+          "beam": false,
+          "sound": "monster-upgrade-20261118/sts2_kin_priest/11",
+          "clip": {
+            "frames": [
+              "art/monster-upgrade-20261118/sts2_kin_priest/fx-11.png"
+            ],
+            "atlasRects": [
+              {
+                "x": 358,
+                "y": 0,
+                "width": 1,
+                "height": 1,
+                "offsetX": 0,
+                "offsetY": 0
+              },
+              {
+                "x": 290,
+                "y": 0,
+                "width": 32,
+                "height": 18,
+                "offsetX": 70,
+                "offsetY": 54
+              },
+              {
+                "x": 74,
+                "y": 0,
+                "width": 34,
+                "height": 19,
+                "offsetX": 67,
+                "offsetY": 54
+              },
+              {
+                "x": 0,
+                "y": 0,
+                "width": 35,
+                "height": 19,
+                "offsetX": 66,
+                "offsetY": 54
+              },
+              {
+                "x": 37,
+                "y": 0,
+                "width": 35,
+                "height": 19,
+                "offsetX": 65,
+                "offsetY": 54
+              },
+              {
+                "x": 110,
+                "y": 0,
+                "width": 34,
+                "height": 18,
+                "offsetX": 63,
+                "offsetY": 55
+              },
+              {
+                "x": 146,
+                "y": 0,
+                "width": 34,
+                "height": 18,
+                "offsetX": 62,
+                "offsetY": 55
+              },
+              {
+                "x": 182,
+                "y": 0,
+                "width": 34,
+                "height": 18,
+                "offsetX": 62,
+                "offsetY": 55
+              },
+              {
+                "x": 218,
+                "y": 0,
+                "width": 34,
+                "height": 18,
+                "offsetX": 61,
+                "offsetY": 55
+              },
+              {
+                "x": 254,
+                "y": 0,
+                "width": 34,
+                "height": 18,
+                "offsetX": 58,
+                "offsetY": 55
+              },
+              {
+                "x": 324,
+                "y": 0,
+                "width": 32,
+                "height": 15,
+                "offsetX": 59,
+                "offsetY": 56
+              },
+              {
+                "x": 361,
+                "y": 0,
+                "width": 1,
+                "height": 1,
+                "offsetX": 0,
+                "offsetY": 0
+              }
+            ],
+            "order": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11
+            ],
+            "fps": 57.142857142857146,
+            "loop": false
+          }
+        }
+      ],
+      "damages": true,
+      "noAction": false
+    },
+    "sts2_beam": {
+      "cues": [
+        {
+          "kind": "windup",
+          "key": "windup",
+          "target": "self",
+          "durationMs": 310,
+          "loop": false,
+          "anchor": [
+            80,
+            64
+          ],
+          "returnsToCaster": false,
+          "beam": false,
+          "sound": "monster-upgrade-20261118/sts2_kin_priest/12",
+          "clip": {
+            "frames": [
+              "art/monster-upgrade-20261118/sts2_kin_priest/fx-12.png"
+            ],
+            "atlasRects": [
+              {
+                "x": 282,
+                "y": 0,
+                "width": 1,
+                "height": 1,
+                "offsetX": 0,
+                "offsetY": 0
+              },
+              {
+                "x": 0,
+                "y": 0,
+                "width": 35,
+                "height": 22,
+                "offsetX": 73,
+                "offsetY": 53
+              },
+              {
+                "x": 37,
+                "y": 0,
+                "width": 30,
+                "height": 22,
+                "offsetX": 74,
+                "offsetY": 53
+              },
+              {
+                "x": 69,
+                "y": 0,
+                "width": 30,
+                "height": 22,
+                "offsetX": 72,
+                "offsetY": 53
+              },
+              {
+                "x": 131,
+                "y": 0,
+                "width": 27,
+                "height": 22,
+                "offsetX": 73,
+                "offsetY": 53
+              },
+              {
+                "x": 101,
+                "y": 0,
+                "width": 28,
+                "height": 22,
+                "offsetX": 71,
+                "offsetY": 53
+              },
+              {
+                "x": 160,
+                "y": 0,
+                "width": 27,
+                "height": 22,
+                "offsetX": 70,
+                "offsetY": 53
+              },
+              {
+                "x": 189,
+                "y": 0,
+                "width": 23,
+                "height": 21,
+                "offsetX": 71,
+                "offsetY": 54
+              },
+              {
+                "x": 214,
+                "y": 0,
+                "width": 23,
+                "height": 21,
+                "offsetX": 69,
+                "offsetY": 54
+              },
+              {
+                "x": 239,
+                "y": 0,
+                "width": 20,
+                "height": 21,
+                "offsetX": 70,
+                "offsetY": 54
+              },
+              {
+                "x": 261,
+                "y": 0,
+                "width": 19,
+                "height": 21,
+                "offsetX": 68,
+                "offsetY": 54
+              },
+              {
+                "x": 285,
+                "y": 0,
+                "width": 1,
+                "height": 1,
+                "offsetX": 0,
+                "offsetY": 0
+              }
+            ],
+            "order": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11
+            ],
+            "fps": 38.70967741935484,
+            "loop": false
+          }
+        },
+        {
+          "kind": "release",
+          "key": "source",
+          "target": "self",
+          "durationMs": 240,
+          "loop": false,
+          "anchor": [
+            80,
+            64
+          ],
+          "returnsToCaster": false,
+          "beam": false,
+          "sound": "monster-upgrade-20261118/sts2_kin_priest/13",
+          "clip": {
+            "frames": [
+              "art/monster-upgrade-20261118/sts2_kin_priest/fx-13.png"
+            ],
+            "atlasRects": [
+              {
+                "x": 46,
+                "y": 230,
+                "width": 1,
+                "height": 1,
+                "offsetX": 0,
+                "offsetY": 0
+              },
+              {
+                "x": 0,
+                "y": 230,
+                "width": 21,
+                "height": 15,
+                "offsetX": 69,
+                "offsetY": 57
+              },
+              {
+                "x": 0,
+                "y": 184,
+                "width": 33,
+                "height": 21,
+                "offsetX": 63,
+                "offsetY": 53
+              },
+              {
+                "x": 0,
+                "y": 126,
+                "width": 41,
+                "height": 27,
+                "offsetX": 59,
+                "offsetY": 51
+              },
+              {
+                "x": 0,
+                "y": 64,
+                "width": 47,
+                "height": 29,
+                "offsetX": 56,
+                "offsetY": 49
+              },
+              {
+                "x": 0,
+                "y": 0,
+                "width": 49,
+                "height": 30,
+                "offsetX": 55,
+                "offsetY": 50
+              },
+              {
+                "x": 0,
+                "y": 32,
+                "width": 49,
+                "height": 30,
+                "offsetX": 55,
+                "offsetY": 50
+              },
+              {
+                "x": 0,
+                "y": 95,
+                "width": 47,
+                "height": 29,
+                "offsetX": 56,
+                "offsetY": 49
+              },
+              {
+                "x": 0,
+                "y": 155,
+                "width": 41,
+                "height": 27,
+                "offsetX": 59,
+                "offsetY": 51
+              },
+              {
+                "x": 0,
+                "y": 207,
+                "width": 33,
+                "height": 21,
+                "offsetX": 63,
+                "offsetY": 53
+              },
+              {
+                "x": 23,
+                "y": 230,
+                "width": 21,
+                "height": 15,
+                "offsetX": 69,
+                "offsetY": 57
+              },
+              {
+                "x": 0,
+                "y": 247,
+                "width": 1,
+                "height": 1,
+                "offsetX": 0,
+                "offsetY": 0
+              }
+            ],
+            "order": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11
+            ],
+            "fps": 50,
+            "loop": false
+          }
+        },
+        {
+          "kind": "travel",
+          "key": "travel",
+          "target": "path",
+          "durationMs": 320,
+          "loop": false,
+          "anchor": [
+            145,
+            64
+          ],
+          "returnsToCaster": false,
+          "beam": true,
+          "sound": "monster-upgrade-20261118/sts2_kin_priest/14",
+          "clip": {
+            "frames": [
+              "art/monster-upgrade-20261118/sts2_kin_priest/fx-14.png"
+            ],
+            "atlasRects": [
+              {
+                "x": 1430,
+                "y": 0,
+                "width": 1,
+                "height": 1,
+                "offsetX": 0,
+                "offsetY": 0
+              },
+              {
+                "x": 0,
+                "y": 0,
+                "width": 141,
+                "height": 16,
+                "offsetX": 9,
+                "offsetY": 57
+              },
+              {
+                "x": 143,
+                "y": 0,
+                "width": 141,
+                "height": 16,
+                "offsetX": 9,
+                "offsetY": 57
+              },
+              {
+                "x": 286,
+                "y": 0,
+                "width": 141,
+                "height": 16,
+                "offsetX": 9,
+                "offsetY": 57
+              },
+              {
+                "x": 429,
+                "y": 0,
+                "width": 141,
+                "height": 16,
+                "offsetX": 9,
+                "offsetY": 57
+              },
+              {
+                "x": 572,
+                "y": 0,
+                "width": 141,
+                "height": 16,
+                "offsetX": 9,
+                "offsetY": 57
+              },
+              {
+                "x": 715,
+                "y": 0,
+                "width": 141,
+                "height": 16,
+                "offsetX": 9,
+                "offsetY": 57
+              },
+              {
+                "x": 858,
+                "y": 0,
+                "width": 141,
+                "height": 16,
+                "offsetX": 9,
+                "offsetY": 57
+              },
+              {
+                "x": 1001,
+                "y": 0,
+                "width": 141,
+                "height": 16,
+                "offsetX": 9,
+                "offsetY": 57
+              },
+              {
+                "x": 1144,
+                "y": 0,
+                "width": 141,
+                "height": 16,
+                "offsetX": 9,
+                "offsetY": 57
+              },
+              {
+                "x": 1287,
+                "y": 0,
+                "width": 141,
+                "height": 15,
+                "offsetX": 9,
+                "offsetY": 58
+              },
+              {
+                "x": 1433,
+                "y": 0,
+                "width": 1,
+                "height": 1,
+                "offsetX": 0,
+                "offsetY": 0
+              }
+            ],
+            "order": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11
+            ],
+            "fps": 37.5,
+            "loop": false
+          }
+        },
+        {
+          "kind": "hit",
+          "key": "hit_target",
+          "target": "player",
+          "durationMs": 220,
+          "loop": false,
+          "anchor": [
+            80,
+            64
+          ],
+          "returnsToCaster": false,
+          "beam": false,
+          "sound": "monster-upgrade-20261118/sts2_kin_priest/15",
+          "clip": {
+            "frames": [
+              "art/monster-upgrade-20261118/sts2_kin_priest/fx-15.png"
+            ],
+            "atlasRects": [
+              {
+                "x": 484,
+                "y": 0,
+                "width": 1,
+                "height": 1,
+                "offsetX": 0,
+                "offsetY": 0
+              },
+              {
+                "x": 458,
+                "y": 0,
+                "width": 24,
+                "height": 20,
+                "offsetX": 69,
+                "offsetY": 53
+              },
+              {
+                "x": 423,
+                "y": 0,
+                "width": 33,
+                "height": 26,
+                "offsetX": 65,
+                "offsetY": 50
+              },
+              {
+                "x": 379,
+                "y": 0,
+                "width": 42,
+                "height": 32,
+                "offsetX": 61,
+                "offsetY": 47
+              },
+              {
+                "x": 329,
+                "y": 0,
+                "width": 48,
+                "height": 37,
+                "offsetX": 57,
+                "offsetY": 44
+              },
+              {
+                "x": 276,
+                "y": 0,
+                "width": 51,
+                "height": 40,
+                "offsetX": 57,
+                "offsetY": 42
+              },
+              {
+                "x": 115,
+                "y": 0,
+                "width": 55,
+                "height": 43,
+                "offsetX": 57,
+                "offsetY": 40
+              },
+              {
+                "x": 0,
+                "y": 0,
+                "width": 57,
+                "height": 44,
+                "offsetX": 57,
+                "offsetY": 39
+              },
+              {
+                "x": 59,
+                "y": 0,
+                "width": 54,
+                "height": 44,
+                "offsetX": 61,
+                "offsetY": 39
+              },
+              {
+                "x": 172,
+                "y": 0,
+                "width": 51,
+                "height": 43,
+                "offsetX": 64,
+                "offsetY": 39
+              },
+              {
+                "x": 225,
+                "y": 0,
+                "width": 49,
+                "height": 42,
+                "offsetX": 65,
+                "offsetY": 39
+              },
+              {
+                "x": 487,
+                "y": 0,
+                "width": 1,
+                "height": 1,
+                "offsetX": 0,
+                "offsetY": 0
+              }
+            ],
+            "order": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11
+            ],
+            "fps": 54.54545454545455,
+            "loop": false
+          }
+        },
+        {
+          "kind": "tail",
+          "key": "recovery",
+          "target": "self",
+          "durationMs": 210,
+          "loop": false,
+          "anchor": [
+            80,
+            64
+          ],
+          "returnsToCaster": false,
+          "beam": false,
+          "sound": "monster-upgrade-20261118/sts2_kin_priest/16",
+          "clip": {
+            "frames": [
+              "art/monster-upgrade-20261118/sts2_kin_priest/fx-16.png"
+            ],
+            "atlasRects": [
+              {
+                "x": 358,
+                "y": 0,
+                "width": 1,
+                "height": 1,
+                "offsetX": 0,
+                "offsetY": 0
+              },
+              {
+                "x": 290,
+                "y": 0,
+                "width": 32,
+                "height": 18,
+                "offsetX": 70,
+                "offsetY": 54
+              },
+              {
+                "x": 74,
+                "y": 0,
+                "width": 34,
+                "height": 19,
+                "offsetX": 67,
+                "offsetY": 54
+              },
+              {
+                "x": 0,
+                "y": 0,
+                "width": 35,
+                "height": 19,
+                "offsetX": 66,
+                "offsetY": 54
+              },
+              {
+                "x": 37,
+                "y": 0,
+                "width": 35,
+                "height": 19,
+                "offsetX": 65,
+                "offsetY": 54
+              },
+              {
+                "x": 110,
+                "y": 0,
+                "width": 34,
+                "height": 18,
+                "offsetX": 63,
+                "offsetY": 55
+              },
+              {
+                "x": 146,
+                "y": 0,
+                "width": 34,
+                "height": 18,
+                "offsetX": 62,
+                "offsetY": 55
+              },
+              {
+                "x": 182,
+                "y": 0,
+                "width": 34,
+                "height": 18,
+                "offsetX": 62,
+                "offsetY": 55
+              },
+              {
+                "x": 218,
+                "y": 0,
+                "width": 34,
+                "height": 18,
+                "offsetX": 61,
+                "offsetY": 55
+              },
+              {
+                "x": 254,
+                "y": 0,
+                "width": 34,
+                "height": 18,
+                "offsetX": 58,
+                "offsetY": 55
+              },
+              {
+                "x": 324,
+                "y": 0,
+                "width": 32,
+                "height": 16,
+                "offsetX": 59,
+                "offsetY": 55
+              },
+              {
+                "x": 361,
+                "y": 0,
+                "width": 1,
+                "height": 1,
+                "offsetX": 0,
+                "offsetY": 0
+              }
+            ],
+            "order": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11
+            ],
+            "fps": 57.142857142857146,
+            "loop": false
+          }
+        }
+      ],
+      "damages": true,
+      "noAction": false
+    },
+    "sts2_ritual": {
+      "cues": [
+        {
+          "kind": "windup",
+          "key": "windup",
+          "target": "self",
+          "durationMs": 310,
+          "loop": false,
+          "anchor": [
+            80,
+            64
+          ],
+          "returnsToCaster": false,
+          "beam": false,
+          "sound": "monster-upgrade-20261118/sts2_kin_priest/17",
+          "clip": {
+            "frames": [
+              "art/monster-upgrade-20261118/sts2_kin_priest/fx-17.png"
+            ],
+            "atlasRects": [
+              {
+                "x": 202,
+                "y": 62,
+                "width": 1,
+                "height": 1,
+                "offsetX": 0,
+                "offsetY": 0
+              },
+              {
+                "x": 0,
+                "y": 0,
+                "width": 55,
+                "height": 60,
+                "offsetX": 59,
+                "offsetY": 36
+              },
+              {
+                "x": 57,
+                "y": 0,
+                "width": 53,
+                "height": 56,
+                "offsetX": 59,
+                "offsetY": 38
+              },
+              {
+                "x": 112,
+                "y": 0,
+                "width": 48,
+                "height": 52,
+                "offsetX": 62,
+                "offsetY": 40
+              },
+              {
+                "x": 162,
+                "y": 0,
+                "width": 45,
+                "height": 48,
+                "offsetX": 62,
+                "offsetY": 42
+              },
+              {
+                "x": 0,
+                "y": 62,
+                "width": 40,
+                "height": 45,
+                "offsetX": 65,
+                "offsetY": 43
+              },
+              {
+                "x": 42,
+                "y": 62,
+                "width": 38,
+                "height": 40,
+                "offsetX": 65,
+                "offsetY": 45
+              },
+              {
+                "x": 82,
+                "y": 62,
+                "width": 33,
+                "height": 36,
+                "offsetX": 67,
+                "offsetY": 47
+              },
+              {
+                "x": 117,
+                "y": 62,
+                "width": 30,
+                "height": 32,
+                "offsetX": 68,
+                "offsetY": 49
+              },
+              {
+                "x": 149,
+                "y": 62,
+                "width": 27,
+                "height": 29,
+                "offsetX": 69,
+                "offsetY": 50
+              },
+              {
+                "x": 178,
+                "y": 62,
+                "width": 22,
+                "height": 23,
+                "offsetX": 71,
+                "offsetY": 53
+              },
+              {
+                "x": 205,
+                "y": 62,
+                "width": 1,
+                "height": 1,
+                "offsetX": 0,
+                "offsetY": 0
+              }
+            ],
+            "order": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11
+            ],
+            "fps": 38.70967741935484,
+            "loop": false
+          }
+        },
+        {
+          "kind": "release",
+          "key": "source",
+          "target": "self",
+          "durationMs": 240,
+          "loop": false,
+          "anchor": [
+            80,
+            64
+          ],
+          "returnsToCaster": false,
+          "beam": false,
+          "sound": "monster-upgrade-20261118/sts2_kin_priest/18",
+          "clip": {
+            "frames": [
+              "art/monster-upgrade-20261118/sts2_kin_priest/fx-18.png"
+            ],
+            "atlasRects": [
+              {
+                "x": 237,
+                "y": 51,
+                "width": 1,
+                "height": 1,
+                "offsetX": 0,
+                "offsetY": 0
+              },
+              {
+                "x": 210,
+                "y": 0,
+                "width": 36,
+                "height": 45,
+                "offsetX": 63,
+                "offsetY": 47
+              },
+              {
+                "x": 0,
+                "y": 0,
+                "width": 44,
+                "height": 49,
+                "offsetX": 59,
+                "offsetY": 44
+              },
+              {
+                "x": 46,
+                "y": 0,
+                "width": 50,
+                "height": 48,
+                "offsetX": 56,
+                "offsetY": 45
+              },
+              {
+                "x": 155,
+                "y": 0,
+                "width": 53,
+                "height": 46,
+                "offsetX": 54,
+                "offsetY": 45
+              },
+              {
+                "x": 98,
+                "y": 0,
+                "width": 55,
+                "height": 46,
+                "offsetX": 53,
+                "offsetY": 44
+              },
+              {
+                "x": 0,
+                "y": 51,
+                "width": 55,
+                "height": 43,
+                "offsetX": 53,
+                "offsetY": 45
+              },
+              {
+                "x": 57,
+                "y": 51,
+                "width": 52,
+                "height": 41,
+                "offsetX": 54,
+                "offsetY": 45
+              },
+              {
+                "x": 111,
+                "y": 51,
+                "width": 47,
+                "height": 37,
+                "offsetX": 56,
+                "offsetY": 46
+              },
+              {
+                "x": 160,
+                "y": 51,
+                "width": 41,
+                "height": 33,
+                "offsetX": 59,
+                "offsetY": 48
+              },
+              {
+                "x": 203,
+                "y": 51,
+                "width": 32,
+                "height": 27,
+                "offsetX": 64,
+                "offsetY": 51
+              },
+              {
+                "x": 240,
+                "y": 51,
+                "width": 1,
+                "height": 1,
+                "offsetX": 0,
+                "offsetY": 0
+              }
+            ],
+            "order": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11
+            ],
+            "fps": 50,
+            "loop": false
+          }
+        },
+        {
+          "kind": "status",
+          "key": "state_self_strength",
+          "target": "self",
+          "status": "strength",
+          "durationMs": 430,
+          "loop": false,
+          "anchor": [
+            80,
+            64
+          ],
+          "returnsToCaster": false,
+          "beam": false,
+          "sound": "monster-upgrade-20261118/sts2_kin_priest/19",
+          "clip": {
+            "frames": [
+              "art/monster-upgrade-20261118/sts2_kin_priest/fx-19.png"
+            ],
+            "atlasRects": [
+              {
+                "x": 338,
+                "y": 0,
+                "width": 1,
+                "height": 1,
+                "offsetX": 0,
+                "offsetY": 0
+              },
+              {
+                "x": 33,
+                "y": 0,
+                "width": 34,
+                "height": 26,
+                "offsetX": 63,
+                "offsetY": 62
+              },
+              {
+                "x": 69,
+                "y": 0,
+                "width": 33,
+                "height": 26,
+                "offsetX": 63,
+                "offsetY": 61
+              },
+              {
+                "x": 104,
+                "y": 0,
+                "width": 33,
+                "height": 26,
+                "offsetX": 63,
+                "offsetY": 60
+              },
+              {
+                "x": 139,
+                "y": 0,
+                "width": 32,
+                "height": 26,
+                "offsetX": 63,
+                "offsetY": 58
+              },
+              {
+                "x": 173,
+                "y": 0,
+                "width": 32,
+                "height": 26,
+                "offsetX": 63,
+                "offsetY": 57
+              },
+              {
+                "x": 0,
+                "y": 0,
+                "width": 31,
+                "height": 27,
+                "offsetX": 63,
+                "offsetY": 55
+              },
+              {
+                "x": 207,
+                "y": 0,
+                "width": 31,
+                "height": 26,
+                "offsetX": 63,
+                "offsetY": 54
+              },
+              {
+                "x": 240,
+                "y": 0,
+                "width": 31,
+                "height": 26,
+                "offsetX": 63,
+                "offsetY": 53
+              },
+              {
+                "x": 273,
+                "y": 0,
+                "width": 31,
+                "height": 26,
+                "offsetX": 63,
+                "offsetY": 51
+              },
+              {
+                "x": 306,
+                "y": 0,
+                "width": 30,
+                "height": 26,
+                "offsetX": 63,
+                "offsetY": 50
+              },
+              {
+                "x": 341,
+                "y": 0,
+                "width": 1,
+                "height": 1,
+                "offsetX": 0,
+                "offsetY": 0
+              }
+            ],
+            "order": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11
+            ],
+            "fps": 27.906976744186046,
+            "loop": false
+          }
+        },
+        {
+          "kind": "tail",
+          "key": "recovery",
+          "target": "self",
+          "durationMs": 210,
+          "loop": false,
+          "anchor": [
+            80,
+            64
+          ],
+          "returnsToCaster": false,
+          "beam": false,
+          "sound": "monster-upgrade-20261118/sts2_kin_priest/20",
+          "clip": {
+            "frames": [
+              "art/monster-upgrade-20261118/sts2_kin_priest/fx-20.png"
+            ],
+            "atlasRects": [
+              {
+                "x": 358,
+                "y": 0,
+                "width": 1,
+                "height": 1,
+                "offsetX": 0,
+                "offsetY": 0
+              },
+              {
+                "x": 290,
+                "y": 0,
+                "width": 32,
+                "height": 18,
+                "offsetX": 70,
+                "offsetY": 54
+              },
+              {
+                "x": 74,
+                "y": 0,
+                "width": 34,
+                "height": 19,
+                "offsetX": 67,
+                "offsetY": 54
+              },
+              {
+                "x": 0,
+                "y": 0,
+                "width": 35,
+                "height": 19,
+                "offsetX": 66,
+                "offsetY": 54
+              },
+              {
+                "x": 37,
+                "y": 0,
+                "width": 35,
+                "height": 19,
+                "offsetX": 65,
+                "offsetY": 54
+              },
+              {
+                "x": 110,
+                "y": 0,
+                "width": 34,
+                "height": 18,
+                "offsetX": 63,
+                "offsetY": 55
+              },
+              {
+                "x": 146,
+                "y": 0,
+                "width": 34,
+                "height": 18,
+                "offsetX": 62,
+                "offsetY": 55
+              },
+              {
+                "x": 182,
+                "y": 0,
+                "width": 34,
+                "height": 18,
+                "offsetX": 62,
+                "offsetY": 55
+              },
+              {
+                "x": 218,
+                "y": 0,
+                "width": 34,
+                "height": 18,
+                "offsetX": 61,
+                "offsetY": 55
+              },
+              {
+                "x": 254,
+                "y": 0,
+                "width": 34,
+                "height": 18,
+                "offsetX": 58,
+                "offsetY": 55
+              },
+              {
+                "x": 324,
+                "y": 0,
+                "width": 32,
+                "height": 15,
+                "offsetX": 59,
+                "offsetY": 56
+              },
+              {
+                "x": 361,
+                "y": 0,
+                "width": 1,
+                "height": 1,
+                "offsetX": 0,
+                "offsetY": 0
+              }
+            ],
+            "order": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11
+            ],
+            "fps": 57.142857142857146,
+            "loop": false
+          }
+        }
+      ],
+      "damages": false,
+      "noAction": false
+    }
+  },
+  "events": {},
+  "dependencies": []
+}

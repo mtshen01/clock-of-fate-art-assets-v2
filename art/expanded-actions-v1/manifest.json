@@ -1,0 +1,2084 @@
+{
+  "version": 1,
+  "frameWidth": 512,
+  "frameHeight": 512,
+  "footBaseline": 468,
+  "trim": false,
+  "heroes": [
+    {
+      "id": "regent",
+      "name": "储君",
+      "region": "stars",
+      "scene": "courtyard",
+      "frameWidth": 512,
+      "frameHeight": 512,
+      "facing": "right",
+      "groundAnchorY": 0.9140625,
+      "actions": {
+        "idle": {
+          "fps": 2,
+          "order": [
+            0,
+            1,
+            2,
+            3,
+            2,
+            1
+          ],
+          "loop": true,
+          "frames": [
+            "expanded-actions-v1/regent/idle_00.png",
+            "expanded-actions-v1/regent/idle_01.png",
+            "expanded-actions-v1/regent/idle_02.png",
+            "expanded-actions-v1/regent/idle_03.png"
+          ],
+          "pivot": {
+            "x": 0.5,
+            "y": 0.0859375
+          },
+          "trim": false
+        },
+        "defense": {
+          "fps": 5,
+          "order": [
+            0,
+            1,
+            2,
+            2,
+            3
+          ],
+          "loop": false,
+          "returnTo": "idle",
+          "frames": [
+            "expanded-actions-v1/regent/defense_00.png",
+            "expanded-actions-v1/regent/defense_01.png",
+            "expanded-actions-v1/regent/defense_02.png",
+            "expanded-actions-v1/regent/defense_03.png"
+          ],
+          "pivot": {
+            "x": 0.5,
+            "y": 0.0859375
+          },
+          "trim": false
+        },
+        "attack": {
+          "fps": 7,
+          "order": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "loop": false,
+          "returnTo": "idle",
+          "impactFrame": 1,
+          "frames": [
+            "expanded-actions-v1/regent/attack_00.png",
+            "expanded-actions-v1/regent/attack_01.png",
+            "expanded-actions-v1/regent/attack_02.png",
+            "expanded-actions-v1/regent/attack_03.png"
+          ],
+          "pivot": {
+            "x": 0.5,
+            "y": 0.0859375
+          },
+          "trim": false
+        },
+        "heavy_attack": {
+          "fps": 5,
+          "order": [
+            0,
+            0,
+            1,
+            2,
+            2,
+            3
+          ],
+          "loop": false,
+          "returnTo": "idle",
+          "impactFrame": 2,
+          "frames": [
+            "expanded-actions-v1/regent/heavy_attack_00.png",
+            "expanded-actions-v1/regent/heavy_attack_01.png",
+            "expanded-actions-v1/regent/heavy_attack_02.png",
+            "expanded-actions-v1/regent/heavy_attack_03.png"
+          ],
+          "pivot": {
+            "x": 0.5,
+            "y": 0.0859375
+          },
+          "trim": false
+        },
+        "death": {
+          "fps": 5,
+          "order": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "loop": false,
+          "holdLast": true,
+          "holdLastFrame": true,
+          "frames": [
+            "expanded-actions-v1/regent/death_00.png",
+            "expanded-actions-v1/regent/death_01.png",
+            "expanded-actions-v1/regent/death_02.png",
+            "expanded-actions-v1/regent/death_03.png"
+          ],
+          "pivot": {
+            "x": 0.5,
+            "y": 0.0859375
+          },
+          "trim": false
+        },
+        "taunt": {
+          "fps": 4,
+          "order": [
+            0,
+            1,
+            2,
+            2,
+            3
+          ],
+          "loop": false,
+          "returnTo": "idle",
+          "frames": [
+            "expanded-actions-v1/regent/taunt_00.png",
+            "expanded-actions-v1/regent/taunt_01.png",
+            "expanded-actions-v1/regent/taunt_02.png",
+            "expanded-actions-v1/regent/taunt_03.png"
+          ],
+          "pivot": {
+            "x": 0.5,
+            "y": 0.0859375
+          },
+          "trim": false
+        }
+      }
+    }
+  ],
+  "monsters": [
+    {
+      "id": "sts2_decimillipede_segment",
+      "name": "千足虫",
+      "region": "hive",
+      "scene": "mine",
+      "frameWidth": 384,
+      "frameHeight": 384,
+      "facing": "left",
+      "groundAnchorY": 0.9140625,
+      "actions": {
+        "idle": {
+          "fps": 2,
+          "order": [
+            0,
+            1,
+            2,
+            3,
+            2,
+            1
+          ],
+          "loop": true,
+          "frames": [
+            "expanded-actions-v1/sts2_decimillipede_segment/idle_00.png",
+            "expanded-actions-v1/sts2_decimillipede_segment/idle_01.png",
+            "expanded-actions-v1/sts2_decimillipede_segment/idle_02.png",
+            "expanded-actions-v1/sts2_decimillipede_segment/idle_03.png"
+          ],
+          "pivot": {
+            "x": 0.5,
+            "y": 0.0859375
+          },
+          "trim": false
+        },
+        "defense": {
+          "fps": 5,
+          "order": [
+            0,
+            1,
+            2,
+            2,
+            3
+          ],
+          "loop": false,
+          "returnTo": "idle",
+          "frames": [
+            "expanded-actions-v1/sts2_decimillipede_segment/defense_00.png",
+            "expanded-actions-v1/sts2_decimillipede_segment/defense_01.png",
+            "expanded-actions-v1/sts2_decimillipede_segment/defense_02.png",
+            "expanded-actions-v1/sts2_decimillipede_segment/defense_03.png"
+          ],
+          "pivot": {
+            "x": 0.5,
+            "y": 0.0859375
+          },
+          "trim": false
+        },
+        "attack": {
+          "fps": 7,
+          "order": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "loop": false,
+          "returnTo": "idle",
+          "impactFrame": 1,
+          "frames": [
+            "expanded-actions-v1/sts2_decimillipede_segment/attack_00.png",
+            "expanded-actions-v1/sts2_decimillipede_segment/attack_01.png",
+            "expanded-actions-v1/sts2_decimillipede_segment/attack_02.png",
+            "expanded-actions-v1/sts2_decimillipede_segment/attack_03.png"
+          ],
+          "pivot": {
+            "x": 0.5,
+            "y": 0.0859375
+          },
+          "trim": false
+        },
+        "cast": {
+          "fps": 5,
+          "order": [
+            0,
+            1,
+            2,
+            2,
+            3
+          ],
+          "loop": false,
+          "returnTo": "idle",
+          "impactFrame": 2,
+          "frames": [
+            "expanded-actions-v1/sts2_decimillipede_segment/cast_00.png",
+            "expanded-actions-v1/sts2_decimillipede_segment/cast_01.png",
+            "expanded-actions-v1/sts2_decimillipede_segment/cast_02.png",
+            "expanded-actions-v1/sts2_decimillipede_segment/cast_03.png"
+          ],
+          "pivot": {
+            "x": 0.5,
+            "y": 0.0859375
+          },
+          "trim": false
+        },
+        "death": {
+          "fps": 5,
+          "order": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "loop": false,
+          "holdLast": true,
+          "holdLastFrame": true,
+          "frames": [
+            "expanded-actions-v1/sts2_decimillipede_segment/death_00.png",
+            "expanded-actions-v1/sts2_decimillipede_segment/death_01.png",
+            "expanded-actions-v1/sts2_decimillipede_segment/death_02.png",
+            "expanded-actions-v1/sts2_decimillipede_segment/death_03.png"
+          ],
+          "pivot": {
+            "x": 0.5,
+            "y": 0.0859375
+          },
+          "trim": false
+        }
+      }
+    },
+    {
+      "id": "sts2_byrdonis",
+      "name": "掠林巨鸢",
+      "region": "overgrowth",
+      "scene": "courtyard",
+      "frameWidth": 384,
+      "frameHeight": 384,
+      "facing": "left",
+      "groundAnchorY": 0.9140625,
+      "actions": {
+        "idle": {
+          "fps": 2,
+          "order": [
+            0,
+            1,
+            2,
+            3,
+            2,
+            1
+          ],
+          "loop": true,
+          "frames": [
+            "expanded-actions-v1/sts2_byrdonis/idle_00.png",
+            "expanded-actions-v1/sts2_byrdonis/idle_01.png",
+            "expanded-actions-v1/sts2_byrdonis/idle_02.png",
+            "expanded-actions-v1/sts2_byrdonis/idle_03.png"
+          ],
+          "pivot": {
+            "x": 0.5,
+            "y": 0.0859375
+          },
+          "trim": false
+        },
+        "defense": {
+          "fps": 5,
+          "order": [
+            0,
+            1,
+            2,
+            2,
+            3
+          ],
+          "loop": false,
+          "returnTo": "idle",
+          "frames": [
+            "expanded-actions-v1/sts2_byrdonis/defense_00.png",
+            "expanded-actions-v1/sts2_byrdonis/defense_01.png",
+            "expanded-actions-v1/sts2_byrdonis/defense_02.png",
+            "expanded-actions-v1/sts2_byrdonis/defense_03.png"
+          ],
+          "pivot": {
+            "x": 0.5,
+            "y": 0.0859375
+          },
+          "trim": false
+        },
+        "attack": {
+          "fps": 7,
+          "order": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "loop": false,
+          "returnTo": "idle",
+          "impactFrame": 1,
+          "frames": [
+            "expanded-actions-v1/sts2_byrdonis/attack_00.png",
+            "expanded-actions-v1/sts2_byrdonis/attack_01.png",
+            "expanded-actions-v1/sts2_byrdonis/attack_02.png",
+            "expanded-actions-v1/sts2_byrdonis/attack_03.png"
+          ],
+          "pivot": {
+            "x": 0.5,
+            "y": 0.0859375
+          },
+          "trim": false
+        },
+        "cast": {
+          "fps": 5,
+          "order": [
+            0,
+            1,
+            2,
+            2,
+            3
+          ],
+          "loop": false,
+          "returnTo": "idle",
+          "impactFrame": 2,
+          "frames": [
+            "expanded-actions-v1/sts2_byrdonis/cast_00.png",
+            "expanded-actions-v1/sts2_byrdonis/cast_01.png",
+            "expanded-actions-v1/sts2_byrdonis/cast_02.png",
+            "expanded-actions-v1/sts2_byrdonis/cast_03.png"
+          ],
+          "pivot": {
+            "x": 0.5,
+            "y": 0.0859375
+          },
+          "trim": false
+        },
+        "death": {
+          "fps": 5,
+          "order": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "loop": false,
+          "holdLast": true,
+          "holdLastFrame": true,
+          "frames": [
+            "expanded-actions-v1/sts2_byrdonis/death_00.png",
+            "expanded-actions-v1/sts2_byrdonis/death_01.png",
+            "expanded-actions-v1/sts2_byrdonis/death_02.png",
+            "expanded-actions-v1/sts2_byrdonis/death_03.png"
+          ],
+          "pivot": {
+            "x": 0.5,
+            "y": 0.0859375
+          },
+          "trim": false
+        }
+      }
+    },
+    {
+      "id": "sts2_entomancer",
+      "name": "巢蜂巫祝",
+      "region": "hive",
+      "scene": "mine",
+      "frameWidth": 384,
+      "frameHeight": 384,
+      "facing": "left",
+      "groundAnchorY": 0.9140625,
+      "actions": {
+        "idle": {
+          "fps": 2,
+          "order": [
+            0,
+            1,
+            2,
+            3,
+            2,
+            1
+          ],
+          "loop": true,
+          "frames": [
+            "expanded-actions-v1/sts2_entomancer/idle_00.png",
+            "expanded-actions-v1/sts2_entomancer/idle_01.png",
+            "expanded-actions-v1/sts2_entomancer/idle_02.png",
+            "expanded-actions-v1/sts2_entomancer/idle_03.png"
+          ],
+          "pivot": {
+            "x": 0.5,
+            "y": 0.0859375
+          },
+          "trim": false
+        },
+        "defense": {
+          "fps": 5,
+          "order": [
+            0,
+            1,
+            2,
+            2,
+            3
+          ],
+          "loop": false,
+          "returnTo": "idle",
+          "frames": [
+            "expanded-actions-v1/sts2_entomancer/defense_00.png",
+            "expanded-actions-v1/sts2_entomancer/defense_01.png",
+            "expanded-actions-v1/sts2_entomancer/defense_02.png",
+            "expanded-actions-v1/sts2_entomancer/defense_03.png"
+          ],
+          "pivot": {
+            "x": 0.5,
+            "y": 0.0859375
+          },
+          "trim": false
+        },
+        "attack": {
+          "fps": 7,
+          "order": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "loop": false,
+          "returnTo": "idle",
+          "impactFrame": 1,
+          "frames": [
+            "expanded-actions-v1/sts2_entomancer/attack_00.png",
+            "expanded-actions-v1/sts2_entomancer/attack_01.png",
+            "expanded-actions-v1/sts2_entomancer/attack_02.png",
+            "expanded-actions-v1/sts2_entomancer/attack_03.png"
+          ],
+          "pivot": {
+            "x": 0.5,
+            "y": 0.0859375
+          },
+          "trim": false
+        },
+        "cast": {
+          "fps": 5,
+          "order": [
+            0,
+            1,
+            2,
+            2,
+            3
+          ],
+          "loop": false,
+          "returnTo": "idle",
+          "impactFrame": 2,
+          "frames": [
+            "expanded-actions-v1/sts2_entomancer/cast_00.png",
+            "expanded-actions-v1/sts2_entomancer/cast_01.png",
+            "expanded-actions-v1/sts2_entomancer/cast_02.png",
+            "expanded-actions-v1/sts2_entomancer/cast_03.png"
+          ],
+          "pivot": {
+            "x": 0.5,
+            "y": 0.0859375
+          },
+          "trim": false
+        },
+        "death": {
+          "fps": 5,
+          "order": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "loop": false,
+          "holdLast": true,
+          "holdLastFrame": true,
+          "frames": [
+            "expanded-actions-v1/sts2_entomancer/death_00.png",
+            "expanded-actions-v1/sts2_entomancer/death_01.png",
+            "expanded-actions-v1/sts2_entomancer/death_02.png",
+            "expanded-actions-v1/sts2_entomancer/death_03.png"
+          ],
+          "pivot": {
+            "x": 0.5,
+            "y": 0.0859375
+          },
+          "trim": false
+        }
+      }
+    },
+    {
+      "id": "sts2_infested_prism",
+      "name": "蚀棱柱",
+      "region": "hive",
+      "scene": "mine",
+      "frameWidth": 384,
+      "frameHeight": 384,
+      "facing": "left",
+      "groundAnchorY": 0.9140625,
+      "actions": {
+        "idle": {
+          "fps": 2,
+          "order": [
+            0,
+            1,
+            2,
+            3,
+            2,
+            1
+          ],
+          "loop": true,
+          "frames": [
+            "expanded-actions-v1/sts2_infested_prism/idle_00.png",
+            "expanded-actions-v1/sts2_infested_prism/idle_01.png",
+            "expanded-actions-v1/sts2_infested_prism/idle_02.png",
+            "expanded-actions-v1/sts2_infested_prism/idle_03.png"
+          ],
+          "pivot": {
+            "x": 0.5,
+            "y": 0.0859375
+          },
+          "trim": false
+        },
+        "defense": {
+          "fps": 5,
+          "order": [
+            0,
+            1,
+            2,
+            2,
+            3
+          ],
+          "loop": false,
+          "returnTo": "idle",
+          "frames": [
+            "expanded-actions-v1/sts2_infested_prism/defense_00.png",
+            "expanded-actions-v1/sts2_infested_prism/defense_01.png",
+            "expanded-actions-v1/sts2_infested_prism/defense_02.png",
+            "expanded-actions-v1/sts2_infested_prism/defense_03.png"
+          ],
+          "pivot": {
+            "x": 0.5,
+            "y": 0.0859375
+          },
+          "trim": false
+        },
+        "attack": {
+          "fps": 7,
+          "order": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "loop": false,
+          "returnTo": "idle",
+          "impactFrame": 1,
+          "frames": [
+            "expanded-actions-v1/sts2_infested_prism/attack_00.png",
+            "expanded-actions-v1/sts2_infested_prism/attack_01.png",
+            "expanded-actions-v1/sts2_infested_prism/attack_02.png",
+            "expanded-actions-v1/sts2_infested_prism/attack_03.png"
+          ],
+          "pivot": {
+            "x": 0.5,
+            "y": 0.0859375
+          },
+          "trim": false
+        },
+        "cast": {
+          "fps": 5,
+          "order": [
+            0,
+            1,
+            2,
+            2,
+            3
+          ],
+          "loop": false,
+          "returnTo": "idle",
+          "impactFrame": 2,
+          "frames": [
+            "expanded-actions-v1/sts2_infested_prism/cast_00.png",
+            "expanded-actions-v1/sts2_infested_prism/cast_01.png",
+            "expanded-actions-v1/sts2_infested_prism/cast_02.png",
+            "expanded-actions-v1/sts2_infested_prism/cast_03.png"
+          ],
+          "pivot": {
+            "x": 0.5,
+            "y": 0.0859375
+          },
+          "trim": false
+        },
+        "death": {
+          "fps": 5,
+          "order": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "loop": false,
+          "holdLast": true,
+          "holdLastFrame": true,
+          "frames": [
+            "expanded-actions-v1/sts2_infested_prism/death_00.png",
+            "expanded-actions-v1/sts2_infested_prism/death_01.png",
+            "expanded-actions-v1/sts2_infested_prism/death_02.png",
+            "expanded-actions-v1/sts2_infested_prism/death_03.png"
+          ],
+          "pivot": {
+            "x": 0.5,
+            "y": 0.0859375
+          },
+          "trim": false
+        }
+      }
+    },
+    {
+      "id": "sts2_skulking_colony",
+      "name": "窃珊瑚",
+      "region": "underdocks",
+      "scene": "town",
+      "frameWidth": 384,
+      "frameHeight": 384,
+      "facing": "left",
+      "groundAnchorY": 0.9140625,
+      "actions": {
+        "idle": {
+          "fps": 2,
+          "order": [
+            0,
+            1,
+            2,
+            3,
+            2,
+            1
+          ],
+          "loop": true,
+          "frames": [
+            "expanded-actions-v1/sts2_skulking_colony/idle_00.png",
+            "expanded-actions-v1/sts2_skulking_colony/idle_01.png",
+            "expanded-actions-v1/sts2_skulking_colony/idle_02.png",
+            "expanded-actions-v1/sts2_skulking_colony/idle_03.png"
+          ],
+          "pivot": {
+            "x": 0.5,
+            "y": 0.0859375
+          },
+          "trim": false
+        },
+        "defense": {
+          "fps": 5,
+          "order": [
+            0,
+            1,
+            2,
+            2,
+            3
+          ],
+          "loop": false,
+          "returnTo": "idle",
+          "frames": [
+            "expanded-actions-v1/sts2_skulking_colony/defense_00.png",
+            "expanded-actions-v1/sts2_skulking_colony/defense_01.png",
+            "expanded-actions-v1/sts2_skulking_colony/defense_02.png",
+            "expanded-actions-v1/sts2_skulking_colony/defense_03.png"
+          ],
+          "pivot": {
+            "x": 0.5,
+            "y": 0.0859375
+          },
+          "trim": false
+        },
+        "attack": {
+          "fps": 7,
+          "order": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "loop": false,
+          "returnTo": "idle",
+          "impactFrame": 1,
+          "frames": [
+            "expanded-actions-v1/sts2_skulking_colony/attack_00.png",
+            "expanded-actions-v1/sts2_skulking_colony/attack_01.png",
+            "expanded-actions-v1/sts2_skulking_colony/attack_02.png",
+            "expanded-actions-v1/sts2_skulking_colony/attack_03.png"
+          ],
+          "pivot": {
+            "x": 0.5,
+            "y": 0.0859375
+          },
+          "trim": false
+        },
+        "cast": {
+          "fps": 5,
+          "order": [
+            0,
+            1,
+            2,
+            2,
+            3
+          ],
+          "loop": false,
+          "returnTo": "idle",
+          "impactFrame": 2,
+          "frames": [
+            "expanded-actions-v1/sts2_skulking_colony/cast_00.png",
+            "expanded-actions-v1/sts2_skulking_colony/cast_01.png",
+            "expanded-actions-v1/sts2_skulking_colony/cast_02.png",
+            "expanded-actions-v1/sts2_skulking_colony/cast_03.png"
+          ],
+          "pivot": {
+            "x": 0.5,
+            "y": 0.0859375
+          },
+          "trim": false
+        },
+        "death": {
+          "fps": 5,
+          "order": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "loop": false,
+          "holdLast": true,
+          "holdLastFrame": true,
+          "frames": [
+            "expanded-actions-v1/sts2_skulking_colony/death_00.png",
+            "expanded-actions-v1/sts2_skulking_colony/death_01.png",
+            "expanded-actions-v1/sts2_skulking_colony/death_02.png",
+            "expanded-actions-v1/sts2_skulking_colony/death_03.png"
+          ],
+          "pivot": {
+            "x": 0.5,
+            "y": 0.0859375
+          },
+          "trim": false
+        }
+      }
+    },
+    {
+      "id": "sts2_terror_eel",
+      "name": "骇潮鳗",
+      "region": "underdocks",
+      "scene": "town",
+      "frameWidth": 384,
+      "frameHeight": 384,
+      "facing": "left",
+      "groundAnchorY": 0.9140625,
+      "actions": {
+        "idle": {
+          "fps": 2,
+          "order": [
+            0,
+            1,
+            2,
+            3,
+            2,
+            1
+          ],
+          "loop": true,
+          "frames": [
+            "expanded-actions-v1/sts2_terror_eel/idle_00.png",
+            "expanded-actions-v1/sts2_terror_eel/idle_01.png",
+            "expanded-actions-v1/sts2_terror_eel/idle_02.png",
+            "expanded-actions-v1/sts2_terror_eel/idle_03.png"
+          ],
+          "pivot": {
+            "x": 0.5,
+            "y": 0.0859375
+          },
+          "trim": false
+        },
+        "defense": {
+          "fps": 5,
+          "order": [
+            0,
+            1,
+            2,
+            2,
+            3
+          ],
+          "loop": false,
+          "returnTo": "idle",
+          "frames": [
+            "expanded-actions-v1/sts2_terror_eel/defense_00.png",
+            "expanded-actions-v1/sts2_terror_eel/defense_01.png",
+            "expanded-actions-v1/sts2_terror_eel/defense_02.png",
+            "expanded-actions-v1/sts2_terror_eel/defense_03.png"
+          ],
+          "pivot": {
+            "x": 0.5,
+            "y": 0.0859375
+          },
+          "trim": false
+        },
+        "attack": {
+          "fps": 7,
+          "order": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "loop": false,
+          "returnTo": "idle",
+          "impactFrame": 1,
+          "frames": [
+            "expanded-actions-v1/sts2_terror_eel/attack_00.png",
+            "expanded-actions-v1/sts2_terror_eel/attack_01.png",
+            "expanded-actions-v1/sts2_terror_eel/attack_02.png",
+            "expanded-actions-v1/sts2_terror_eel/attack_03.png"
+          ],
+          "pivot": {
+            "x": 0.5,
+            "y": 0.0859375
+          },
+          "trim": false
+        },
+        "cast": {
+          "fps": 5,
+          "order": [
+            0,
+            1,
+            2,
+            2,
+            3
+          ],
+          "loop": false,
+          "returnTo": "idle",
+          "impactFrame": 2,
+          "frames": [
+            "expanded-actions-v1/sts2_terror_eel/cast_00.png",
+            "expanded-actions-v1/sts2_terror_eel/cast_01.png",
+            "expanded-actions-v1/sts2_terror_eel/cast_02.png",
+            "expanded-actions-v1/sts2_terror_eel/cast_03.png"
+          ],
+          "pivot": {
+            "x": 0.5,
+            "y": 0.0859375
+          },
+          "trim": false
+        },
+        "death": {
+          "fps": 5,
+          "order": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "loop": false,
+          "holdLast": true,
+          "holdLastFrame": true,
+          "frames": [
+            "expanded-actions-v1/sts2_terror_eel/death_00.png",
+            "expanded-actions-v1/sts2_terror_eel/death_01.png",
+            "expanded-actions-v1/sts2_terror_eel/death_02.png",
+            "expanded-actions-v1/sts2_terror_eel/death_03.png"
+          ],
+          "pivot": {
+            "x": 0.5,
+            "y": 0.0859375
+          },
+          "trim": false
+        }
+      }
+    },
+    {
+      "id": "sts2_phantasmal_gardener",
+      "name": "园陵鳗",
+      "region": "underdocks",
+      "scene": "town",
+      "frameWidth": 384,
+      "frameHeight": 384,
+      "facing": "left",
+      "groundAnchorY": 0.9140625,
+      "actions": {
+        "idle": {
+          "fps": 2,
+          "order": [
+            0,
+            1,
+            2,
+            3,
+            2,
+            1
+          ],
+          "loop": true,
+          "frames": [
+            "expanded-actions-v1/sts2_phantasmal_gardener/idle_00.png",
+            "expanded-actions-v1/sts2_phantasmal_gardener/idle_01.png",
+            "expanded-actions-v1/sts2_phantasmal_gardener/idle_02.png",
+            "expanded-actions-v1/sts2_phantasmal_gardener/idle_03.png"
+          ],
+          "pivot": {
+            "x": 0.5,
+            "y": 0.0859375
+          },
+          "trim": false
+        },
+        "defense": {
+          "fps": 5,
+          "order": [
+            0,
+            1,
+            2,
+            2,
+            3
+          ],
+          "loop": false,
+          "returnTo": "idle",
+          "frames": [
+            "expanded-actions-v1/sts2_phantasmal_gardener/defense_00.png",
+            "expanded-actions-v1/sts2_phantasmal_gardener/defense_01.png",
+            "expanded-actions-v1/sts2_phantasmal_gardener/defense_02.png",
+            "expanded-actions-v1/sts2_phantasmal_gardener/defense_03.png"
+          ],
+          "pivot": {
+            "x": 0.5,
+            "y": 0.0859375
+          },
+          "trim": false
+        },
+        "attack": {
+          "fps": 7,
+          "order": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "loop": false,
+          "returnTo": "idle",
+          "impactFrame": 1,
+          "frames": [
+            "expanded-actions-v1/sts2_phantasmal_gardener/attack_00.png",
+            "expanded-actions-v1/sts2_phantasmal_gardener/attack_01.png",
+            "expanded-actions-v1/sts2_phantasmal_gardener/attack_02.png",
+            "expanded-actions-v1/sts2_phantasmal_gardener/attack_03.png"
+          ],
+          "pivot": {
+            "x": 0.5,
+            "y": 0.0859375
+          },
+          "trim": false
+        },
+        "cast": {
+          "fps": 5,
+          "order": [
+            0,
+            1,
+            2,
+            2,
+            3
+          ],
+          "loop": false,
+          "returnTo": "idle",
+          "impactFrame": 2,
+          "frames": [
+            "expanded-actions-v1/sts2_phantasmal_gardener/cast_00.png",
+            "expanded-actions-v1/sts2_phantasmal_gardener/cast_01.png",
+            "expanded-actions-v1/sts2_phantasmal_gardener/cast_02.png",
+            "expanded-actions-v1/sts2_phantasmal_gardener/cast_03.png"
+          ],
+          "pivot": {
+            "x": 0.5,
+            "y": 0.0859375
+          },
+          "trim": false
+        },
+        "death": {
+          "fps": 5,
+          "order": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "loop": false,
+          "holdLast": true,
+          "holdLastFrame": true,
+          "frames": [
+            "expanded-actions-v1/sts2_phantasmal_gardener/death_00.png",
+            "expanded-actions-v1/sts2_phantasmal_gardener/death_01.png",
+            "expanded-actions-v1/sts2_phantasmal_gardener/death_02.png",
+            "expanded-actions-v1/sts2_phantasmal_gardener/death_03.png"
+          ],
+          "pivot": {
+            "x": 0.5,
+            "y": 0.0859375
+          },
+          "trim": false
+        }
+      }
+    },
+    {
+      "id": "sts2_rocket",
+      "name": "喷焰钳",
+      "region": "hive",
+      "scene": "mine",
+      "frameWidth": 384,
+      "frameHeight": 384,
+      "facing": "left",
+      "groundAnchorY": 0.9140625,
+      "actions": {
+        "idle": {
+          "fps": 2,
+          "order": [
+            0,
+            1,
+            2,
+            3,
+            2,
+            1
+          ],
+          "loop": true,
+          "frames": [
+            "expanded-actions-v1/sts2_rocket/idle_00.png",
+            "expanded-actions-v1/sts2_rocket/idle_01.png",
+            "expanded-actions-v1/sts2_rocket/idle_02.png",
+            "expanded-actions-v1/sts2_rocket/idle_03.png"
+          ],
+          "pivot": {
+            "x": 0.5,
+            "y": 0.0859375
+          },
+          "trim": false
+        },
+        "defense": {
+          "fps": 5,
+          "order": [
+            0,
+            1,
+            2,
+            2,
+            3
+          ],
+          "loop": false,
+          "returnTo": "idle",
+          "frames": [
+            "expanded-actions-v1/sts2_rocket/defense_00.png",
+            "expanded-actions-v1/sts2_rocket/defense_01.png",
+            "expanded-actions-v1/sts2_rocket/defense_02.png",
+            "expanded-actions-v1/sts2_rocket/defense_03.png"
+          ],
+          "pivot": {
+            "x": 0.5,
+            "y": 0.0859375
+          },
+          "trim": false
+        },
+        "attack": {
+          "fps": 7,
+          "order": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "loop": false,
+          "returnTo": "idle",
+          "impactFrame": 1,
+          "frames": [
+            "expanded-actions-v1/sts2_rocket/attack_00.png",
+            "expanded-actions-v1/sts2_rocket/attack_01.png",
+            "expanded-actions-v1/sts2_rocket/attack_02.png",
+            "expanded-actions-v1/sts2_rocket/attack_03.png"
+          ],
+          "pivot": {
+            "x": 0.5,
+            "y": 0.0859375
+          },
+          "trim": false
+        },
+        "cast": {
+          "fps": 5,
+          "order": [
+            0,
+            1,
+            2,
+            2,
+            3
+          ],
+          "loop": false,
+          "returnTo": "idle",
+          "impactFrame": 2,
+          "frames": [
+            "expanded-actions-v1/sts2_rocket/cast_00.png",
+            "expanded-actions-v1/sts2_rocket/cast_01.png",
+            "expanded-actions-v1/sts2_rocket/cast_02.png",
+            "expanded-actions-v1/sts2_rocket/cast_03.png"
+          ],
+          "pivot": {
+            "x": 0.5,
+            "y": 0.0859375
+          },
+          "trim": false
+        },
+        "death": {
+          "fps": 5,
+          "order": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "loop": false,
+          "holdLast": true,
+          "holdLastFrame": true,
+          "frames": [
+            "expanded-actions-v1/sts2_rocket/death_00.png",
+            "expanded-actions-v1/sts2_rocket/death_01.png",
+            "expanded-actions-v1/sts2_rocket/death_02.png",
+            "expanded-actions-v1/sts2_rocket/death_03.png"
+          ],
+          "pivot": {
+            "x": 0.5,
+            "y": 0.0859375
+          },
+          "trim": false
+        }
+      }
+    },
+    {
+      "id": "sts2_torch_head_amalgam",
+      "name": "炬首聚合体",
+      "region": "glory",
+      "scene": "courtyard",
+      "frameWidth": 384,
+      "frameHeight": 384,
+      "facing": "left",
+      "groundAnchorY": 0.9140625,
+      "actions": {
+        "idle": {
+          "fps": 2,
+          "order": [
+            0,
+            1,
+            2,
+            3,
+            2,
+            1
+          ],
+          "loop": true,
+          "frames": [
+            "expanded-actions-v1/sts2_torch_head_amalgam/idle_00.png",
+            "expanded-actions-v1/sts2_torch_head_amalgam/idle_01.png",
+            "expanded-actions-v1/sts2_torch_head_amalgam/idle_02.png",
+            "expanded-actions-v1/sts2_torch_head_amalgam/idle_03.png"
+          ],
+          "pivot": {
+            "x": 0.5,
+            "y": 0.0859375
+          },
+          "trim": false
+        },
+        "defense": {
+          "fps": 5,
+          "order": [
+            0,
+            1,
+            2,
+            2,
+            3
+          ],
+          "loop": false,
+          "returnTo": "idle",
+          "frames": [
+            "expanded-actions-v1/sts2_torch_head_amalgam/defense_00.png",
+            "expanded-actions-v1/sts2_torch_head_amalgam/defense_01.png",
+            "expanded-actions-v1/sts2_torch_head_amalgam/defense_02.png",
+            "expanded-actions-v1/sts2_torch_head_amalgam/defense_03.png"
+          ],
+          "pivot": {
+            "x": 0.5,
+            "y": 0.0859375
+          },
+          "trim": false
+        },
+        "attack": {
+          "fps": 7,
+          "order": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "loop": false,
+          "returnTo": "idle",
+          "impactFrame": 1,
+          "frames": [
+            "expanded-actions-v1/sts2_torch_head_amalgam/attack_00.png",
+            "expanded-actions-v1/sts2_torch_head_amalgam/attack_01.png",
+            "expanded-actions-v1/sts2_torch_head_amalgam/attack_02.png",
+            "expanded-actions-v1/sts2_torch_head_amalgam/attack_03.png"
+          ],
+          "pivot": {
+            "x": 0.5,
+            "y": 0.0859375
+          },
+          "trim": false
+        },
+        "cast": {
+          "fps": 5,
+          "order": [
+            0,
+            1,
+            2,
+            2,
+            3
+          ],
+          "loop": false,
+          "returnTo": "idle",
+          "impactFrame": 2,
+          "frames": [
+            "expanded-actions-v1/sts2_torch_head_amalgam/cast_00.png",
+            "expanded-actions-v1/sts2_torch_head_amalgam/cast_01.png",
+            "expanded-actions-v1/sts2_torch_head_amalgam/cast_02.png",
+            "expanded-actions-v1/sts2_torch_head_amalgam/cast_03.png"
+          ],
+          "pivot": {
+            "x": 0.5,
+            "y": 0.0859375
+          },
+          "trim": false
+        },
+        "death": {
+          "fps": 5,
+          "order": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "loop": false,
+          "holdLast": true,
+          "holdLastFrame": true,
+          "frames": [
+            "expanded-actions-v1/sts2_torch_head_amalgam/death_00.png",
+            "expanded-actions-v1/sts2_torch_head_amalgam/death_01.png",
+            "expanded-actions-v1/sts2_torch_head_amalgam/death_02.png",
+            "expanded-actions-v1/sts2_torch_head_amalgam/death_03.png"
+          ],
+          "pivot": {
+            "x": 0.5,
+            "y": 0.0859375
+          },
+          "trim": false
+        }
+      }
+    },
+    {
+      "id": "sts2_mecha_knight",
+      "name": "衡甲骑士",
+      "region": "glory",
+      "scene": "courtyard",
+      "frameWidth": 384,
+      "frameHeight": 384,
+      "facing": "left",
+      "groundAnchorY": 0.9140625,
+      "actions": {
+        "idle": {
+          "fps": 2,
+          "order": [
+            0,
+            1,
+            2,
+            3,
+            2,
+            1
+          ],
+          "loop": true,
+          "frames": [
+            "expanded-actions-v1/sts2_mecha_knight/idle_00.png",
+            "expanded-actions-v1/sts2_mecha_knight/idle_01.png",
+            "expanded-actions-v1/sts2_mecha_knight/idle_02.png",
+            "expanded-actions-v1/sts2_mecha_knight/idle_03.png"
+          ],
+          "pivot": {
+            "x": 0.5,
+            "y": 0.0859375
+          },
+          "trim": false
+        },
+        "defense": {
+          "fps": 5,
+          "order": [
+            0,
+            1,
+            2,
+            2,
+            3
+          ],
+          "loop": false,
+          "returnTo": "idle",
+          "frames": [
+            "expanded-actions-v1/sts2_mecha_knight/defense_00.png",
+            "expanded-actions-v1/sts2_mecha_knight/defense_01.png",
+            "expanded-actions-v1/sts2_mecha_knight/defense_02.png",
+            "expanded-actions-v1/sts2_mecha_knight/defense_03.png"
+          ],
+          "pivot": {
+            "x": 0.5,
+            "y": 0.0859375
+          },
+          "trim": false
+        },
+        "attack": {
+          "fps": 7,
+          "order": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "loop": false,
+          "returnTo": "idle",
+          "impactFrame": 1,
+          "frames": [
+            "expanded-actions-v1/sts2_mecha_knight/attack_00.png",
+            "expanded-actions-v1/sts2_mecha_knight/attack_01.png",
+            "expanded-actions-v1/sts2_mecha_knight/attack_02.png",
+            "expanded-actions-v1/sts2_mecha_knight/attack_03.png"
+          ],
+          "pivot": {
+            "x": 0.5,
+            "y": 0.0859375
+          },
+          "trim": false
+        },
+        "cast": {
+          "fps": 5,
+          "order": [
+            0,
+            1,
+            2,
+            2,
+            3
+          ],
+          "loop": false,
+          "returnTo": "idle",
+          "impactFrame": 2,
+          "frames": [
+            "expanded-actions-v1/sts2_mecha_knight/cast_00.png",
+            "expanded-actions-v1/sts2_mecha_knight/cast_01.png",
+            "expanded-actions-v1/sts2_mecha_knight/cast_02.png",
+            "expanded-actions-v1/sts2_mecha_knight/cast_03.png"
+          ],
+          "pivot": {
+            "x": 0.5,
+            "y": 0.0859375
+          },
+          "trim": false
+        },
+        "death": {
+          "fps": 5,
+          "order": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "loop": false,
+          "holdLast": true,
+          "holdLastFrame": true,
+          "frames": [
+            "expanded-actions-v1/sts2_mecha_knight/death_00.png",
+            "expanded-actions-v1/sts2_mecha_knight/death_01.png",
+            "expanded-actions-v1/sts2_mecha_knight/death_02.png",
+            "expanded-actions-v1/sts2_mecha_knight/death_03.png"
+          ],
+          "pivot": {
+            "x": 0.5,
+            "y": 0.0859375
+          },
+          "trim": false
+        }
+      }
+    },
+    {
+      "id": "sts2_bygone_effigy",
+      "name": "旧誓石像",
+      "region": "overgrowth",
+      "scene": "courtyard",
+      "frameWidth": 384,
+      "frameHeight": 384,
+      "facing": "left",
+      "groundAnchorY": 0.9140625,
+      "actions": {
+        "idle": {
+          "fps": 2,
+          "order": [
+            0,
+            1,
+            2,
+            3,
+            2,
+            1
+          ],
+          "loop": true,
+          "frames": [
+            "expanded-actions-v1/sts2_bygone_effigy/idle_00.png",
+            "expanded-actions-v1/sts2_bygone_effigy/idle_01.png",
+            "expanded-actions-v1/sts2_bygone_effigy/idle_02.png",
+            "expanded-actions-v1/sts2_bygone_effigy/idle_03.png"
+          ],
+          "pivot": {
+            "x": 0.5,
+            "y": 0.0859375
+          },
+          "trim": false
+        },
+        "defense": {
+          "fps": 5,
+          "order": [
+            0,
+            1,
+            2,
+            2,
+            3
+          ],
+          "loop": false,
+          "returnTo": "idle",
+          "frames": [
+            "expanded-actions-v1/sts2_bygone_effigy/defense_00.png",
+            "expanded-actions-v1/sts2_bygone_effigy/defense_01.png",
+            "expanded-actions-v1/sts2_bygone_effigy/defense_02.png",
+            "expanded-actions-v1/sts2_bygone_effigy/defense_03.png"
+          ],
+          "pivot": {
+            "x": 0.5,
+            "y": 0.0859375
+          },
+          "trim": false
+        },
+        "attack": {
+          "fps": 7,
+          "order": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "loop": false,
+          "returnTo": "idle",
+          "impactFrame": 1,
+          "frames": [
+            "expanded-actions-v1/sts2_bygone_effigy/attack_00.png",
+            "expanded-actions-v1/sts2_bygone_effigy/attack_01.png",
+            "expanded-actions-v1/sts2_bygone_effigy/attack_02.png",
+            "expanded-actions-v1/sts2_bygone_effigy/attack_03.png"
+          ],
+          "pivot": {
+            "x": 0.5,
+            "y": 0.0859375
+          },
+          "trim": false
+        },
+        "cast": {
+          "fps": 5,
+          "order": [
+            0,
+            1,
+            2,
+            2,
+            3
+          ],
+          "loop": false,
+          "returnTo": "idle",
+          "impactFrame": 2,
+          "frames": [
+            "expanded-actions-v1/sts2_bygone_effigy/cast_00.png",
+            "expanded-actions-v1/sts2_bygone_effigy/cast_01.png",
+            "expanded-actions-v1/sts2_bygone_effigy/cast_02.png",
+            "expanded-actions-v1/sts2_bygone_effigy/cast_03.png"
+          ],
+          "pivot": {
+            "x": 0.5,
+            "y": 0.0859375
+          },
+          "trim": false
+        },
+        "death": {
+          "fps": 5,
+          "order": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "loop": false,
+          "holdLast": true,
+          "holdLastFrame": true,
+          "frames": [
+            "expanded-actions-v1/sts2_bygone_effigy/death_00.png",
+            "expanded-actions-v1/sts2_bygone_effigy/death_01.png",
+            "expanded-actions-v1/sts2_bygone_effigy/death_02.png",
+            "expanded-actions-v1/sts2_bygone_effigy/death_03.png"
+          ],
+          "pivot": {
+            "x": 0.5,
+            "y": 0.0859375
+          },
+          "trim": false
+        }
+      }
+    },
+    {
+      "id": "sts2_lagavulin_matriarch",
+      "name": "礁壳母",
+      "region": "underdocks",
+      "scene": "town",
+      "frameWidth": 384,
+      "frameHeight": 384,
+      "facing": "left",
+      "groundAnchorY": 0.9140625,
+      "actions": {
+        "idle": {
+          "fps": 2,
+          "order": [
+            0,
+            1,
+            2,
+            3,
+            2,
+            1
+          ],
+          "loop": true,
+          "frames": [
+            "expanded-actions-v1/sts2_lagavulin_matriarch/idle_00.png",
+            "expanded-actions-v1/sts2_lagavulin_matriarch/idle_01.png",
+            "expanded-actions-v1/sts2_lagavulin_matriarch/idle_02.png",
+            "expanded-actions-v1/sts2_lagavulin_matriarch/idle_03.png"
+          ],
+          "pivot": {
+            "x": 0.5,
+            "y": 0.0859375
+          },
+          "trim": false
+        },
+        "defense": {
+          "fps": 5,
+          "order": [
+            0,
+            1,
+            2,
+            2,
+            3
+          ],
+          "loop": false,
+          "returnTo": "idle",
+          "frames": [
+            "expanded-actions-v1/sts2_lagavulin_matriarch/defense_00.png",
+            "expanded-actions-v1/sts2_lagavulin_matriarch/defense_01.png",
+            "expanded-actions-v1/sts2_lagavulin_matriarch/defense_02.png",
+            "expanded-actions-v1/sts2_lagavulin_matriarch/defense_03.png"
+          ],
+          "pivot": {
+            "x": 0.5,
+            "y": 0.0859375
+          },
+          "trim": false
+        },
+        "attack": {
+          "fps": 7,
+          "order": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "loop": false,
+          "returnTo": "idle",
+          "impactFrame": 1,
+          "frames": [
+            "expanded-actions-v1/sts2_lagavulin_matriarch/attack_00.png",
+            "expanded-actions-v1/sts2_lagavulin_matriarch/attack_01.png",
+            "expanded-actions-v1/sts2_lagavulin_matriarch/attack_02.png",
+            "expanded-actions-v1/sts2_lagavulin_matriarch/attack_03.png"
+          ],
+          "pivot": {
+            "x": 0.5,
+            "y": 0.0859375
+          },
+          "trim": false
+        },
+        "cast": {
+          "fps": 5,
+          "order": [
+            0,
+            1,
+            2,
+            2,
+            3
+          ],
+          "loop": false,
+          "returnTo": "idle",
+          "impactFrame": 2,
+          "frames": [
+            "expanded-actions-v1/sts2_lagavulin_matriarch/cast_00.png",
+            "expanded-actions-v1/sts2_lagavulin_matriarch/cast_01.png",
+            "expanded-actions-v1/sts2_lagavulin_matriarch/cast_02.png",
+            "expanded-actions-v1/sts2_lagavulin_matriarch/cast_03.png"
+          ],
+          "pivot": {
+            "x": 0.5,
+            "y": 0.0859375
+          },
+          "trim": false
+        },
+        "death": {
+          "fps": 5,
+          "order": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "loop": false,
+          "holdLast": true,
+          "holdLastFrame": true,
+          "frames": [
+            "expanded-actions-v1/sts2_lagavulin_matriarch/death_00.png",
+            "expanded-actions-v1/sts2_lagavulin_matriarch/death_01.png",
+            "expanded-actions-v1/sts2_lagavulin_matriarch/death_02.png",
+            "expanded-actions-v1/sts2_lagavulin_matriarch/death_03.png"
+          ],
+          "pivot": {
+            "x": 0.5,
+            "y": 0.0859375
+          },
+          "trim": false
+        }
+      }
+    },
+    {
+      "id": "sts2_flail_knight",
+      "name": "陨锤骑士",
+      "region": "glory",
+      "scene": "courtyard",
+      "frameWidth": 384,
+      "frameHeight": 384,
+      "facing": "left",
+      "groundAnchorY": 0.9140625,
+      "actions": {
+        "idle": {
+          "fps": 2,
+          "order": [
+            0,
+            1,
+            2,
+            3,
+            2,
+            1
+          ],
+          "loop": true,
+          "frames": [
+            "expanded-actions-v1/sts2_flail_knight/idle_00.png",
+            "expanded-actions-v1/sts2_flail_knight/idle_01.png",
+            "expanded-actions-v1/sts2_flail_knight/idle_02.png",
+            "expanded-actions-v1/sts2_flail_knight/idle_03.png"
+          ],
+          "pivot": {
+            "x": 0.5,
+            "y": 0.0859375
+          },
+          "trim": false
+        },
+        "defense": {
+          "fps": 5,
+          "order": [
+            0,
+            1,
+            2,
+            2,
+            3
+          ],
+          "loop": false,
+          "returnTo": "idle",
+          "frames": [
+            "expanded-actions-v1/sts2_flail_knight/defense_00.png",
+            "expanded-actions-v1/sts2_flail_knight/defense_01.png",
+            "expanded-actions-v1/sts2_flail_knight/defense_02.png",
+            "expanded-actions-v1/sts2_flail_knight/defense_03.png"
+          ],
+          "pivot": {
+            "x": 0.5,
+            "y": 0.0859375
+          },
+          "trim": false
+        },
+        "attack": {
+          "fps": 7,
+          "order": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "loop": false,
+          "returnTo": "idle",
+          "impactFrame": 1,
+          "frames": [
+            "expanded-actions-v1/sts2_flail_knight/attack_00.png",
+            "expanded-actions-v1/sts2_flail_knight/attack_01.png",
+            "expanded-actions-v1/sts2_flail_knight/attack_02.png",
+            "expanded-actions-v1/sts2_flail_knight/attack_03.png"
+          ],
+          "pivot": {
+            "x": 0.5,
+            "y": 0.0859375
+          },
+          "trim": false
+        },
+        "cast": {
+          "fps": 5,
+          "order": [
+            0,
+            1,
+            2,
+            2,
+            3
+          ],
+          "loop": false,
+          "returnTo": "idle",
+          "impactFrame": 2,
+          "frames": [
+            "expanded-actions-v1/sts2_flail_knight/cast_00.png",
+            "expanded-actions-v1/sts2_flail_knight/cast_01.png",
+            "expanded-actions-v1/sts2_flail_knight/cast_02.png",
+            "expanded-actions-v1/sts2_flail_knight/cast_03.png"
+          ],
+          "pivot": {
+            "x": 0.5,
+            "y": 0.0859375
+          },
+          "trim": false
+        },
+        "death": {
+          "fps": 5,
+          "order": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "loop": false,
+          "holdLast": true,
+          "holdLastFrame": true,
+          "frames": [
+            "expanded-actions-v1/sts2_flail_knight/death_00.png",
+            "expanded-actions-v1/sts2_flail_knight/death_01.png",
+            "expanded-actions-v1/sts2_flail_knight/death_02.png",
+            "expanded-actions-v1/sts2_flail_knight/death_03.png"
+          ],
+          "pivot": {
+            "x": 0.5,
+            "y": 0.0859375
+          },
+          "trim": false
+        }
+      }
+    },
+    {
+      "id": "sts2_soul_nexus",
+      "name": "魂闸",
+      "region": "glory",
+      "scene": "courtyard",
+      "frameWidth": 384,
+      "frameHeight": 384,
+      "facing": "left",
+      "groundAnchorY": 0.9140625,
+      "actions": {
+        "idle": {
+          "fps": 2,
+          "order": [
+            0,
+            1,
+            2,
+            3,
+            2,
+            1
+          ],
+          "loop": true,
+          "frames": [
+            "expanded-actions-v1/sts2_soul_nexus/idle_00.png",
+            "expanded-actions-v1/sts2_soul_nexus/idle_01.png",
+            "expanded-actions-v1/sts2_soul_nexus/idle_02.png",
+            "expanded-actions-v1/sts2_soul_nexus/idle_03.png"
+          ],
+          "pivot": {
+            "x": 0.5,
+            "y": 0.0859375
+          },
+          "trim": false
+        },
+        "defense": {
+          "fps": 5,
+          "order": [
+            0,
+            1,
+            2,
+            2,
+            3
+          ],
+          "loop": false,
+          "returnTo": "idle",
+          "frames": [
+            "expanded-actions-v1/sts2_soul_nexus/defense_00.png",
+            "expanded-actions-v1/sts2_soul_nexus/defense_01.png",
+            "expanded-actions-v1/sts2_soul_nexus/defense_02.png",
+            "expanded-actions-v1/sts2_soul_nexus/defense_03.png"
+          ],
+          "pivot": {
+            "x": 0.5,
+            "y": 0.0859375
+          },
+          "trim": false
+        },
+        "attack": {
+          "fps": 7,
+          "order": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "loop": false,
+          "returnTo": "idle",
+          "impactFrame": 1,
+          "frames": [
+            "expanded-actions-v1/sts2_soul_nexus/attack_00.png",
+            "expanded-actions-v1/sts2_soul_nexus/attack_01.png",
+            "expanded-actions-v1/sts2_soul_nexus/attack_02.png",
+            "expanded-actions-v1/sts2_soul_nexus/attack_03.png"
+          ],
+          "pivot": {
+            "x": 0.5,
+            "y": 0.0859375
+          },
+          "trim": false
+        },
+        "cast": {
+          "fps": 5,
+          "order": [
+            0,
+            1,
+            2,
+            2,
+            3
+          ],
+          "loop": false,
+          "returnTo": "idle",
+          "impactFrame": 2,
+          "frames": [
+            "expanded-actions-v1/sts2_soul_nexus/cast_00.png",
+            "expanded-actions-v1/sts2_soul_nexus/cast_01.png",
+            "expanded-actions-v1/sts2_soul_nexus/cast_02.png",
+            "expanded-actions-v1/sts2_soul_nexus/cast_03.png"
+          ],
+          "pivot": {
+            "x": 0.5,
+            "y": 0.0859375
+          },
+          "trim": false
+        },
+        "death": {
+          "fps": 5,
+          "order": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "loop": false,
+          "holdLast": true,
+          "holdLastFrame": true,
+          "frames": [
+            "expanded-actions-v1/sts2_soul_nexus/death_00.png",
+            "expanded-actions-v1/sts2_soul_nexus/death_01.png",
+            "expanded-actions-v1/sts2_soul_nexus/death_02.png",
+            "expanded-actions-v1/sts2_soul_nexus/death_03.png"
+          ],
+          "pivot": {
+            "x": 0.5,
+            "y": 0.0859375
+          },
+          "trim": false
+        }
+      }
+    },
+    {
+      "id": "sts2_soul_fysh",
+      "name": "啖魂鱼",
+      "region": "underdocks",
+      "scene": "town",
+      "frameWidth": 384,
+      "frameHeight": 384,
+      "facing": "left",
+      "groundAnchorY": 0.9140625,
+      "actions": {
+        "idle": {
+          "fps": 2,
+          "order": [
+            0,
+            1,
+            2,
+            3,
+            2,
+            1
+          ],
+          "loop": true,
+          "frames": [
+            "expanded-actions-v1/sts2_soul_fysh/idle_00.png",
+            "expanded-actions-v1/sts2_soul_fysh/idle_01.png",
+            "expanded-actions-v1/sts2_soul_fysh/idle_02.png",
+            "expanded-actions-v1/sts2_soul_fysh/idle_03.png"
+          ],
+          "pivot": {
+            "x": 0.5,
+            "y": 0.0859375
+          },
+          "trim": false
+        },
+        "defense": {
+          "fps": 5,
+          "order": [
+            0,
+            1,
+            2,
+            2,
+            3
+          ],
+          "loop": false,
+          "returnTo": "idle",
+          "frames": [
+            "expanded-actions-v1/sts2_soul_fysh/defense_00.png",
+            "expanded-actions-v1/sts2_soul_fysh/defense_01.png",
+            "expanded-actions-v1/sts2_soul_fysh/defense_02.png",
+            "expanded-actions-v1/sts2_soul_fysh/defense_03.png"
+          ],
+          "pivot": {
+            "x": 0.5,
+            "y": 0.0859375
+          },
+          "trim": false
+        },
+        "attack": {
+          "fps": 7,
+          "order": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "loop": false,
+          "returnTo": "idle",
+          "impactFrame": 1,
+          "frames": [
+            "expanded-actions-v1/sts2_soul_fysh/attack_00.png",
+            "expanded-actions-v1/sts2_soul_fysh/attack_01.png",
+            "expanded-actions-v1/sts2_soul_fysh/attack_02.png",
+            "expanded-actions-v1/sts2_soul_fysh/attack_03.png"
+          ],
+          "pivot": {
+            "x": 0.5,
+            "y": 0.0859375
+          },
+          "trim": false
+        },
+        "cast": {
+          "fps": 5,
+          "order": [
+            0,
+            1,
+            2,
+            2,
+            3
+          ],
+          "loop": false,
+          "returnTo": "idle",
+          "impactFrame": 2,
+          "frames": [
+            "expanded-actions-v1/sts2_soul_fysh/cast_00.png",
+            "expanded-actions-v1/sts2_soul_fysh/cast_01.png",
+            "expanded-actions-v1/sts2_soul_fysh/cast_02.png",
+            "expanded-actions-v1/sts2_soul_fysh/cast_03.png"
+          ],
+          "pivot": {
+            "x": 0.5,
+            "y": 0.0859375
+          },
+          "trim": false
+        },
+        "death": {
+          "fps": 5,
+          "order": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "loop": false,
+          "holdLast": true,
+          "holdLastFrame": true,
+          "frames": [
+            "expanded-actions-v1/sts2_soul_fysh/death_00.png",
+            "expanded-actions-v1/sts2_soul_fysh/death_01.png",
+            "expanded-actions-v1/sts2_soul_fysh/death_02.png",
+            "expanded-actions-v1/sts2_soul_fysh/death_03.png"
+          ],
+          "pivot": {
+            "x": 0.5,
+            "y": 0.0859375
+          },
+          "trim": false
+        }
+      }
+    }
+  ],
+  "complete": true
+}
