@@ -1,0 +1,262 @@
+{
+  "id": "sts2_byrdonis",
+  "name": "掠林巨鸢",
+  "region": "overgrowth",
+  "type": "bird",
+  "stage": "assets_and_standalone_preview",
+  "assetReady": true,
+  "visualApproved": false,
+  "width": 512,
+  "height": 512,
+  "ground": 430,
+  "pivot": {
+    "x": 0.5,
+    "y": 0.16015625
+  },
+  "still": "art/elite-frames-v1/sts2_byrdonis/still.png",
+  "actions": {
+    "idle": {
+      "frames": [
+        "art/elite-frames-v1/sts2_byrdonis/idle_subtle_00.png",
+        "art/elite-frames-v1/sts2_byrdonis/idle_subtle_01.png",
+        "art/elite-frames-v1/sts2_byrdonis/idle_subtle_02.png",
+        "art/elite-frames-v1/sts2_byrdonis/idle_subtle_03.png",
+        "art/elite-frames-v1/sts2_byrdonis/idle_subtle_04.png",
+        "art/elite-frames-v1/sts2_byrdonis/idle_subtle_05.png",
+        "art/elite-frames-v1/sts2_byrdonis/idle_subtle_06.png",
+        "art/elite-frames-v1/sts2_byrdonis/idle_subtle_07.png",
+        "art/elite-frames-v1/sts2_byrdonis/idle_subtle_08.png",
+        "art/elite-frames-v1/sts2_byrdonis/idle_subtle_09.png",
+        "art/elite-frames-v1/sts2_byrdonis/idle_subtle_10.png",
+        "art/elite-frames-v1/sts2_byrdonis/idle_subtle_11.png",
+        "art/elite-frames-v1/sts2_byrdonis/idle_subtle_12.png",
+        "art/elite-frames-v1/sts2_byrdonis/idle_subtle_13.png",
+        "art/elite-frames-v1/sts2_byrdonis/idle_subtle_14.png",
+        "art/elite-frames-v1/sts2_byrdonis/idle_subtle_15.png"
+      ],
+      "fps": 12,
+      "duration": 1.3333333333333333,
+      "loop": true,
+      "holdLastFrame": false,
+      "uniqueFrames": 16,
+      "method": "original_art_local_subtle_idle_v1",
+      "fixedRegions": [
+        {
+          "id": "ground-contact",
+          "left": 0,
+          "top": 373,
+          "width": 512,
+          "height": 139
+        },
+        {
+          "id": "folded-wing-root",
+          "left": 252,
+          "top": 253,
+          "width": 39,
+          "height": 46
+        },
+        {
+          "id": "planted-torso",
+          "left": 238,
+          "top": 306,
+          "width": 39,
+          "height": 32
+        }
+      ]
+    },
+    "hit": {
+      "frames": [
+        "art/elite-frames-v1/sts2_byrdonis/hit_00.png",
+        "art/elite-frames-v1/sts2_byrdonis/hit_01.png",
+        "art/elite-frames-v1/sts2_byrdonis/hit_02.png",
+        "art/elite-frames-v1/sts2_byrdonis/hit_03.png",
+        "art/elite-frames-v1/sts2_byrdonis/hit_04.png",
+        "art/elite-frames-v1/sts2_byrdonis/hit_05.png",
+        "art/elite-frames-v1/sts2_byrdonis/hit_06.png",
+        "art/elite-frames-v1/sts2_byrdonis/hit_07.png",
+        "art/elite-frames-v1/sts2_byrdonis/hit_08.png",
+        "art/elite-frames-v1/sts2_byrdonis/hit_09.png",
+        "art/elite-frames-v1/sts2_byrdonis/hit_10.png",
+        "art/elite-frames-v1/sts2_byrdonis/hit_11.png",
+        "art/elite-frames-v1/sts2_byrdonis/hit_12.png",
+        "art/elite-frames-v1/sts2_byrdonis/hit_13.png",
+        "art/elite-frames-v1/sts2_byrdonis/hit_14.png",
+        "art/elite-frames-v1/sts2_byrdonis/hit_15.png"
+      ],
+      "fps": 16,
+      "duration": 1,
+      "loop": false,
+      "holdLastFrame": false,
+      "uniqueFrames": 16,
+      "method": "image_gen_16_consecutive_poses",
+      "events": [
+        {
+          "frame": 3,
+          "type": "sound",
+          "clip": "hit"
+        }
+      ]
+    },
+    "attack": {
+      "frames": [
+        "art/elite-frames-v1/sts2_byrdonis/attack_peck_v2_00.png",
+        "art/elite-frames-v1/sts2_byrdonis/attack_peck_v2_01.png",
+        "art/elite-frames-v1/sts2_byrdonis/attack_peck_v2_02.png",
+        "art/elite-frames-v1/sts2_byrdonis/attack_peck_v2_03.png",
+        "art/elite-frames-v1/sts2_byrdonis/attack_peck_v2_04.png",
+        "art/elite-frames-v1/sts2_byrdonis/attack_peck_v2_05.png",
+        "art/elite-frames-v1/sts2_byrdonis/attack_peck_v2_06.png",
+        "art/elite-frames-v1/sts2_byrdonis/attack_peck_v2_07.png",
+        "art/elite-frames-v1/sts2_byrdonis/attack_peck_v2_08.png",
+        "art/elite-frames-v1/sts2_byrdonis/attack_peck_v2_09.png",
+        "art/elite-frames-v1/sts2_byrdonis/attack_peck_v2_10.png",
+        "art/elite-frames-v1/sts2_byrdonis/attack_peck_v2_11.png",
+        "art/elite-frames-v1/sts2_byrdonis/attack_peck_v2_12.png",
+        "art/elite-frames-v1/sts2_byrdonis/attack_peck_v2_13.png",
+        "art/elite-frames-v1/sts2_byrdonis/attack_peck_v2_14.png",
+        "art/elite-frames-v1/sts2_byrdonis/attack_peck_v2_15.png"
+      ],
+      "fps": 16,
+      "duration": 1,
+      "loop": false,
+      "holdLastFrame": false,
+      "uniqueFrames": 16,
+      "method": "image_gen_16_consecutive_poses",
+      "events": [
+        {
+          "frame": 3,
+          "type": "sound",
+          "clip": "windup"
+        },
+        {
+          "frame": 7,
+          "type": "effect",
+          "effect": "fx"
+        },
+        {
+          "frame": 8,
+          "type": "sound",
+          "clip": "attack"
+        }
+      ]
+    },
+    "cast": {
+      "frames": [
+        "art/elite-frames-v1/sts2_byrdonis/cast_00.png",
+        "art/elite-frames-v1/sts2_byrdonis/cast_01.png",
+        "art/elite-frames-v1/sts2_byrdonis/cast_02.png",
+        "art/elite-frames-v1/sts2_byrdonis/cast_03.png",
+        "art/elite-frames-v1/sts2_byrdonis/cast_04.png",
+        "art/elite-frames-v1/sts2_byrdonis/cast_05.png",
+        "art/elite-frames-v1/sts2_byrdonis/cast_06.png",
+        "art/elite-frames-v1/sts2_byrdonis/cast_07.png",
+        "art/elite-frames-v1/sts2_byrdonis/cast_08.png",
+        "art/elite-frames-v1/sts2_byrdonis/cast_09.png",
+        "art/elite-frames-v1/sts2_byrdonis/cast_10.png",
+        "art/elite-frames-v1/sts2_byrdonis/cast_11.png",
+        "art/elite-frames-v1/sts2_byrdonis/cast_12.png",
+        "art/elite-frames-v1/sts2_byrdonis/cast_13.png",
+        "art/elite-frames-v1/sts2_byrdonis/cast_14.png",
+        "art/elite-frames-v1/sts2_byrdonis/cast_15.png"
+      ],
+      "fps": 16,
+      "duration": 1,
+      "loop": false,
+      "holdLastFrame": false,
+      "uniqueFrames": 16,
+      "method": "image_gen_16_consecutive_poses",
+      "events": [
+        {
+          "frame": 3,
+          "type": "sound",
+          "clip": "windup"
+        },
+        {
+          "frame": 7,
+          "type": "effect",
+          "effect": "fx"
+        },
+        {
+          "frame": 8,
+          "type": "sound",
+          "clip": "skill"
+        }
+      ]
+    },
+    "death": {
+      "frames": [
+        "art/elite-frames-v1/sts2_byrdonis/death_00.png",
+        "art/elite-frames-v1/sts2_byrdonis/death_01.png",
+        "art/elite-frames-v1/sts2_byrdonis/death_02.png",
+        "art/elite-frames-v1/sts2_byrdonis/death_03.png",
+        "art/elite-frames-v1/sts2_byrdonis/death_04.png",
+        "art/elite-frames-v1/sts2_byrdonis/death_05.png",
+        "art/elite-frames-v1/sts2_byrdonis/death_06.png",
+        "art/elite-frames-v1/sts2_byrdonis/death_07.png",
+        "art/elite-frames-v1/sts2_byrdonis/death_08.png",
+        "art/elite-frames-v1/sts2_byrdonis/death_09.png",
+        "art/elite-frames-v1/sts2_byrdonis/death_10.png",
+        "art/elite-frames-v1/sts2_byrdonis/death_11.png",
+        "art/elite-frames-v1/sts2_byrdonis/death_12.png",
+        "art/elite-frames-v1/sts2_byrdonis/death_13.png",
+        "art/elite-frames-v1/sts2_byrdonis/death_14.png",
+        "art/elite-frames-v1/sts2_byrdonis/death_15.png"
+      ],
+      "fps": 12,
+      "duration": 1.3333333333333333,
+      "loop": false,
+      "holdLastFrame": true,
+      "uniqueFrames": 16,
+      "method": "image_gen_16_consecutive_poses",
+      "events": [
+        {
+          "frame": 5,
+          "type": "sound",
+          "clip": "death"
+        }
+      ]
+    }
+  },
+  "effect": {
+    "frames": [
+      "art/elite-frames-v1/sts2_byrdonis/fx_00.png",
+      "art/elite-frames-v1/sts2_byrdonis/fx_01.png",
+      "art/elite-frames-v1/sts2_byrdonis/fx_02.png",
+      "art/elite-frames-v1/sts2_byrdonis/fx_03.png",
+      "art/elite-frames-v1/sts2_byrdonis/fx_04.png",
+      "art/elite-frames-v1/sts2_byrdonis/fx_05.png",
+      "art/elite-frames-v1/sts2_byrdonis/fx_06.png",
+      "art/elite-frames-v1/sts2_byrdonis/fx_07.png",
+      "art/elite-frames-v1/sts2_byrdonis/fx_08.png",
+      "art/elite-frames-v1/sts2_byrdonis/fx_09.png",
+      "art/elite-frames-v1/sts2_byrdonis/fx_10.png",
+      "art/elite-frames-v1/sts2_byrdonis/fx_11.png",
+      "art/elite-frames-v1/sts2_byrdonis/fx_12.png",
+      "art/elite-frames-v1/sts2_byrdonis/fx_13.png",
+      "art/elite-frames-v1/sts2_byrdonis/fx_14.png",
+      "art/elite-frames-v1/sts2_byrdonis/fx_15.png"
+    ],
+    "fps": 16,
+    "duration": 1,
+    "loop": false,
+    "holdLastFrame": false,
+    "uniqueFrames": 16,
+    "method": "image_gen_16_consecutive_poses"
+  },
+  "audio": {
+    "windup": "audio/sfx/elite-frames-v1/sts2_byrdonis_windup.mp3",
+    "attack": "audio/sfx/elite-frames-v1/sts2_byrdonis_attack.mp3",
+    "skill": "audio/sfx/elite-frames-v1/sts2_byrdonis_skill.mp3",
+    "hit": "audio/sfx/elite-frames-v1/sts2_byrdonis_hit.mp3",
+    "death": "audio/sfx/elite-frames-v1/sts2_byrdonis_death.mp3"
+  },
+  "design": {
+    "identity": "Giant folded-wing kite raptor, hooked beak, grey-green feathers with one faded side, forest green wing coverts, nest twigs wrapped around talons, asymmetric shortened tail. Exactly two bird legs and two large feathered wings.",
+    "attack": "Three distinct fast forward beak strikes with neck recoil, talons braced, strong shoulder follow-through; end in folded-wing stance.",
+    "cast": "Deep crouch then huge fully spread wing upstroke, powerful aerial lift and long LEFT swooping dive with talons extended, wing brake and land back at origin.",
+    "death": "Wings lose lift, body pitches down, lands on side, feathers settle; retain a coherent fallen bird."
+  },
+  "sourceIssues": [],
+  "idleApproved": true,
+  "idleStatus": "original_art_local_subtle_idle_verified"
+}

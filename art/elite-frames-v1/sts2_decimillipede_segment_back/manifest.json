@@ -1,0 +1,245 @@
+{
+  "id": "sts2_decimillipede_segment_back",
+  "name": "绛甲节蜈·尾节",
+  "region": "hive",
+  "type": "arthropod",
+  "stage": "assets_and_standalone_preview",
+  "assetReady": true,
+  "visualApproved": true,
+  "width": 512,
+  "height": 512,
+  "ground": 430,
+  "pivot": {
+    "x": 0.5,
+    "y": 0.16015625
+  },
+  "still": "art/elite-frames-v1/sts2_decimillipede_segment_back/still.png",
+  "actions": {
+    "idle": {
+      "frames": [
+        "art/elite-frames-v1/sts2_decimillipede_segment_back/idle_family_v3_00.png",
+        "art/elite-frames-v1/sts2_decimillipede_segment_back/idle_family_v3_01.png",
+        "art/elite-frames-v1/sts2_decimillipede_segment_back/idle_family_v3_02.png",
+        "art/elite-frames-v1/sts2_decimillipede_segment_back/idle_family_v3_03.png",
+        "art/elite-frames-v1/sts2_decimillipede_segment_back/idle_family_v3_04.png",
+        "art/elite-frames-v1/sts2_decimillipede_segment_back/idle_family_v3_05.png",
+        "art/elite-frames-v1/sts2_decimillipede_segment_back/idle_family_v3_06.png",
+        "art/elite-frames-v1/sts2_decimillipede_segment_back/idle_family_v3_07.png",
+        "art/elite-frames-v1/sts2_decimillipede_segment_back/idle_family_v3_08.png",
+        "art/elite-frames-v1/sts2_decimillipede_segment_back/idle_family_v3_09.png",
+        "art/elite-frames-v1/sts2_decimillipede_segment_back/idle_family_v3_10.png",
+        "art/elite-frames-v1/sts2_decimillipede_segment_back/idle_family_v3_11.png",
+        "art/elite-frames-v1/sts2_decimillipede_segment_back/idle_family_v3_12.png",
+        "art/elite-frames-v1/sts2_decimillipede_segment_back/idle_family_v3_13.png",
+        "art/elite-frames-v1/sts2_decimillipede_segment_back/idle_family_v3_14.png",
+        "art/elite-frames-v1/sts2_decimillipede_segment_back/idle_family_v3_15.png"
+      ],
+      "fps": 12,
+      "duration": 1.3333333333333333,
+      "loop": true,
+      "holdLastFrame": false,
+      "uniqueFrames": 16,
+      "method": "image_gen_16_poses_with_fixed_cell_ground_registration",
+      "registeredContact": {
+        "mode": "ground-line",
+        "x": 256,
+        "y": 427,
+        "tolerance": 2
+      }
+    },
+    "hit": {
+      "frames": [
+        "art/elite-frames-v1/sts2_decimillipede_segment_back/hit_family_v3_00.png",
+        "art/elite-frames-v1/sts2_decimillipede_segment_back/hit_family_v3_01.png",
+        "art/elite-frames-v1/sts2_decimillipede_segment_back/hit_family_v3_02.png",
+        "art/elite-frames-v1/sts2_decimillipede_segment_back/hit_family_v3_03.png",
+        "art/elite-frames-v1/sts2_decimillipede_segment_back/hit_family_v3_04.png",
+        "art/elite-frames-v1/sts2_decimillipede_segment_back/hit_family_v3_05.png",
+        "art/elite-frames-v1/sts2_decimillipede_segment_back/hit_family_v3_06.png",
+        "art/elite-frames-v1/sts2_decimillipede_segment_back/hit_family_v3_07.png",
+        "art/elite-frames-v1/sts2_decimillipede_segment_back/hit_family_v3_08.png",
+        "art/elite-frames-v1/sts2_decimillipede_segment_back/hit_family_v3_09.png",
+        "art/elite-frames-v1/sts2_decimillipede_segment_back/hit_family_v3_10.png",
+        "art/elite-frames-v1/sts2_decimillipede_segment_back/hit_family_v3_11.png",
+        "art/elite-frames-v1/sts2_decimillipede_segment_back/hit_family_v3_12.png",
+        "art/elite-frames-v1/sts2_decimillipede_segment_back/hit_family_v3_13.png",
+        "art/elite-frames-v1/sts2_decimillipede_segment_back/hit_family_v3_14.png",
+        "art/elite-frames-v1/sts2_decimillipede_segment_back/hit_family_v3_15.png"
+      ],
+      "fps": 16,
+      "duration": 1,
+      "loop": false,
+      "holdLastFrame": false,
+      "uniqueFrames": 16,
+      "method": "image_gen_16_poses_with_fixed_cell_ground_registration",
+      "events": [
+        {
+          "frame": 3,
+          "type": "sound",
+          "clip": "hit"
+        }
+      ]
+    },
+    "attack": {
+      "frames": [
+        "art/elite-frames-v1/sts2_decimillipede_segment_back/attack_family_v3_00.png",
+        "art/elite-frames-v1/sts2_decimillipede_segment_back/attack_family_v3_01.png",
+        "art/elite-frames-v1/sts2_decimillipede_segment_back/attack_family_v3_02.png",
+        "art/elite-frames-v1/sts2_decimillipede_segment_back/attack_family_v3_03.png",
+        "art/elite-frames-v1/sts2_decimillipede_segment_back/attack_family_v3_04.png",
+        "art/elite-frames-v1/sts2_decimillipede_segment_back/attack_family_v3_05.png",
+        "art/elite-frames-v1/sts2_decimillipede_segment_back/attack_family_v3_06.png",
+        "art/elite-frames-v1/sts2_decimillipede_segment_back/attack_family_v3_07.png",
+        "art/elite-frames-v1/sts2_decimillipede_segment_back/attack_family_v3_08.png",
+        "art/elite-frames-v1/sts2_decimillipede_segment_back/attack_family_v3_09.png",
+        "art/elite-frames-v1/sts2_decimillipede_segment_back/attack_family_v3_10.png",
+        "art/elite-frames-v1/sts2_decimillipede_segment_back/attack_family_v3_11.png",
+        "art/elite-frames-v1/sts2_decimillipede_segment_back/attack_family_v3_12.png",
+        "art/elite-frames-v1/sts2_decimillipede_segment_back/attack_family_v3_13.png",
+        "art/elite-frames-v1/sts2_decimillipede_segment_back/attack_family_v3_14.png",
+        "art/elite-frames-v1/sts2_decimillipede_segment_back/attack_family_v3_15.png"
+      ],
+      "fps": 16,
+      "duration": 1,
+      "loop": false,
+      "holdLastFrame": false,
+      "uniqueFrames": 16,
+      "method": "image_gen_16_poses_with_fixed_cell_ground_registration",
+      "events": [
+        {
+          "frame": 3,
+          "type": "sound",
+          "clip": "windup"
+        },
+        {
+          "frame": 7,
+          "type": "effect",
+          "effect": "fx"
+        },
+        {
+          "frame": 8,
+          "type": "sound",
+          "clip": "attack"
+        }
+      ]
+    },
+    "cast": {
+      "frames": [
+        "art/elite-frames-v1/sts2_decimillipede_segment_back/cast_family_v3_00.png",
+        "art/elite-frames-v1/sts2_decimillipede_segment_back/cast_family_v3_01.png",
+        "art/elite-frames-v1/sts2_decimillipede_segment_back/cast_family_v3_02.png",
+        "art/elite-frames-v1/sts2_decimillipede_segment_back/cast_family_v3_03.png",
+        "art/elite-frames-v1/sts2_decimillipede_segment_back/cast_family_v3_04.png",
+        "art/elite-frames-v1/sts2_decimillipede_segment_back/cast_family_v3_05.png",
+        "art/elite-frames-v1/sts2_decimillipede_segment_back/cast_family_v3_06.png",
+        "art/elite-frames-v1/sts2_decimillipede_segment_back/cast_family_v3_07.png",
+        "art/elite-frames-v1/sts2_decimillipede_segment_back/cast_family_v3_08.png",
+        "art/elite-frames-v1/sts2_decimillipede_segment_back/cast_family_v3_09.png",
+        "art/elite-frames-v1/sts2_decimillipede_segment_back/cast_family_v3_10.png",
+        "art/elite-frames-v1/sts2_decimillipede_segment_back/cast_family_v3_11.png",
+        "art/elite-frames-v1/sts2_decimillipede_segment_back/cast_family_v3_12.png",
+        "art/elite-frames-v1/sts2_decimillipede_segment_back/cast_family_v3_13.png",
+        "art/elite-frames-v1/sts2_decimillipede_segment_back/cast_family_v3_14.png",
+        "art/elite-frames-v1/sts2_decimillipede_segment_back/cast_family_v3_15.png"
+      ],
+      "fps": 16,
+      "duration": 1,
+      "loop": false,
+      "holdLastFrame": false,
+      "uniqueFrames": 16,
+      "method": "image_gen_16_poses_with_fixed_cell_ground_registration",
+      "events": [
+        {
+          "frame": 3,
+          "type": "sound",
+          "clip": "windup"
+        },
+        {
+          "frame": 7,
+          "type": "effect",
+          "effect": "fx"
+        },
+        {
+          "frame": 8,
+          "type": "sound",
+          "clip": "skill"
+        }
+      ]
+    },
+    "death": {
+      "frames": [
+        "art/elite-frames-v1/sts2_decimillipede_segment_back/death_family_v3_00.png",
+        "art/elite-frames-v1/sts2_decimillipede_segment_back/death_family_v3_01.png",
+        "art/elite-frames-v1/sts2_decimillipede_segment_back/death_family_v3_02.png",
+        "art/elite-frames-v1/sts2_decimillipede_segment_back/death_family_v3_03.png",
+        "art/elite-frames-v1/sts2_decimillipede_segment_back/death_family_v3_04.png",
+        "art/elite-frames-v1/sts2_decimillipede_segment_back/death_family_v3_05.png",
+        "art/elite-frames-v1/sts2_decimillipede_segment_back/death_family_v3_06.png",
+        "art/elite-frames-v1/sts2_decimillipede_segment_back/death_family_v3_07.png",
+        "art/elite-frames-v1/sts2_decimillipede_segment_back/death_family_v3_08.png",
+        "art/elite-frames-v1/sts2_decimillipede_segment_back/death_family_v3_09.png",
+        "art/elite-frames-v1/sts2_decimillipede_segment_back/death_family_v3_10.png",
+        "art/elite-frames-v1/sts2_decimillipede_segment_back/death_family_v3_11.png",
+        "art/elite-frames-v1/sts2_decimillipede_segment_back/death_family_v3_12.png",
+        "art/elite-frames-v1/sts2_decimillipede_segment_back/death_family_v3_13.png",
+        "art/elite-frames-v1/sts2_decimillipede_segment_back/death_family_v3_14.png",
+        "art/elite-frames-v1/sts2_decimillipede_segment_back/death_family_v3_15.png"
+      ],
+      "fps": 12,
+      "duration": 1.3333333333333333,
+      "loop": false,
+      "holdLastFrame": true,
+      "uniqueFrames": 16,
+      "method": "image_gen_16_poses_with_fixed_cell_ground_registration",
+      "events": [
+        {
+          "frame": 5,
+          "type": "sound",
+          "clip": "death"
+        }
+      ]
+    }
+  },
+  "effect": {
+    "frames": [
+      "art/elite-frames-v1/sts2_decimillipede_segment_back/fx_family_v3_00.png",
+      "art/elite-frames-v1/sts2_decimillipede_segment_back/fx_family_v3_01.png",
+      "art/elite-frames-v1/sts2_decimillipede_segment_back/fx_family_v3_02.png",
+      "art/elite-frames-v1/sts2_decimillipede_segment_back/fx_family_v3_03.png",
+      "art/elite-frames-v1/sts2_decimillipede_segment_back/fx_family_v3_04.png",
+      "art/elite-frames-v1/sts2_decimillipede_segment_back/fx_family_v3_05.png",
+      "art/elite-frames-v1/sts2_decimillipede_segment_back/fx_family_v3_06.png",
+      "art/elite-frames-v1/sts2_decimillipede_segment_back/fx_family_v3_07.png",
+      "art/elite-frames-v1/sts2_decimillipede_segment_back/fx_family_v3_08.png",
+      "art/elite-frames-v1/sts2_decimillipede_segment_back/fx_family_v3_09.png",
+      "art/elite-frames-v1/sts2_decimillipede_segment_back/fx_family_v3_10.png",
+      "art/elite-frames-v1/sts2_decimillipede_segment_back/fx_family_v3_11.png",
+      "art/elite-frames-v1/sts2_decimillipede_segment_back/fx_family_v3_12.png",
+      "art/elite-frames-v1/sts2_decimillipede_segment_back/fx_family_v3_13.png",
+      "art/elite-frames-v1/sts2_decimillipede_segment_back/fx_family_v3_14.png",
+      "art/elite-frames-v1/sts2_decimillipede_segment_back/fx_family_v3_15.png"
+    ],
+    "fps": 16,
+    "duration": 1,
+    "loop": false,
+    "holdLastFrame": false,
+    "uniqueFrames": 16,
+    "method": "image_gen_16_consecutive_poses"
+  },
+  "audio": {
+    "windup": "audio/sfx/elite-frames-v1/sts2_decimillipede_segment_back_windup.mp3",
+    "attack": "audio/sfx/elite-frames-v1/sts2_decimillipede_segment_back_attack.mp3",
+    "skill": "audio/sfx/elite-frames-v1/sts2_decimillipede_segment_back_skill.mp3",
+    "hit": "audio/sfx/elite-frames-v1/sts2_decimillipede_segment_back_hit.mp3",
+    "death": "audio/sfx/elite-frames-v1/sts2_decimillipede_segment_back_death.mp3"
+  },
+  "design": {
+    "identity": "Centipede BACK section: three tapering burgundy-purple chitin plates, continuous ivory notched dorsal stripe, smoke-violet joints, six pale lilac legs, twin long curved tail pincers on RIGHT, rounded front socket on LEFT. Same scale as front/middle.",
+    "attack": "Brace front socket, swing tail far backward then whip twin pincers overhead to LEFT, snap them and return.",
+    "cast": "Curl tail over shell into a large scorpionlike C, spread both pincers far apart, amber seams swell then a hard clamp shock releases; unwind.",
+    "death": "Tail droops, pincers separate slackly, legs fold and abdomen rolls onto side into a stable corpse."
+  },
+  "sourceIssues": [],
+  "idleApproved": true,
+  "idleStatus": "generated_16_frames_ground_registered"
+}

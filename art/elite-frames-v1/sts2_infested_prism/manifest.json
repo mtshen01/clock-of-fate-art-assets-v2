@@ -1,0 +1,411 @@
+{
+  "id": "sts2_infested_prism",
+  "name": "茧晶灵",
+  "region": "hive",
+  "type": "prism",
+  "stage": "assets_and_standalone_preview",
+  "assetReady": true,
+  "visualApproved": true,
+  "width": 512,
+  "height": 512,
+  "ground": 430,
+  "pivot": {
+    "x": 0.5,
+    "y": 0.16015625
+  },
+  "still": "art/elite-frames-v1/sts2_infested_prism/still.png",
+  "actions": {
+    "idle": {
+      "frames": [
+        "art/elite-frames-v1/sts2_infested_prism/idle_00.png",
+        "art/elite-frames-v1/sts2_infested_prism/idle_01.png",
+        "art/elite-frames-v1/sts2_infested_prism/idle_02.png",
+        "art/elite-frames-v1/sts2_infested_prism/idle_03.png",
+        "art/elite-frames-v1/sts2_infested_prism/idle_04.png",
+        "art/elite-frames-v1/sts2_infested_prism/idle_05.png",
+        "art/elite-frames-v1/sts2_infested_prism/idle_06.png",
+        "art/elite-frames-v1/sts2_infested_prism/idle_07.png",
+        "art/elite-frames-v1/sts2_infested_prism/idle_08.png",
+        "art/elite-frames-v1/sts2_infested_prism/idle_09.png",
+        "art/elite-frames-v1/sts2_infested_prism/idle_10.png",
+        "art/elite-frames-v1/sts2_infested_prism/idle_11.png",
+        "art/elite-frames-v1/sts2_infested_prism/idle_12.png",
+        "art/elite-frames-v1/sts2_infested_prism/idle_13.png",
+        "art/elite-frames-v1/sts2_infested_prism/idle_14.png",
+        "art/elite-frames-v1/sts2_infested_prism/idle_15.png"
+      ],
+      "fps": 12,
+      "duration": 1.3333333333333333,
+      "loop": true,
+      "holdLastFrame": false,
+      "uniqueFrames": 16,
+      "method": "image_gen_16_idle_poses_with_original_contact_lock",
+      "fixedRegions": [
+        {
+          "id": "visible-core",
+          "left": 257,
+          "top": 327,
+          "width": 7,
+          "height": 7,
+          "feather": 7
+        }
+      ],
+      "checks": [
+        {
+          "frame": 0,
+          "contacts": [
+            {
+              "id": "visible-core",
+              "opaque": 49,
+              "changed": 0
+            }
+          ]
+        },
+        {
+          "frame": 1,
+          "contacts": [
+            {
+              "id": "visible-core",
+              "opaque": 49,
+              "changed": 0
+            }
+          ]
+        },
+        {
+          "frame": 2,
+          "contacts": [
+            {
+              "id": "visible-core",
+              "opaque": 49,
+              "changed": 0
+            }
+          ]
+        },
+        {
+          "frame": 3,
+          "contacts": [
+            {
+              "id": "visible-core",
+              "opaque": 49,
+              "changed": 0
+            }
+          ]
+        },
+        {
+          "frame": 4,
+          "contacts": [
+            {
+              "id": "visible-core",
+              "opaque": 49,
+              "changed": 0
+            }
+          ]
+        },
+        {
+          "frame": 5,
+          "contacts": [
+            {
+              "id": "visible-core",
+              "opaque": 49,
+              "changed": 0
+            }
+          ]
+        },
+        {
+          "frame": 6,
+          "contacts": [
+            {
+              "id": "visible-core",
+              "opaque": 49,
+              "changed": 0
+            }
+          ]
+        },
+        {
+          "frame": 7,
+          "contacts": [
+            {
+              "id": "visible-core",
+              "opaque": 49,
+              "changed": 0
+            }
+          ]
+        },
+        {
+          "frame": 8,
+          "contacts": [
+            {
+              "id": "visible-core",
+              "opaque": 49,
+              "changed": 0
+            }
+          ]
+        },
+        {
+          "frame": 9,
+          "contacts": [
+            {
+              "id": "visible-core",
+              "opaque": 49,
+              "changed": 0
+            }
+          ]
+        },
+        {
+          "frame": 10,
+          "contacts": [
+            {
+              "id": "visible-core",
+              "opaque": 49,
+              "changed": 0
+            }
+          ]
+        },
+        {
+          "frame": 11,
+          "contacts": [
+            {
+              "id": "visible-core",
+              "opaque": 49,
+              "changed": 0
+            }
+          ]
+        },
+        {
+          "frame": 12,
+          "contacts": [
+            {
+              "id": "visible-core",
+              "opaque": 49,
+              "changed": 0
+            }
+          ]
+        },
+        {
+          "frame": 13,
+          "contacts": [
+            {
+              "id": "visible-core",
+              "opaque": 49,
+              "changed": 0
+            }
+          ]
+        },
+        {
+          "frame": 14,
+          "contacts": [
+            {
+              "id": "visible-core",
+              "opaque": 49,
+              "changed": 0
+            }
+          ]
+        },
+        {
+          "frame": 15,
+          "contacts": [
+            {
+              "id": "visible-core",
+              "opaque": 49,
+              "changed": 0
+            }
+          ]
+        }
+      ]
+    },
+    "hit": {
+      "frames": [
+        "art/elite-frames-v1/sts2_infested_prism/hit_00.png",
+        "art/elite-frames-v1/sts2_infested_prism/hit_01.png",
+        "art/elite-frames-v1/sts2_infested_prism/hit_02.png",
+        "art/elite-frames-v1/sts2_infested_prism/hit_03.png",
+        "art/elite-frames-v1/sts2_infested_prism/hit_04.png",
+        "art/elite-frames-v1/sts2_infested_prism/hit_05.png",
+        "art/elite-frames-v1/sts2_infested_prism/hit_06.png",
+        "art/elite-frames-v1/sts2_infested_prism/hit_07.png",
+        "art/elite-frames-v1/sts2_infested_prism/hit_08.png",
+        "art/elite-frames-v1/sts2_infested_prism/hit_09.png",
+        "art/elite-frames-v1/sts2_infested_prism/hit_10.png",
+        "art/elite-frames-v1/sts2_infested_prism/hit_11.png",
+        "art/elite-frames-v1/sts2_infested_prism/hit_12.png",
+        "art/elite-frames-v1/sts2_infested_prism/hit_13.png",
+        "art/elite-frames-v1/sts2_infested_prism/hit_14.png",
+        "art/elite-frames-v1/sts2_infested_prism/hit_15.png"
+      ],
+      "fps": 16,
+      "duration": 1,
+      "loop": false,
+      "holdLastFrame": false,
+      "uniqueFrames": 16,
+      "method": "image_gen_16_consecutive_poses",
+      "events": [
+        {
+          "frame": 3,
+          "type": "sound",
+          "clip": "hit"
+        }
+      ]
+    },
+    "attack": {
+      "frames": [
+        "art/elite-frames-v1/sts2_infested_prism/attack_00.png",
+        "art/elite-frames-v1/sts2_infested_prism/attack_01.png",
+        "art/elite-frames-v1/sts2_infested_prism/attack_02.png",
+        "art/elite-frames-v1/sts2_infested_prism/attack_03.png",
+        "art/elite-frames-v1/sts2_infested_prism/attack_04.png",
+        "art/elite-frames-v1/sts2_infested_prism/attack_05.png",
+        "art/elite-frames-v1/sts2_infested_prism/attack_06.png",
+        "art/elite-frames-v1/sts2_infested_prism/attack_07.png",
+        "art/elite-frames-v1/sts2_infested_prism/attack_08.png",
+        "art/elite-frames-v1/sts2_infested_prism/attack_09.png",
+        "art/elite-frames-v1/sts2_infested_prism/attack_10.png",
+        "art/elite-frames-v1/sts2_infested_prism/attack_11.png",
+        "art/elite-frames-v1/sts2_infested_prism/attack_12.png",
+        "art/elite-frames-v1/sts2_infested_prism/attack_13.png",
+        "art/elite-frames-v1/sts2_infested_prism/attack_14.png",
+        "art/elite-frames-v1/sts2_infested_prism/attack_15.png"
+      ],
+      "fps": 16,
+      "duration": 1,
+      "loop": false,
+      "holdLastFrame": false,
+      "uniqueFrames": 16,
+      "method": "image_gen_16_consecutive_poses",
+      "events": [
+        {
+          "frame": 3,
+          "type": "sound",
+          "clip": "windup"
+        },
+        {
+          "frame": 7,
+          "type": "effect",
+          "effect": "fx"
+        },
+        {
+          "frame": 8,
+          "type": "sound",
+          "clip": "attack"
+        }
+      ]
+    },
+    "cast": {
+      "frames": [
+        "art/elite-frames-v1/sts2_infested_prism/cast_00.png",
+        "art/elite-frames-v1/sts2_infested_prism/cast_01.png",
+        "art/elite-frames-v1/sts2_infested_prism/cast_02.png",
+        "art/elite-frames-v1/sts2_infested_prism/cast_03.png",
+        "art/elite-frames-v1/sts2_infested_prism/cast_04.png",
+        "art/elite-frames-v1/sts2_infested_prism/cast_05.png",
+        "art/elite-frames-v1/sts2_infested_prism/cast_06.png",
+        "art/elite-frames-v1/sts2_infested_prism/cast_07.png",
+        "art/elite-frames-v1/sts2_infested_prism/cast_08.png",
+        "art/elite-frames-v1/sts2_infested_prism/cast_09.png",
+        "art/elite-frames-v1/sts2_infested_prism/cast_10.png",
+        "art/elite-frames-v1/sts2_infested_prism/cast_11.png",
+        "art/elite-frames-v1/sts2_infested_prism/cast_12.png",
+        "art/elite-frames-v1/sts2_infested_prism/cast_13.png",
+        "art/elite-frames-v1/sts2_infested_prism/cast_14.png",
+        "art/elite-frames-v1/sts2_infested_prism/cast_15.png"
+      ],
+      "fps": 16,
+      "duration": 1,
+      "loop": false,
+      "holdLastFrame": false,
+      "uniqueFrames": 16,
+      "method": "image_gen_16_consecutive_poses",
+      "events": [
+        {
+          "frame": 3,
+          "type": "sound",
+          "clip": "windup"
+        },
+        {
+          "frame": 7,
+          "type": "effect",
+          "effect": "fx"
+        },
+        {
+          "frame": 8,
+          "type": "sound",
+          "clip": "skill"
+        }
+      ]
+    },
+    "death": {
+      "frames": [
+        "art/elite-frames-v1/sts2_infested_prism/death_00.png",
+        "art/elite-frames-v1/sts2_infested_prism/death_01.png",
+        "art/elite-frames-v1/sts2_infested_prism/death_02.png",
+        "art/elite-frames-v1/sts2_infested_prism/death_03.png",
+        "art/elite-frames-v1/sts2_infested_prism/death_04.png",
+        "art/elite-frames-v1/sts2_infested_prism/death_05.png",
+        "art/elite-frames-v1/sts2_infested_prism/death_06.png",
+        "art/elite-frames-v1/sts2_infested_prism/death_07.png",
+        "art/elite-frames-v1/sts2_infested_prism/death_08.png",
+        "art/elite-frames-v1/sts2_infested_prism/death_09.png",
+        "art/elite-frames-v1/sts2_infested_prism/death_10.png",
+        "art/elite-frames-v1/sts2_infested_prism/death_11.png",
+        "art/elite-frames-v1/sts2_infested_prism/death_12.png",
+        "art/elite-frames-v1/sts2_infested_prism/death_13.png",
+        "art/elite-frames-v1/sts2_infested_prism/death_14.png",
+        "art/elite-frames-v1/sts2_infested_prism/death_15.png"
+      ],
+      "fps": 12,
+      "duration": 1.3333333333333333,
+      "loop": false,
+      "holdLastFrame": true,
+      "uniqueFrames": 16,
+      "method": "image_gen_16_consecutive_poses",
+      "events": [
+        {
+          "frame": 5,
+          "type": "sound",
+          "clip": "death"
+        }
+      ]
+    }
+  },
+  "effect": {
+    "frames": [
+      "art/elite-frames-v1/sts2_infested_prism/fx_00.png",
+      "art/elite-frames-v1/sts2_infested_prism/fx_01.png",
+      "art/elite-frames-v1/sts2_infested_prism/fx_02.png",
+      "art/elite-frames-v1/sts2_infested_prism/fx_03.png",
+      "art/elite-frames-v1/sts2_infested_prism/fx_04.png",
+      "art/elite-frames-v1/sts2_infested_prism/fx_05.png",
+      "art/elite-frames-v1/sts2_infested_prism/fx_06.png",
+      "art/elite-frames-v1/sts2_infested_prism/fx_07.png",
+      "art/elite-frames-v1/sts2_infested_prism/fx_08.png",
+      "art/elite-frames-v1/sts2_infested_prism/fx_09.png",
+      "art/elite-frames-v1/sts2_infested_prism/fx_10.png",
+      "art/elite-frames-v1/sts2_infested_prism/fx_11.png",
+      "art/elite-frames-v1/sts2_infested_prism/fx_12.png",
+      "art/elite-frames-v1/sts2_infested_prism/fx_13.png",
+      "art/elite-frames-v1/sts2_infested_prism/fx_14.png",
+      "art/elite-frames-v1/sts2_infested_prism/fx_15.png"
+    ],
+    "fps": 16,
+    "duration": 1,
+    "loop": false,
+    "holdLastFrame": false,
+    "uniqueFrames": 16,
+    "method": "image_gen_16_consecutive_poses"
+  },
+  "audio": {
+    "windup": "audio/sfx/elite-frames-v1/sts2_infested_prism_windup.mp3",
+    "attack": "audio/sfx/elite-frames-v1/sts2_infested_prism_attack.mp3",
+    "skill": "audio/sfx/elite-frames-v1/sts2_infested_prism_skill.mp3",
+    "hit": "audio/sfx/elite-frames-v1/sts2_infested_prism_hit.mp3",
+    "death": "audio/sfx/elite-frames-v1/sts2_infested_prism_death.mp3"
+  },
+  "design": {
+    "identity": "Floating tall asymmetric triangular crystal prism with purple transparent facets, green parasite silhouette trapped at core, three offset shard fins and six long dark burgundy chitin root limbs curving around the prism; stable visible core, no humanoid legs.",
+    "attack": "封壳蓄势，根须收拢，随后前倾并向左刺出下方晶棱，回到悬浮。",
+    "cast": "晶壳层叠闭合聚光，再分瓣张开，露出狭窄绿光，最后闭合回到悬浮。",
+    "death": "绿芯闪烁熄灭，根须松开，紫晶外壳分裂并落为暗色残骸。"
+  },
+  "sourceIssues": [],
+  "idleApproved": true,
+  "idleStatus": "generated_16_frames_verified"
+}

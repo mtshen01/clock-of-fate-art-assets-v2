@@ -1,0 +1,510 @@
+{
+  "id": "sts2_mecha_knight",
+  "name": "衡甲骑士",
+  "region": "glory",
+  "type": "mecha",
+  "stage": "assets_and_standalone_preview",
+  "assetReady": true,
+  "visualApproved": true,
+  "width": 512,
+  "height": 512,
+  "ground": 430,
+  "pivot": {
+    "x": 0.5,
+    "y": 0.16015625
+  },
+  "still": "art/elite-frames-v1/sts2_mecha_knight/still.png",
+  "actions": {
+    "idle": {
+      "frames": [
+        "art/elite-frames-v1/sts2_mecha_knight/idle_00.png",
+        "art/elite-frames-v1/sts2_mecha_knight/idle_01.png",
+        "art/elite-frames-v1/sts2_mecha_knight/idle_02.png",
+        "art/elite-frames-v1/sts2_mecha_knight/idle_03.png",
+        "art/elite-frames-v1/sts2_mecha_knight/idle_04.png",
+        "art/elite-frames-v1/sts2_mecha_knight/idle_05.png",
+        "art/elite-frames-v1/sts2_mecha_knight/idle_06.png",
+        "art/elite-frames-v1/sts2_mecha_knight/idle_07.png",
+        "art/elite-frames-v1/sts2_mecha_knight/idle_08.png",
+        "art/elite-frames-v1/sts2_mecha_knight/idle_09.png",
+        "art/elite-frames-v1/sts2_mecha_knight/idle_10.png",
+        "art/elite-frames-v1/sts2_mecha_knight/idle_11.png",
+        "art/elite-frames-v1/sts2_mecha_knight/idle_12.png",
+        "art/elite-frames-v1/sts2_mecha_knight/idle_13.png",
+        "art/elite-frames-v1/sts2_mecha_knight/idle_14.png",
+        "art/elite-frames-v1/sts2_mecha_knight/idle_15.png"
+      ],
+      "fps": 12,
+      "duration": 1.3333333333333333,
+      "loop": true,
+      "holdLastFrame": false,
+      "uniqueFrames": 16,
+      "method": "image_gen_16_idle_poses_with_original_contact_lock",
+      "fixedRegions": [
+        {
+          "id": "contact-0",
+          "left": 166,
+          "top": 358,
+          "width": 138,
+          "height": 72,
+          "feather": 7
+        },
+        {
+          "id": "contact-1",
+          "left": 304,
+          "top": 358,
+          "width": 103,
+          "height": 72,
+          "feather": 7
+        }
+      ],
+      "checks": [
+        {
+          "frame": 0,
+          "contacts": [
+            {
+              "id": "contact-0",
+              "opaque": 3685,
+              "changed": 0
+            },
+            {
+              "id": "contact-1",
+              "opaque": 4181,
+              "changed": 0
+            }
+          ]
+        },
+        {
+          "frame": 1,
+          "contacts": [
+            {
+              "id": "contact-0",
+              "opaque": 3685,
+              "changed": 0
+            },
+            {
+              "id": "contact-1",
+              "opaque": 4181,
+              "changed": 0
+            }
+          ]
+        },
+        {
+          "frame": 2,
+          "contacts": [
+            {
+              "id": "contact-0",
+              "opaque": 3685,
+              "changed": 0
+            },
+            {
+              "id": "contact-1",
+              "opaque": 4181,
+              "changed": 0
+            }
+          ]
+        },
+        {
+          "frame": 3,
+          "contacts": [
+            {
+              "id": "contact-0",
+              "opaque": 3685,
+              "changed": 0
+            },
+            {
+              "id": "contact-1",
+              "opaque": 4181,
+              "changed": 0
+            }
+          ]
+        },
+        {
+          "frame": 4,
+          "contacts": [
+            {
+              "id": "contact-0",
+              "opaque": 3685,
+              "changed": 0
+            },
+            {
+              "id": "contact-1",
+              "opaque": 4181,
+              "changed": 0
+            }
+          ]
+        },
+        {
+          "frame": 5,
+          "contacts": [
+            {
+              "id": "contact-0",
+              "opaque": 3685,
+              "changed": 0
+            },
+            {
+              "id": "contact-1",
+              "opaque": 4181,
+              "changed": 0
+            }
+          ]
+        },
+        {
+          "frame": 6,
+          "contacts": [
+            {
+              "id": "contact-0",
+              "opaque": 3685,
+              "changed": 0
+            },
+            {
+              "id": "contact-1",
+              "opaque": 4181,
+              "changed": 0
+            }
+          ]
+        },
+        {
+          "frame": 7,
+          "contacts": [
+            {
+              "id": "contact-0",
+              "opaque": 3685,
+              "changed": 0
+            },
+            {
+              "id": "contact-1",
+              "opaque": 4181,
+              "changed": 0
+            }
+          ]
+        },
+        {
+          "frame": 8,
+          "contacts": [
+            {
+              "id": "contact-0",
+              "opaque": 3685,
+              "changed": 0
+            },
+            {
+              "id": "contact-1",
+              "opaque": 4181,
+              "changed": 0
+            }
+          ]
+        },
+        {
+          "frame": 9,
+          "contacts": [
+            {
+              "id": "contact-0",
+              "opaque": 3685,
+              "changed": 0
+            },
+            {
+              "id": "contact-1",
+              "opaque": 4181,
+              "changed": 0
+            }
+          ]
+        },
+        {
+          "frame": 10,
+          "contacts": [
+            {
+              "id": "contact-0",
+              "opaque": 3685,
+              "changed": 0
+            },
+            {
+              "id": "contact-1",
+              "opaque": 4181,
+              "changed": 0
+            }
+          ]
+        },
+        {
+          "frame": 11,
+          "contacts": [
+            {
+              "id": "contact-0",
+              "opaque": 3685,
+              "changed": 0
+            },
+            {
+              "id": "contact-1",
+              "opaque": 4181,
+              "changed": 0
+            }
+          ]
+        },
+        {
+          "frame": 12,
+          "contacts": [
+            {
+              "id": "contact-0",
+              "opaque": 3685,
+              "changed": 0
+            },
+            {
+              "id": "contact-1",
+              "opaque": 4181,
+              "changed": 0
+            }
+          ]
+        },
+        {
+          "frame": 13,
+          "contacts": [
+            {
+              "id": "contact-0",
+              "opaque": 3685,
+              "changed": 0
+            },
+            {
+              "id": "contact-1",
+              "opaque": 4181,
+              "changed": 0
+            }
+          ]
+        },
+        {
+          "frame": 14,
+          "contacts": [
+            {
+              "id": "contact-0",
+              "opaque": 3685,
+              "changed": 0
+            },
+            {
+              "id": "contact-1",
+              "opaque": 4181,
+              "changed": 0
+            }
+          ]
+        },
+        {
+          "frame": 15,
+          "contacts": [
+            {
+              "id": "contact-0",
+              "opaque": 3685,
+              "changed": 0
+            },
+            {
+              "id": "contact-1",
+              "opaque": 4181,
+              "changed": 0
+            }
+          ]
+        }
+      ]
+    },
+    "hit": {
+      "frames": [
+        "art/elite-frames-v1/sts2_mecha_knight/hit_00.png",
+        "art/elite-frames-v1/sts2_mecha_knight/hit_01.png",
+        "art/elite-frames-v1/sts2_mecha_knight/hit_02.png",
+        "art/elite-frames-v1/sts2_mecha_knight/hit_03.png",
+        "art/elite-frames-v1/sts2_mecha_knight/hit_04.png",
+        "art/elite-frames-v1/sts2_mecha_knight/hit_05.png",
+        "art/elite-frames-v1/sts2_mecha_knight/hit_06.png",
+        "art/elite-frames-v1/sts2_mecha_knight/hit_07.png",
+        "art/elite-frames-v1/sts2_mecha_knight/hit_08.png",
+        "art/elite-frames-v1/sts2_mecha_knight/hit_09.png",
+        "art/elite-frames-v1/sts2_mecha_knight/hit_10.png",
+        "art/elite-frames-v1/sts2_mecha_knight/hit_11.png",
+        "art/elite-frames-v1/sts2_mecha_knight/hit_12.png",
+        "art/elite-frames-v1/sts2_mecha_knight/hit_13.png",
+        "art/elite-frames-v1/sts2_mecha_knight/hit_14.png",
+        "art/elite-frames-v1/sts2_mecha_knight/hit_15.png"
+      ],
+      "fps": 16,
+      "duration": 1,
+      "loop": false,
+      "holdLastFrame": false,
+      "uniqueFrames": 16,
+      "method": "image_gen_16_consecutive_poses",
+      "events": [
+        {
+          "frame": 3,
+          "type": "sound",
+          "clip": "hit"
+        }
+      ]
+    },
+    "attack": {
+      "frames": [
+        "art/elite-frames-v1/sts2_mecha_knight/attack_00.png",
+        "art/elite-frames-v1/sts2_mecha_knight/attack_01.png",
+        "art/elite-frames-v1/sts2_mecha_knight/attack_02.png",
+        "art/elite-frames-v1/sts2_mecha_knight/attack_03.png",
+        "art/elite-frames-v1/sts2_mecha_knight/attack_04.png",
+        "art/elite-frames-v1/sts2_mecha_knight/attack_05.png",
+        "art/elite-frames-v1/sts2_mecha_knight/attack_06.png",
+        "art/elite-frames-v1/sts2_mecha_knight/attack_07.png",
+        "art/elite-frames-v1/sts2_mecha_knight/attack_08.png",
+        "art/elite-frames-v1/sts2_mecha_knight/attack_09.png",
+        "art/elite-frames-v1/sts2_mecha_knight/attack_10.png",
+        "art/elite-frames-v1/sts2_mecha_knight/attack_11.png",
+        "art/elite-frames-v1/sts2_mecha_knight/attack_12.png",
+        "art/elite-frames-v1/sts2_mecha_knight/attack_13.png",
+        "art/elite-frames-v1/sts2_mecha_knight/attack_14.png",
+        "art/elite-frames-v1/sts2_mecha_knight/attack_15.png"
+      ],
+      "fps": 16,
+      "duration": 1,
+      "loop": false,
+      "holdLastFrame": false,
+      "uniqueFrames": 16,
+      "method": "image_gen_16_consecutive_poses",
+      "events": [
+        {
+          "frame": 3,
+          "type": "sound",
+          "clip": "windup"
+        },
+        {
+          "frame": 7,
+          "type": "effect",
+          "effect": "fx"
+        },
+        {
+          "frame": 8,
+          "type": "sound",
+          "clip": "attack"
+        }
+      ]
+    },
+    "cast": {
+      "frames": [
+        "art/elite-frames-v1/sts2_mecha_knight/cast_00.png",
+        "art/elite-frames-v1/sts2_mecha_knight/cast_01.png",
+        "art/elite-frames-v1/sts2_mecha_knight/cast_02.png",
+        "art/elite-frames-v1/sts2_mecha_knight/cast_03.png",
+        "art/elite-frames-v1/sts2_mecha_knight/cast_04.png",
+        "art/elite-frames-v1/sts2_mecha_knight/cast_05.png",
+        "art/elite-frames-v1/sts2_mecha_knight/cast_06.png",
+        "art/elite-frames-v1/sts2_mecha_knight/cast_07.png",
+        "art/elite-frames-v1/sts2_mecha_knight/cast_08.png",
+        "art/elite-frames-v1/sts2_mecha_knight/cast_09.png",
+        "art/elite-frames-v1/sts2_mecha_knight/cast_10.png",
+        "art/elite-frames-v1/sts2_mecha_knight/cast_11.png",
+        "art/elite-frames-v1/sts2_mecha_knight/cast_12.png",
+        "art/elite-frames-v1/sts2_mecha_knight/cast_13.png",
+        "art/elite-frames-v1/sts2_mecha_knight/cast_14.png",
+        "art/elite-frames-v1/sts2_mecha_knight/cast_15.png"
+      ],
+      "fps": 16,
+      "duration": 1,
+      "loop": false,
+      "holdLastFrame": false,
+      "uniqueFrames": 16,
+      "method": "image_gen_16_consecutive_poses",
+      "events": [
+        {
+          "frame": 3,
+          "type": "sound",
+          "clip": "windup"
+        },
+        {
+          "frame": 7,
+          "type": "effect",
+          "effect": "fx"
+        },
+        {
+          "frame": 8,
+          "type": "sound",
+          "clip": "skill"
+        }
+      ]
+    },
+    "death": {
+      "frames": [
+        "art/elite-frames-v1/sts2_mecha_knight/death_00.png",
+        "art/elite-frames-v1/sts2_mecha_knight/death_01.png",
+        "art/elite-frames-v1/sts2_mecha_knight/death_02.png",
+        "art/elite-frames-v1/sts2_mecha_knight/death_03.png",
+        "art/elite-frames-v1/sts2_mecha_knight/death_04.png",
+        "art/elite-frames-v1/sts2_mecha_knight/death_05.png",
+        "art/elite-frames-v1/sts2_mecha_knight/death_06.png",
+        "art/elite-frames-v1/sts2_mecha_knight/death_07.png",
+        "art/elite-frames-v1/sts2_mecha_knight/death_08.png",
+        "art/elite-frames-v1/sts2_mecha_knight/death_09.png",
+        "art/elite-frames-v1/sts2_mecha_knight/death_10.png",
+        "art/elite-frames-v1/sts2_mecha_knight/death_11.png",
+        "art/elite-frames-v1/sts2_mecha_knight/death_12.png",
+        "art/elite-frames-v1/sts2_mecha_knight/death_13.png",
+        "art/elite-frames-v1/sts2_mecha_knight/death_14.png",
+        "art/elite-frames-v1/sts2_mecha_knight/death_15.png"
+      ],
+      "fps": 12,
+      "duration": 1.3333333333333333,
+      "loop": false,
+      "holdLastFrame": true,
+      "uniqueFrames": 16,
+      "method": "image_gen_16_consecutive_poses",
+      "events": [
+        {
+          "frame": 5,
+          "type": "sound",
+          "clip": "death"
+        }
+      ]
+    }
+  },
+  "effect": {
+    "frames": [
+      "art/elite-frames-v1/sts2_mecha_knight/fx_00.png",
+      "art/elite-frames-v1/sts2_mecha_knight/fx_01.png",
+      "art/elite-frames-v1/sts2_mecha_knight/fx_02.png",
+      "art/elite-frames-v1/sts2_mecha_knight/fx_03.png",
+      "art/elite-frames-v1/sts2_mecha_knight/fx_04.png",
+      "art/elite-frames-v1/sts2_mecha_knight/fx_05.png",
+      "art/elite-frames-v1/sts2_mecha_knight/fx_06.png",
+      "art/elite-frames-v1/sts2_mecha_knight/fx_07.png",
+      "art/elite-frames-v1/sts2_mecha_knight/fx_08.png",
+      "art/elite-frames-v1/sts2_mecha_knight/fx_09.png",
+      "art/elite-frames-v1/sts2_mecha_knight/fx_10.png",
+      "art/elite-frames-v1/sts2_mecha_knight/fx_11.png",
+      "art/elite-frames-v1/sts2_mecha_knight/fx_12.png",
+      "art/elite-frames-v1/sts2_mecha_knight/fx_13.png",
+      "art/elite-frames-v1/sts2_mecha_knight/fx_14.png",
+      "art/elite-frames-v1/sts2_mecha_knight/fx_15.png"
+    ],
+    "fps": 16,
+    "duration": 1,
+    "loop": false,
+    "holdLastFrame": false,
+    "uniqueFrames": 16,
+    "method": "image_gen_16_consecutive_poses"
+  },
+  "audio": {
+    "windup": "audio/sfx/elite-frames-v1/sts2_mecha_knight_windup.mp3",
+    "attack": "audio/sfx/elite-frames-v1/sts2_mecha_knight_attack.mp3",
+    "skill": "audio/sfx/elite-frames-v1/sts2_mecha_knight_skill.mp3",
+    "hit": "audio/sfx/elite-frames-v1/sts2_mecha_knight_hit.mp3",
+    "death": "audio/sfx/elite-frames-v1/sts2_mecha_knight_death.mp3"
+  },
+  "design": {
+    "identity": "Heavy ancient balance-machine knight, oxidized cold steel and verdigris brass armor, exposed shoulder gears, ivory measurement scale marks, black-purple cloth, exactly two large mechanical boots, right forearm heavy cleaver, left forearm furnace nozzle with small orange core.",
+    "attack": "Brace boots, lower hips, raise cleaver far overhead then full-body powerful LEFT heavy cleave, gears rotate and recover.",
+    "cast": "Crouch as furnace loads, spread shoulders and open left nozzle, torso leans massively LEFT, vent a long orange-white flamethrower cone; valve shuts and return.",
+    "death": "Gears jam, furnace goes dark, chassis drops to knee then heavy forward-side collapse, cleaver and nozzle remain attached."
+  },
+  "sourceIssues": [
+    {
+      "action": "cast",
+      "source": "docs\\art-source\\elite-frames-v1\\raw\\sts2_mecha_knight-cast.png",
+      "error": "首稿向画面右侧喷火，且主体内混入外喷火焰。"
+    },
+    {
+      "action": "fx",
+      "source": "docs\\art-source\\elite-frames-v1\\raw\\sts2_mecha_knight-fx.png",
+      "error": "独立特效改用无角色参考的定向火焰图集。"
+    }
+  ],
+  "idleApproved": true,
+  "idleStatus": "generated_16_frames_verified"
+}

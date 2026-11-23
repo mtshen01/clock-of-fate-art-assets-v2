@@ -1,0 +1,255 @@
+{
+  "id": "sts2_bygone_effigy",
+  "name": "旧誓石像",
+  "region": "overgrowth",
+  "type": "stone",
+  "stage": "assets_and_standalone_preview",
+  "assetReady": true,
+  "visualApproved": false,
+  "width": 512,
+  "height": 512,
+  "ground": 430,
+  "pivot": {
+    "x": 0.5,
+    "y": 0.16015625
+  },
+  "still": "art/elite-frames-v1/sts2_bygone_effigy/still.png",
+  "actions": {
+    "idle": {
+      "frames": [
+        "art/elite-frames-v1/sts2_bygone_effigy/idle_subtle_00.png",
+        "art/elite-frames-v1/sts2_bygone_effigy/idle_subtle_01.png",
+        "art/elite-frames-v1/sts2_bygone_effigy/idle_subtle_02.png",
+        "art/elite-frames-v1/sts2_bygone_effigy/idle_subtle_03.png",
+        "art/elite-frames-v1/sts2_bygone_effigy/idle_subtle_04.png",
+        "art/elite-frames-v1/sts2_bygone_effigy/idle_subtle_05.png",
+        "art/elite-frames-v1/sts2_bygone_effigy/idle_subtle_06.png",
+        "art/elite-frames-v1/sts2_bygone_effigy/idle_subtle_07.png",
+        "art/elite-frames-v1/sts2_bygone_effigy/idle_subtle_08.png",
+        "art/elite-frames-v1/sts2_bygone_effigy/idle_subtle_09.png",
+        "art/elite-frames-v1/sts2_bygone_effigy/idle_subtle_10.png",
+        "art/elite-frames-v1/sts2_bygone_effigy/idle_subtle_11.png",
+        "art/elite-frames-v1/sts2_bygone_effigy/idle_subtle_12.png",
+        "art/elite-frames-v1/sts2_bygone_effigy/idle_subtle_13.png",
+        "art/elite-frames-v1/sts2_bygone_effigy/idle_subtle_14.png",
+        "art/elite-frames-v1/sts2_bygone_effigy/idle_subtle_15.png"
+      ],
+      "fps": 12,
+      "duration": 1.3333333333333333,
+      "loop": true,
+      "holdLastFrame": false,
+      "uniqueFrames": 16,
+      "method": "original_art_local_subtle_idle_v1",
+      "fixedRegions": [
+        {
+          "id": "ground-contact",
+          "left": 0,
+          "top": 395,
+          "width": 512,
+          "height": 117
+        },
+        {
+          "id": "stone-chest",
+          "left": 246,
+          "top": 252,
+          "width": 65,
+          "height": 125
+        }
+      ]
+    },
+    "hit": {
+      "frames": [
+        "art/elite-frames-v1/sts2_bygone_effigy/hit_00.png",
+        "art/elite-frames-v1/sts2_bygone_effigy/hit_01.png",
+        "art/elite-frames-v1/sts2_bygone_effigy/hit_02.png",
+        "art/elite-frames-v1/sts2_bygone_effigy/hit_03.png",
+        "art/elite-frames-v1/sts2_bygone_effigy/hit_04.png",
+        "art/elite-frames-v1/sts2_bygone_effigy/hit_05.png",
+        "art/elite-frames-v1/sts2_bygone_effigy/hit_06.png",
+        "art/elite-frames-v1/sts2_bygone_effigy/hit_07.png",
+        "art/elite-frames-v1/sts2_bygone_effigy/hit_08.png",
+        "art/elite-frames-v1/sts2_bygone_effigy/hit_09.png",
+        "art/elite-frames-v1/sts2_bygone_effigy/hit_10.png",
+        "art/elite-frames-v1/sts2_bygone_effigy/hit_11.png",
+        "art/elite-frames-v1/sts2_bygone_effigy/hit_12.png",
+        "art/elite-frames-v1/sts2_bygone_effigy/hit_13.png",
+        "art/elite-frames-v1/sts2_bygone_effigy/hit_14.png",
+        "art/elite-frames-v1/sts2_bygone_effigy/hit_15.png"
+      ],
+      "fps": 16,
+      "duration": 1,
+      "loop": false,
+      "holdLastFrame": false,
+      "uniqueFrames": 16,
+      "method": "image_gen_16_consecutive_poses",
+      "events": [
+        {
+          "frame": 3,
+          "type": "sound",
+          "clip": "hit"
+        }
+      ]
+    },
+    "attack": {
+      "frames": [
+        "art/elite-frames-v1/sts2_bygone_effigy/attack_00.png",
+        "art/elite-frames-v1/sts2_bygone_effigy/attack_01.png",
+        "art/elite-frames-v1/sts2_bygone_effigy/attack_02.png",
+        "art/elite-frames-v1/sts2_bygone_effigy/attack_03.png",
+        "art/elite-frames-v1/sts2_bygone_effigy/attack_04.png",
+        "art/elite-frames-v1/sts2_bygone_effigy/attack_05.png",
+        "art/elite-frames-v1/sts2_bygone_effigy/attack_06.png",
+        "art/elite-frames-v1/sts2_bygone_effigy/attack_07.png",
+        "art/elite-frames-v1/sts2_bygone_effigy/attack_08.png",
+        "art/elite-frames-v1/sts2_bygone_effigy/attack_09.png",
+        "art/elite-frames-v1/sts2_bygone_effigy/attack_10.png",
+        "art/elite-frames-v1/sts2_bygone_effigy/attack_11.png",
+        "art/elite-frames-v1/sts2_bygone_effigy/attack_12.png",
+        "art/elite-frames-v1/sts2_bygone_effigy/attack_13.png",
+        "art/elite-frames-v1/sts2_bygone_effigy/attack_14.png",
+        "art/elite-frames-v1/sts2_bygone_effigy/attack_15.png"
+      ],
+      "fps": 16,
+      "duration": 1,
+      "loop": false,
+      "holdLastFrame": false,
+      "uniqueFrames": 16,
+      "method": "image_gen_16_consecutive_poses",
+      "events": [
+        {
+          "frame": 3,
+          "type": "sound",
+          "clip": "windup"
+        },
+        {
+          "frame": 7,
+          "type": "effect",
+          "effect": "fx"
+        },
+        {
+          "frame": 8,
+          "type": "sound",
+          "clip": "attack"
+        }
+      ]
+    },
+    "cast": {
+      "frames": [
+        "art/elite-frames-v1/sts2_bygone_effigy/cast_00.png",
+        "art/elite-frames-v1/sts2_bygone_effigy/cast_01.png",
+        "art/elite-frames-v1/sts2_bygone_effigy/cast_02.png",
+        "art/elite-frames-v1/sts2_bygone_effigy/cast_03.png",
+        "art/elite-frames-v1/sts2_bygone_effigy/cast_04.png",
+        "art/elite-frames-v1/sts2_bygone_effigy/cast_05.png",
+        "art/elite-frames-v1/sts2_bygone_effigy/cast_06.png",
+        "art/elite-frames-v1/sts2_bygone_effigy/cast_07.png",
+        "art/elite-frames-v1/sts2_bygone_effigy/cast_08.png",
+        "art/elite-frames-v1/sts2_bygone_effigy/cast_09.png",
+        "art/elite-frames-v1/sts2_bygone_effigy/cast_10.png",
+        "art/elite-frames-v1/sts2_bygone_effigy/cast_11.png",
+        "art/elite-frames-v1/sts2_bygone_effigy/cast_12.png",
+        "art/elite-frames-v1/sts2_bygone_effigy/cast_13.png",
+        "art/elite-frames-v1/sts2_bygone_effigy/cast_14.png",
+        "art/elite-frames-v1/sts2_bygone_effigy/cast_15.png"
+      ],
+      "fps": 16,
+      "duration": 1,
+      "loop": false,
+      "holdLastFrame": false,
+      "uniqueFrames": 16,
+      "method": "image_gen_16_consecutive_poses",
+      "events": [
+        {
+          "frame": 3,
+          "type": "sound",
+          "clip": "windup"
+        },
+        {
+          "frame": 7,
+          "type": "effect",
+          "effect": "fx"
+        },
+        {
+          "frame": 8,
+          "type": "sound",
+          "clip": "skill"
+        }
+      ]
+    },
+    "death": {
+      "frames": [
+        "art/elite-frames-v1/sts2_bygone_effigy/death_00.png",
+        "art/elite-frames-v1/sts2_bygone_effigy/death_01.png",
+        "art/elite-frames-v1/sts2_bygone_effigy/death_02.png",
+        "art/elite-frames-v1/sts2_bygone_effigy/death_03.png",
+        "art/elite-frames-v1/sts2_bygone_effigy/death_04.png",
+        "art/elite-frames-v1/sts2_bygone_effigy/death_05.png",
+        "art/elite-frames-v1/sts2_bygone_effigy/death_06.png",
+        "art/elite-frames-v1/sts2_bygone_effigy/death_07.png",
+        "art/elite-frames-v1/sts2_bygone_effigy/death_08.png",
+        "art/elite-frames-v1/sts2_bygone_effigy/death_09.png",
+        "art/elite-frames-v1/sts2_bygone_effigy/death_10.png",
+        "art/elite-frames-v1/sts2_bygone_effigy/death_11.png",
+        "art/elite-frames-v1/sts2_bygone_effigy/death_12.png",
+        "art/elite-frames-v1/sts2_bygone_effigy/death_13.png",
+        "art/elite-frames-v1/sts2_bygone_effigy/death_14.png",
+        "art/elite-frames-v1/sts2_bygone_effigy/death_15.png"
+      ],
+      "fps": 12,
+      "duration": 1.3333333333333333,
+      "loop": false,
+      "holdLastFrame": true,
+      "uniqueFrames": 16,
+      "method": "image_gen_16_consecutive_poses",
+      "events": [
+        {
+          "frame": 5,
+          "type": "sound",
+          "clip": "death"
+        }
+      ]
+    }
+  },
+  "effect": {
+    "frames": [
+      "art/elite-frames-v1/sts2_bygone_effigy/fx_00.png",
+      "art/elite-frames-v1/sts2_bygone_effigy/fx_01.png",
+      "art/elite-frames-v1/sts2_bygone_effigy/fx_02.png",
+      "art/elite-frames-v1/sts2_bygone_effigy/fx_03.png",
+      "art/elite-frames-v1/sts2_bygone_effigy/fx_04.png",
+      "art/elite-frames-v1/sts2_bygone_effigy/fx_05.png",
+      "art/elite-frames-v1/sts2_bygone_effigy/fx_06.png",
+      "art/elite-frames-v1/sts2_bygone_effigy/fx_07.png",
+      "art/elite-frames-v1/sts2_bygone_effigy/fx_08.png",
+      "art/elite-frames-v1/sts2_bygone_effigy/fx_09.png",
+      "art/elite-frames-v1/sts2_bygone_effigy/fx_10.png",
+      "art/elite-frames-v1/sts2_bygone_effigy/fx_11.png",
+      "art/elite-frames-v1/sts2_bygone_effigy/fx_12.png",
+      "art/elite-frames-v1/sts2_bygone_effigy/fx_13.png",
+      "art/elite-frames-v1/sts2_bygone_effigy/fx_14.png",
+      "art/elite-frames-v1/sts2_bygone_effigy/fx_15.png"
+    ],
+    "fps": 16,
+    "duration": 1,
+    "loop": false,
+    "holdLastFrame": false,
+    "uniqueFrames": 16,
+    "method": "image_gen_16_consecutive_poses"
+  },
+  "audio": {
+    "windup": "audio/sfx/elite-frames-v1/sts2_bygone_effigy_windup.mp3",
+    "attack": "audio/sfx/elite-frames-v1/sts2_bygone_effigy_attack.mp3",
+    "skill": "audio/sfx/elite-frames-v1/sts2_bygone_effigy_skill.mp3",
+    "hit": "audio/sfx/elite-frames-v1/sts2_bygone_effigy_hit.mp3",
+    "death": "audio/sfx/elite-frames-v1/sts2_bygone_effigy_death.mp3"
+  },
+  "design": {
+    "identity": "Hunched pale cold-grey stone guardian with a pointed bird-skull mask and tiny green eyes, huge arched back stone loop, mossy cracks, ribbed chest, circular oath carvings; RIGHT arm/viewer-left is a curved stone scythe; left hand grips a long carved stone slab. Two angular stone feet.",
+    "attack": "Coil torso strongly backward, lift scythe above skull then sweep low in one full heavy arc toward LEFT, left slab braces, recoil and settle.",
+    "cast": "Wake: bow mask almost to chest, deeply hinge knees, arch back loop high, raise both slab and scythe overhead; oath grooves flare green then a huge stone-energy shockwave; recover.",
+    "death": "Cracks spread through joints, shoulders shear, knees buckle and heavy stone plates fall apart into a stable rubble pile; no vanishing, final frame rubble."
+  },
+  "sourceIssues": [],
+  "idleApproved": true,
+  "idleStatus": "original_art_local_subtle_idle_verified"
+}

@@ -1,0 +1,417 @@
+{
+  "id": "sts2_soul_nexus",
+  "name": "魂闸",
+  "region": "glory",
+  "type": "gate",
+  "stage": "assets_and_standalone_preview",
+  "assetReady": true,
+  "visualApproved": true,
+  "width": 512,
+  "height": 512,
+  "ground": 430,
+  "pivot": {
+    "x": 0.5,
+    "y": 0.16015625
+  },
+  "still": "art/elite-frames-v1/sts2_soul_nexus/still.png",
+  "actions": {
+    "idle": {
+      "frames": [
+        "art/elite-frames-v1/sts2_soul_nexus/idle_00.png",
+        "art/elite-frames-v1/sts2_soul_nexus/idle_01.png",
+        "art/elite-frames-v1/sts2_soul_nexus/idle_02.png",
+        "art/elite-frames-v1/sts2_soul_nexus/idle_03.png",
+        "art/elite-frames-v1/sts2_soul_nexus/idle_04.png",
+        "art/elite-frames-v1/sts2_soul_nexus/idle_05.png",
+        "art/elite-frames-v1/sts2_soul_nexus/idle_06.png",
+        "art/elite-frames-v1/sts2_soul_nexus/idle_07.png",
+        "art/elite-frames-v1/sts2_soul_nexus/idle_08.png",
+        "art/elite-frames-v1/sts2_soul_nexus/idle_09.png",
+        "art/elite-frames-v1/sts2_soul_nexus/idle_10.png",
+        "art/elite-frames-v1/sts2_soul_nexus/idle_11.png",
+        "art/elite-frames-v1/sts2_soul_nexus/idle_12.png",
+        "art/elite-frames-v1/sts2_soul_nexus/idle_13.png",
+        "art/elite-frames-v1/sts2_soul_nexus/idle_14.png",
+        "art/elite-frames-v1/sts2_soul_nexus/idle_15.png"
+      ],
+      "fps": 12,
+      "duration": 1.3333333333333333,
+      "loop": true,
+      "holdLastFrame": false,
+      "uniqueFrames": 16,
+      "method": "image_gen_16_idle_poses_with_original_contact_lock",
+      "fixedRegions": [
+        {
+          "id": "contact-0",
+          "left": 146,
+          "top": 385,
+          "width": 221,
+          "height": 45,
+          "feather": 7
+        }
+      ],
+      "checks": [
+        {
+          "frame": 0,
+          "contacts": [
+            {
+              "id": "contact-0",
+              "opaque": 6006,
+              "changed": 0
+            }
+          ]
+        },
+        {
+          "frame": 1,
+          "contacts": [
+            {
+              "id": "contact-0",
+              "opaque": 6006,
+              "changed": 0
+            }
+          ]
+        },
+        {
+          "frame": 2,
+          "contacts": [
+            {
+              "id": "contact-0",
+              "opaque": 6006,
+              "changed": 0
+            }
+          ]
+        },
+        {
+          "frame": 3,
+          "contacts": [
+            {
+              "id": "contact-0",
+              "opaque": 6006,
+              "changed": 0
+            }
+          ]
+        },
+        {
+          "frame": 4,
+          "contacts": [
+            {
+              "id": "contact-0",
+              "opaque": 6006,
+              "changed": 0
+            }
+          ]
+        },
+        {
+          "frame": 5,
+          "contacts": [
+            {
+              "id": "contact-0",
+              "opaque": 6006,
+              "changed": 0
+            }
+          ]
+        },
+        {
+          "frame": 6,
+          "contacts": [
+            {
+              "id": "contact-0",
+              "opaque": 6006,
+              "changed": 0
+            }
+          ]
+        },
+        {
+          "frame": 7,
+          "contacts": [
+            {
+              "id": "contact-0",
+              "opaque": 6006,
+              "changed": 0
+            }
+          ]
+        },
+        {
+          "frame": 8,
+          "contacts": [
+            {
+              "id": "contact-0",
+              "opaque": 6006,
+              "changed": 0
+            }
+          ]
+        },
+        {
+          "frame": 9,
+          "contacts": [
+            {
+              "id": "contact-0",
+              "opaque": 6006,
+              "changed": 0
+            }
+          ]
+        },
+        {
+          "frame": 10,
+          "contacts": [
+            {
+              "id": "contact-0",
+              "opaque": 6006,
+              "changed": 0
+            }
+          ]
+        },
+        {
+          "frame": 11,
+          "contacts": [
+            {
+              "id": "contact-0",
+              "opaque": 6006,
+              "changed": 0
+            }
+          ]
+        },
+        {
+          "frame": 12,
+          "contacts": [
+            {
+              "id": "contact-0",
+              "opaque": 6006,
+              "changed": 0
+            }
+          ]
+        },
+        {
+          "frame": 13,
+          "contacts": [
+            {
+              "id": "contact-0",
+              "opaque": 6006,
+              "changed": 0
+            }
+          ]
+        },
+        {
+          "frame": 14,
+          "contacts": [
+            {
+              "id": "contact-0",
+              "opaque": 6006,
+              "changed": 0
+            }
+          ]
+        },
+        {
+          "frame": 15,
+          "contacts": [
+            {
+              "id": "contact-0",
+              "opaque": 6006,
+              "changed": 0
+            }
+          ]
+        }
+      ]
+    },
+    "hit": {
+      "frames": [
+        "art/elite-frames-v1/sts2_soul_nexus/hit_00.png",
+        "art/elite-frames-v1/sts2_soul_nexus/hit_01.png",
+        "art/elite-frames-v1/sts2_soul_nexus/hit_02.png",
+        "art/elite-frames-v1/sts2_soul_nexus/hit_03.png",
+        "art/elite-frames-v1/sts2_soul_nexus/hit_04.png",
+        "art/elite-frames-v1/sts2_soul_nexus/hit_05.png",
+        "art/elite-frames-v1/sts2_soul_nexus/hit_06.png",
+        "art/elite-frames-v1/sts2_soul_nexus/hit_07.png",
+        "art/elite-frames-v1/sts2_soul_nexus/hit_08.png",
+        "art/elite-frames-v1/sts2_soul_nexus/hit_09.png",
+        "art/elite-frames-v1/sts2_soul_nexus/hit_10.png",
+        "art/elite-frames-v1/sts2_soul_nexus/hit_11.png",
+        "art/elite-frames-v1/sts2_soul_nexus/hit_12.png",
+        "art/elite-frames-v1/sts2_soul_nexus/hit_13.png",
+        "art/elite-frames-v1/sts2_soul_nexus/hit_14.png",
+        "art/elite-frames-v1/sts2_soul_nexus/hit_15.png"
+      ],
+      "fps": 16,
+      "duration": 1,
+      "loop": false,
+      "holdLastFrame": false,
+      "uniqueFrames": 16,
+      "method": "image_gen_16_consecutive_poses",
+      "events": [
+        {
+          "frame": 3,
+          "type": "sound",
+          "clip": "hit"
+        }
+      ]
+    },
+    "attack": {
+      "frames": [
+        "art/elite-frames-v1/sts2_soul_nexus/attack_00.png",
+        "art/elite-frames-v1/sts2_soul_nexus/attack_01.png",
+        "art/elite-frames-v1/sts2_soul_nexus/attack_02.png",
+        "art/elite-frames-v1/sts2_soul_nexus/attack_03.png",
+        "art/elite-frames-v1/sts2_soul_nexus/attack_04.png",
+        "art/elite-frames-v1/sts2_soul_nexus/attack_05.png",
+        "art/elite-frames-v1/sts2_soul_nexus/attack_06.png",
+        "art/elite-frames-v1/sts2_soul_nexus/attack_07.png",
+        "art/elite-frames-v1/sts2_soul_nexus/attack_08.png",
+        "art/elite-frames-v1/sts2_soul_nexus/attack_09.png",
+        "art/elite-frames-v1/sts2_soul_nexus/attack_10.png",
+        "art/elite-frames-v1/sts2_soul_nexus/attack_11.png",
+        "art/elite-frames-v1/sts2_soul_nexus/attack_12.png",
+        "art/elite-frames-v1/sts2_soul_nexus/attack_13.png",
+        "art/elite-frames-v1/sts2_soul_nexus/attack_14.png",
+        "art/elite-frames-v1/sts2_soul_nexus/attack_15.png"
+      ],
+      "fps": 16,
+      "duration": 1,
+      "loop": false,
+      "holdLastFrame": false,
+      "uniqueFrames": 16,
+      "method": "image_gen_16_consecutive_poses",
+      "events": [
+        {
+          "frame": 3,
+          "type": "sound",
+          "clip": "windup"
+        },
+        {
+          "frame": 7,
+          "type": "effect",
+          "effect": "fx"
+        },
+        {
+          "frame": 8,
+          "type": "sound",
+          "clip": "attack"
+        }
+      ]
+    },
+    "cast": {
+      "frames": [
+        "art/elite-frames-v1/sts2_soul_nexus/cast_00.png",
+        "art/elite-frames-v1/sts2_soul_nexus/cast_01.png",
+        "art/elite-frames-v1/sts2_soul_nexus/cast_02.png",
+        "art/elite-frames-v1/sts2_soul_nexus/cast_03.png",
+        "art/elite-frames-v1/sts2_soul_nexus/cast_04.png",
+        "art/elite-frames-v1/sts2_soul_nexus/cast_05.png",
+        "art/elite-frames-v1/sts2_soul_nexus/cast_06.png",
+        "art/elite-frames-v1/sts2_soul_nexus/cast_07.png",
+        "art/elite-frames-v1/sts2_soul_nexus/cast_08.png",
+        "art/elite-frames-v1/sts2_soul_nexus/cast_09.png",
+        "art/elite-frames-v1/sts2_soul_nexus/cast_10.png",
+        "art/elite-frames-v1/sts2_soul_nexus/cast_11.png",
+        "art/elite-frames-v1/sts2_soul_nexus/cast_12.png",
+        "art/elite-frames-v1/sts2_soul_nexus/cast_13.png",
+        "art/elite-frames-v1/sts2_soul_nexus/cast_14.png",
+        "art/elite-frames-v1/sts2_soul_nexus/cast_15.png"
+      ],
+      "fps": 16,
+      "duration": 1,
+      "loop": false,
+      "holdLastFrame": false,
+      "uniqueFrames": 16,
+      "method": "image_gen_16_consecutive_poses",
+      "events": [
+        {
+          "frame": 3,
+          "type": "sound",
+          "clip": "windup"
+        },
+        {
+          "frame": 7,
+          "type": "effect",
+          "effect": "fx"
+        },
+        {
+          "frame": 8,
+          "type": "sound",
+          "clip": "skill"
+        }
+      ]
+    },
+    "death": {
+      "frames": [
+        "art/elite-frames-v1/sts2_soul_nexus/death_00.png",
+        "art/elite-frames-v1/sts2_soul_nexus/death_01.png",
+        "art/elite-frames-v1/sts2_soul_nexus/death_02.png",
+        "art/elite-frames-v1/sts2_soul_nexus/death_03.png",
+        "art/elite-frames-v1/sts2_soul_nexus/death_04.png",
+        "art/elite-frames-v1/sts2_soul_nexus/death_05.png",
+        "art/elite-frames-v1/sts2_soul_nexus/death_06.png",
+        "art/elite-frames-v1/sts2_soul_nexus/death_07.png",
+        "art/elite-frames-v1/sts2_soul_nexus/death_08.png",
+        "art/elite-frames-v1/sts2_soul_nexus/death_09.png",
+        "art/elite-frames-v1/sts2_soul_nexus/death_10.png",
+        "art/elite-frames-v1/sts2_soul_nexus/death_11.png",
+        "art/elite-frames-v1/sts2_soul_nexus/death_12.png",
+        "art/elite-frames-v1/sts2_soul_nexus/death_13.png",
+        "art/elite-frames-v1/sts2_soul_nexus/death_14.png",
+        "art/elite-frames-v1/sts2_soul_nexus/death_15.png"
+      ],
+      "fps": 12,
+      "duration": 1.3333333333333333,
+      "loop": false,
+      "holdLastFrame": true,
+      "uniqueFrames": 16,
+      "method": "image_gen_16_consecutive_poses",
+      "events": [
+        {
+          "frame": 5,
+          "type": "sound",
+          "clip": "death"
+        }
+      ]
+    }
+  },
+  "effect": {
+    "frames": [
+      "art/elite-frames-v1/sts2_soul_nexus/fx_00.png",
+      "art/elite-frames-v1/sts2_soul_nexus/fx_01.png",
+      "art/elite-frames-v1/sts2_soul_nexus/fx_02.png",
+      "art/elite-frames-v1/sts2_soul_nexus/fx_03.png",
+      "art/elite-frames-v1/sts2_soul_nexus/fx_04.png",
+      "art/elite-frames-v1/sts2_soul_nexus/fx_05.png",
+      "art/elite-frames-v1/sts2_soul_nexus/fx_06.png",
+      "art/elite-frames-v1/sts2_soul_nexus/fx_07.png",
+      "art/elite-frames-v1/sts2_soul_nexus/fx_08.png",
+      "art/elite-frames-v1/sts2_soul_nexus/fx_09.png",
+      "art/elite-frames-v1/sts2_soul_nexus/fx_10.png",
+      "art/elite-frames-v1/sts2_soul_nexus/fx_11.png",
+      "art/elite-frames-v1/sts2_soul_nexus/fx_12.png",
+      "art/elite-frames-v1/sts2_soul_nexus/fx_13.png",
+      "art/elite-frames-v1/sts2_soul_nexus/fx_14.png",
+      "art/elite-frames-v1/sts2_soul_nexus/fx_15.png"
+    ],
+    "fps": 16,
+    "duration": 1,
+    "loop": false,
+    "holdLastFrame": false,
+    "uniqueFrames": 16,
+    "method": "image_gen_16_consecutive_poses"
+  },
+  "audio": {
+    "windup": "audio/sfx/elite-frames-v1/sts2_soul_nexus_windup.mp3",
+    "attack": "audio/sfx/elite-frames-v1/sts2_soul_nexus_attack.mp3",
+    "skill": "audio/sfx/elite-frames-v1/sts2_soul_nexus_skill.mp3",
+    "hit": "audio/sfx/elite-frames-v1/sts2_soul_nexus_hit.mp3",
+    "death": "audio/sfx/elite-frames-v1/sts2_soul_nexus_death.mp3"
+  },
+  "design": {
+    "identity": "Tall obsidian-violet gothic sluice gate pillar with two cold-silver side pillars, a barred central opening packed with layered cyan soul faces, two hanging short chains and a heavy grounded stone pedestal; no humanoid legs.",
+    "attack": "Gate tilts forward on pedestal hinge as bars open sharply and emit one concentrated cyan soul-burn spear LEFT; bars recoil shut.",
+    "cast": "Compress soul faces behind bars, chains lift and spread, both side pillars hinge very wide, gate opens into a huge spiralling cyan-violet soul maelstrom then draws itself closed.",
+    "death": "Soul faces leave in stages, chains go slack, bars crack and both pillars collapse onto pedestal as dark stable rubble."
+  },
+  "sourceIssues": [
+    {
+      "action": "fx",
+      "source": "docs\\art-source\\elite-frames-v1\\raw\\sts2_soul_nexus-fx.png",
+      "error": "独立特效改用无角色参考的魂流图集。"
+    }
+  ],
+  "idleApproved": true,
+  "idleStatus": "generated_16_frames_verified"
+}

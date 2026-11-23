@@ -1,0 +1,244 @@
+{
+  "id": "sts2_spectral_knight",
+  "name": "空甲骑士",
+  "region": "glory",
+  "type": "knight",
+  "stage": "assets_and_standalone_preview",
+  "assetReady": true,
+  "visualApproved": true,
+  "width": 512,
+  "height": 512,
+  "ground": 430,
+  "pivot": {
+    "x": 0.5,
+    "y": 0.16015625
+  },
+  "still": "art/elite-frames-v1/sts2_spectral_knight/still.png",
+  "actions": {
+    "idle": {
+      "frames": [
+        "art/elite-frames-v1/sts2_spectral_knight/idle_ground_v3_00.png",
+        "art/elite-frames-v1/sts2_spectral_knight/idle_ground_v3_01.png",
+        "art/elite-frames-v1/sts2_spectral_knight/idle_ground_v3_02.png",
+        "art/elite-frames-v1/sts2_spectral_knight/idle_ground_v3_03.png",
+        "art/elite-frames-v1/sts2_spectral_knight/idle_ground_v3_04.png",
+        "art/elite-frames-v1/sts2_spectral_knight/idle_ground_v3_05.png",
+        "art/elite-frames-v1/sts2_spectral_knight/idle_ground_v3_06.png",
+        "art/elite-frames-v1/sts2_spectral_knight/idle_ground_v3_07.png",
+        "art/elite-frames-v1/sts2_spectral_knight/idle_ground_v3_08.png",
+        "art/elite-frames-v1/sts2_spectral_knight/idle_ground_v3_09.png",
+        "art/elite-frames-v1/sts2_spectral_knight/idle_ground_v3_10.png",
+        "art/elite-frames-v1/sts2_spectral_knight/idle_ground_v3_11.png",
+        "art/elite-frames-v1/sts2_spectral_knight/idle_ground_v3_12.png",
+        "art/elite-frames-v1/sts2_spectral_knight/idle_ground_v3_13.png",
+        "art/elite-frames-v1/sts2_spectral_knight/idle_ground_v3_14.png",
+        "art/elite-frames-v1/sts2_spectral_knight/idle_ground_v3_15.png"
+      ],
+      "fps": 12,
+      "duration": 1.3333333333333333,
+      "loop": true,
+      "holdLastFrame": false,
+      "uniqueFrames": 16,
+      "method": "image_gen_16_idle_poses_with_ground_registration",
+      "registeredContact": {
+        "x": 331.8944992001651,
+        "y": 429,
+        "tolerance": 1
+      }
+    },
+    "hit": {
+      "frames": [
+        "art/elite-frames-v1/sts2_spectral_knight/hit_00.png",
+        "art/elite-frames-v1/sts2_spectral_knight/hit_01.png",
+        "art/elite-frames-v1/sts2_spectral_knight/hit_02.png",
+        "art/elite-frames-v1/sts2_spectral_knight/hit_03.png",
+        "art/elite-frames-v1/sts2_spectral_knight/hit_04.png",
+        "art/elite-frames-v1/sts2_spectral_knight/hit_05.png",
+        "art/elite-frames-v1/sts2_spectral_knight/hit_06.png",
+        "art/elite-frames-v1/sts2_spectral_knight/hit_07.png",
+        "art/elite-frames-v1/sts2_spectral_knight/hit_08.png",
+        "art/elite-frames-v1/sts2_spectral_knight/hit_09.png",
+        "art/elite-frames-v1/sts2_spectral_knight/hit_10.png",
+        "art/elite-frames-v1/sts2_spectral_knight/hit_11.png",
+        "art/elite-frames-v1/sts2_spectral_knight/hit_12.png",
+        "art/elite-frames-v1/sts2_spectral_knight/hit_13.png",
+        "art/elite-frames-v1/sts2_spectral_knight/hit_14.png",
+        "art/elite-frames-v1/sts2_spectral_knight/hit_15.png"
+      ],
+      "fps": 16,
+      "duration": 1,
+      "loop": false,
+      "holdLastFrame": false,
+      "uniqueFrames": 16,
+      "method": "image_gen_16_consecutive_poses",
+      "events": [
+        {
+          "frame": 3,
+          "type": "sound",
+          "clip": "hit"
+        }
+      ]
+    },
+    "attack": {
+      "frames": [
+        "art/elite-frames-v1/sts2_spectral_knight/attack_00.png",
+        "art/elite-frames-v1/sts2_spectral_knight/attack_01.png",
+        "art/elite-frames-v1/sts2_spectral_knight/attack_02.png",
+        "art/elite-frames-v1/sts2_spectral_knight/attack_03.png",
+        "art/elite-frames-v1/sts2_spectral_knight/attack_04.png",
+        "art/elite-frames-v1/sts2_spectral_knight/attack_05.png",
+        "art/elite-frames-v1/sts2_spectral_knight/attack_06.png",
+        "art/elite-frames-v1/sts2_spectral_knight/attack_07.png",
+        "art/elite-frames-v1/sts2_spectral_knight/attack_08.png",
+        "art/elite-frames-v1/sts2_spectral_knight/attack_09.png",
+        "art/elite-frames-v1/sts2_spectral_knight/attack_10.png",
+        "art/elite-frames-v1/sts2_spectral_knight/attack_11.png",
+        "art/elite-frames-v1/sts2_spectral_knight/attack_12.png",
+        "art/elite-frames-v1/sts2_spectral_knight/attack_13.png",
+        "art/elite-frames-v1/sts2_spectral_knight/attack_14.png",
+        "art/elite-frames-v1/sts2_spectral_knight/attack_15.png"
+      ],
+      "fps": 16,
+      "duration": 1,
+      "loop": false,
+      "holdLastFrame": false,
+      "uniqueFrames": 16,
+      "method": "image_gen_16_consecutive_poses",
+      "events": [
+        {
+          "frame": 3,
+          "type": "sound",
+          "clip": "windup"
+        },
+        {
+          "frame": 7,
+          "type": "effect",
+          "effect": "fx"
+        },
+        {
+          "frame": 8,
+          "type": "sound",
+          "clip": "attack"
+        }
+      ]
+    },
+    "cast": {
+      "frames": [
+        "art/elite-frames-v1/sts2_spectral_knight/cast_00.png",
+        "art/elite-frames-v1/sts2_spectral_knight/cast_01.png",
+        "art/elite-frames-v1/sts2_spectral_knight/cast_02.png",
+        "art/elite-frames-v1/sts2_spectral_knight/cast_03.png",
+        "art/elite-frames-v1/sts2_spectral_knight/cast_04.png",
+        "art/elite-frames-v1/sts2_spectral_knight/cast_05.png",
+        "art/elite-frames-v1/sts2_spectral_knight/cast_06.png",
+        "art/elite-frames-v1/sts2_spectral_knight/cast_07.png",
+        "art/elite-frames-v1/sts2_spectral_knight/cast_08.png",
+        "art/elite-frames-v1/sts2_spectral_knight/cast_09.png",
+        "art/elite-frames-v1/sts2_spectral_knight/cast_10.png",
+        "art/elite-frames-v1/sts2_spectral_knight/cast_11.png",
+        "art/elite-frames-v1/sts2_spectral_knight/cast_12.png",
+        "art/elite-frames-v1/sts2_spectral_knight/cast_13.png",
+        "art/elite-frames-v1/sts2_spectral_knight/cast_14.png",
+        "art/elite-frames-v1/sts2_spectral_knight/cast_15.png"
+      ],
+      "fps": 16,
+      "duration": 1,
+      "loop": false,
+      "holdLastFrame": false,
+      "uniqueFrames": 16,
+      "method": "image_gen_16_consecutive_poses",
+      "events": [
+        {
+          "frame": 3,
+          "type": "sound",
+          "clip": "windup"
+        },
+        {
+          "frame": 7,
+          "type": "effect",
+          "effect": "fx"
+        },
+        {
+          "frame": 8,
+          "type": "sound",
+          "clip": "skill"
+        }
+      ]
+    },
+    "death": {
+      "frames": [
+        "art/elite-frames-v1/sts2_spectral_knight/death_00.png",
+        "art/elite-frames-v1/sts2_spectral_knight/death_01.png",
+        "art/elite-frames-v1/sts2_spectral_knight/death_02.png",
+        "art/elite-frames-v1/sts2_spectral_knight/death_03.png",
+        "art/elite-frames-v1/sts2_spectral_knight/death_04.png",
+        "art/elite-frames-v1/sts2_spectral_knight/death_05.png",
+        "art/elite-frames-v1/sts2_spectral_knight/death_06.png",
+        "art/elite-frames-v1/sts2_spectral_knight/death_07.png",
+        "art/elite-frames-v1/sts2_spectral_knight/death_08.png",
+        "art/elite-frames-v1/sts2_spectral_knight/death_09.png",
+        "art/elite-frames-v1/sts2_spectral_knight/death_10.png",
+        "art/elite-frames-v1/sts2_spectral_knight/death_11.png",
+        "art/elite-frames-v1/sts2_spectral_knight/death_12.png",
+        "art/elite-frames-v1/sts2_spectral_knight/death_13.png",
+        "art/elite-frames-v1/sts2_spectral_knight/death_14.png",
+        "art/elite-frames-v1/sts2_spectral_knight/death_15.png"
+      ],
+      "fps": 12,
+      "duration": 1.3333333333333333,
+      "loop": false,
+      "holdLastFrame": true,
+      "uniqueFrames": 16,
+      "method": "image_gen_16_consecutive_poses",
+      "events": [
+        {
+          "frame": 5,
+          "type": "sound",
+          "clip": "death"
+        }
+      ]
+    }
+  },
+  "effect": {
+    "frames": [
+      "art/elite-frames-v1/sts2_spectral_knight/fx_00.png",
+      "art/elite-frames-v1/sts2_spectral_knight/fx_01.png",
+      "art/elite-frames-v1/sts2_spectral_knight/fx_02.png",
+      "art/elite-frames-v1/sts2_spectral_knight/fx_03.png",
+      "art/elite-frames-v1/sts2_spectral_knight/fx_04.png",
+      "art/elite-frames-v1/sts2_spectral_knight/fx_05.png",
+      "art/elite-frames-v1/sts2_spectral_knight/fx_06.png",
+      "art/elite-frames-v1/sts2_spectral_knight/fx_07.png",
+      "art/elite-frames-v1/sts2_spectral_knight/fx_08.png",
+      "art/elite-frames-v1/sts2_spectral_knight/fx_09.png",
+      "art/elite-frames-v1/sts2_spectral_knight/fx_10.png",
+      "art/elite-frames-v1/sts2_spectral_knight/fx_11.png",
+      "art/elite-frames-v1/sts2_spectral_knight/fx_12.png",
+      "art/elite-frames-v1/sts2_spectral_knight/fx_13.png",
+      "art/elite-frames-v1/sts2_spectral_knight/fx_14.png",
+      "art/elite-frames-v1/sts2_spectral_knight/fx_15.png"
+    ],
+    "fps": 16,
+    "duration": 1,
+    "loop": false,
+    "holdLastFrame": false,
+    "uniqueFrames": 16,
+    "method": "image_gen_16_consecutive_poses"
+  },
+  "audio": {
+    "windup": "audio/sfx/elite-frames-v1/sts2_spectral_knight_windup.mp3",
+    "attack": "audio/sfx/elite-frames-v1/sts2_spectral_knight_attack.mp3",
+    "skill": "audio/sfx/elite-frames-v1/sts2_spectral_knight_skill.mp3",
+    "hit": "audio/sfx/elite-frames-v1/sts2_spectral_knight_hit.mp3",
+    "death": "audio/sfx/elite-frames-v1/sts2_spectral_knight_death.mp3"
+  },
+  "design": {
+    "identity": "Hollow complete cold silver knight armor with a very dim thread of blue soul light inside visor and joints, dark violet tattered tabard, pointed shoulder plates, two armored boots; right gauntlet holds one long narrow ghost-steel sword.",
+    "attack": "Draw sword behind shoulder, bend knees and rotate hips into broad LEFT diagonal soul slash; sword stays gripped, recover.",
+    "cast": "Bend empty helm down, pull sword across chest then open arms extremely wide, chest plates part slightly and three coils of dim cobalt soul fire pour forward; armor closes and resets.",
+    "death": "Soul thread leaves visor and extinguishes, hollow plates detach and clatter into a stable empty armor heap, sword remains."
+  },
+  "sourceIssues": [],
+  "idleApproved": true,
+  "idleStatus": "generated_16_frames_ground_registered"
+}

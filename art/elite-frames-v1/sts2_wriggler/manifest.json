@@ -1,0 +1,242 @@
+{
+  "id": "sts2_wriggler",
+  "name": "蕨甲幼虫",
+  "region": "overgrowth",
+  "type": "worm",
+  "stage": "assets_and_standalone_preview",
+  "assetReady": true,
+  "visualApproved": false,
+  "width": 512,
+  "height": 512,
+  "ground": 430,
+  "pivot": {
+    "x": 0.5,
+    "y": 0.16015625
+  },
+  "still": "art/elite-frames-v1/sts2_wriggler/fern-wriggler-v1/still.png",
+  "actions": {
+    "idle": {
+      "frames": [
+        "art/elite-frames-v1/sts2_wriggler/fern-wriggler-v1/idle_00.png",
+        "art/elite-frames-v1/sts2_wriggler/fern-wriggler-v1/idle_01.png",
+        "art/elite-frames-v1/sts2_wriggler/fern-wriggler-v1/idle_02.png",
+        "art/elite-frames-v1/sts2_wriggler/fern-wriggler-v1/idle_03.png",
+        "art/elite-frames-v1/sts2_wriggler/fern-wriggler-v1/idle_04.png",
+        "art/elite-frames-v1/sts2_wriggler/fern-wriggler-v1/idle_05.png",
+        "art/elite-frames-v1/sts2_wriggler/fern-wriggler-v1/idle_06.png",
+        "art/elite-frames-v1/sts2_wriggler/fern-wriggler-v1/idle_07.png",
+        "art/elite-frames-v1/sts2_wriggler/fern-wriggler-v1/idle_08.png",
+        "art/elite-frames-v1/sts2_wriggler/fern-wriggler-v1/idle_09.png",
+        "art/elite-frames-v1/sts2_wriggler/fern-wriggler-v1/idle_10.png",
+        "art/elite-frames-v1/sts2_wriggler/fern-wriggler-v1/idle_11.png",
+        "art/elite-frames-v1/sts2_wriggler/fern-wriggler-v1/idle_12.png",
+        "art/elite-frames-v1/sts2_wriggler/fern-wriggler-v1/idle_13.png",
+        "art/elite-frames-v1/sts2_wriggler/fern-wriggler-v1/idle_14.png",
+        "art/elite-frames-v1/sts2_wriggler/fern-wriggler-v1/idle_15.png"
+      ],
+      "fps": 12,
+      "duration": 1.3333333333333333,
+      "loop": true,
+      "holdLastFrame": false,
+      "uniqueFrames": 16,
+      "method": "image_gen_16_fern_wriggler_registered_poses",
+      "registeredContact": {
+        "mode": "ground-line",
+        "y": 431,
+        "tolerance": 1
+      }
+    },
+    "hit": {
+      "frames": [
+        "art/elite-frames-v1/sts2_wriggler/fern-wriggler-v1/hit_00.png",
+        "art/elite-frames-v1/sts2_wriggler/fern-wriggler-v1/hit_01.png",
+        "art/elite-frames-v1/sts2_wriggler/fern-wriggler-v1/hit_02.png",
+        "art/elite-frames-v1/sts2_wriggler/fern-wriggler-v1/hit_03.png",
+        "art/elite-frames-v1/sts2_wriggler/fern-wriggler-v1/hit_04.png",
+        "art/elite-frames-v1/sts2_wriggler/fern-wriggler-v1/hit_05.png",
+        "art/elite-frames-v1/sts2_wriggler/fern-wriggler-v1/hit_06.png",
+        "art/elite-frames-v1/sts2_wriggler/fern-wriggler-v1/hit_07.png",
+        "art/elite-frames-v1/sts2_wriggler/fern-wriggler-v1/hit_08.png",
+        "art/elite-frames-v1/sts2_wriggler/fern-wriggler-v1/hit_09.png",
+        "art/elite-frames-v1/sts2_wriggler/fern-wriggler-v1/hit_10.png",
+        "art/elite-frames-v1/sts2_wriggler/fern-wriggler-v1/hit_11.png",
+        "art/elite-frames-v1/sts2_wriggler/fern-wriggler-v1/hit_12.png",
+        "art/elite-frames-v1/sts2_wriggler/fern-wriggler-v1/hit_13.png",
+        "art/elite-frames-v1/sts2_wriggler/fern-wriggler-v1/hit_14.png",
+        "art/elite-frames-v1/sts2_wriggler/fern-wriggler-v1/hit_15.png"
+      ],
+      "fps": 16,
+      "duration": 1,
+      "loop": false,
+      "holdLastFrame": false,
+      "uniqueFrames": 16,
+      "method": "image_gen_16_fern_wriggler_registered_poses",
+      "events": [
+        {
+          "frame": 3,
+          "type": "sound",
+          "clip": "hit"
+        }
+      ]
+    },
+    "attack": {
+      "frames": [
+        "art/elite-frames-v1/sts2_wriggler/fern-wriggler-v1/attack_00.png",
+        "art/elite-frames-v1/sts2_wriggler/fern-wriggler-v1/attack_01.png",
+        "art/elite-frames-v1/sts2_wriggler/fern-wriggler-v1/attack_02.png",
+        "art/elite-frames-v1/sts2_wriggler/fern-wriggler-v1/attack_03.png",
+        "art/elite-frames-v1/sts2_wriggler/fern-wriggler-v1/attack_04.png",
+        "art/elite-frames-v1/sts2_wriggler/fern-wriggler-v1/attack_05.png",
+        "art/elite-frames-v1/sts2_wriggler/fern-wriggler-v1/attack_06.png",
+        "art/elite-frames-v1/sts2_wriggler/fern-wriggler-v1/attack_07.png",
+        "art/elite-frames-v1/sts2_wriggler/fern-wriggler-v1/attack_08.png",
+        "art/elite-frames-v1/sts2_wriggler/fern-wriggler-v1/attack_09.png",
+        "art/elite-frames-v1/sts2_wriggler/fern-wriggler-v1/attack_10.png",
+        "art/elite-frames-v1/sts2_wriggler/fern-wriggler-v1/attack_11.png",
+        "art/elite-frames-v1/sts2_wriggler/fern-wriggler-v1/attack_12.png",
+        "art/elite-frames-v1/sts2_wriggler/fern-wriggler-v1/attack_13.png",
+        "art/elite-frames-v1/sts2_wriggler/fern-wriggler-v1/attack_14.png",
+        "art/elite-frames-v1/sts2_wriggler/fern-wriggler-v1/attack_15.png"
+      ],
+      "fps": 16,
+      "duration": 1,
+      "loop": false,
+      "holdLastFrame": false,
+      "uniqueFrames": 16,
+      "method": "image_gen_16_fern_wriggler_registered_poses",
+      "events": [
+        {
+          "frame": 2,
+          "type": "sound",
+          "clip": "windup"
+        },
+        {
+          "frame": 6,
+          "type": "effect",
+          "effect": "fx"
+        },
+        {
+          "frame": 7,
+          "type": "sound",
+          "clip": "attack"
+        }
+      ]
+    },
+    "cast": {
+      "frames": [
+        "art/elite-frames-v1/sts2_wriggler/fern-wriggler-v1/cast_00.png",
+        "art/elite-frames-v1/sts2_wriggler/fern-wriggler-v1/cast_01.png",
+        "art/elite-frames-v1/sts2_wriggler/fern-wriggler-v1/cast_02.png",
+        "art/elite-frames-v1/sts2_wriggler/fern-wriggler-v1/cast_03.png",
+        "art/elite-frames-v1/sts2_wriggler/fern-wriggler-v1/cast_04.png",
+        "art/elite-frames-v1/sts2_wriggler/fern-wriggler-v1/cast_05.png",
+        "art/elite-frames-v1/sts2_wriggler/fern-wriggler-v1/cast_06.png",
+        "art/elite-frames-v1/sts2_wriggler/fern-wriggler-v1/cast_07.png",
+        "art/elite-frames-v1/sts2_wriggler/fern-wriggler-v1/cast_08.png",
+        "art/elite-frames-v1/sts2_wriggler/fern-wriggler-v1/cast_09.png",
+        "art/elite-frames-v1/sts2_wriggler/fern-wriggler-v1/cast_10.png",
+        "art/elite-frames-v1/sts2_wriggler/fern-wriggler-v1/cast_11.png",
+        "art/elite-frames-v1/sts2_wriggler/fern-wriggler-v1/cast_12.png",
+        "art/elite-frames-v1/sts2_wriggler/fern-wriggler-v1/cast_13.png",
+        "art/elite-frames-v1/sts2_wriggler/fern-wriggler-v1/cast_14.png",
+        "art/elite-frames-v1/sts2_wriggler/fern-wriggler-v1/cast_15.png"
+      ],
+      "fps": 12,
+      "duration": 1.3333333333333333,
+      "loop": false,
+      "holdLastFrame": false,
+      "uniqueFrames": 16,
+      "method": "image_gen_16_fern_wriggler_registered_poses",
+      "events": [
+        {
+          "frame": 3,
+          "type": "sound",
+          "clip": "windup"
+        },
+        {
+          "frame": 8,
+          "type": "sound",
+          "clip": "skill"
+        }
+      ]
+    },
+    "death": {
+      "frames": [
+        "art/elite-frames-v1/sts2_wriggler/fern-wriggler-v1/death_00.png",
+        "art/elite-frames-v1/sts2_wriggler/fern-wriggler-v1/death_01.png",
+        "art/elite-frames-v1/sts2_wriggler/fern-wriggler-v1/death_02.png",
+        "art/elite-frames-v1/sts2_wriggler/fern-wriggler-v1/death_03.png",
+        "art/elite-frames-v1/sts2_wriggler/fern-wriggler-v1/death_04.png",
+        "art/elite-frames-v1/sts2_wriggler/fern-wriggler-v1/death_05.png",
+        "art/elite-frames-v1/sts2_wriggler/fern-wriggler-v1/death_06.png",
+        "art/elite-frames-v1/sts2_wriggler/fern-wriggler-v1/death_07.png",
+        "art/elite-frames-v1/sts2_wriggler/fern-wriggler-v1/death_08.png",
+        "art/elite-frames-v1/sts2_wriggler/fern-wriggler-v1/death_09.png",
+        "art/elite-frames-v1/sts2_wriggler/fern-wriggler-v1/death_10.png",
+        "art/elite-frames-v1/sts2_wriggler/fern-wriggler-v1/death_11.png",
+        "art/elite-frames-v1/sts2_wriggler/fern-wriggler-v1/death_12.png",
+        "art/elite-frames-v1/sts2_wriggler/fern-wriggler-v1/death_13.png",
+        "art/elite-frames-v1/sts2_wriggler/fern-wriggler-v1/death_14.png",
+        "art/elite-frames-v1/sts2_wriggler/fern-wriggler-v1/death_15.png"
+      ],
+      "fps": 12,
+      "duration": 1.3333333333333333,
+      "loop": false,
+      "holdLastFrame": true,
+      "uniqueFrames": 16,
+      "method": "image_gen_16_fern_wriggler_registered_poses",
+      "events": [
+        {
+          "frame": 5,
+          "type": "sound",
+          "clip": "death"
+        }
+      ]
+    }
+  },
+  "effect": {
+    "frames": [
+      "art/elite-frames-v1/sts2_wriggler/fern-wriggler-v1/fx_00.png",
+      "art/elite-frames-v1/sts2_wriggler/fern-wriggler-v1/fx_01.png",
+      "art/elite-frames-v1/sts2_wriggler/fern-wriggler-v1/fx_02.png",
+      "art/elite-frames-v1/sts2_wriggler/fern-wriggler-v1/fx_03.png",
+      "art/elite-frames-v1/sts2_wriggler/fern-wriggler-v1/fx_04.png",
+      "art/elite-frames-v1/sts2_wriggler/fern-wriggler-v1/fx_05.png",
+      "art/elite-frames-v1/sts2_wriggler/fern-wriggler-v1/fx_06.png",
+      "art/elite-frames-v1/sts2_wriggler/fern-wriggler-v1/fx_07.png",
+      "art/elite-frames-v1/sts2_wriggler/fern-wriggler-v1/fx_08.png",
+      "art/elite-frames-v1/sts2_wriggler/fern-wriggler-v1/fx_09.png",
+      "art/elite-frames-v1/sts2_wriggler/fern-wriggler-v1/fx_10.png",
+      "art/elite-frames-v1/sts2_wriggler/fern-wriggler-v1/fx_11.png",
+      "art/elite-frames-v1/sts2_wriggler/fern-wriggler-v1/fx_12.png",
+      "art/elite-frames-v1/sts2_wriggler/fern-wriggler-v1/fx_13.png",
+      "art/elite-frames-v1/sts2_wriggler/fern-wriggler-v1/fx_14.png",
+      "art/elite-frames-v1/sts2_wriggler/fern-wriggler-v1/fx_15.png"
+    ],
+    "fps": 16,
+    "duration": 1,
+    "loop": false,
+    "holdLastFrame": false,
+    "uniqueFrames": 16,
+    "method": "image_gen_16_fern_wriggler_registered_poses"
+  },
+  "audio": {
+    "windup": "audio/sfx/elite-frames-v1/sts2_wriggler_windup.mp3",
+    "attack": "audio/sfx/elite-frames-v1/sts2_wriggler_attack.mp3",
+    "skill": "audio/sfx/elite-frames-v1/sts2_wriggler_skill.mp3",
+    "hit": "audio/sfx/elite-frames-v1/sts2_wriggler_hit.mp3",
+    "death": "audio/sfx/elite-frames-v1/sts2_wriggler_death.mp3"
+  },
+  "design": {
+    "identity": "Fern-armored woodland larva, overlapping moss plates, amber eyes, paired ivory hooks and one lilac spore bud.",
+    "idle": "Shallow breathing ripple through the leaf plates over the planted rear belly.",
+    "attack": "Compress, bite LEFT with extended ivory jaws, snap and retract.",
+    "cast": "Coil up into an S shape and open the lilac spore bud, then lower and close the bud.",
+    "hit": "Squint and draw the head into the leaf hood, then rebound to neutral.",
+    "death": "Slump against the ground, close the eyes and lower the lilac bud."
+  },
+  "sourceIssues": [],
+  "idleApproved": true,
+  "idleStatus": "fern_wriggler_v1_registered_16_frames",
+  "assetVersion": "fern-wriggler-v1"
+}
