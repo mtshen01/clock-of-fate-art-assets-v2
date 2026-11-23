@@ -1,0 +1,264 @@
+{
+  "id": "sts2_torch_head_amalgam",
+  "name": "炬首聚合体",
+  "act": 3,
+  "region": "glory",
+  "type": "mecha",
+  "width": 512,
+  "height": 512,
+  "ground": 430,
+  "pivot": {
+    "x": 0.5,
+    "y": 0.16015625
+  },
+  "still": "art/boss-frames-v1/sts2_torch_head_amalgam/still.png",
+  "actions": {
+    "idle": {
+      "frameCount": 16,
+      "fps": 12,
+      "loop": true,
+      "holdLastFrame": false,
+      "events": [],
+      "duration": 1.3333333333333333,
+      "frames": [
+        "art/boss-frames-v1/sts2_torch_head_amalgam/idle_subtle_00.png",
+        "art/boss-frames-v1/sts2_torch_head_amalgam/idle_subtle_01.png",
+        "art/boss-frames-v1/sts2_torch_head_amalgam/idle_subtle_02.png",
+        "art/boss-frames-v1/sts2_torch_head_amalgam/idle_subtle_03.png",
+        "art/boss-frames-v1/sts2_torch_head_amalgam/idle_subtle_04.png",
+        "art/boss-frames-v1/sts2_torch_head_amalgam/idle_subtle_05.png",
+        "art/boss-frames-v1/sts2_torch_head_amalgam/idle_subtle_06.png",
+        "art/boss-frames-v1/sts2_torch_head_amalgam/idle_subtle_07.png",
+        "art/boss-frames-v1/sts2_torch_head_amalgam/idle_subtle_08.png",
+        "art/boss-frames-v1/sts2_torch_head_amalgam/idle_subtle_09.png",
+        "art/boss-frames-v1/sts2_torch_head_amalgam/idle_subtle_10.png",
+        "art/boss-frames-v1/sts2_torch_head_amalgam/idle_subtle_11.png",
+        "art/boss-frames-v1/sts2_torch_head_amalgam/idle_subtle_12.png",
+        "art/boss-frames-v1/sts2_torch_head_amalgam/idle_subtle_13.png",
+        "art/boss-frames-v1/sts2_torch_head_amalgam/idle_subtle_14.png",
+        "art/boss-frames-v1/sts2_torch_head_amalgam/idle_subtle_15.png"
+      ],
+      "uniqueFrames": 16,
+      "method": "original_art_local_subtle_idle_v1",
+      "fixedRegions": [
+        {
+          "id": "ground-contact",
+          "left": 0,
+          "top": 385,
+          "width": 512,
+          "height": 127
+        },
+        {
+          "id": "armored-core",
+          "left": 208,
+          "top": 247,
+          "width": 103,
+          "height": 138
+        }
+      ]
+    },
+    "hit": {
+      "frameCount": 16,
+      "fps": 16,
+      "loop": false,
+      "holdLastFrame": false,
+      "events": [
+        {
+          "frame": 3,
+          "type": "sound",
+          "clip": "hit"
+        }
+      ],
+      "duration": 1,
+      "frames": [
+        "art/boss-frames-v1/sts2_torch_head_amalgam/hit_00.png",
+        "art/boss-frames-v1/sts2_torch_head_amalgam/hit_01.png",
+        "art/boss-frames-v1/sts2_torch_head_amalgam/hit_02.png",
+        "art/boss-frames-v1/sts2_torch_head_amalgam/hit_03.png",
+        "art/boss-frames-v1/sts2_torch_head_amalgam/hit_04.png",
+        "art/boss-frames-v1/sts2_torch_head_amalgam/hit_05.png",
+        "art/boss-frames-v1/sts2_torch_head_amalgam/hit_06.png",
+        "art/boss-frames-v1/sts2_torch_head_amalgam/hit_07.png",
+        "art/boss-frames-v1/sts2_torch_head_amalgam/hit_08.png",
+        "art/boss-frames-v1/sts2_torch_head_amalgam/hit_09.png",
+        "art/boss-frames-v1/sts2_torch_head_amalgam/hit_10.png",
+        "art/boss-frames-v1/sts2_torch_head_amalgam/hit_11.png",
+        "art/boss-frames-v1/sts2_torch_head_amalgam/hit_12.png",
+        "art/boss-frames-v1/sts2_torch_head_amalgam/hit_13.png",
+        "art/boss-frames-v1/sts2_torch_head_amalgam/hit_14.png",
+        "art/boss-frames-v1/sts2_torch_head_amalgam/hit_15.png"
+      ],
+      "uniqueFrames": 16,
+      "method": "image_gen_16_consecutive_poses_fixed_cell_camera"
+    },
+    "cast": {
+      "frameCount": 16,
+      "fps": 16,
+      "loop": false,
+      "holdLastFrame": false,
+      "events": [
+        {
+          "frame": 3,
+          "type": "sound",
+          "clip": "windup"
+        },
+        {
+          "frame": 7,
+          "type": "effect",
+          "effect": "fx"
+        },
+        {
+          "frame": 8,
+          "type": "sound",
+          "clip": "skill"
+        }
+      ],
+      "duration": 1,
+      "frames": [
+        "art/boss-frames-v1/sts2_torch_head_amalgam/cast_00.png",
+        "art/boss-frames-v1/sts2_torch_head_amalgam/cast_01.png",
+        "art/boss-frames-v1/sts2_torch_head_amalgam/cast_02.png",
+        "art/boss-frames-v1/sts2_torch_head_amalgam/cast_03.png",
+        "art/boss-frames-v1/sts2_torch_head_amalgam/cast_04.png",
+        "art/boss-frames-v1/sts2_torch_head_amalgam/cast_05.png",
+        "art/boss-frames-v1/sts2_torch_head_amalgam/cast_06.png",
+        "art/boss-frames-v1/sts2_torch_head_amalgam/cast_07.png",
+        "art/boss-frames-v1/sts2_torch_head_amalgam/cast_08.png",
+        "art/boss-frames-v1/sts2_torch_head_amalgam/cast_09.png",
+        "art/boss-frames-v1/sts2_torch_head_amalgam/cast_10.png",
+        "art/boss-frames-v1/sts2_torch_head_amalgam/cast_11.png",
+        "art/boss-frames-v1/sts2_torch_head_amalgam/cast_12.png",
+        "art/boss-frames-v1/sts2_torch_head_amalgam/cast_13.png",
+        "art/boss-frames-v1/sts2_torch_head_amalgam/cast_14.png",
+        "art/boss-frames-v1/sts2_torch_head_amalgam/cast_15.png"
+      ],
+      "uniqueFrames": 16,
+      "method": "image_gen_16_consecutive_poses_fixed_cell_camera"
+    },
+    "attack": {
+      "frameCount": 16,
+      "fps": 16,
+      "loop": false,
+      "holdLastFrame": false,
+      "events": [
+        {
+          "frame": 3,
+          "type": "sound",
+          "clip": "windup"
+        },
+        {
+          "frame": 7,
+          "type": "effect",
+          "effect": "fx"
+        },
+        {
+          "frame": 8,
+          "type": "sound",
+          "clip": "attack"
+        }
+      ],
+      "duration": 1,
+      "frames": [
+        "art/boss-frames-v1/sts2_torch_head_amalgam/attack_00.png",
+        "art/boss-frames-v1/sts2_torch_head_amalgam/attack_01.png",
+        "art/boss-frames-v1/sts2_torch_head_amalgam/attack_02.png",
+        "art/boss-frames-v1/sts2_torch_head_amalgam/attack_03.png",
+        "art/boss-frames-v1/sts2_torch_head_amalgam/attack_04.png",
+        "art/boss-frames-v1/sts2_torch_head_amalgam/attack_05.png",
+        "art/boss-frames-v1/sts2_torch_head_amalgam/attack_06.png",
+        "art/boss-frames-v1/sts2_torch_head_amalgam/attack_07.png",
+        "art/boss-frames-v1/sts2_torch_head_amalgam/attack_08.png",
+        "art/boss-frames-v1/sts2_torch_head_amalgam/attack_09.png",
+        "art/boss-frames-v1/sts2_torch_head_amalgam/attack_10.png",
+        "art/boss-frames-v1/sts2_torch_head_amalgam/attack_11.png",
+        "art/boss-frames-v1/sts2_torch_head_amalgam/attack_12.png",
+        "art/boss-frames-v1/sts2_torch_head_amalgam/attack_13.png",
+        "art/boss-frames-v1/sts2_torch_head_amalgam/attack_14.png",
+        "art/boss-frames-v1/sts2_torch_head_amalgam/attack_15.png"
+      ],
+      "uniqueFrames": 16,
+      "method": "image_gen_16_consecutive_poses_fixed_cell_camera"
+    },
+    "death": {
+      "frameCount": 16,
+      "fps": 12,
+      "loop": false,
+      "holdLastFrame": true,
+      "events": [
+        {
+          "frame": 4,
+          "type": "sound",
+          "clip": "death"
+        }
+      ],
+      "duration": 1.3333333333333333,
+      "frames": [
+        "art/boss-frames-v1/sts2_torch_head_amalgam/death_00.png",
+        "art/boss-frames-v1/sts2_torch_head_amalgam/death_01.png",
+        "art/boss-frames-v1/sts2_torch_head_amalgam/death_02.png",
+        "art/boss-frames-v1/sts2_torch_head_amalgam/death_03.png",
+        "art/boss-frames-v1/sts2_torch_head_amalgam/death_04.png",
+        "art/boss-frames-v1/sts2_torch_head_amalgam/death_05.png",
+        "art/boss-frames-v1/sts2_torch_head_amalgam/death_06.png",
+        "art/boss-frames-v1/sts2_torch_head_amalgam/death_07.png",
+        "art/boss-frames-v1/sts2_torch_head_amalgam/death_08.png",
+        "art/boss-frames-v1/sts2_torch_head_amalgam/death_09.png",
+        "art/boss-frames-v1/sts2_torch_head_amalgam/death_10.png",
+        "art/boss-frames-v1/sts2_torch_head_amalgam/death_11.png",
+        "art/boss-frames-v1/sts2_torch_head_amalgam/death_12.png",
+        "art/boss-frames-v1/sts2_torch_head_amalgam/death_13.png",
+        "art/boss-frames-v1/sts2_torch_head_amalgam/death_14.png",
+        "art/boss-frames-v1/sts2_torch_head_amalgam/death_15.png"
+      ],
+      "uniqueFrames": 16,
+      "method": "image_gen_16_consecutive_poses_fixed_cell_camera"
+    }
+  },
+  "effect": {
+    "frameCount": 16,
+    "fps": 16,
+    "loop": false,
+    "holdLastFrame": false,
+    "events": [],
+    "duration": 1,
+    "frames": [
+      "art/boss-frames-v1/sts2_torch_head_amalgam/fx_00.png",
+      "art/boss-frames-v1/sts2_torch_head_amalgam/fx_01.png",
+      "art/boss-frames-v1/sts2_torch_head_amalgam/fx_02.png",
+      "art/boss-frames-v1/sts2_torch_head_amalgam/fx_03.png",
+      "art/boss-frames-v1/sts2_torch_head_amalgam/fx_04.png",
+      "art/boss-frames-v1/sts2_torch_head_amalgam/fx_05.png",
+      "art/boss-frames-v1/sts2_torch_head_amalgam/fx_06.png",
+      "art/boss-frames-v1/sts2_torch_head_amalgam/fx_07.png",
+      "art/boss-frames-v1/sts2_torch_head_amalgam/fx_08.png",
+      "art/boss-frames-v1/sts2_torch_head_amalgam/fx_09.png",
+      "art/boss-frames-v1/sts2_torch_head_amalgam/fx_10.png",
+      "art/boss-frames-v1/sts2_torch_head_amalgam/fx_11.png",
+      "art/boss-frames-v1/sts2_torch_head_amalgam/fx_12.png",
+      "art/boss-frames-v1/sts2_torch_head_amalgam/fx_13.png",
+      "art/boss-frames-v1/sts2_torch_head_amalgam/fx_14.png",
+      "art/boss-frames-v1/sts2_torch_head_amalgam/fx_15.png"
+    ],
+    "uniqueFrames": 16,
+    "method": "image_gen_16_consecutive_poses_fixed_cell_camera"
+  },
+  "audio": {
+    "windup": "audio/sfx/boss-frames-v1/sts2_torch_head_amalgam_windup.mp3",
+    "attack": "audio/sfx/boss-frames-v1/sts2_torch_head_amalgam_attack.mp3",
+    "skill": "audio/sfx/boss-frames-v1/sts2_torch_head_amalgam_skill.mp3",
+    "hit": "audio/sfx/boss-frames-v1/sts2_torch_head_amalgam_hit.mp3",
+    "death": "audio/sfx/boss-frames-v1/sts2_torch_head_amalgam_death.mp3"
+  },
+  "assetReady": true,
+  "visualApproved": true,
+  "signature": "3b21b743450604c41e753500dc5abe28d5c9d1d952f07bc4c41e6d6e3fe14eaf",
+  "sourceIssues": [],
+  "stage": "assets_and_standalone_preview",
+  "design": {
+    "identity": "Preserve reference exactly: torch-headed amalgam, established body shape, joints, appendage count, armor and flame placement, no additional heads or weapons.",
+    "idle": "Feet or visible base hold, torso and head articulate visibly, attached torch flame bends and breathes, arms flex with the reference anatomy in seamless cycle.",
+    "attack": "Lower head and compress supporting limbs, then drive whole torso LEFT into a heavy torch-head ram, attached flame trails modestly, recover.",
+    "cast": "Compress shoulders, lift torch head high, open limbs wide and arch torso as flame elongates vertically, then retract flame and settle.",
+    "death": "Torch head extinguishes progressively, supports buckle and body collapses sideways, attached parts settle as a few embers die."
+  }
+}

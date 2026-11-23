@@ -1,0 +1,200 @@
+{
+  "version": "battle-ground-depth-v3",
+  "tool": "built-in imagegen",
+  "date": "2026-11-04",
+  "scenes": {
+    "overgrowth": {
+      "name": "翠蚀林海",
+      "layers": {
+        "far": {
+          "file": "battle-side-view-v2/overgrowth/far.png",
+          "generated": "exec-3c5c3774-2848-45f9-9c57-8b3d4641a0f3.png",
+          "width": 1774,
+          "height": 887,
+          "sha256": "4b1fe31a7ff4dc2fa630c30b3ec90478eb4e877ce9bc6037cb988d72a174eed1"
+        },
+        "middle": {
+          "file": "battle-side-view-v2/overgrowth/middle.png",
+          "generated": "exec-c7617dd7-84a1-40b0-b800-e54f92726d20.png",
+          "width": 2172,
+          "height": 724,
+          "sha256": "7261bcc777c8c77952072be8037342bc25c3e8a881fbadf5e0a01c072dfe2b87",
+          "source": "docs/art-source/battle-ground-depth-v3/overgrowth/middle-original.png"
+        },
+        "near": {
+          "file": "battle-side-view-v2/overgrowth/near.png",
+          "generated": "exec-673fdcf1-9ecd-4b0f-b452-467cd1a1fa72.png",
+          "width": 2172,
+          "height": 724,
+          "sha256": "c0004d05e3a6e1f412daadd43fe8b1a2199c05ce39b00ad9a557638fe56481b5"
+        }
+      },
+      "groundTopPx": 244,
+      "groundRatio": 0.55,
+      "groundRegistrationRatio": 0.55,
+      "walkableBackRatio": 0.34806629834254144,
+      "walkableFrontRatio": 0.8
+    },
+    "underdocks": {
+      "name": "潮蚀港",
+      "layers": {
+        "far": {
+          "file": "battle-side-view-v2/underdocks/far.png",
+          "generated": "exec-1a6d1751-aad4-4b95-8cd5-6ea02da3997a.png",
+          "width": 1774,
+          "height": 887,
+          "sha256": "2d54d511e153e79d8dcf8c063b4cb3216e1647b0063eea832e7566110eb57cdc"
+        },
+        "middle": {
+          "file": "battle-side-view-v2/underdocks/middle.png",
+          "generated": "exec-10e17d2d-fe87-4d1b-ba11-22303fdba5ab.png",
+          "width": 2172,
+          "height": 724,
+          "sha256": "9b91191ba4ca5234e853a9e91605f08ea27a42dbc8530a5e7f96d933d62c18b9",
+          "source": "docs/art-source/battle-ground-depth-v3/underdocks/middle-original.png"
+        },
+        "near": {
+          "file": "battle-side-view-v2/underdocks/near.png",
+          "generated": "exec-6452d43a-d17c-424c-8720-c3e8d941a7db.png",
+          "width": 2172,
+          "height": 724,
+          "sha256": "eac7f9e99609ad3f2bc5f909fa6b8e900aa18d7aaa24752a1ec4913bbc614a11"
+        }
+      },
+      "groundTopPx": 228,
+      "groundRatio": 0.55,
+      "groundRegistrationRatio": 0.55,
+      "walkableBackRatio": 0.3259668508287293,
+      "walkableFrontRatio": 0.8
+    },
+    "hive": {
+      "name": "蛀蚀巢窟",
+      "layers": {
+        "far": {
+          "file": "battle-side-view-v2/hive/far.png",
+          "generated": "exec-c8bb0d57-b7b8-4157-af97-efd1b066e16d.png",
+          "width": 1774,
+          "height": 887,
+          "sha256": "0d9e5d5b290db31b9ad42016302c01e12de5ad35eecbf98009bf722e4bde7da0"
+        },
+        "middle": {
+          "file": "battle-side-view-v2/hive/middle.png",
+          "generated": "exec-0cad1e2c-af12-449a-822a-33f75be5ad6d.png",
+          "width": 2172,
+          "height": 724,
+          "sha256": "b8bab09be7f106981b330bfaa9c075729f9a1d6d0cdcee3e2d30c0056e05f459",
+          "source": "docs/art-source/battle-ground-depth-v3/hive/middle-original.png"
+        },
+        "near": {
+          "file": "battle-side-view-v2/hive/near.png",
+          "generated": "exec-b84bfeef-bd32-416d-b21f-b8ba749dd61a.png",
+          "width": 2172,
+          "height": 724,
+          "sha256": "19fac6cea68073c24f9c472aad79d3c96e076f7b7e0c9fc6c0409083fcc4f396"
+        }
+      },
+      "groundTopPx": 228,
+      "groundRatio": 0.55,
+      "groundRegistrationRatio": 0.55,
+      "walkableBackRatio": 0.3259668508287293,
+      "walkableFrontRatio": 0.8
+    },
+    "glory": {
+      "name": "夜蚀王都",
+      "layers": {
+        "far": {
+          "file": "battle-side-view-v2/glory/far.png",
+          "generated": "exec-06c2815d-4ca4-4dba-8ecf-d3158f6721ca.png",
+          "width": 1774,
+          "height": 887,
+          "sha256": "c635a1e2a2498bc97498c22403f483e1a7ded3a1e1db2e355e19b274fe5b759a"
+        },
+        "middle": {
+          "file": "battle-side-view-v2/glory/middle.png",
+          "generated": "exec-711ef847-3b04-4d44-aaca-f3d41877cc8b.png",
+          "width": 2172,
+          "height": 724,
+          "sha256": "911c81a5f3e5be0c36949655b0c05be834389cd5457e1b364e388327ff124842",
+          "source": "docs/art-source/battle-ground-depth-v3/glory/middle-original.png"
+        },
+        "near": {
+          "file": "battle-side-view-v2/glory/near.png",
+          "generated": "exec-36901ae3-2af6-45b4-991c-e9870ce5ab20.png",
+          "width": 2172,
+          "height": 724,
+          "sha256": "52239593acc30acbcc014c5396345c32242e11cb5f4ef0b307daaf93cc88d662"
+        }
+      },
+      "groundTopPx": 232,
+      "groundRatio": 0.55,
+      "groundRegistrationRatio": 0.55,
+      "walkableBackRatio": 0.3314917127071823,
+      "walkableFrontRatio": 0.8
+    },
+    "mine": {
+      "name": "苔岩矿口",
+      "layers": {
+        "far": {
+          "file": "battle-side-view-v2/mine/far.png",
+          "generated": "exec-6536e5cb-a392-48ce-a728-8b26cab987cc.png",
+          "width": 1774,
+          "height": 887,
+          "sha256": "38ff273f77cf38b2b92957ee48c46177026ff8d98a098b18b8975605322e30dd"
+        },
+        "middle": {
+          "file": "battle-side-view-v2/mine/middle.png",
+          "generated": "exec-0c383e0e-6cca-442b-88fc-259cd3a372aa.png",
+          "width": 2172,
+          "height": 724,
+          "sha256": "1ec6b2c92880319ce449511536b0385b0ab4347d313802933b43e04a909f5dd7",
+          "source": "docs/art-source/battle-ground-depth-v3/mine/middle-original.png"
+        },
+        "near": {
+          "file": "battle-side-view-v2/mine/near.png",
+          "generated": "exec-8c442984-85b0-4ecc-b676-812b746f5642.png",
+          "width": 2172,
+          "height": 724,
+          "sha256": "31917dbc8532342206daa80f5c0bf1e7c1b6c3cd7cd1d5d6148a359356e3e05c"
+        }
+      },
+      "groundTopPx": 228,
+      "groundRatio": 0.55,
+      "groundRegistrationRatio": 0.55,
+      "walkableBackRatio": 0.3259668508287293,
+      "walkableFrontRatio": 0.8
+    },
+    "courtyard": {
+      "name": "钟楼石庭",
+      "layers": {
+        "far": {
+          "file": "battle-side-view-v2/courtyard/far.png",
+          "generated": "exec-5eeeb8cd-0a13-44bf-9cbf-db55a70c03a5.png",
+          "width": 1774,
+          "height": 887,
+          "sha256": "ab61af760dadbf1c18cbdb3080ba8b6f5a102bee479ca72883d71193ccd0a895"
+        },
+        "middle": {
+          "file": "battle-side-view-v2/courtyard/middle.png",
+          "generated": "exec-d4150b75-0c9b-43e5-a659-eff633029b7d.png",
+          "width": 2172,
+          "height": 724,
+          "sha256": "bbeb0e8c7fb5cce3a582a1ddfd7a97f54e7403e46ab7560d35ad1d54cc2b6744",
+          "source": "docs/art-source/battle-ground-depth-v3/courtyard/middle-original.png"
+        },
+        "near": {
+          "file": "battle-side-view-v2/courtyard/near.png",
+          "generated": "exec-acb07b78-9481-4e1d-80a4-05df01446e29.png",
+          "width": 2172,
+          "height": 724,
+          "sha256": "1c10179e13cfb8d64810dd1e5691d7c3bb94ab0fa572e58f26b3f205d6ddee1b"
+        }
+      },
+      "groundTopPx": 231,
+      "groundRatio": 0.55,
+      "groundRegistrationRatio": 0.55,
+      "walkableBackRatio": 0.3301104972375691,
+      "walkableFrontRatio": 0.8
+    }
+  },
+  "middleRevisionDate": "2026-11-12"
+}

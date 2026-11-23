@@ -1,0 +1,4063 @@
+{
+  "version": "boss-frames-v1.0",
+  "createdOn": "2026-10-30",
+  "stage": "assets_and_standalone_preview",
+  "complete": true,
+  "total": 15,
+  "totalEncounters": 12,
+  "monsters": [
+    {
+      "id": "sts2_ceremonial_beast",
+      "name": "伪冠兽",
+      "act": 1,
+      "region": "overgrowth",
+      "type": "beast",
+      "width": 512,
+      "height": 512,
+      "ground": 430,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.16015625
+      },
+      "still": "art/boss-frames-v1/sts2_ceremonial_beast/still.png",
+      "actions": {
+        "idle": {
+          "frameCount": 16,
+          "fps": 12,
+          "loop": true,
+          "holdLastFrame": false,
+          "events": [],
+          "duration": 1.3333333333333333,
+          "frames": [
+            "art/boss-frames-v1/sts2_ceremonial_beast/idle_00.png",
+            "art/boss-frames-v1/sts2_ceremonial_beast/idle_01.png",
+            "art/boss-frames-v1/sts2_ceremonial_beast/idle_02.png",
+            "art/boss-frames-v1/sts2_ceremonial_beast/idle_03.png",
+            "art/boss-frames-v1/sts2_ceremonial_beast/idle_04.png",
+            "art/boss-frames-v1/sts2_ceremonial_beast/idle_05.png",
+            "art/boss-frames-v1/sts2_ceremonial_beast/idle_06.png",
+            "art/boss-frames-v1/sts2_ceremonial_beast/idle_07.png",
+            "art/boss-frames-v1/sts2_ceremonial_beast/idle_08.png",
+            "art/boss-frames-v1/sts2_ceremonial_beast/idle_09.png",
+            "art/boss-frames-v1/sts2_ceremonial_beast/idle_10.png",
+            "art/boss-frames-v1/sts2_ceremonial_beast/idle_11.png",
+            "art/boss-frames-v1/sts2_ceremonial_beast/idle_12.png",
+            "art/boss-frames-v1/sts2_ceremonial_beast/idle_13.png",
+            "art/boss-frames-v1/sts2_ceremonial_beast/idle_14.png",
+            "art/boss-frames-v1/sts2_ceremonial_beast/idle_15.png"
+          ],
+          "uniqueFrames": 16,
+          "method": "image_gen_16_consecutive_poses_fixed_cell_camera"
+        },
+        "hit": {
+          "frameCount": 16,
+          "fps": 16,
+          "loop": false,
+          "holdLastFrame": false,
+          "events": [
+            {
+              "frame": 3,
+              "type": "sound",
+              "clip": "hit"
+            }
+          ],
+          "duration": 1,
+          "frames": [
+            "art/boss-frames-v1/sts2_ceremonial_beast/hit_00.png",
+            "art/boss-frames-v1/sts2_ceremonial_beast/hit_01.png",
+            "art/boss-frames-v1/sts2_ceremonial_beast/hit_02.png",
+            "art/boss-frames-v1/sts2_ceremonial_beast/hit_03.png",
+            "art/boss-frames-v1/sts2_ceremonial_beast/hit_04.png",
+            "art/boss-frames-v1/sts2_ceremonial_beast/hit_05.png",
+            "art/boss-frames-v1/sts2_ceremonial_beast/hit_06.png",
+            "art/boss-frames-v1/sts2_ceremonial_beast/hit_07.png",
+            "art/boss-frames-v1/sts2_ceremonial_beast/hit_08.png",
+            "art/boss-frames-v1/sts2_ceremonial_beast/hit_09.png",
+            "art/boss-frames-v1/sts2_ceremonial_beast/hit_10.png",
+            "art/boss-frames-v1/sts2_ceremonial_beast/hit_11.png",
+            "art/boss-frames-v1/sts2_ceremonial_beast/hit_12.png",
+            "art/boss-frames-v1/sts2_ceremonial_beast/hit_13.png",
+            "art/boss-frames-v1/sts2_ceremonial_beast/hit_14.png",
+            "art/boss-frames-v1/sts2_ceremonial_beast/hit_15.png"
+          ],
+          "uniqueFrames": 16,
+          "method": "image_gen_16_consecutive_poses_fixed_cell_camera"
+        },
+        "cast": {
+          "frameCount": 16,
+          "fps": 16,
+          "loop": false,
+          "holdLastFrame": false,
+          "events": [
+            {
+              "frame": 3,
+              "type": "sound",
+              "clip": "windup"
+            },
+            {
+              "frame": 7,
+              "type": "effect",
+              "effect": "fx"
+            },
+            {
+              "frame": 8,
+              "type": "sound",
+              "clip": "skill"
+            }
+          ],
+          "duration": 1,
+          "frames": [
+            "art/boss-frames-v1/sts2_ceremonial_beast/cast_00.png",
+            "art/boss-frames-v1/sts2_ceremonial_beast/cast_01.png",
+            "art/boss-frames-v1/sts2_ceremonial_beast/cast_02.png",
+            "art/boss-frames-v1/sts2_ceremonial_beast/cast_03.png",
+            "art/boss-frames-v1/sts2_ceremonial_beast/cast_04.png",
+            "art/boss-frames-v1/sts2_ceremonial_beast/cast_05.png",
+            "art/boss-frames-v1/sts2_ceremonial_beast/cast_06.png",
+            "art/boss-frames-v1/sts2_ceremonial_beast/cast_07.png",
+            "art/boss-frames-v1/sts2_ceremonial_beast/cast_08.png",
+            "art/boss-frames-v1/sts2_ceremonial_beast/cast_09.png",
+            "art/boss-frames-v1/sts2_ceremonial_beast/cast_10.png",
+            "art/boss-frames-v1/sts2_ceremonial_beast/cast_11.png",
+            "art/boss-frames-v1/sts2_ceremonial_beast/cast_12.png",
+            "art/boss-frames-v1/sts2_ceremonial_beast/cast_13.png",
+            "art/boss-frames-v1/sts2_ceremonial_beast/cast_14.png",
+            "art/boss-frames-v1/sts2_ceremonial_beast/cast_15.png"
+          ],
+          "uniqueFrames": 16,
+          "method": "image_gen_16_consecutive_poses_fixed_cell_camera"
+        },
+        "attack": {
+          "frameCount": 16,
+          "fps": 16,
+          "loop": false,
+          "holdLastFrame": false,
+          "events": [
+            {
+              "frame": 3,
+              "type": "sound",
+              "clip": "windup"
+            },
+            {
+              "frame": 7,
+              "type": "effect",
+              "effect": "fx"
+            },
+            {
+              "frame": 8,
+              "type": "sound",
+              "clip": "attack"
+            }
+          ],
+          "duration": 1,
+          "frames": [
+            "art/boss-frames-v1/sts2_ceremonial_beast/attack_00.png",
+            "art/boss-frames-v1/sts2_ceremonial_beast/attack_01.png",
+            "art/boss-frames-v1/sts2_ceremonial_beast/attack_02.png",
+            "art/boss-frames-v1/sts2_ceremonial_beast/attack_03.png",
+            "art/boss-frames-v1/sts2_ceremonial_beast/attack_04.png",
+            "art/boss-frames-v1/sts2_ceremonial_beast/attack_05.png",
+            "art/boss-frames-v1/sts2_ceremonial_beast/attack_06.png",
+            "art/boss-frames-v1/sts2_ceremonial_beast/attack_07.png",
+            "art/boss-frames-v1/sts2_ceremonial_beast/attack_08.png",
+            "art/boss-frames-v1/sts2_ceremonial_beast/attack_09.png",
+            "art/boss-frames-v1/sts2_ceremonial_beast/attack_10.png",
+            "art/boss-frames-v1/sts2_ceremonial_beast/attack_11.png",
+            "art/boss-frames-v1/sts2_ceremonial_beast/attack_12.png",
+            "art/boss-frames-v1/sts2_ceremonial_beast/attack_13.png",
+            "art/boss-frames-v1/sts2_ceremonial_beast/attack_14.png",
+            "art/boss-frames-v1/sts2_ceremonial_beast/attack_15.png"
+          ],
+          "uniqueFrames": 16,
+          "method": "image_gen_16_consecutive_poses_fixed_cell_camera"
+        },
+        "death": {
+          "frameCount": 16,
+          "fps": 12,
+          "loop": false,
+          "holdLastFrame": true,
+          "events": [
+            {
+              "frame": 4,
+              "type": "sound",
+              "clip": "death"
+            }
+          ],
+          "duration": 1.3333333333333333,
+          "frames": [
+            "art/boss-frames-v1/sts2_ceremonial_beast/death_00.png",
+            "art/boss-frames-v1/sts2_ceremonial_beast/death_01.png",
+            "art/boss-frames-v1/sts2_ceremonial_beast/death_02.png",
+            "art/boss-frames-v1/sts2_ceremonial_beast/death_03.png",
+            "art/boss-frames-v1/sts2_ceremonial_beast/death_04.png",
+            "art/boss-frames-v1/sts2_ceremonial_beast/death_05.png",
+            "art/boss-frames-v1/sts2_ceremonial_beast/death_06.png",
+            "art/boss-frames-v1/sts2_ceremonial_beast/death_07.png",
+            "art/boss-frames-v1/sts2_ceremonial_beast/death_08.png",
+            "art/boss-frames-v1/sts2_ceremonial_beast/death_09.png",
+            "art/boss-frames-v1/sts2_ceremonial_beast/death_10.png",
+            "art/boss-frames-v1/sts2_ceremonial_beast/death_11.png",
+            "art/boss-frames-v1/sts2_ceremonial_beast/death_12.png",
+            "art/boss-frames-v1/sts2_ceremonial_beast/death_13.png",
+            "art/boss-frames-v1/sts2_ceremonial_beast/death_14.png",
+            "art/boss-frames-v1/sts2_ceremonial_beast/death_15.png"
+          ],
+          "uniqueFrames": 16,
+          "method": "image_gen_16_consecutive_poses_fixed_cell_camera"
+        }
+      },
+      "effect": {
+        "frameCount": 16,
+        "fps": 16,
+        "loop": false,
+        "holdLastFrame": false,
+        "events": [],
+        "duration": 1,
+        "frames": [
+          "art/boss-frames-v1/sts2_ceremonial_beast/fx_00.png",
+          "art/boss-frames-v1/sts2_ceremonial_beast/fx_01.png",
+          "art/boss-frames-v1/sts2_ceremonial_beast/fx_02.png",
+          "art/boss-frames-v1/sts2_ceremonial_beast/fx_03.png",
+          "art/boss-frames-v1/sts2_ceremonial_beast/fx_04.png",
+          "art/boss-frames-v1/sts2_ceremonial_beast/fx_05.png",
+          "art/boss-frames-v1/sts2_ceremonial_beast/fx_06.png",
+          "art/boss-frames-v1/sts2_ceremonial_beast/fx_07.png",
+          "art/boss-frames-v1/sts2_ceremonial_beast/fx_08.png",
+          "art/boss-frames-v1/sts2_ceremonial_beast/fx_09.png",
+          "art/boss-frames-v1/sts2_ceremonial_beast/fx_10.png",
+          "art/boss-frames-v1/sts2_ceremonial_beast/fx_11.png",
+          "art/boss-frames-v1/sts2_ceremonial_beast/fx_12.png",
+          "art/boss-frames-v1/sts2_ceremonial_beast/fx_13.png",
+          "art/boss-frames-v1/sts2_ceremonial_beast/fx_14.png",
+          "art/boss-frames-v1/sts2_ceremonial_beast/fx_15.png"
+        ],
+        "uniqueFrames": 16,
+        "method": "image_gen_16_consecutive_poses_fixed_cell_camera"
+      },
+      "audio": {
+        "windup": "audio/sfx/boss-frames-v1/sts2_ceremonial_beast_windup.mp3",
+        "attack": "audio/sfx/boss-frames-v1/sts2_ceremonial_beast_attack.mp3",
+        "skill": "audio/sfx/boss-frames-v1/sts2_ceremonial_beast_skill.mp3",
+        "hit": "audio/sfx/boss-frames-v1/sts2_ceremonial_beast_hit.mp3",
+        "death": "audio/sfx/boss-frames-v1/sts2_ceremonial_beast_death.mp3"
+      },
+      "assetReady": true,
+      "visualApproved": true,
+      "signature": "b11012b1534cf1b97a5dbf9d07e2eca0f2bebd44eebe2a2389dbcb14a47ac66f",
+      "sourceIssues": [],
+      "stage": "assets_and_standalone_preview",
+      "design": {
+        "identity": "Massive four-legged charcoal stag-lion beast, long ivory false-crown antlers, carved bone face mask, moss-green ceremonial mane, hanging burgundy torn pennants, split dark hooves. Exactly four legs, one head, two antlers.",
+        "idle": "Braced hooves, visibly breathing rib cage, head lowers and rises, antlers tilt through neck joint, mane and pennants sway; complete seamless cycle with distinct intermediate poses.",
+        "attack": "Rear onto hind legs, fold front hooves, drive both front legs down in a huge stomp then thrust masked head LEFT; recover four-hoof stance.",
+        "cast": "Crouch deeply, arch neck back and spread antlers in a large roaring pose, mane expands, ritual glow under mask; lower neck and settle.",
+        "death": "Antlers tilt as forelegs buckle; massive body rolls onto side, mask stays attached, mane and pennants settle into a coherent fallen beast."
+      }
+    },
+    {
+      "id": "sts2_kin_follower",
+      "name": "苔誓卫",
+      "act": 1,
+      "region": "overgrowth",
+      "type": "knight",
+      "width": 512,
+      "height": 512,
+      "ground": 430,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.16015625
+      },
+      "still": "art/boss-frames-v1/sts2_kin_follower/still.png",
+      "actions": {
+        "idle": {
+          "frameCount": 16,
+          "fps": 12,
+          "loop": true,
+          "holdLastFrame": false,
+          "events": [],
+          "duration": 1.3333333333333333,
+          "frames": [
+            "art/boss-frames-v1/sts2_kin_follower/idle_00.png",
+            "art/boss-frames-v1/sts2_kin_follower/idle_01.png",
+            "art/boss-frames-v1/sts2_kin_follower/idle_02.png",
+            "art/boss-frames-v1/sts2_kin_follower/idle_03.png",
+            "art/boss-frames-v1/sts2_kin_follower/idle_04.png",
+            "art/boss-frames-v1/sts2_kin_follower/idle_05.png",
+            "art/boss-frames-v1/sts2_kin_follower/idle_06.png",
+            "art/boss-frames-v1/sts2_kin_follower/idle_07.png",
+            "art/boss-frames-v1/sts2_kin_follower/idle_08.png",
+            "art/boss-frames-v1/sts2_kin_follower/idle_09.png",
+            "art/boss-frames-v1/sts2_kin_follower/idle_10.png",
+            "art/boss-frames-v1/sts2_kin_follower/idle_11.png",
+            "art/boss-frames-v1/sts2_kin_follower/idle_12.png",
+            "art/boss-frames-v1/sts2_kin_follower/idle_13.png",
+            "art/boss-frames-v1/sts2_kin_follower/idle_14.png",
+            "art/boss-frames-v1/sts2_kin_follower/idle_15.png"
+          ],
+          "uniqueFrames": 16,
+          "method": "image_gen_16_consecutive_poses_fixed_cell_camera"
+        },
+        "hit": {
+          "frameCount": 16,
+          "fps": 16,
+          "loop": false,
+          "holdLastFrame": false,
+          "events": [
+            {
+              "frame": 3,
+              "type": "sound",
+              "clip": "hit"
+            }
+          ],
+          "duration": 1,
+          "frames": [
+            "art/boss-frames-v1/sts2_kin_follower/hit_00.png",
+            "art/boss-frames-v1/sts2_kin_follower/hit_01.png",
+            "art/boss-frames-v1/sts2_kin_follower/hit_02.png",
+            "art/boss-frames-v1/sts2_kin_follower/hit_03.png",
+            "art/boss-frames-v1/sts2_kin_follower/hit_04.png",
+            "art/boss-frames-v1/sts2_kin_follower/hit_05.png",
+            "art/boss-frames-v1/sts2_kin_follower/hit_06.png",
+            "art/boss-frames-v1/sts2_kin_follower/hit_07.png",
+            "art/boss-frames-v1/sts2_kin_follower/hit_08.png",
+            "art/boss-frames-v1/sts2_kin_follower/hit_09.png",
+            "art/boss-frames-v1/sts2_kin_follower/hit_10.png",
+            "art/boss-frames-v1/sts2_kin_follower/hit_11.png",
+            "art/boss-frames-v1/sts2_kin_follower/hit_12.png",
+            "art/boss-frames-v1/sts2_kin_follower/hit_13.png",
+            "art/boss-frames-v1/sts2_kin_follower/hit_14.png",
+            "art/boss-frames-v1/sts2_kin_follower/hit_15.png"
+          ],
+          "uniqueFrames": 16,
+          "method": "image_gen_16_consecutive_poses_fixed_cell_camera"
+        },
+        "cast": {
+          "frameCount": 16,
+          "fps": 16,
+          "loop": false,
+          "holdLastFrame": false,
+          "events": [
+            {
+              "frame": 3,
+              "type": "sound",
+              "clip": "windup"
+            },
+            {
+              "frame": 7,
+              "type": "effect",
+              "effect": "fx"
+            },
+            {
+              "frame": 8,
+              "type": "sound",
+              "clip": "skill"
+            }
+          ],
+          "duration": 1,
+          "frames": [
+            "art/boss-frames-v1/sts2_kin_follower/cast_00.png",
+            "art/boss-frames-v1/sts2_kin_follower/cast_01.png",
+            "art/boss-frames-v1/sts2_kin_follower/cast_02.png",
+            "art/boss-frames-v1/sts2_kin_follower/cast_03.png",
+            "art/boss-frames-v1/sts2_kin_follower/cast_04.png",
+            "art/boss-frames-v1/sts2_kin_follower/cast_05.png",
+            "art/boss-frames-v1/sts2_kin_follower/cast_06.png",
+            "art/boss-frames-v1/sts2_kin_follower/cast_07.png",
+            "art/boss-frames-v1/sts2_kin_follower/cast_08.png",
+            "art/boss-frames-v1/sts2_kin_follower/cast_09.png",
+            "art/boss-frames-v1/sts2_kin_follower/cast_10.png",
+            "art/boss-frames-v1/sts2_kin_follower/cast_11.png",
+            "art/boss-frames-v1/sts2_kin_follower/cast_12.png",
+            "art/boss-frames-v1/sts2_kin_follower/cast_13.png",
+            "art/boss-frames-v1/sts2_kin_follower/cast_14.png",
+            "art/boss-frames-v1/sts2_kin_follower/cast_15.png"
+          ],
+          "uniqueFrames": 16,
+          "method": "image_gen_16_consecutive_poses_fixed_cell_camera"
+        },
+        "attack": {
+          "frames": [
+            "art/boss-frames-v1/sts2_kin_follower/attack_v2_00.png",
+            "art/boss-frames-v1/sts2_kin_follower/attack_v2_01.png",
+            "art/boss-frames-v1/sts2_kin_follower/attack_v2_02.png",
+            "art/boss-frames-v1/sts2_kin_follower/attack_v2_03.png",
+            "art/boss-frames-v1/sts2_kin_follower/attack_v2_04.png",
+            "art/boss-frames-v1/sts2_kin_follower/attack_v2_05.png",
+            "art/boss-frames-v1/sts2_kin_follower/attack_v2_06.png",
+            "art/boss-frames-v1/sts2_kin_follower/attack_v2_07.png",
+            "art/boss-frames-v1/sts2_kin_follower/attack_v2_08.png",
+            "art/boss-frames-v1/sts2_kin_follower/attack_v2_09.png",
+            "art/boss-frames-v1/sts2_kin_follower/attack_v2_10.png",
+            "art/boss-frames-v1/sts2_kin_follower/attack_v2_11.png",
+            "art/boss-frames-v1/sts2_kin_follower/attack_v2_12.png",
+            "art/boss-frames-v1/sts2_kin_follower/attack_v2_13.png",
+            "art/boss-frames-v1/sts2_kin_follower/attack_v2_14.png",
+            "art/boss-frames-v1/sts2_kin_follower/attack_v2_15.png"
+          ],
+          "fps": 16,
+          "duration": 1,
+          "loop": false,
+          "holdLastFrame": false,
+          "uniqueFrames": 16,
+          "method": "image_gen_16_consecutive_poses",
+          "events": [
+            {
+              "frame": 3,
+              "type": "sound",
+              "clip": "windup"
+            },
+            {
+              "frame": 7,
+              "type": "effect",
+              "effect": "fx"
+            },
+            {
+              "frame": 8,
+              "type": "sound",
+              "clip": "attack"
+            }
+          ]
+        },
+        "death": {
+          "frameCount": 16,
+          "fps": 12,
+          "loop": false,
+          "holdLastFrame": true,
+          "events": [
+            {
+              "frame": 4,
+              "type": "sound",
+              "clip": "death"
+            }
+          ],
+          "duration": 1.3333333333333333,
+          "frames": [
+            "art/boss-frames-v1/sts2_kin_follower/death_00.png",
+            "art/boss-frames-v1/sts2_kin_follower/death_01.png",
+            "art/boss-frames-v1/sts2_kin_follower/death_02.png",
+            "art/boss-frames-v1/sts2_kin_follower/death_03.png",
+            "art/boss-frames-v1/sts2_kin_follower/death_04.png",
+            "art/boss-frames-v1/sts2_kin_follower/death_05.png",
+            "art/boss-frames-v1/sts2_kin_follower/death_06.png",
+            "art/boss-frames-v1/sts2_kin_follower/death_07.png",
+            "art/boss-frames-v1/sts2_kin_follower/death_08.png",
+            "art/boss-frames-v1/sts2_kin_follower/death_09.png",
+            "art/boss-frames-v1/sts2_kin_follower/death_10.png",
+            "art/boss-frames-v1/sts2_kin_follower/death_11.png",
+            "art/boss-frames-v1/sts2_kin_follower/death_12.png",
+            "art/boss-frames-v1/sts2_kin_follower/death_13.png",
+            "art/boss-frames-v1/sts2_kin_follower/death_14.png",
+            "art/boss-frames-v1/sts2_kin_follower/death_15.png"
+          ],
+          "uniqueFrames": 16,
+          "method": "image_gen_16_consecutive_poses_fixed_cell_camera"
+        }
+      },
+      "effect": {
+        "frameCount": 16,
+        "fps": 16,
+        "loop": false,
+        "holdLastFrame": false,
+        "events": [],
+        "duration": 1,
+        "frames": [
+          "art/boss-frames-v1/sts2_kin_follower/fx_00.png",
+          "art/boss-frames-v1/sts2_kin_follower/fx_01.png",
+          "art/boss-frames-v1/sts2_kin_follower/fx_02.png",
+          "art/boss-frames-v1/sts2_kin_follower/fx_03.png",
+          "art/boss-frames-v1/sts2_kin_follower/fx_04.png",
+          "art/boss-frames-v1/sts2_kin_follower/fx_05.png",
+          "art/boss-frames-v1/sts2_kin_follower/fx_06.png",
+          "art/boss-frames-v1/sts2_kin_follower/fx_07.png",
+          "art/boss-frames-v1/sts2_kin_follower/fx_08.png",
+          "art/boss-frames-v1/sts2_kin_follower/fx_09.png",
+          "art/boss-frames-v1/sts2_kin_follower/fx_10.png",
+          "art/boss-frames-v1/sts2_kin_follower/fx_11.png",
+          "art/boss-frames-v1/sts2_kin_follower/fx_12.png",
+          "art/boss-frames-v1/sts2_kin_follower/fx_13.png",
+          "art/boss-frames-v1/sts2_kin_follower/fx_14.png",
+          "art/boss-frames-v1/sts2_kin_follower/fx_15.png"
+        ],
+        "uniqueFrames": 16,
+        "method": "image_gen_16_consecutive_poses_fixed_cell_camera"
+      },
+      "audio": {
+        "windup": "audio/sfx/boss-frames-v1/sts2_kin_follower_windup.mp3",
+        "attack": "audio/sfx/boss-frames-v1/sts2_kin_follower_attack.mp3",
+        "skill": "audio/sfx/boss-frames-v1/sts2_kin_follower_skill.mp3",
+        "hit": "audio/sfx/boss-frames-v1/sts2_kin_follower_hit.mp3",
+        "death": "audio/sfx/boss-frames-v1/sts2_kin_follower_death.mp3"
+      },
+      "assetReady": true,
+      "visualApproved": true,
+      "signature": "31c08ab3fcd8795366213944e7f19e7cb02c221035251a1a3cbfb682928cccef",
+      "sourceIssues": [],
+      "stage": "assets_and_standalone_preview",
+      "design": {
+        "identity": "Thin masked woodland ritual follower, ivory crescent bone mask, charcoal face void, short moss-green feather mantle, burgundy waist wraps, two bare clawed feet, one curved ivory bone blade held in right hand, left hand empty.",
+        "idle": "Feet brace, bent knees pulse, masked head scans, forearms flex and bone blade tilts visibly, mantle sways in a seamless cycle.",
+        "attack": "单次连贯的弧形斩击。右手连续举刃、转肩向左下挥，顺势压低重心，刀尖沿原弧收回。",
+        "cast": "Squat and fold elbows, rise high on bent legs, both arms sweep into a wide ritual dance, mask bows and mantle flares; settle.",
+        "death": "Blade slips to ground, knees fold, masked body falls sideways and mantle settles; no disappearance."
+      }
+    },
+    {
+      "id": "sts2_kin_priest",
+      "name": "蚀林祭官",
+      "act": 1,
+      "region": "overgrowth",
+      "type": "gate",
+      "width": 512,
+      "height": 512,
+      "ground": 430,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.16015625
+      },
+      "still": "art/boss-frames-v1/sts2_kin_priest/still.png",
+      "actions": {
+        "idle": {
+          "frameCount": 16,
+          "fps": 12,
+          "loop": true,
+          "holdLastFrame": false,
+          "events": [],
+          "duration": 1.3333333333333333,
+          "frames": [
+            "art/boss-frames-v1/sts2_kin_priest/idle_00.png",
+            "art/boss-frames-v1/sts2_kin_priest/idle_01.png",
+            "art/boss-frames-v1/sts2_kin_priest/idle_02.png",
+            "art/boss-frames-v1/sts2_kin_priest/idle_03.png",
+            "art/boss-frames-v1/sts2_kin_priest/idle_04.png",
+            "art/boss-frames-v1/sts2_kin_priest/idle_05.png",
+            "art/boss-frames-v1/sts2_kin_priest/idle_06.png",
+            "art/boss-frames-v1/sts2_kin_priest/idle_07.png",
+            "art/boss-frames-v1/sts2_kin_priest/idle_08.png",
+            "art/boss-frames-v1/sts2_kin_priest/idle_09.png",
+            "art/boss-frames-v1/sts2_kin_priest/idle_10.png",
+            "art/boss-frames-v1/sts2_kin_priest/idle_11.png",
+            "art/boss-frames-v1/sts2_kin_priest/idle_12.png",
+            "art/boss-frames-v1/sts2_kin_priest/idle_13.png",
+            "art/boss-frames-v1/sts2_kin_priest/idle_14.png",
+            "art/boss-frames-v1/sts2_kin_priest/idle_15.png"
+          ],
+          "uniqueFrames": 16,
+          "method": "image_gen_16_consecutive_poses_fixed_cell_camera"
+        },
+        "hit": {
+          "frameCount": 16,
+          "fps": 16,
+          "loop": false,
+          "holdLastFrame": false,
+          "events": [
+            {
+              "frame": 3,
+              "type": "sound",
+              "clip": "hit"
+            }
+          ],
+          "duration": 1,
+          "frames": [
+            "art/boss-frames-v1/sts2_kin_priest/hit_00.png",
+            "art/boss-frames-v1/sts2_kin_priest/hit_01.png",
+            "art/boss-frames-v1/sts2_kin_priest/hit_02.png",
+            "art/boss-frames-v1/sts2_kin_priest/hit_03.png",
+            "art/boss-frames-v1/sts2_kin_priest/hit_04.png",
+            "art/boss-frames-v1/sts2_kin_priest/hit_05.png",
+            "art/boss-frames-v1/sts2_kin_priest/hit_06.png",
+            "art/boss-frames-v1/sts2_kin_priest/hit_07.png",
+            "art/boss-frames-v1/sts2_kin_priest/hit_08.png",
+            "art/boss-frames-v1/sts2_kin_priest/hit_09.png",
+            "art/boss-frames-v1/sts2_kin_priest/hit_10.png",
+            "art/boss-frames-v1/sts2_kin_priest/hit_11.png",
+            "art/boss-frames-v1/sts2_kin_priest/hit_12.png",
+            "art/boss-frames-v1/sts2_kin_priest/hit_13.png",
+            "art/boss-frames-v1/sts2_kin_priest/hit_14.png",
+            "art/boss-frames-v1/sts2_kin_priest/hit_15.png"
+          ],
+          "uniqueFrames": 16,
+          "method": "image_gen_16_consecutive_poses_fixed_cell_camera"
+        },
+        "cast": {
+          "frameCount": 16,
+          "fps": 16,
+          "loop": false,
+          "holdLastFrame": false,
+          "events": [
+            {
+              "frame": 3,
+              "type": "sound",
+              "clip": "windup"
+            },
+            {
+              "frame": 7,
+              "type": "effect",
+              "effect": "fx"
+            },
+            {
+              "frame": 8,
+              "type": "sound",
+              "clip": "skill"
+            }
+          ],
+          "duration": 1,
+          "frames": [
+            "art/boss-frames-v1/sts2_kin_priest/cast_00.png",
+            "art/boss-frames-v1/sts2_kin_priest/cast_01.png",
+            "art/boss-frames-v1/sts2_kin_priest/cast_02.png",
+            "art/boss-frames-v1/sts2_kin_priest/cast_03.png",
+            "art/boss-frames-v1/sts2_kin_priest/cast_04.png",
+            "art/boss-frames-v1/sts2_kin_priest/cast_05.png",
+            "art/boss-frames-v1/sts2_kin_priest/cast_06.png",
+            "art/boss-frames-v1/sts2_kin_priest/cast_07.png",
+            "art/boss-frames-v1/sts2_kin_priest/cast_08.png",
+            "art/boss-frames-v1/sts2_kin_priest/cast_09.png",
+            "art/boss-frames-v1/sts2_kin_priest/cast_10.png",
+            "art/boss-frames-v1/sts2_kin_priest/cast_11.png",
+            "art/boss-frames-v1/sts2_kin_priest/cast_12.png",
+            "art/boss-frames-v1/sts2_kin_priest/cast_13.png",
+            "art/boss-frames-v1/sts2_kin_priest/cast_14.png",
+            "art/boss-frames-v1/sts2_kin_priest/cast_15.png"
+          ],
+          "uniqueFrames": 16,
+          "method": "image_gen_16_consecutive_poses_fixed_cell_camera"
+        },
+        "attack": {
+          "frameCount": 16,
+          "fps": 16,
+          "loop": false,
+          "holdLastFrame": false,
+          "events": [
+            {
+              "frame": 3,
+              "type": "sound",
+              "clip": "windup"
+            },
+            {
+              "frame": 7,
+              "type": "effect",
+              "effect": "fx"
+            },
+            {
+              "frame": 8,
+              "type": "sound",
+              "clip": "attack"
+            }
+          ],
+          "duration": 1,
+          "frames": [
+            "art/boss-frames-v1/sts2_kin_priest/attack_00.png",
+            "art/boss-frames-v1/sts2_kin_priest/attack_01.png",
+            "art/boss-frames-v1/sts2_kin_priest/attack_02.png",
+            "art/boss-frames-v1/sts2_kin_priest/attack_03.png",
+            "art/boss-frames-v1/sts2_kin_priest/attack_04.png",
+            "art/boss-frames-v1/sts2_kin_priest/attack_05.png",
+            "art/boss-frames-v1/sts2_kin_priest/attack_06.png",
+            "art/boss-frames-v1/sts2_kin_priest/attack_07.png",
+            "art/boss-frames-v1/sts2_kin_priest/attack_08.png",
+            "art/boss-frames-v1/sts2_kin_priest/attack_09.png",
+            "art/boss-frames-v1/sts2_kin_priest/attack_10.png",
+            "art/boss-frames-v1/sts2_kin_priest/attack_11.png",
+            "art/boss-frames-v1/sts2_kin_priest/attack_12.png",
+            "art/boss-frames-v1/sts2_kin_priest/attack_13.png",
+            "art/boss-frames-v1/sts2_kin_priest/attack_14.png",
+            "art/boss-frames-v1/sts2_kin_priest/attack_15.png"
+          ],
+          "uniqueFrames": 16,
+          "method": "image_gen_16_consecutive_poses_fixed_cell_camera"
+        },
+        "death": {
+          "frameCount": 16,
+          "fps": 12,
+          "loop": false,
+          "holdLastFrame": true,
+          "events": [
+            {
+              "frame": 4,
+              "type": "sound",
+              "clip": "death"
+            }
+          ],
+          "duration": 1.3333333333333333,
+          "frames": [
+            "art/boss-frames-v1/sts2_kin_priest/death_00.png",
+            "art/boss-frames-v1/sts2_kin_priest/death_01.png",
+            "art/boss-frames-v1/sts2_kin_priest/death_02.png",
+            "art/boss-frames-v1/sts2_kin_priest/death_03.png",
+            "art/boss-frames-v1/sts2_kin_priest/death_04.png",
+            "art/boss-frames-v1/sts2_kin_priest/death_05.png",
+            "art/boss-frames-v1/sts2_kin_priest/death_06.png",
+            "art/boss-frames-v1/sts2_kin_priest/death_07.png",
+            "art/boss-frames-v1/sts2_kin_priest/death_08.png",
+            "art/boss-frames-v1/sts2_kin_priest/death_09.png",
+            "art/boss-frames-v1/sts2_kin_priest/death_10.png",
+            "art/boss-frames-v1/sts2_kin_priest/death_11.png",
+            "art/boss-frames-v1/sts2_kin_priest/death_12.png",
+            "art/boss-frames-v1/sts2_kin_priest/death_13.png",
+            "art/boss-frames-v1/sts2_kin_priest/death_14.png",
+            "art/boss-frames-v1/sts2_kin_priest/death_15.png"
+          ],
+          "uniqueFrames": 16,
+          "method": "image_gen_16_consecutive_poses_fixed_cell_camera"
+        }
+      },
+      "effect": {
+        "frameCount": 16,
+        "fps": 16,
+        "loop": false,
+        "holdLastFrame": false,
+        "events": [],
+        "duration": 1,
+        "frames": [
+          "art/boss-frames-v1/sts2_kin_priest/fx_00.png",
+          "art/boss-frames-v1/sts2_kin_priest/fx_01.png",
+          "art/boss-frames-v1/sts2_kin_priest/fx_02.png",
+          "art/boss-frames-v1/sts2_kin_priest/fx_03.png",
+          "art/boss-frames-v1/sts2_kin_priest/fx_04.png",
+          "art/boss-frames-v1/sts2_kin_priest/fx_05.png",
+          "art/boss-frames-v1/sts2_kin_priest/fx_06.png",
+          "art/boss-frames-v1/sts2_kin_priest/fx_07.png",
+          "art/boss-frames-v1/sts2_kin_priest/fx_08.png",
+          "art/boss-frames-v1/sts2_kin_priest/fx_09.png",
+          "art/boss-frames-v1/sts2_kin_priest/fx_10.png",
+          "art/boss-frames-v1/sts2_kin_priest/fx_11.png",
+          "art/boss-frames-v1/sts2_kin_priest/fx_12.png",
+          "art/boss-frames-v1/sts2_kin_priest/fx_13.png",
+          "art/boss-frames-v1/sts2_kin_priest/fx_14.png",
+          "art/boss-frames-v1/sts2_kin_priest/fx_15.png"
+        ],
+        "uniqueFrames": 16,
+        "method": "image_gen_16_consecutive_poses_fixed_cell_camera"
+      },
+      "audio": {
+        "windup": "audio/sfx/boss-frames-v1/sts2_kin_priest_windup.mp3",
+        "attack": "audio/sfx/boss-frames-v1/sts2_kin_priest_attack.mp3",
+        "skill": "audio/sfx/boss-frames-v1/sts2_kin_priest_skill.mp3",
+        "hit": "audio/sfx/boss-frames-v1/sts2_kin_priest_hit.mp3",
+        "death": "audio/sfx/boss-frames-v1/sts2_kin_priest_death.mp3"
+      },
+      "assetReady": true,
+      "visualApproved": true,
+      "signature": "cf1c0b90e033219f9a94e74888cf3fe23491a9bed6fb35afa8b00260f4f62afd",
+      "sourceIssues": [],
+      "stage": "assets_and_standalone_preview",
+      "design": {
+        "identity": "Tall woodland priest with a long ivory owl-bone mask, branching antler headdress, deep moss-green layered ritual robe, burgundy hanging cords, two clawed hands, right hand holds a gnarled staff with a hollow bone ring, exactly two feet beneath robe.",
+        "idle": "Substantial shoulder breathing, head bows at neck, wrists rotate and staff leans around planted tip, robe cords sway without feet skating.",
+        "attack": "Draw left palm to chest, coil entire upper body and thrust left arm LEFT, release a small attached jade orb while staff braces, recoil.",
+        "cast": "Kneel low, staff and empty left hand sweep high overhead, back arches and sleeves open wide, ring glows; recover a neutral standing silhouette.",
+        "death": "Antler crown drops forward, staff tilts and falls, knees fold under robe, priest slumps to side as jade glow fades."
+      }
+    },
+    {
+      "id": "sts2_vantom",
+      "name": "噬面之影",
+      "act": 1,
+      "region": "overgrowth",
+      "type": "prism",
+      "width": 512,
+      "height": 512,
+      "ground": 430,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.16015625
+      },
+      "still": "art/boss-frames-v1/sts2_vantom/still.png",
+      "actions": {
+        "idle": {
+          "frameCount": 16,
+          "fps": 12,
+          "loop": true,
+          "holdLastFrame": false,
+          "events": [],
+          "duration": 1.3333333333333333,
+          "frames": [
+            "art/boss-frames-v1/sts2_vantom/idle_00.png",
+            "art/boss-frames-v1/sts2_vantom/idle_01.png",
+            "art/boss-frames-v1/sts2_vantom/idle_02.png",
+            "art/boss-frames-v1/sts2_vantom/idle_03.png",
+            "art/boss-frames-v1/sts2_vantom/idle_04.png",
+            "art/boss-frames-v1/sts2_vantom/idle_05.png",
+            "art/boss-frames-v1/sts2_vantom/idle_06.png",
+            "art/boss-frames-v1/sts2_vantom/idle_07.png",
+            "art/boss-frames-v1/sts2_vantom/idle_08.png",
+            "art/boss-frames-v1/sts2_vantom/idle_09.png",
+            "art/boss-frames-v1/sts2_vantom/idle_10.png",
+            "art/boss-frames-v1/sts2_vantom/idle_11.png",
+            "art/boss-frames-v1/sts2_vantom/idle_12.png",
+            "art/boss-frames-v1/sts2_vantom/idle_13.png",
+            "art/boss-frames-v1/sts2_vantom/idle_14.png",
+            "art/boss-frames-v1/sts2_vantom/idle_15.png"
+          ],
+          "uniqueFrames": 16,
+          "method": "image_gen_16_consecutive_poses_fixed_cell_camera"
+        },
+        "hit": {
+          "frameCount": 16,
+          "fps": 16,
+          "loop": false,
+          "holdLastFrame": false,
+          "events": [
+            {
+              "frame": 3,
+              "type": "sound",
+              "clip": "hit"
+            }
+          ],
+          "duration": 1,
+          "frames": [
+            "art/boss-frames-v1/sts2_vantom/hit_00.png",
+            "art/boss-frames-v1/sts2_vantom/hit_01.png",
+            "art/boss-frames-v1/sts2_vantom/hit_02.png",
+            "art/boss-frames-v1/sts2_vantom/hit_03.png",
+            "art/boss-frames-v1/sts2_vantom/hit_04.png",
+            "art/boss-frames-v1/sts2_vantom/hit_05.png",
+            "art/boss-frames-v1/sts2_vantom/hit_06.png",
+            "art/boss-frames-v1/sts2_vantom/hit_07.png",
+            "art/boss-frames-v1/sts2_vantom/hit_08.png",
+            "art/boss-frames-v1/sts2_vantom/hit_09.png",
+            "art/boss-frames-v1/sts2_vantom/hit_10.png",
+            "art/boss-frames-v1/sts2_vantom/hit_11.png",
+            "art/boss-frames-v1/sts2_vantom/hit_12.png",
+            "art/boss-frames-v1/sts2_vantom/hit_13.png",
+            "art/boss-frames-v1/sts2_vantom/hit_14.png",
+            "art/boss-frames-v1/sts2_vantom/hit_15.png"
+          ],
+          "uniqueFrames": 16,
+          "method": "image_gen_16_consecutive_poses_fixed_cell_camera"
+        },
+        "cast": {
+          "frameCount": 16,
+          "fps": 16,
+          "loop": false,
+          "holdLastFrame": false,
+          "events": [
+            {
+              "frame": 3,
+              "type": "sound",
+              "clip": "windup"
+            },
+            {
+              "frame": 7,
+              "type": "effect",
+              "effect": "fx"
+            },
+            {
+              "frame": 8,
+              "type": "sound",
+              "clip": "skill"
+            }
+          ],
+          "duration": 1,
+          "frames": [
+            "art/boss-frames-v1/sts2_vantom/cast_00.png",
+            "art/boss-frames-v1/sts2_vantom/cast_01.png",
+            "art/boss-frames-v1/sts2_vantom/cast_02.png",
+            "art/boss-frames-v1/sts2_vantom/cast_03.png",
+            "art/boss-frames-v1/sts2_vantom/cast_04.png",
+            "art/boss-frames-v1/sts2_vantom/cast_05.png",
+            "art/boss-frames-v1/sts2_vantom/cast_06.png",
+            "art/boss-frames-v1/sts2_vantom/cast_07.png",
+            "art/boss-frames-v1/sts2_vantom/cast_08.png",
+            "art/boss-frames-v1/sts2_vantom/cast_09.png",
+            "art/boss-frames-v1/sts2_vantom/cast_10.png",
+            "art/boss-frames-v1/sts2_vantom/cast_11.png",
+            "art/boss-frames-v1/sts2_vantom/cast_12.png",
+            "art/boss-frames-v1/sts2_vantom/cast_13.png",
+            "art/boss-frames-v1/sts2_vantom/cast_14.png",
+            "art/boss-frames-v1/sts2_vantom/cast_15.png"
+          ],
+          "uniqueFrames": 16,
+          "method": "image_gen_16_consecutive_poses_fixed_cell_camera"
+        },
+        "attack": {
+          "frameCount": 16,
+          "fps": 16,
+          "loop": false,
+          "holdLastFrame": false,
+          "events": [
+            {
+              "frame": 3,
+              "type": "sound",
+              "clip": "windup"
+            },
+            {
+              "frame": 7,
+              "type": "effect",
+              "effect": "fx"
+            },
+            {
+              "frame": 8,
+              "type": "sound",
+              "clip": "attack"
+            }
+          ],
+          "duration": 1,
+          "frames": [
+            "art/boss-frames-v1/sts2_vantom/attack_00.png",
+            "art/boss-frames-v1/sts2_vantom/attack_01.png",
+            "art/boss-frames-v1/sts2_vantom/attack_02.png",
+            "art/boss-frames-v1/sts2_vantom/attack_03.png",
+            "art/boss-frames-v1/sts2_vantom/attack_04.png",
+            "art/boss-frames-v1/sts2_vantom/attack_05.png",
+            "art/boss-frames-v1/sts2_vantom/attack_06.png",
+            "art/boss-frames-v1/sts2_vantom/attack_07.png",
+            "art/boss-frames-v1/sts2_vantom/attack_08.png",
+            "art/boss-frames-v1/sts2_vantom/attack_09.png",
+            "art/boss-frames-v1/sts2_vantom/attack_10.png",
+            "art/boss-frames-v1/sts2_vantom/attack_11.png",
+            "art/boss-frames-v1/sts2_vantom/attack_12.png",
+            "art/boss-frames-v1/sts2_vantom/attack_13.png",
+            "art/boss-frames-v1/sts2_vantom/attack_14.png",
+            "art/boss-frames-v1/sts2_vantom/attack_15.png"
+          ],
+          "uniqueFrames": 16,
+          "method": "image_gen_16_consecutive_poses_fixed_cell_camera"
+        },
+        "death": {
+          "frameCount": 16,
+          "fps": 12,
+          "loop": false,
+          "holdLastFrame": true,
+          "events": [
+            {
+              "frame": 4,
+              "type": "sound",
+              "clip": "death"
+            }
+          ],
+          "duration": 1.3333333333333333,
+          "frames": [
+            "art/boss-frames-v1/sts2_vantom/death_00.png",
+            "art/boss-frames-v1/sts2_vantom/death_01.png",
+            "art/boss-frames-v1/sts2_vantom/death_02.png",
+            "art/boss-frames-v1/sts2_vantom/death_03.png",
+            "art/boss-frames-v1/sts2_vantom/death_04.png",
+            "art/boss-frames-v1/sts2_vantom/death_05.png",
+            "art/boss-frames-v1/sts2_vantom/death_06.png",
+            "art/boss-frames-v1/sts2_vantom/death_07.png",
+            "art/boss-frames-v1/sts2_vantom/death_08.png",
+            "art/boss-frames-v1/sts2_vantom/death_09.png",
+            "art/boss-frames-v1/sts2_vantom/death_10.png",
+            "art/boss-frames-v1/sts2_vantom/death_11.png",
+            "art/boss-frames-v1/sts2_vantom/death_12.png",
+            "art/boss-frames-v1/sts2_vantom/death_13.png",
+            "art/boss-frames-v1/sts2_vantom/death_14.png",
+            "art/boss-frames-v1/sts2_vantom/death_15.png"
+          ],
+          "uniqueFrames": 16,
+          "method": "image_gen_16_consecutive_poses_fixed_cell_camera"
+        }
+      },
+      "effect": {
+        "frameCount": 16,
+        "fps": 16,
+        "loop": false,
+        "holdLastFrame": false,
+        "events": [],
+        "duration": 1,
+        "frames": [
+          "art/boss-frames-v1/sts2_vantom/fx_00.png",
+          "art/boss-frames-v1/sts2_vantom/fx_01.png",
+          "art/boss-frames-v1/sts2_vantom/fx_02.png",
+          "art/boss-frames-v1/sts2_vantom/fx_03.png",
+          "art/boss-frames-v1/sts2_vantom/fx_04.png",
+          "art/boss-frames-v1/sts2_vantom/fx_05.png",
+          "art/boss-frames-v1/sts2_vantom/fx_06.png",
+          "art/boss-frames-v1/sts2_vantom/fx_07.png",
+          "art/boss-frames-v1/sts2_vantom/fx_08.png",
+          "art/boss-frames-v1/sts2_vantom/fx_09.png",
+          "art/boss-frames-v1/sts2_vantom/fx_10.png",
+          "art/boss-frames-v1/sts2_vantom/fx_11.png",
+          "art/boss-frames-v1/sts2_vantom/fx_12.png",
+          "art/boss-frames-v1/sts2_vantom/fx_13.png",
+          "art/boss-frames-v1/sts2_vantom/fx_14.png",
+          "art/boss-frames-v1/sts2_vantom/fx_15.png"
+        ],
+        "uniqueFrames": 16,
+        "method": "image_gen_16_consecutive_poses_fixed_cell_camera"
+      },
+      "audio": {
+        "windup": "audio/sfx/boss-frames-v1/sts2_vantom_windup.mp3",
+        "attack": "audio/sfx/boss-frames-v1/sts2_vantom_attack.mp3",
+        "skill": "audio/sfx/boss-frames-v1/sts2_vantom_skill.mp3",
+        "hit": "audio/sfx/boss-frames-v1/sts2_vantom_hit.mp3",
+        "death": "audio/sfx/boss-frames-v1/sts2_vantom_death.mp3"
+      },
+      "assetReady": true,
+      "visualApproved": true,
+      "signature": "538bb06363233403e77da90acecccfe9035fb63848d467119f940ebfc371dbae",
+      "sourceIssues": [],
+      "stage": "assets_and_standalone_preview",
+      "design": {
+        "identity": "Floating dark violet-black shadow creature beneath one large cracked ivory theater face mask, three smaller blank masks hanging on thin black tendrils, two long ribbon-like claw arms, lower body tapers into three curling ink tails; no legs.",
+        "idle": "Main mask nods clearly, claw elbows unfold and curl, three tails counterwave and hanging masks swing; central mask remains near fixed hover height.",
+        "attack": "Main mask coils back, two long arms gather, one claw drives a pronounced LEFT spear thrust with body twist then retracts.",
+        "cast": "Main mask tilts aside to reveal a dark face void, three masks orbit through distinct positions while arms open extremely wide; re-mask and reset.",
+        "death": "Mask cracks into a few large coherent pieces, tendrils lose tension, shadow unravels downward into curled ribbons and settled mask shards."
+      }
+    },
+    {
+      "id": "sts2_lagavulin_matriarch",
+      "name": "礁壳母",
+      "act": 1,
+      "region": "underdocks",
+      "type": "coral",
+      "width": 512,
+      "height": 512,
+      "ground": 430,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.16015625
+      },
+      "still": "art/boss-frames-v1/sts2_lagavulin_matriarch/still.png",
+      "actions": {
+        "idle": {
+          "frameCount": 16,
+          "fps": 12,
+          "loop": true,
+          "holdLastFrame": false,
+          "events": [],
+          "duration": 1.3333333333333333,
+          "frames": [
+            "art/boss-frames-v1/sts2_lagavulin_matriarch/idle_subtle_00.png",
+            "art/boss-frames-v1/sts2_lagavulin_matriarch/idle_subtle_01.png",
+            "art/boss-frames-v1/sts2_lagavulin_matriarch/idle_subtle_02.png",
+            "art/boss-frames-v1/sts2_lagavulin_matriarch/idle_subtle_03.png",
+            "art/boss-frames-v1/sts2_lagavulin_matriarch/idle_subtle_04.png",
+            "art/boss-frames-v1/sts2_lagavulin_matriarch/idle_subtle_05.png",
+            "art/boss-frames-v1/sts2_lagavulin_matriarch/idle_subtle_06.png",
+            "art/boss-frames-v1/sts2_lagavulin_matriarch/idle_subtle_07.png",
+            "art/boss-frames-v1/sts2_lagavulin_matriarch/idle_subtle_08.png",
+            "art/boss-frames-v1/sts2_lagavulin_matriarch/idle_subtle_09.png",
+            "art/boss-frames-v1/sts2_lagavulin_matriarch/idle_subtle_10.png",
+            "art/boss-frames-v1/sts2_lagavulin_matriarch/idle_subtle_11.png",
+            "art/boss-frames-v1/sts2_lagavulin_matriarch/idle_subtle_12.png",
+            "art/boss-frames-v1/sts2_lagavulin_matriarch/idle_subtle_13.png",
+            "art/boss-frames-v1/sts2_lagavulin_matriarch/idle_subtle_14.png",
+            "art/boss-frames-v1/sts2_lagavulin_matriarch/idle_subtle_15.png"
+          ],
+          "uniqueFrames": 16,
+          "method": "original_art_local_subtle_idle_v1",
+          "fixedRegions": [
+            {
+              "id": "ground-contact",
+              "left": 0,
+              "top": 393,
+              "width": 512,
+              "height": 119
+            },
+            {
+              "id": "reef-shell",
+              "left": 253,
+              "top": 258,
+              "width": 100,
+              "height": 135
+            }
+          ]
+        },
+        "hit": {
+          "frameCount": 16,
+          "fps": 16,
+          "loop": false,
+          "holdLastFrame": false,
+          "events": [
+            {
+              "frame": 3,
+              "type": "sound",
+              "clip": "hit"
+            }
+          ],
+          "duration": 1,
+          "frames": [
+            "art/boss-frames-v1/sts2_lagavulin_matriarch/hit_00.png",
+            "art/boss-frames-v1/sts2_lagavulin_matriarch/hit_01.png",
+            "art/boss-frames-v1/sts2_lagavulin_matriarch/hit_02.png",
+            "art/boss-frames-v1/sts2_lagavulin_matriarch/hit_03.png",
+            "art/boss-frames-v1/sts2_lagavulin_matriarch/hit_04.png",
+            "art/boss-frames-v1/sts2_lagavulin_matriarch/hit_05.png",
+            "art/boss-frames-v1/sts2_lagavulin_matriarch/hit_06.png",
+            "art/boss-frames-v1/sts2_lagavulin_matriarch/hit_07.png",
+            "art/boss-frames-v1/sts2_lagavulin_matriarch/hit_08.png",
+            "art/boss-frames-v1/sts2_lagavulin_matriarch/hit_09.png",
+            "art/boss-frames-v1/sts2_lagavulin_matriarch/hit_10.png",
+            "art/boss-frames-v1/sts2_lagavulin_matriarch/hit_11.png",
+            "art/boss-frames-v1/sts2_lagavulin_matriarch/hit_12.png",
+            "art/boss-frames-v1/sts2_lagavulin_matriarch/hit_13.png",
+            "art/boss-frames-v1/sts2_lagavulin_matriarch/hit_14.png",
+            "art/boss-frames-v1/sts2_lagavulin_matriarch/hit_15.png"
+          ],
+          "uniqueFrames": 16,
+          "method": "image_gen_16_consecutive_poses_fixed_cell_camera"
+        },
+        "cast": {
+          "frameCount": 16,
+          "fps": 16,
+          "loop": false,
+          "holdLastFrame": false,
+          "events": [
+            {
+              "frame": 3,
+              "type": "sound",
+              "clip": "windup"
+            },
+            {
+              "frame": 7,
+              "type": "effect",
+              "effect": "fx"
+            },
+            {
+              "frame": 8,
+              "type": "sound",
+              "clip": "skill"
+            }
+          ],
+          "duration": 1,
+          "frames": [
+            "art/boss-frames-v1/sts2_lagavulin_matriarch/cast_00.png",
+            "art/boss-frames-v1/sts2_lagavulin_matriarch/cast_01.png",
+            "art/boss-frames-v1/sts2_lagavulin_matriarch/cast_02.png",
+            "art/boss-frames-v1/sts2_lagavulin_matriarch/cast_03.png",
+            "art/boss-frames-v1/sts2_lagavulin_matriarch/cast_04.png",
+            "art/boss-frames-v1/sts2_lagavulin_matriarch/cast_05.png",
+            "art/boss-frames-v1/sts2_lagavulin_matriarch/cast_06.png",
+            "art/boss-frames-v1/sts2_lagavulin_matriarch/cast_07.png",
+            "art/boss-frames-v1/sts2_lagavulin_matriarch/cast_08.png",
+            "art/boss-frames-v1/sts2_lagavulin_matriarch/cast_09.png",
+            "art/boss-frames-v1/sts2_lagavulin_matriarch/cast_10.png",
+            "art/boss-frames-v1/sts2_lagavulin_matriarch/cast_11.png",
+            "art/boss-frames-v1/sts2_lagavulin_matriarch/cast_12.png",
+            "art/boss-frames-v1/sts2_lagavulin_matriarch/cast_13.png",
+            "art/boss-frames-v1/sts2_lagavulin_matriarch/cast_14.png",
+            "art/boss-frames-v1/sts2_lagavulin_matriarch/cast_15.png"
+          ],
+          "uniqueFrames": 16,
+          "method": "image_gen_16_consecutive_poses_fixed_cell_camera"
+        },
+        "attack": {
+          "frameCount": 16,
+          "fps": 16,
+          "loop": false,
+          "holdLastFrame": false,
+          "events": [
+            {
+              "frame": 3,
+              "type": "sound",
+              "clip": "windup"
+            },
+            {
+              "frame": 7,
+              "type": "effect",
+              "effect": "fx"
+            },
+            {
+              "frame": 8,
+              "type": "sound",
+              "clip": "attack"
+            }
+          ],
+          "duration": 1,
+          "frames": [
+            "art/boss-frames-v1/sts2_lagavulin_matriarch/attack_00.png",
+            "art/boss-frames-v1/sts2_lagavulin_matriarch/attack_01.png",
+            "art/boss-frames-v1/sts2_lagavulin_matriarch/attack_02.png",
+            "art/boss-frames-v1/sts2_lagavulin_matriarch/attack_03.png",
+            "art/boss-frames-v1/sts2_lagavulin_matriarch/attack_04.png",
+            "art/boss-frames-v1/sts2_lagavulin_matriarch/attack_05.png",
+            "art/boss-frames-v1/sts2_lagavulin_matriarch/attack_06.png",
+            "art/boss-frames-v1/sts2_lagavulin_matriarch/attack_07.png",
+            "art/boss-frames-v1/sts2_lagavulin_matriarch/attack_08.png",
+            "art/boss-frames-v1/sts2_lagavulin_matriarch/attack_09.png",
+            "art/boss-frames-v1/sts2_lagavulin_matriarch/attack_10.png",
+            "art/boss-frames-v1/sts2_lagavulin_matriarch/attack_11.png",
+            "art/boss-frames-v1/sts2_lagavulin_matriarch/attack_12.png",
+            "art/boss-frames-v1/sts2_lagavulin_matriarch/attack_13.png",
+            "art/boss-frames-v1/sts2_lagavulin_matriarch/attack_14.png",
+            "art/boss-frames-v1/sts2_lagavulin_matriarch/attack_15.png"
+          ],
+          "uniqueFrames": 16,
+          "method": "image_gen_16_consecutive_poses_fixed_cell_camera"
+        },
+        "death": {
+          "frameCount": 16,
+          "fps": 12,
+          "loop": false,
+          "holdLastFrame": true,
+          "events": [
+            {
+              "frame": 4,
+              "type": "sound",
+              "clip": "death"
+            }
+          ],
+          "duration": 1.3333333333333333,
+          "frames": [
+            "art/boss-frames-v1/sts2_lagavulin_matriarch/death_00.png",
+            "art/boss-frames-v1/sts2_lagavulin_matriarch/death_01.png",
+            "art/boss-frames-v1/sts2_lagavulin_matriarch/death_02.png",
+            "art/boss-frames-v1/sts2_lagavulin_matriarch/death_03.png",
+            "art/boss-frames-v1/sts2_lagavulin_matriarch/death_04.png",
+            "art/boss-frames-v1/sts2_lagavulin_matriarch/death_05.png",
+            "art/boss-frames-v1/sts2_lagavulin_matriarch/death_06.png",
+            "art/boss-frames-v1/sts2_lagavulin_matriarch/death_07.png",
+            "art/boss-frames-v1/sts2_lagavulin_matriarch/death_08.png",
+            "art/boss-frames-v1/sts2_lagavulin_matriarch/death_09.png",
+            "art/boss-frames-v1/sts2_lagavulin_matriarch/death_10.png",
+            "art/boss-frames-v1/sts2_lagavulin_matriarch/death_11.png",
+            "art/boss-frames-v1/sts2_lagavulin_matriarch/death_12.png",
+            "art/boss-frames-v1/sts2_lagavulin_matriarch/death_13.png",
+            "art/boss-frames-v1/sts2_lagavulin_matriarch/death_14.png",
+            "art/boss-frames-v1/sts2_lagavulin_matriarch/death_15.png"
+          ],
+          "uniqueFrames": 16,
+          "method": "image_gen_16_consecutive_poses_fixed_cell_camera"
+        }
+      },
+      "effect": {
+        "frameCount": 16,
+        "fps": 16,
+        "loop": false,
+        "holdLastFrame": false,
+        "events": [],
+        "duration": 1,
+        "frames": [
+          "art/boss-frames-v1/sts2_lagavulin_matriarch/fx_00.png",
+          "art/boss-frames-v1/sts2_lagavulin_matriarch/fx_01.png",
+          "art/boss-frames-v1/sts2_lagavulin_matriarch/fx_02.png",
+          "art/boss-frames-v1/sts2_lagavulin_matriarch/fx_03.png",
+          "art/boss-frames-v1/sts2_lagavulin_matriarch/fx_04.png",
+          "art/boss-frames-v1/sts2_lagavulin_matriarch/fx_05.png",
+          "art/boss-frames-v1/sts2_lagavulin_matriarch/fx_06.png",
+          "art/boss-frames-v1/sts2_lagavulin_matriarch/fx_07.png",
+          "art/boss-frames-v1/sts2_lagavulin_matriarch/fx_08.png",
+          "art/boss-frames-v1/sts2_lagavulin_matriarch/fx_09.png",
+          "art/boss-frames-v1/sts2_lagavulin_matriarch/fx_10.png",
+          "art/boss-frames-v1/sts2_lagavulin_matriarch/fx_11.png",
+          "art/boss-frames-v1/sts2_lagavulin_matriarch/fx_12.png",
+          "art/boss-frames-v1/sts2_lagavulin_matriarch/fx_13.png",
+          "art/boss-frames-v1/sts2_lagavulin_matriarch/fx_14.png",
+          "art/boss-frames-v1/sts2_lagavulin_matriarch/fx_15.png"
+        ],
+        "uniqueFrames": 16,
+        "method": "image_gen_16_consecutive_poses_fixed_cell_camera"
+      },
+      "audio": {
+        "windup": "audio/sfx/boss-frames-v1/sts2_lagavulin_matriarch_windup.mp3",
+        "attack": "audio/sfx/boss-frames-v1/sts2_lagavulin_matriarch_attack.mp3",
+        "skill": "audio/sfx/boss-frames-v1/sts2_lagavulin_matriarch_skill.mp3",
+        "hit": "audio/sfx/boss-frames-v1/sts2_lagavulin_matriarch_hit.mp3",
+        "death": "audio/sfx/boss-frames-v1/sts2_lagavulin_matriarch_death.mp3"
+      },
+      "assetReady": true,
+      "visualApproved": true,
+      "signature": "91b6053ce25ea138a91c98641a38c3fd370ab4df373007aabb8abca215de9a1b",
+      "sourceIssues": [],
+      "stage": "assets_and_standalone_preview",
+      "design": {
+        "identity": "Preserve reference exactly: massive coiled slate-blue ridged reef shell with pale barnacle holes, long ivory bony neck and hooked face, single cyan eye, hanging green algae, two long ivory scythe foreclaws and short supporting shell legs.",
+        "idle": "Shell remains planted while long neck lifts and curls, foreclaw joints open and fold, algae swings with breathing in a clear seamless cycle.",
+        "attack": "Retract head, raise both scythe foreclaws high, slash them LEFT in alternating heavy arcs, neck follows then recoil.",
+        "cast": "Neck extends very high, shell mantle hinges open slightly, claws spread wide and cyan soul siphon gathers at mouth; close and lower.",
+        "death": "Cyan eye extinguishes, scythe limbs fold inward, long neck slumps over grounded shell, algae and foreclaws settle coherently."
+      }
+    },
+    {
+      "id": "sts2_soul_fysh",
+      "name": "啖魂鱼",
+      "act": 1,
+      "region": "underdocks",
+      "type": "eel",
+      "width": 512,
+      "height": 512,
+      "ground": 430,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.16015625
+      },
+      "still": "art/boss-frames-v1/sts2_soul_fysh/still.png",
+      "actions": {
+        "idle": {
+          "frameCount": 16,
+          "fps": 12,
+          "loop": true,
+          "holdLastFrame": false,
+          "events": [],
+          "duration": 1.3333333333333333,
+          "frames": [
+            "art/boss-frames-v1/sts2_soul_fysh/idle_00.png",
+            "art/boss-frames-v1/sts2_soul_fysh/idle_01.png",
+            "art/boss-frames-v1/sts2_soul_fysh/idle_02.png",
+            "art/boss-frames-v1/sts2_soul_fysh/idle_03.png",
+            "art/boss-frames-v1/sts2_soul_fysh/idle_04.png",
+            "art/boss-frames-v1/sts2_soul_fysh/idle_05.png",
+            "art/boss-frames-v1/sts2_soul_fysh/idle_06.png",
+            "art/boss-frames-v1/sts2_soul_fysh/idle_07.png",
+            "art/boss-frames-v1/sts2_soul_fysh/idle_08.png",
+            "art/boss-frames-v1/sts2_soul_fysh/idle_09.png",
+            "art/boss-frames-v1/sts2_soul_fysh/idle_10.png",
+            "art/boss-frames-v1/sts2_soul_fysh/idle_11.png",
+            "art/boss-frames-v1/sts2_soul_fysh/idle_12.png",
+            "art/boss-frames-v1/sts2_soul_fysh/idle_13.png",
+            "art/boss-frames-v1/sts2_soul_fysh/idle_14.png",
+            "art/boss-frames-v1/sts2_soul_fysh/idle_15.png"
+          ],
+          "uniqueFrames": 16,
+          "method": "image_gen_16_consecutive_poses_fixed_cell_camera"
+        },
+        "hit": {
+          "frameCount": 16,
+          "fps": 16,
+          "loop": false,
+          "holdLastFrame": false,
+          "events": [
+            {
+              "frame": 3,
+              "type": "sound",
+              "clip": "hit"
+            }
+          ],
+          "duration": 1,
+          "frames": [
+            "art/boss-frames-v1/sts2_soul_fysh/hit_00.png",
+            "art/boss-frames-v1/sts2_soul_fysh/hit_01.png",
+            "art/boss-frames-v1/sts2_soul_fysh/hit_02.png",
+            "art/boss-frames-v1/sts2_soul_fysh/hit_03.png",
+            "art/boss-frames-v1/sts2_soul_fysh/hit_04.png",
+            "art/boss-frames-v1/sts2_soul_fysh/hit_05.png",
+            "art/boss-frames-v1/sts2_soul_fysh/hit_06.png",
+            "art/boss-frames-v1/sts2_soul_fysh/hit_07.png",
+            "art/boss-frames-v1/sts2_soul_fysh/hit_08.png",
+            "art/boss-frames-v1/sts2_soul_fysh/hit_09.png",
+            "art/boss-frames-v1/sts2_soul_fysh/hit_10.png",
+            "art/boss-frames-v1/sts2_soul_fysh/hit_11.png",
+            "art/boss-frames-v1/sts2_soul_fysh/hit_12.png",
+            "art/boss-frames-v1/sts2_soul_fysh/hit_13.png",
+            "art/boss-frames-v1/sts2_soul_fysh/hit_14.png",
+            "art/boss-frames-v1/sts2_soul_fysh/hit_15.png"
+          ],
+          "uniqueFrames": 16,
+          "method": "image_gen_16_consecutive_poses_fixed_cell_camera"
+        },
+        "cast": {
+          "frameCount": 16,
+          "fps": 16,
+          "loop": false,
+          "holdLastFrame": false,
+          "events": [
+            {
+              "frame": 3,
+              "type": "sound",
+              "clip": "windup"
+            },
+            {
+              "frame": 7,
+              "type": "effect",
+              "effect": "fx"
+            },
+            {
+              "frame": 8,
+              "type": "sound",
+              "clip": "skill"
+            }
+          ],
+          "duration": 1,
+          "frames": [
+            "art/boss-frames-v1/sts2_soul_fysh/cast_00.png",
+            "art/boss-frames-v1/sts2_soul_fysh/cast_01.png",
+            "art/boss-frames-v1/sts2_soul_fysh/cast_02.png",
+            "art/boss-frames-v1/sts2_soul_fysh/cast_03.png",
+            "art/boss-frames-v1/sts2_soul_fysh/cast_04.png",
+            "art/boss-frames-v1/sts2_soul_fysh/cast_05.png",
+            "art/boss-frames-v1/sts2_soul_fysh/cast_06.png",
+            "art/boss-frames-v1/sts2_soul_fysh/cast_07.png",
+            "art/boss-frames-v1/sts2_soul_fysh/cast_08.png",
+            "art/boss-frames-v1/sts2_soul_fysh/cast_09.png",
+            "art/boss-frames-v1/sts2_soul_fysh/cast_10.png",
+            "art/boss-frames-v1/sts2_soul_fysh/cast_11.png",
+            "art/boss-frames-v1/sts2_soul_fysh/cast_12.png",
+            "art/boss-frames-v1/sts2_soul_fysh/cast_13.png",
+            "art/boss-frames-v1/sts2_soul_fysh/cast_14.png",
+            "art/boss-frames-v1/sts2_soul_fysh/cast_15.png"
+          ],
+          "uniqueFrames": 16,
+          "method": "image_gen_16_consecutive_poses_fixed_cell_camera"
+        },
+        "attack": {
+          "frameCount": 16,
+          "fps": 16,
+          "loop": false,
+          "holdLastFrame": false,
+          "events": [
+            {
+              "frame": 3,
+              "type": "sound",
+              "clip": "windup"
+            },
+            {
+              "frame": 7,
+              "type": "effect",
+              "effect": "fx"
+            },
+            {
+              "frame": 8,
+              "type": "sound",
+              "clip": "attack"
+            }
+          ],
+          "duration": 1,
+          "frames": [
+            "art/boss-frames-v1/sts2_soul_fysh/attack_00.png",
+            "art/boss-frames-v1/sts2_soul_fysh/attack_01.png",
+            "art/boss-frames-v1/sts2_soul_fysh/attack_02.png",
+            "art/boss-frames-v1/sts2_soul_fysh/attack_03.png",
+            "art/boss-frames-v1/sts2_soul_fysh/attack_04.png",
+            "art/boss-frames-v1/sts2_soul_fysh/attack_05.png",
+            "art/boss-frames-v1/sts2_soul_fysh/attack_06.png",
+            "art/boss-frames-v1/sts2_soul_fysh/attack_07.png",
+            "art/boss-frames-v1/sts2_soul_fysh/attack_08.png",
+            "art/boss-frames-v1/sts2_soul_fysh/attack_09.png",
+            "art/boss-frames-v1/sts2_soul_fysh/attack_10.png",
+            "art/boss-frames-v1/sts2_soul_fysh/attack_11.png",
+            "art/boss-frames-v1/sts2_soul_fysh/attack_12.png",
+            "art/boss-frames-v1/sts2_soul_fysh/attack_13.png",
+            "art/boss-frames-v1/sts2_soul_fysh/attack_14.png",
+            "art/boss-frames-v1/sts2_soul_fysh/attack_15.png"
+          ],
+          "uniqueFrames": 16,
+          "method": "image_gen_16_consecutive_poses_fixed_cell_camera"
+        },
+        "death": {
+          "frameCount": 16,
+          "fps": 12,
+          "loop": false,
+          "holdLastFrame": true,
+          "events": [
+            {
+              "frame": 4,
+              "type": "sound",
+              "clip": "death"
+            }
+          ],
+          "duration": 1.3333333333333333,
+          "frames": [
+            "art/boss-frames-v1/sts2_soul_fysh/death_00.png",
+            "art/boss-frames-v1/sts2_soul_fysh/death_01.png",
+            "art/boss-frames-v1/sts2_soul_fysh/death_02.png",
+            "art/boss-frames-v1/sts2_soul_fysh/death_03.png",
+            "art/boss-frames-v1/sts2_soul_fysh/death_04.png",
+            "art/boss-frames-v1/sts2_soul_fysh/death_05.png",
+            "art/boss-frames-v1/sts2_soul_fysh/death_06.png",
+            "art/boss-frames-v1/sts2_soul_fysh/death_07.png",
+            "art/boss-frames-v1/sts2_soul_fysh/death_08.png",
+            "art/boss-frames-v1/sts2_soul_fysh/death_09.png",
+            "art/boss-frames-v1/sts2_soul_fysh/death_10.png",
+            "art/boss-frames-v1/sts2_soul_fysh/death_11.png",
+            "art/boss-frames-v1/sts2_soul_fysh/death_12.png",
+            "art/boss-frames-v1/sts2_soul_fysh/death_13.png",
+            "art/boss-frames-v1/sts2_soul_fysh/death_14.png",
+            "art/boss-frames-v1/sts2_soul_fysh/death_15.png"
+          ],
+          "uniqueFrames": 16,
+          "method": "image_gen_16_consecutive_poses_fixed_cell_camera"
+        }
+      },
+      "effect": {
+        "frameCount": 16,
+        "fps": 16,
+        "loop": false,
+        "holdLastFrame": false,
+        "events": [],
+        "duration": 1,
+        "frames": [
+          "art/boss-frames-v1/sts2_soul_fysh/fx_00.png",
+          "art/boss-frames-v1/sts2_soul_fysh/fx_01.png",
+          "art/boss-frames-v1/sts2_soul_fysh/fx_02.png",
+          "art/boss-frames-v1/sts2_soul_fysh/fx_03.png",
+          "art/boss-frames-v1/sts2_soul_fysh/fx_04.png",
+          "art/boss-frames-v1/sts2_soul_fysh/fx_05.png",
+          "art/boss-frames-v1/sts2_soul_fysh/fx_06.png",
+          "art/boss-frames-v1/sts2_soul_fysh/fx_07.png",
+          "art/boss-frames-v1/sts2_soul_fysh/fx_08.png",
+          "art/boss-frames-v1/sts2_soul_fysh/fx_09.png",
+          "art/boss-frames-v1/sts2_soul_fysh/fx_10.png",
+          "art/boss-frames-v1/sts2_soul_fysh/fx_11.png",
+          "art/boss-frames-v1/sts2_soul_fysh/fx_12.png",
+          "art/boss-frames-v1/sts2_soul_fysh/fx_13.png",
+          "art/boss-frames-v1/sts2_soul_fysh/fx_14.png",
+          "art/boss-frames-v1/sts2_soul_fysh/fx_15.png"
+        ],
+        "uniqueFrames": 16,
+        "method": "image_gen_16_consecutive_poses_fixed_cell_camera"
+      },
+      "audio": {
+        "windup": "audio/sfx/boss-frames-v1/sts2_soul_fysh_windup.mp3",
+        "attack": "audio/sfx/boss-frames-v1/sts2_soul_fysh_attack.mp3",
+        "skill": "audio/sfx/boss-frames-v1/sts2_soul_fysh_skill.mp3",
+        "hit": "audio/sfx/boss-frames-v1/sts2_soul_fysh_hit.mp3",
+        "death": "audio/sfx/boss-frames-v1/sts2_soul_fysh_death.mp3"
+      },
+      "assetReady": true,
+      "visualApproved": true,
+      "signature": "25a266a03bd29b5c03af11c91b4ccb7dab61d5f79ee5d995a48bd64b8e192541",
+      "sourceIssues": [],
+      "stage": "assets_and_standalone_preview",
+      "design": {
+        "identity": "Preserve reference identity, silhouette, fin count, facial features and colors exactly; enormous spectral abyssal fish with cyan soul glow. No newly invented limbs or props.",
+        "idle": "Fixed hover core, gills and jaws visibly breathe, spine bends side to side and fins spread and fold through a full seamless swimming cycle.",
+        "attack": "Curl spine into tight C, open jaws and lunge head LEFT with spinal wave, fins brake and recover.",
+        "cast": "Head tilts sharply upward, mouth and gill covers open wide, fins spread and a cyan lure gathers at mouth; body rolls subtly then returns.",
+        "death": "Fins lose tension, jaw slackens, soul glow drains, fish tilts onto side and slowly descends to a coherent fallen form."
+      }
+    },
+    {
+      "id": "sts2_waterfall_giant",
+      "name": "瀑衡巨像",
+      "act": 1,
+      "region": "underdocks",
+      "type": "stone",
+      "width": 512,
+      "height": 512,
+      "ground": 430,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.16015625
+      },
+      "still": "art/boss-frames-v1/sts2_waterfall_giant/still.png",
+      "actions": {
+        "idle": {
+          "frameCount": 16,
+          "fps": 12,
+          "loop": true,
+          "holdLastFrame": false,
+          "events": [],
+          "duration": 1.3333333333333333,
+          "frames": [
+            "art/boss-frames-v1/sts2_waterfall_giant/idle_00.png",
+            "art/boss-frames-v1/sts2_waterfall_giant/idle_01.png",
+            "art/boss-frames-v1/sts2_waterfall_giant/idle_02.png",
+            "art/boss-frames-v1/sts2_waterfall_giant/idle_03.png",
+            "art/boss-frames-v1/sts2_waterfall_giant/idle_04.png",
+            "art/boss-frames-v1/sts2_waterfall_giant/idle_05.png",
+            "art/boss-frames-v1/sts2_waterfall_giant/idle_06.png",
+            "art/boss-frames-v1/sts2_waterfall_giant/idle_07.png",
+            "art/boss-frames-v1/sts2_waterfall_giant/idle_08.png",
+            "art/boss-frames-v1/sts2_waterfall_giant/idle_09.png",
+            "art/boss-frames-v1/sts2_waterfall_giant/idle_10.png",
+            "art/boss-frames-v1/sts2_waterfall_giant/idle_11.png",
+            "art/boss-frames-v1/sts2_waterfall_giant/idle_12.png",
+            "art/boss-frames-v1/sts2_waterfall_giant/idle_13.png",
+            "art/boss-frames-v1/sts2_waterfall_giant/idle_14.png",
+            "art/boss-frames-v1/sts2_waterfall_giant/idle_15.png"
+          ],
+          "uniqueFrames": 16,
+          "method": "image_gen_16_consecutive_poses_fixed_cell_camera"
+        },
+        "hit": {
+          "frameCount": 16,
+          "fps": 16,
+          "loop": false,
+          "holdLastFrame": false,
+          "events": [
+            {
+              "frame": 3,
+              "type": "sound",
+              "clip": "hit"
+            }
+          ],
+          "duration": 1,
+          "frames": [
+            "art/boss-frames-v1/sts2_waterfall_giant/hit_00.png",
+            "art/boss-frames-v1/sts2_waterfall_giant/hit_01.png",
+            "art/boss-frames-v1/sts2_waterfall_giant/hit_02.png",
+            "art/boss-frames-v1/sts2_waterfall_giant/hit_03.png",
+            "art/boss-frames-v1/sts2_waterfall_giant/hit_04.png",
+            "art/boss-frames-v1/sts2_waterfall_giant/hit_05.png",
+            "art/boss-frames-v1/sts2_waterfall_giant/hit_06.png",
+            "art/boss-frames-v1/sts2_waterfall_giant/hit_07.png",
+            "art/boss-frames-v1/sts2_waterfall_giant/hit_08.png",
+            "art/boss-frames-v1/sts2_waterfall_giant/hit_09.png",
+            "art/boss-frames-v1/sts2_waterfall_giant/hit_10.png",
+            "art/boss-frames-v1/sts2_waterfall_giant/hit_11.png",
+            "art/boss-frames-v1/sts2_waterfall_giant/hit_12.png",
+            "art/boss-frames-v1/sts2_waterfall_giant/hit_13.png",
+            "art/boss-frames-v1/sts2_waterfall_giant/hit_14.png",
+            "art/boss-frames-v1/sts2_waterfall_giant/hit_15.png"
+          ],
+          "uniqueFrames": 16,
+          "method": "image_gen_16_consecutive_poses_fixed_cell_camera"
+        },
+        "cast": {
+          "frameCount": 16,
+          "fps": 16,
+          "loop": false,
+          "holdLastFrame": false,
+          "events": [
+            {
+              "frame": 3,
+              "type": "sound",
+              "clip": "windup"
+            },
+            {
+              "frame": 7,
+              "type": "effect",
+              "effect": "fx"
+            },
+            {
+              "frame": 8,
+              "type": "sound",
+              "clip": "skill"
+            }
+          ],
+          "duration": 1,
+          "frames": [
+            "art/boss-frames-v1/sts2_waterfall_giant/cast_00.png",
+            "art/boss-frames-v1/sts2_waterfall_giant/cast_01.png",
+            "art/boss-frames-v1/sts2_waterfall_giant/cast_02.png",
+            "art/boss-frames-v1/sts2_waterfall_giant/cast_03.png",
+            "art/boss-frames-v1/sts2_waterfall_giant/cast_04.png",
+            "art/boss-frames-v1/sts2_waterfall_giant/cast_05.png",
+            "art/boss-frames-v1/sts2_waterfall_giant/cast_06.png",
+            "art/boss-frames-v1/sts2_waterfall_giant/cast_07.png",
+            "art/boss-frames-v1/sts2_waterfall_giant/cast_08.png",
+            "art/boss-frames-v1/sts2_waterfall_giant/cast_09.png",
+            "art/boss-frames-v1/sts2_waterfall_giant/cast_10.png",
+            "art/boss-frames-v1/sts2_waterfall_giant/cast_11.png",
+            "art/boss-frames-v1/sts2_waterfall_giant/cast_12.png",
+            "art/boss-frames-v1/sts2_waterfall_giant/cast_13.png",
+            "art/boss-frames-v1/sts2_waterfall_giant/cast_14.png",
+            "art/boss-frames-v1/sts2_waterfall_giant/cast_15.png"
+          ],
+          "uniqueFrames": 16,
+          "method": "image_gen_16_consecutive_poses_fixed_cell_camera"
+        },
+        "attack": {
+          "frameCount": 16,
+          "fps": 16,
+          "loop": false,
+          "holdLastFrame": false,
+          "events": [
+            {
+              "frame": 3,
+              "type": "sound",
+              "clip": "windup"
+            },
+            {
+              "frame": 7,
+              "type": "effect",
+              "effect": "fx"
+            },
+            {
+              "frame": 8,
+              "type": "sound",
+              "clip": "attack"
+            }
+          ],
+          "duration": 1,
+          "frames": [
+            "art/boss-frames-v1/sts2_waterfall_giant/attack_00.png",
+            "art/boss-frames-v1/sts2_waterfall_giant/attack_01.png",
+            "art/boss-frames-v1/sts2_waterfall_giant/attack_02.png",
+            "art/boss-frames-v1/sts2_waterfall_giant/attack_03.png",
+            "art/boss-frames-v1/sts2_waterfall_giant/attack_04.png",
+            "art/boss-frames-v1/sts2_waterfall_giant/attack_05.png",
+            "art/boss-frames-v1/sts2_waterfall_giant/attack_06.png",
+            "art/boss-frames-v1/sts2_waterfall_giant/attack_07.png",
+            "art/boss-frames-v1/sts2_waterfall_giant/attack_08.png",
+            "art/boss-frames-v1/sts2_waterfall_giant/attack_09.png",
+            "art/boss-frames-v1/sts2_waterfall_giant/attack_10.png",
+            "art/boss-frames-v1/sts2_waterfall_giant/attack_11.png",
+            "art/boss-frames-v1/sts2_waterfall_giant/attack_12.png",
+            "art/boss-frames-v1/sts2_waterfall_giant/attack_13.png",
+            "art/boss-frames-v1/sts2_waterfall_giant/attack_14.png",
+            "art/boss-frames-v1/sts2_waterfall_giant/attack_15.png"
+          ],
+          "uniqueFrames": 16,
+          "method": "image_gen_16_consecutive_poses_fixed_cell_camera"
+        },
+        "death": {
+          "frameCount": 16,
+          "fps": 12,
+          "loop": false,
+          "holdLastFrame": true,
+          "events": [
+            {
+              "frame": 4,
+              "type": "sound",
+              "clip": "death"
+            }
+          ],
+          "duration": 1.3333333333333333,
+          "frames": [
+            "art/boss-frames-v1/sts2_waterfall_giant/death_00.png",
+            "art/boss-frames-v1/sts2_waterfall_giant/death_01.png",
+            "art/boss-frames-v1/sts2_waterfall_giant/death_02.png",
+            "art/boss-frames-v1/sts2_waterfall_giant/death_03.png",
+            "art/boss-frames-v1/sts2_waterfall_giant/death_04.png",
+            "art/boss-frames-v1/sts2_waterfall_giant/death_05.png",
+            "art/boss-frames-v1/sts2_waterfall_giant/death_06.png",
+            "art/boss-frames-v1/sts2_waterfall_giant/death_07.png",
+            "art/boss-frames-v1/sts2_waterfall_giant/death_08.png",
+            "art/boss-frames-v1/sts2_waterfall_giant/death_09.png",
+            "art/boss-frames-v1/sts2_waterfall_giant/death_10.png",
+            "art/boss-frames-v1/sts2_waterfall_giant/death_11.png",
+            "art/boss-frames-v1/sts2_waterfall_giant/death_12.png",
+            "art/boss-frames-v1/sts2_waterfall_giant/death_13.png",
+            "art/boss-frames-v1/sts2_waterfall_giant/death_14.png",
+            "art/boss-frames-v1/sts2_waterfall_giant/death_15.png"
+          ],
+          "uniqueFrames": 16,
+          "method": "image_gen_16_consecutive_poses_fixed_cell_camera"
+        }
+      },
+      "effect": {
+        "frameCount": 16,
+        "fps": 16,
+        "loop": false,
+        "holdLastFrame": false,
+        "events": [],
+        "duration": 1,
+        "frames": [
+          "art/boss-frames-v1/sts2_waterfall_giant/fx_00.png",
+          "art/boss-frames-v1/sts2_waterfall_giant/fx_01.png",
+          "art/boss-frames-v1/sts2_waterfall_giant/fx_02.png",
+          "art/boss-frames-v1/sts2_waterfall_giant/fx_03.png",
+          "art/boss-frames-v1/sts2_waterfall_giant/fx_04.png",
+          "art/boss-frames-v1/sts2_waterfall_giant/fx_05.png",
+          "art/boss-frames-v1/sts2_waterfall_giant/fx_06.png",
+          "art/boss-frames-v1/sts2_waterfall_giant/fx_07.png",
+          "art/boss-frames-v1/sts2_waterfall_giant/fx_08.png",
+          "art/boss-frames-v1/sts2_waterfall_giant/fx_09.png",
+          "art/boss-frames-v1/sts2_waterfall_giant/fx_10.png",
+          "art/boss-frames-v1/sts2_waterfall_giant/fx_11.png",
+          "art/boss-frames-v1/sts2_waterfall_giant/fx_12.png",
+          "art/boss-frames-v1/sts2_waterfall_giant/fx_13.png",
+          "art/boss-frames-v1/sts2_waterfall_giant/fx_14.png",
+          "art/boss-frames-v1/sts2_waterfall_giant/fx_15.png"
+        ],
+        "uniqueFrames": 16,
+        "method": "image_gen_16_consecutive_poses_fixed_cell_camera"
+      },
+      "audio": {
+        "windup": "audio/sfx/boss-frames-v1/sts2_waterfall_giant_windup.mp3",
+        "attack": "audio/sfx/boss-frames-v1/sts2_waterfall_giant_attack.mp3",
+        "skill": "audio/sfx/boss-frames-v1/sts2_waterfall_giant_skill.mp3",
+        "hit": "audio/sfx/boss-frames-v1/sts2_waterfall_giant_hit.mp3",
+        "death": "audio/sfx/boss-frames-v1/sts2_waterfall_giant_death.mp3"
+      },
+      "assetReady": true,
+      "visualApproved": true,
+      "signature": "af43cdc123ef875f1f0cf85332698addace86ca529b4f965259335427dfbe7e0",
+      "sourceIssues": [],
+      "stage": "assets_and_standalone_preview",
+      "design": {
+        "identity": "Huge squat ancient grey-stone and oxidized brass hydraulic golem, two thick articulated stone legs, two huge segmented arms, asymmetric shoulder aqueduct, massive circular waterwheel behind upper torso, ribbed bronze chest pressure tank filled with pale cyan water, narrow cyan face slit, moss and mineral crust.",
+        "idle": "Feet firmly planted, chest tank visibly pumps, shoulders and elbows rise and lower, head slit tips, waterwheel rotates incrementally and water swells, seamless cycle.",
+        "attack": "Compress knees and chamber, raise huge right stone fist then drive a broad LEFT punch while left arm braces, hips rotate and recover.",
+        "cast": "Squat under pressure, arch waterwheel and spread elbows, lean chest strongly LEFT and open tank vent for water-pressure cannon; valve closes and settle.",
+        "death": "Water pressure fails, wheel stalls, knees shear, stone torso sinks and breaks into several heavy plates with wheel resting beside rubble; no vanishing."
+      }
+    },
+    {
+      "id": "sts2_crusher",
+      "name": "碎甲钳",
+      "act": 2,
+      "region": "hive",
+      "type": "arthropod",
+      "width": 512,
+      "height": 512,
+      "ground": 430,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.16015625
+      },
+      "still": "art/boss-frames-v1/sts2_crusher/still.png",
+      "actions": {
+        "idle": {
+          "frameCount": 16,
+          "fps": 12,
+          "loop": true,
+          "holdLastFrame": false,
+          "events": [],
+          "duration": 1.3333333333333333,
+          "frames": [
+            "art/boss-frames-v1/sts2_crusher/idle_00.png",
+            "art/boss-frames-v1/sts2_crusher/idle_01.png",
+            "art/boss-frames-v1/sts2_crusher/idle_02.png",
+            "art/boss-frames-v1/sts2_crusher/idle_03.png",
+            "art/boss-frames-v1/sts2_crusher/idle_04.png",
+            "art/boss-frames-v1/sts2_crusher/idle_05.png",
+            "art/boss-frames-v1/sts2_crusher/idle_06.png",
+            "art/boss-frames-v1/sts2_crusher/idle_07.png",
+            "art/boss-frames-v1/sts2_crusher/idle_08.png",
+            "art/boss-frames-v1/sts2_crusher/idle_09.png",
+            "art/boss-frames-v1/sts2_crusher/idle_10.png",
+            "art/boss-frames-v1/sts2_crusher/idle_11.png",
+            "art/boss-frames-v1/sts2_crusher/idle_12.png",
+            "art/boss-frames-v1/sts2_crusher/idle_13.png",
+            "art/boss-frames-v1/sts2_crusher/idle_14.png",
+            "art/boss-frames-v1/sts2_crusher/idle_15.png"
+          ],
+          "uniqueFrames": 16,
+          "method": "image_gen_16_consecutive_poses_fixed_cell_camera"
+        },
+        "hit": {
+          "frameCount": 16,
+          "fps": 16,
+          "loop": false,
+          "holdLastFrame": false,
+          "events": [
+            {
+              "frame": 3,
+              "type": "sound",
+              "clip": "hit"
+            }
+          ],
+          "duration": 1,
+          "frames": [
+            "art/boss-frames-v1/sts2_crusher/hit_00.png",
+            "art/boss-frames-v1/sts2_crusher/hit_01.png",
+            "art/boss-frames-v1/sts2_crusher/hit_02.png",
+            "art/boss-frames-v1/sts2_crusher/hit_03.png",
+            "art/boss-frames-v1/sts2_crusher/hit_04.png",
+            "art/boss-frames-v1/sts2_crusher/hit_05.png",
+            "art/boss-frames-v1/sts2_crusher/hit_06.png",
+            "art/boss-frames-v1/sts2_crusher/hit_07.png",
+            "art/boss-frames-v1/sts2_crusher/hit_08.png",
+            "art/boss-frames-v1/sts2_crusher/hit_09.png",
+            "art/boss-frames-v1/sts2_crusher/hit_10.png",
+            "art/boss-frames-v1/sts2_crusher/hit_11.png",
+            "art/boss-frames-v1/sts2_crusher/hit_12.png",
+            "art/boss-frames-v1/sts2_crusher/hit_13.png",
+            "art/boss-frames-v1/sts2_crusher/hit_14.png",
+            "art/boss-frames-v1/sts2_crusher/hit_15.png"
+          ],
+          "uniqueFrames": 16,
+          "method": "image_gen_16_consecutive_poses_fixed_cell_camera"
+        },
+        "cast": {
+          "frameCount": 16,
+          "fps": 16,
+          "loop": false,
+          "holdLastFrame": false,
+          "events": [
+            {
+              "frame": 3,
+              "type": "sound",
+              "clip": "windup"
+            },
+            {
+              "frame": 7,
+              "type": "effect",
+              "effect": "fx"
+            },
+            {
+              "frame": 8,
+              "type": "sound",
+              "clip": "skill"
+            }
+          ],
+          "duration": 1,
+          "frames": [
+            "art/boss-frames-v1/sts2_crusher/cast_00.png",
+            "art/boss-frames-v1/sts2_crusher/cast_01.png",
+            "art/boss-frames-v1/sts2_crusher/cast_02.png",
+            "art/boss-frames-v1/sts2_crusher/cast_03.png",
+            "art/boss-frames-v1/sts2_crusher/cast_04.png",
+            "art/boss-frames-v1/sts2_crusher/cast_05.png",
+            "art/boss-frames-v1/sts2_crusher/cast_06.png",
+            "art/boss-frames-v1/sts2_crusher/cast_07.png",
+            "art/boss-frames-v1/sts2_crusher/cast_08.png",
+            "art/boss-frames-v1/sts2_crusher/cast_09.png",
+            "art/boss-frames-v1/sts2_crusher/cast_10.png",
+            "art/boss-frames-v1/sts2_crusher/cast_11.png",
+            "art/boss-frames-v1/sts2_crusher/cast_12.png",
+            "art/boss-frames-v1/sts2_crusher/cast_13.png",
+            "art/boss-frames-v1/sts2_crusher/cast_14.png",
+            "art/boss-frames-v1/sts2_crusher/cast_15.png"
+          ],
+          "uniqueFrames": 16,
+          "method": "image_gen_16_consecutive_poses_fixed_cell_camera"
+        },
+        "attack": {
+          "frameCount": 16,
+          "fps": 16,
+          "loop": false,
+          "holdLastFrame": false,
+          "events": [
+            {
+              "frame": 3,
+              "type": "sound",
+              "clip": "windup"
+            },
+            {
+              "frame": 7,
+              "type": "effect",
+              "effect": "fx"
+            },
+            {
+              "frame": 8,
+              "type": "sound",
+              "clip": "attack"
+            }
+          ],
+          "duration": 1,
+          "frames": [
+            "art/boss-frames-v1/sts2_crusher/attack_00.png",
+            "art/boss-frames-v1/sts2_crusher/attack_01.png",
+            "art/boss-frames-v1/sts2_crusher/attack_02.png",
+            "art/boss-frames-v1/sts2_crusher/attack_03.png",
+            "art/boss-frames-v1/sts2_crusher/attack_04.png",
+            "art/boss-frames-v1/sts2_crusher/attack_05.png",
+            "art/boss-frames-v1/sts2_crusher/attack_06.png",
+            "art/boss-frames-v1/sts2_crusher/attack_07.png",
+            "art/boss-frames-v1/sts2_crusher/attack_08.png",
+            "art/boss-frames-v1/sts2_crusher/attack_09.png",
+            "art/boss-frames-v1/sts2_crusher/attack_10.png",
+            "art/boss-frames-v1/sts2_crusher/attack_11.png",
+            "art/boss-frames-v1/sts2_crusher/attack_12.png",
+            "art/boss-frames-v1/sts2_crusher/attack_13.png",
+            "art/boss-frames-v1/sts2_crusher/attack_14.png",
+            "art/boss-frames-v1/sts2_crusher/attack_15.png"
+          ],
+          "uniqueFrames": 16,
+          "method": "image_gen_16_consecutive_poses_fixed_cell_camera"
+        },
+        "death": {
+          "frameCount": 16,
+          "fps": 12,
+          "loop": false,
+          "holdLastFrame": true,
+          "events": [
+            {
+              "frame": 4,
+              "type": "sound",
+              "clip": "death"
+            }
+          ],
+          "duration": 1.3333333333333333,
+          "frames": [
+            "art/boss-frames-v1/sts2_crusher/death_00.png",
+            "art/boss-frames-v1/sts2_crusher/death_01.png",
+            "art/boss-frames-v1/sts2_crusher/death_02.png",
+            "art/boss-frames-v1/sts2_crusher/death_03.png",
+            "art/boss-frames-v1/sts2_crusher/death_04.png",
+            "art/boss-frames-v1/sts2_crusher/death_05.png",
+            "art/boss-frames-v1/sts2_crusher/death_06.png",
+            "art/boss-frames-v1/sts2_crusher/death_07.png",
+            "art/boss-frames-v1/sts2_crusher/death_08.png",
+            "art/boss-frames-v1/sts2_crusher/death_09.png",
+            "art/boss-frames-v1/sts2_crusher/death_10.png",
+            "art/boss-frames-v1/sts2_crusher/death_11.png",
+            "art/boss-frames-v1/sts2_crusher/death_12.png",
+            "art/boss-frames-v1/sts2_crusher/death_13.png",
+            "art/boss-frames-v1/sts2_crusher/death_14.png",
+            "art/boss-frames-v1/sts2_crusher/death_15.png"
+          ],
+          "uniqueFrames": 16,
+          "method": "image_gen_16_consecutive_poses_fixed_cell_camera"
+        }
+      },
+      "effect": {
+        "frameCount": 16,
+        "fps": 16,
+        "loop": false,
+        "holdLastFrame": false,
+        "events": [],
+        "duration": 1,
+        "frames": [
+          "art/boss-frames-v1/sts2_crusher/fx_00.png",
+          "art/boss-frames-v1/sts2_crusher/fx_01.png",
+          "art/boss-frames-v1/sts2_crusher/fx_02.png",
+          "art/boss-frames-v1/sts2_crusher/fx_03.png",
+          "art/boss-frames-v1/sts2_crusher/fx_04.png",
+          "art/boss-frames-v1/sts2_crusher/fx_05.png",
+          "art/boss-frames-v1/sts2_crusher/fx_06.png",
+          "art/boss-frames-v1/sts2_crusher/fx_07.png",
+          "art/boss-frames-v1/sts2_crusher/fx_08.png",
+          "art/boss-frames-v1/sts2_crusher/fx_09.png",
+          "art/boss-frames-v1/sts2_crusher/fx_10.png",
+          "art/boss-frames-v1/sts2_crusher/fx_11.png",
+          "art/boss-frames-v1/sts2_crusher/fx_12.png",
+          "art/boss-frames-v1/sts2_crusher/fx_13.png",
+          "art/boss-frames-v1/sts2_crusher/fx_14.png",
+          "art/boss-frames-v1/sts2_crusher/fx_15.png"
+        ],
+        "uniqueFrames": 16,
+        "method": "image_gen_16_consecutive_poses_fixed_cell_camera"
+      },
+      "audio": {
+        "windup": "audio/sfx/boss-frames-v1/sts2_crusher_windup.mp3",
+        "attack": "audio/sfx/boss-frames-v1/sts2_crusher_attack.mp3",
+        "skill": "audio/sfx/boss-frames-v1/sts2_crusher_skill.mp3",
+        "hit": "audio/sfx/boss-frames-v1/sts2_crusher_hit.mp3",
+        "death": "audio/sfx/boss-frames-v1/sts2_crusher_death.mp3"
+      },
+      "assetReady": true,
+      "visualApproved": true,
+      "signature": "3b81c9733c5833ed4be1d95436a2326bd97aba1ed4e1c2b07bae80ca7ff9f7e2",
+      "sourceIssues": [],
+      "stage": "assets_and_standalone_preview",
+      "design": {
+        "identity": "Colossal burgundy crab-pincer construct, curved segmented smoke-violet stalk on three small chitin anchor legs, one gigantic ivory-edged crushing pincer on top, amber inner eye, not a humanoid. Same shell material and scale family as reference spray pincer.",
+        "idle": "Base stays anchored, stalk flexes at hinges, huge pincer visibly opens and closes, amber core pulses in a full breathing cycle.",
+        "attack": "Stalk curls far back, pincer opens very wide then drives LEFT and snaps shut, hinge plates follow and recoil.",
+        "cast": "Stalk compresses low then rises almost vertical, pincer presents broad shell as shield, shell plates expand and lock before returning.",
+        "death": "Inner eye darkens, stalk hinges buckle sequentially, huge pincer lands on side and settles beside folded anchor legs."
+      }
+    },
+    {
+      "id": "sts2_rocket",
+      "name": "喷焰钳",
+      "act": 2,
+      "region": "hive",
+      "type": "mecha",
+      "width": 512,
+      "height": 512,
+      "ground": 430,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.16015625
+      },
+      "still": "art/boss-frames-v1/sts2_rocket/still.png",
+      "actions": {
+        "idle": {
+          "frameCount": 16,
+          "fps": 12,
+          "loop": true,
+          "holdLastFrame": false,
+          "events": [],
+          "duration": 1.3333333333333333,
+          "frames": [
+            "art/boss-frames-v1/sts2_rocket/idle_00.png",
+            "art/boss-frames-v1/sts2_rocket/idle_01.png",
+            "art/boss-frames-v1/sts2_rocket/idle_02.png",
+            "art/boss-frames-v1/sts2_rocket/idle_03.png",
+            "art/boss-frames-v1/sts2_rocket/idle_04.png",
+            "art/boss-frames-v1/sts2_rocket/idle_05.png",
+            "art/boss-frames-v1/sts2_rocket/idle_06.png",
+            "art/boss-frames-v1/sts2_rocket/idle_07.png",
+            "art/boss-frames-v1/sts2_rocket/idle_08.png",
+            "art/boss-frames-v1/sts2_rocket/idle_09.png",
+            "art/boss-frames-v1/sts2_rocket/idle_10.png",
+            "art/boss-frames-v1/sts2_rocket/idle_11.png",
+            "art/boss-frames-v1/sts2_rocket/idle_12.png",
+            "art/boss-frames-v1/sts2_rocket/idle_13.png",
+            "art/boss-frames-v1/sts2_rocket/idle_14.png",
+            "art/boss-frames-v1/sts2_rocket/idle_15.png"
+          ],
+          "uniqueFrames": 16,
+          "method": "image_gen_16_consecutive_poses_fixed_cell_camera"
+        },
+        "hit": {
+          "frameCount": 16,
+          "fps": 16,
+          "loop": false,
+          "holdLastFrame": false,
+          "events": [
+            {
+              "frame": 3,
+              "type": "sound",
+              "clip": "hit"
+            }
+          ],
+          "duration": 1,
+          "frames": [
+            "art/boss-frames-v1/sts2_rocket/hit_00.png",
+            "art/boss-frames-v1/sts2_rocket/hit_01.png",
+            "art/boss-frames-v1/sts2_rocket/hit_02.png",
+            "art/boss-frames-v1/sts2_rocket/hit_03.png",
+            "art/boss-frames-v1/sts2_rocket/hit_04.png",
+            "art/boss-frames-v1/sts2_rocket/hit_05.png",
+            "art/boss-frames-v1/sts2_rocket/hit_06.png",
+            "art/boss-frames-v1/sts2_rocket/hit_07.png",
+            "art/boss-frames-v1/sts2_rocket/hit_08.png",
+            "art/boss-frames-v1/sts2_rocket/hit_09.png",
+            "art/boss-frames-v1/sts2_rocket/hit_10.png",
+            "art/boss-frames-v1/sts2_rocket/hit_11.png",
+            "art/boss-frames-v1/sts2_rocket/hit_12.png",
+            "art/boss-frames-v1/sts2_rocket/hit_13.png",
+            "art/boss-frames-v1/sts2_rocket/hit_14.png",
+            "art/boss-frames-v1/sts2_rocket/hit_15.png"
+          ],
+          "uniqueFrames": 16,
+          "method": "image_gen_16_consecutive_poses_fixed_cell_camera"
+        },
+        "cast": {
+          "frameCount": 16,
+          "fps": 16,
+          "loop": false,
+          "holdLastFrame": false,
+          "events": [
+            {
+              "frame": 3,
+              "type": "sound",
+              "clip": "windup"
+            },
+            {
+              "frame": 7,
+              "type": "effect",
+              "effect": "fx"
+            },
+            {
+              "frame": 8,
+              "type": "sound",
+              "clip": "skill"
+            }
+          ],
+          "duration": 1,
+          "frames": [
+            "art/boss-frames-v1/sts2_rocket/cast_00.png",
+            "art/boss-frames-v1/sts2_rocket/cast_01.png",
+            "art/boss-frames-v1/sts2_rocket/cast_02.png",
+            "art/boss-frames-v1/sts2_rocket/cast_03.png",
+            "art/boss-frames-v1/sts2_rocket/cast_04.png",
+            "art/boss-frames-v1/sts2_rocket/cast_05.png",
+            "art/boss-frames-v1/sts2_rocket/cast_06.png",
+            "art/boss-frames-v1/sts2_rocket/cast_07.png",
+            "art/boss-frames-v1/sts2_rocket/cast_08.png",
+            "art/boss-frames-v1/sts2_rocket/cast_09.png",
+            "art/boss-frames-v1/sts2_rocket/cast_10.png",
+            "art/boss-frames-v1/sts2_rocket/cast_11.png",
+            "art/boss-frames-v1/sts2_rocket/cast_12.png",
+            "art/boss-frames-v1/sts2_rocket/cast_13.png",
+            "art/boss-frames-v1/sts2_rocket/cast_14.png",
+            "art/boss-frames-v1/sts2_rocket/cast_15.png"
+          ],
+          "uniqueFrames": 16,
+          "method": "image_gen_16_consecutive_poses_fixed_cell_camera"
+        },
+        "attack": {
+          "frameCount": 16,
+          "fps": 16,
+          "loop": false,
+          "holdLastFrame": false,
+          "events": [
+            {
+              "frame": 3,
+              "type": "sound",
+              "clip": "windup"
+            },
+            {
+              "frame": 7,
+              "type": "effect",
+              "effect": "fx"
+            },
+            {
+              "frame": 8,
+              "type": "sound",
+              "clip": "attack"
+            }
+          ],
+          "duration": 1,
+          "frames": [
+            "art/boss-frames-v1/sts2_rocket/attack_00.png",
+            "art/boss-frames-v1/sts2_rocket/attack_01.png",
+            "art/boss-frames-v1/sts2_rocket/attack_02.png",
+            "art/boss-frames-v1/sts2_rocket/attack_03.png",
+            "art/boss-frames-v1/sts2_rocket/attack_04.png",
+            "art/boss-frames-v1/sts2_rocket/attack_05.png",
+            "art/boss-frames-v1/sts2_rocket/attack_06.png",
+            "art/boss-frames-v1/sts2_rocket/attack_07.png",
+            "art/boss-frames-v1/sts2_rocket/attack_08.png",
+            "art/boss-frames-v1/sts2_rocket/attack_09.png",
+            "art/boss-frames-v1/sts2_rocket/attack_10.png",
+            "art/boss-frames-v1/sts2_rocket/attack_11.png",
+            "art/boss-frames-v1/sts2_rocket/attack_12.png",
+            "art/boss-frames-v1/sts2_rocket/attack_13.png",
+            "art/boss-frames-v1/sts2_rocket/attack_14.png",
+            "art/boss-frames-v1/sts2_rocket/attack_15.png"
+          ],
+          "uniqueFrames": 16,
+          "method": "image_gen_16_consecutive_poses_fixed_cell_camera"
+        },
+        "death": {
+          "frameCount": 16,
+          "fps": 12,
+          "loop": false,
+          "holdLastFrame": true,
+          "events": [
+            {
+              "frame": 4,
+              "type": "sound",
+              "clip": "death"
+            }
+          ],
+          "duration": 1.3333333333333333,
+          "frames": [
+            "art/boss-frames-v1/sts2_rocket/death_00.png",
+            "art/boss-frames-v1/sts2_rocket/death_01.png",
+            "art/boss-frames-v1/sts2_rocket/death_02.png",
+            "art/boss-frames-v1/sts2_rocket/death_03.png",
+            "art/boss-frames-v1/sts2_rocket/death_04.png",
+            "art/boss-frames-v1/sts2_rocket/death_05.png",
+            "art/boss-frames-v1/sts2_rocket/death_06.png",
+            "art/boss-frames-v1/sts2_rocket/death_07.png",
+            "art/boss-frames-v1/sts2_rocket/death_08.png",
+            "art/boss-frames-v1/sts2_rocket/death_09.png",
+            "art/boss-frames-v1/sts2_rocket/death_10.png",
+            "art/boss-frames-v1/sts2_rocket/death_11.png",
+            "art/boss-frames-v1/sts2_rocket/death_12.png",
+            "art/boss-frames-v1/sts2_rocket/death_13.png",
+            "art/boss-frames-v1/sts2_rocket/death_14.png",
+            "art/boss-frames-v1/sts2_rocket/death_15.png"
+          ],
+          "uniqueFrames": 16,
+          "method": "image_gen_16_consecutive_poses_fixed_cell_camera"
+        }
+      },
+      "effect": {
+        "frameCount": 16,
+        "fps": 16,
+        "loop": false,
+        "holdLastFrame": false,
+        "events": [],
+        "duration": 1,
+        "frames": [
+          "art/boss-frames-v1/sts2_rocket/fx_00.png",
+          "art/boss-frames-v1/sts2_rocket/fx_01.png",
+          "art/boss-frames-v1/sts2_rocket/fx_02.png",
+          "art/boss-frames-v1/sts2_rocket/fx_03.png",
+          "art/boss-frames-v1/sts2_rocket/fx_04.png",
+          "art/boss-frames-v1/sts2_rocket/fx_05.png",
+          "art/boss-frames-v1/sts2_rocket/fx_06.png",
+          "art/boss-frames-v1/sts2_rocket/fx_07.png",
+          "art/boss-frames-v1/sts2_rocket/fx_08.png",
+          "art/boss-frames-v1/sts2_rocket/fx_09.png",
+          "art/boss-frames-v1/sts2_rocket/fx_10.png",
+          "art/boss-frames-v1/sts2_rocket/fx_11.png",
+          "art/boss-frames-v1/sts2_rocket/fx_12.png",
+          "art/boss-frames-v1/sts2_rocket/fx_13.png",
+          "art/boss-frames-v1/sts2_rocket/fx_14.png",
+          "art/boss-frames-v1/sts2_rocket/fx_15.png"
+        ],
+        "uniqueFrames": 16,
+        "method": "image_gen_16_consecutive_poses_fixed_cell_camera"
+      },
+      "audio": {
+        "windup": "audio/sfx/boss-frames-v1/sts2_rocket_windup.mp3",
+        "attack": "audio/sfx/boss-frames-v1/sts2_rocket_attack.mp3",
+        "skill": "audio/sfx/boss-frames-v1/sts2_rocket_skill.mp3",
+        "hit": "audio/sfx/boss-frames-v1/sts2_rocket_hit.mp3",
+        "death": "audio/sfx/boss-frames-v1/sts2_rocket_death.mp3"
+      },
+      "assetReady": true,
+      "visualApproved": true,
+      "signature": "26c3837a1f61b025ebfbab7d3f6b8261fca5a9a07884ec17f25709e00f69494d",
+      "sourceIssues": [],
+      "stage": "assets_and_standalone_preview",
+      "design": {
+        "identity": "Preserve reference exactly: tall curved burgundy chitin stalk with dark violet ribbed inner joints, giant open ivory-edged pincer jaws, orange circular furnace eye between upper jaws, sharp asymmetric ivory shell plates and grounded hooked lower base. No extra legs or arms.",
+        "idle": "Lower hooked base holds, stalk hinges flex with pressure breathing, upper jaws open and close, furnace eye brightens and dims; seamless cycle.",
+        "attack": "Compress stalk, recoil upper jaws then thrust them LEFT, furnace eye vents a small attached flame, jaws remain coherent; recoil.",
+        "cast": "Bend stalk far backward to pressurize, spread jaws extremely wide, lean strongly LEFT and expose furnace nozzle; vent and recover.",
+        "death": "Orange eye flickers out, jaws sag, stalk folds joint by joint into a coherent grounded segmented heap."
+      }
+    },
+    {
+      "id": "sts2_knowledge_demon",
+      "name": "知厄魔",
+      "act": 2,
+      "region": "hive",
+      "type": "gate",
+      "width": 512,
+      "height": 512,
+      "ground": 430,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.16015625
+      },
+      "still": "art/boss-frames-v1/sts2_knowledge_demon/still.png",
+      "actions": {
+        "idle": {
+          "frameCount": 16,
+          "fps": 12,
+          "loop": true,
+          "holdLastFrame": false,
+          "events": [],
+          "duration": 1.3333333333333333,
+          "frames": [
+            "art/boss-frames-v1/sts2_knowledge_demon/idle_00.png",
+            "art/boss-frames-v1/sts2_knowledge_demon/idle_01.png",
+            "art/boss-frames-v1/sts2_knowledge_demon/idle_02.png",
+            "art/boss-frames-v1/sts2_knowledge_demon/idle_03.png",
+            "art/boss-frames-v1/sts2_knowledge_demon/idle_04.png",
+            "art/boss-frames-v1/sts2_knowledge_demon/idle_05.png",
+            "art/boss-frames-v1/sts2_knowledge_demon/idle_06.png",
+            "art/boss-frames-v1/sts2_knowledge_demon/idle_07.png",
+            "art/boss-frames-v1/sts2_knowledge_demon/idle_08.png",
+            "art/boss-frames-v1/sts2_knowledge_demon/idle_09.png",
+            "art/boss-frames-v1/sts2_knowledge_demon/idle_10.png",
+            "art/boss-frames-v1/sts2_knowledge_demon/idle_11.png",
+            "art/boss-frames-v1/sts2_knowledge_demon/idle_12.png",
+            "art/boss-frames-v1/sts2_knowledge_demon/idle_13.png",
+            "art/boss-frames-v1/sts2_knowledge_demon/idle_14.png",
+            "art/boss-frames-v1/sts2_knowledge_demon/idle_15.png"
+          ],
+          "uniqueFrames": 16,
+          "method": "image_gen_16_consecutive_poses_fixed_cell_camera"
+        },
+        "hit": {
+          "frameCount": 16,
+          "fps": 16,
+          "loop": false,
+          "holdLastFrame": false,
+          "events": [
+            {
+              "frame": 3,
+              "type": "sound",
+              "clip": "hit"
+            }
+          ],
+          "duration": 1,
+          "frames": [
+            "art/boss-frames-v1/sts2_knowledge_demon/hit_00.png",
+            "art/boss-frames-v1/sts2_knowledge_demon/hit_01.png",
+            "art/boss-frames-v1/sts2_knowledge_demon/hit_02.png",
+            "art/boss-frames-v1/sts2_knowledge_demon/hit_03.png",
+            "art/boss-frames-v1/sts2_knowledge_demon/hit_04.png",
+            "art/boss-frames-v1/sts2_knowledge_demon/hit_05.png",
+            "art/boss-frames-v1/sts2_knowledge_demon/hit_06.png",
+            "art/boss-frames-v1/sts2_knowledge_demon/hit_07.png",
+            "art/boss-frames-v1/sts2_knowledge_demon/hit_08.png",
+            "art/boss-frames-v1/sts2_knowledge_demon/hit_09.png",
+            "art/boss-frames-v1/sts2_knowledge_demon/hit_10.png",
+            "art/boss-frames-v1/sts2_knowledge_demon/hit_11.png",
+            "art/boss-frames-v1/sts2_knowledge_demon/hit_12.png",
+            "art/boss-frames-v1/sts2_knowledge_demon/hit_13.png",
+            "art/boss-frames-v1/sts2_knowledge_demon/hit_14.png",
+            "art/boss-frames-v1/sts2_knowledge_demon/hit_15.png"
+          ],
+          "uniqueFrames": 16,
+          "method": "image_gen_16_consecutive_poses_fixed_cell_camera"
+        },
+        "cast": {
+          "frameCount": 16,
+          "fps": 16,
+          "loop": false,
+          "holdLastFrame": false,
+          "events": [
+            {
+              "frame": 3,
+              "type": "sound",
+              "clip": "windup"
+            },
+            {
+              "frame": 7,
+              "type": "effect",
+              "effect": "fx"
+            },
+            {
+              "frame": 8,
+              "type": "sound",
+              "clip": "skill"
+            }
+          ],
+          "duration": 1,
+          "frames": [
+            "art/boss-frames-v1/sts2_knowledge_demon/cast_00.png",
+            "art/boss-frames-v1/sts2_knowledge_demon/cast_01.png",
+            "art/boss-frames-v1/sts2_knowledge_demon/cast_02.png",
+            "art/boss-frames-v1/sts2_knowledge_demon/cast_03.png",
+            "art/boss-frames-v1/sts2_knowledge_demon/cast_04.png",
+            "art/boss-frames-v1/sts2_knowledge_demon/cast_05.png",
+            "art/boss-frames-v1/sts2_knowledge_demon/cast_06.png",
+            "art/boss-frames-v1/sts2_knowledge_demon/cast_07.png",
+            "art/boss-frames-v1/sts2_knowledge_demon/cast_08.png",
+            "art/boss-frames-v1/sts2_knowledge_demon/cast_09.png",
+            "art/boss-frames-v1/sts2_knowledge_demon/cast_10.png",
+            "art/boss-frames-v1/sts2_knowledge_demon/cast_11.png",
+            "art/boss-frames-v1/sts2_knowledge_demon/cast_12.png",
+            "art/boss-frames-v1/sts2_knowledge_demon/cast_13.png",
+            "art/boss-frames-v1/sts2_knowledge_demon/cast_14.png",
+            "art/boss-frames-v1/sts2_knowledge_demon/cast_15.png"
+          ],
+          "uniqueFrames": 16,
+          "method": "image_gen_16_consecutive_poses_fixed_cell_camera"
+        },
+        "attack": {
+          "frameCount": 16,
+          "fps": 16,
+          "loop": false,
+          "holdLastFrame": false,
+          "events": [
+            {
+              "frame": 3,
+              "type": "sound",
+              "clip": "windup"
+            },
+            {
+              "frame": 7,
+              "type": "effect",
+              "effect": "fx"
+            },
+            {
+              "frame": 8,
+              "type": "sound",
+              "clip": "attack"
+            }
+          ],
+          "duration": 1,
+          "frames": [
+            "art/boss-frames-v1/sts2_knowledge_demon/attack_00.png",
+            "art/boss-frames-v1/sts2_knowledge_demon/attack_01.png",
+            "art/boss-frames-v1/sts2_knowledge_demon/attack_02.png",
+            "art/boss-frames-v1/sts2_knowledge_demon/attack_03.png",
+            "art/boss-frames-v1/sts2_knowledge_demon/attack_04.png",
+            "art/boss-frames-v1/sts2_knowledge_demon/attack_05.png",
+            "art/boss-frames-v1/sts2_knowledge_demon/attack_06.png",
+            "art/boss-frames-v1/sts2_knowledge_demon/attack_07.png",
+            "art/boss-frames-v1/sts2_knowledge_demon/attack_08.png",
+            "art/boss-frames-v1/sts2_knowledge_demon/attack_09.png",
+            "art/boss-frames-v1/sts2_knowledge_demon/attack_10.png",
+            "art/boss-frames-v1/sts2_knowledge_demon/attack_11.png",
+            "art/boss-frames-v1/sts2_knowledge_demon/attack_12.png",
+            "art/boss-frames-v1/sts2_knowledge_demon/attack_13.png",
+            "art/boss-frames-v1/sts2_knowledge_demon/attack_14.png",
+            "art/boss-frames-v1/sts2_knowledge_demon/attack_15.png"
+          ],
+          "uniqueFrames": 16,
+          "method": "image_gen_16_consecutive_poses_fixed_cell_camera"
+        },
+        "death": {
+          "frameCount": 16,
+          "fps": 12,
+          "loop": false,
+          "holdLastFrame": true,
+          "events": [
+            {
+              "frame": 4,
+              "type": "sound",
+              "clip": "death"
+            }
+          ],
+          "duration": 1.3333333333333333,
+          "frames": [
+            "art/boss-frames-v1/sts2_knowledge_demon/death_00.png",
+            "art/boss-frames-v1/sts2_knowledge_demon/death_01.png",
+            "art/boss-frames-v1/sts2_knowledge_demon/death_02.png",
+            "art/boss-frames-v1/sts2_knowledge_demon/death_03.png",
+            "art/boss-frames-v1/sts2_knowledge_demon/death_04.png",
+            "art/boss-frames-v1/sts2_knowledge_demon/death_05.png",
+            "art/boss-frames-v1/sts2_knowledge_demon/death_06.png",
+            "art/boss-frames-v1/sts2_knowledge_demon/death_07.png",
+            "art/boss-frames-v1/sts2_knowledge_demon/death_08.png",
+            "art/boss-frames-v1/sts2_knowledge_demon/death_09.png",
+            "art/boss-frames-v1/sts2_knowledge_demon/death_10.png",
+            "art/boss-frames-v1/sts2_knowledge_demon/death_11.png",
+            "art/boss-frames-v1/sts2_knowledge_demon/death_12.png",
+            "art/boss-frames-v1/sts2_knowledge_demon/death_13.png",
+            "art/boss-frames-v1/sts2_knowledge_demon/death_14.png",
+            "art/boss-frames-v1/sts2_knowledge_demon/death_15.png"
+          ],
+          "uniqueFrames": 16,
+          "method": "image_gen_16_consecutive_poses_fixed_cell_camera"
+        }
+      },
+      "effect": {
+        "frameCount": 16,
+        "fps": 16,
+        "loop": false,
+        "holdLastFrame": false,
+        "events": [],
+        "duration": 1,
+        "frames": [
+          "art/boss-frames-v1/sts2_knowledge_demon/fx_00.png",
+          "art/boss-frames-v1/sts2_knowledge_demon/fx_01.png",
+          "art/boss-frames-v1/sts2_knowledge_demon/fx_02.png",
+          "art/boss-frames-v1/sts2_knowledge_demon/fx_03.png",
+          "art/boss-frames-v1/sts2_knowledge_demon/fx_04.png",
+          "art/boss-frames-v1/sts2_knowledge_demon/fx_05.png",
+          "art/boss-frames-v1/sts2_knowledge_demon/fx_06.png",
+          "art/boss-frames-v1/sts2_knowledge_demon/fx_07.png",
+          "art/boss-frames-v1/sts2_knowledge_demon/fx_08.png",
+          "art/boss-frames-v1/sts2_knowledge_demon/fx_09.png",
+          "art/boss-frames-v1/sts2_knowledge_demon/fx_10.png",
+          "art/boss-frames-v1/sts2_knowledge_demon/fx_11.png",
+          "art/boss-frames-v1/sts2_knowledge_demon/fx_12.png",
+          "art/boss-frames-v1/sts2_knowledge_demon/fx_13.png",
+          "art/boss-frames-v1/sts2_knowledge_demon/fx_14.png",
+          "art/boss-frames-v1/sts2_knowledge_demon/fx_15.png"
+        ],
+        "uniqueFrames": 16,
+        "method": "image_gen_16_consecutive_poses_fixed_cell_camera"
+      },
+      "audio": {
+        "windup": "audio/sfx/boss-frames-v1/sts2_knowledge_demon_windup.mp3",
+        "attack": "audio/sfx/boss-frames-v1/sts2_knowledge_demon_attack.mp3",
+        "skill": "audio/sfx/boss-frames-v1/sts2_knowledge_demon_skill.mp3",
+        "hit": "audio/sfx/boss-frames-v1/sts2_knowledge_demon_hit.mp3",
+        "death": "audio/sfx/boss-frames-v1/sts2_knowledge_demon_death.mp3"
+      },
+      "assetReady": true,
+      "visualApproved": true,
+      "signature": "da9b8e1a181792869dc9770fe91e87aceb295994746363a71d5cc67edabdb9e0",
+      "sourceIssues": [],
+      "stage": "assets_and_standalone_preview",
+      "design": {
+        "identity": "Tall hunched violet demon scholar with ivory horned skull face, one glowing amber forehead eye, burgundy layered mantle, two long claw arms cradling one giant chained ivory-page book, two bent digitigrade legs, small folded black wing membranes. One book only.",
+        "idle": "Bent legs brace, neck and shoulders breathe, fingers turn one book page, head tracks across page, chains sway; seamless cycle.",
+        "attack": "Book held in left claw, right claw pulls back high then performs a heavy LEFT palm strike, torso twists and resets.",
+        "cast": "Hunch over closed book then open it very wide above chest, head arches, wing membranes spread and fingers splay in a huge revelation gesture; close to neutral.",
+        "death": "Book falls open, wing membranes fold, legs buckle and scholar collapses around book, chains settle while amber eye extinguishes."
+      }
+    },
+    {
+      "id": "sts2_the_insatiable",
+      "name": "无厌之口",
+      "act": 2,
+      "region": "hive",
+      "type": "worm",
+      "width": 512,
+      "height": 512,
+      "ground": 430,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.16015625
+      },
+      "still": "art/boss-frames-v1/sts2_the_insatiable/still.png",
+      "actions": {
+        "idle": {
+          "frameCount": 16,
+          "fps": 12,
+          "loop": true,
+          "holdLastFrame": false,
+          "events": [],
+          "duration": 1.3333333333333333,
+          "frames": [
+            "art/boss-frames-v1/sts2_the_insatiable/idle_00.png",
+            "art/boss-frames-v1/sts2_the_insatiable/idle_01.png",
+            "art/boss-frames-v1/sts2_the_insatiable/idle_02.png",
+            "art/boss-frames-v1/sts2_the_insatiable/idle_03.png",
+            "art/boss-frames-v1/sts2_the_insatiable/idle_04.png",
+            "art/boss-frames-v1/sts2_the_insatiable/idle_05.png",
+            "art/boss-frames-v1/sts2_the_insatiable/idle_06.png",
+            "art/boss-frames-v1/sts2_the_insatiable/idle_07.png",
+            "art/boss-frames-v1/sts2_the_insatiable/idle_08.png",
+            "art/boss-frames-v1/sts2_the_insatiable/idle_09.png",
+            "art/boss-frames-v1/sts2_the_insatiable/idle_10.png",
+            "art/boss-frames-v1/sts2_the_insatiable/idle_11.png",
+            "art/boss-frames-v1/sts2_the_insatiable/idle_12.png",
+            "art/boss-frames-v1/sts2_the_insatiable/idle_13.png",
+            "art/boss-frames-v1/sts2_the_insatiable/idle_14.png",
+            "art/boss-frames-v1/sts2_the_insatiable/idle_15.png"
+          ],
+          "uniqueFrames": 16,
+          "method": "image_gen_16_consecutive_poses_fixed_cell_camera"
+        },
+        "hit": {
+          "frameCount": 16,
+          "fps": 16,
+          "loop": false,
+          "holdLastFrame": false,
+          "events": [
+            {
+              "frame": 3,
+              "type": "sound",
+              "clip": "hit"
+            }
+          ],
+          "duration": 1,
+          "frames": [
+            "art/boss-frames-v1/sts2_the_insatiable/hit_00.png",
+            "art/boss-frames-v1/sts2_the_insatiable/hit_01.png",
+            "art/boss-frames-v1/sts2_the_insatiable/hit_02.png",
+            "art/boss-frames-v1/sts2_the_insatiable/hit_03.png",
+            "art/boss-frames-v1/sts2_the_insatiable/hit_04.png",
+            "art/boss-frames-v1/sts2_the_insatiable/hit_05.png",
+            "art/boss-frames-v1/sts2_the_insatiable/hit_06.png",
+            "art/boss-frames-v1/sts2_the_insatiable/hit_07.png",
+            "art/boss-frames-v1/sts2_the_insatiable/hit_08.png",
+            "art/boss-frames-v1/sts2_the_insatiable/hit_09.png",
+            "art/boss-frames-v1/sts2_the_insatiable/hit_10.png",
+            "art/boss-frames-v1/sts2_the_insatiable/hit_11.png",
+            "art/boss-frames-v1/sts2_the_insatiable/hit_12.png",
+            "art/boss-frames-v1/sts2_the_insatiable/hit_13.png",
+            "art/boss-frames-v1/sts2_the_insatiable/hit_14.png",
+            "art/boss-frames-v1/sts2_the_insatiable/hit_15.png"
+          ],
+          "uniqueFrames": 16,
+          "method": "image_gen_16_consecutive_poses_fixed_cell_camera"
+        },
+        "cast": {
+          "frameCount": 16,
+          "fps": 16,
+          "loop": false,
+          "holdLastFrame": false,
+          "events": [
+            {
+              "frame": 3,
+              "type": "sound",
+              "clip": "windup"
+            },
+            {
+              "frame": 7,
+              "type": "effect",
+              "effect": "fx"
+            },
+            {
+              "frame": 8,
+              "type": "sound",
+              "clip": "skill"
+            }
+          ],
+          "duration": 1,
+          "frames": [
+            "art/boss-frames-v1/sts2_the_insatiable/cast_00.png",
+            "art/boss-frames-v1/sts2_the_insatiable/cast_01.png",
+            "art/boss-frames-v1/sts2_the_insatiable/cast_02.png",
+            "art/boss-frames-v1/sts2_the_insatiable/cast_03.png",
+            "art/boss-frames-v1/sts2_the_insatiable/cast_04.png",
+            "art/boss-frames-v1/sts2_the_insatiable/cast_05.png",
+            "art/boss-frames-v1/sts2_the_insatiable/cast_06.png",
+            "art/boss-frames-v1/sts2_the_insatiable/cast_07.png",
+            "art/boss-frames-v1/sts2_the_insatiable/cast_08.png",
+            "art/boss-frames-v1/sts2_the_insatiable/cast_09.png",
+            "art/boss-frames-v1/sts2_the_insatiable/cast_10.png",
+            "art/boss-frames-v1/sts2_the_insatiable/cast_11.png",
+            "art/boss-frames-v1/sts2_the_insatiable/cast_12.png",
+            "art/boss-frames-v1/sts2_the_insatiable/cast_13.png",
+            "art/boss-frames-v1/sts2_the_insatiable/cast_14.png",
+            "art/boss-frames-v1/sts2_the_insatiable/cast_15.png"
+          ],
+          "uniqueFrames": 16,
+          "method": "image_gen_16_consecutive_poses_fixed_cell_camera"
+        },
+        "attack": {
+          "frameCount": 16,
+          "fps": 16,
+          "loop": false,
+          "holdLastFrame": false,
+          "events": [
+            {
+              "frame": 3,
+              "type": "sound",
+              "clip": "windup"
+            },
+            {
+              "frame": 7,
+              "type": "effect",
+              "effect": "fx"
+            },
+            {
+              "frame": 8,
+              "type": "sound",
+              "clip": "attack"
+            }
+          ],
+          "duration": 1,
+          "frames": [
+            "art/boss-frames-v1/sts2_the_insatiable/attack_00.png",
+            "art/boss-frames-v1/sts2_the_insatiable/attack_01.png",
+            "art/boss-frames-v1/sts2_the_insatiable/attack_02.png",
+            "art/boss-frames-v1/sts2_the_insatiable/attack_03.png",
+            "art/boss-frames-v1/sts2_the_insatiable/attack_04.png",
+            "art/boss-frames-v1/sts2_the_insatiable/attack_05.png",
+            "art/boss-frames-v1/sts2_the_insatiable/attack_06.png",
+            "art/boss-frames-v1/sts2_the_insatiable/attack_07.png",
+            "art/boss-frames-v1/sts2_the_insatiable/attack_08.png",
+            "art/boss-frames-v1/sts2_the_insatiable/attack_09.png",
+            "art/boss-frames-v1/sts2_the_insatiable/attack_10.png",
+            "art/boss-frames-v1/sts2_the_insatiable/attack_11.png",
+            "art/boss-frames-v1/sts2_the_insatiable/attack_12.png",
+            "art/boss-frames-v1/sts2_the_insatiable/attack_13.png",
+            "art/boss-frames-v1/sts2_the_insatiable/attack_14.png",
+            "art/boss-frames-v1/sts2_the_insatiable/attack_15.png"
+          ],
+          "uniqueFrames": 16,
+          "method": "image_gen_16_consecutive_poses_fixed_cell_camera"
+        },
+        "death": {
+          "frameCount": 16,
+          "fps": 12,
+          "loop": false,
+          "holdLastFrame": true,
+          "events": [
+            {
+              "frame": 4,
+              "type": "sound",
+              "clip": "death"
+            }
+          ],
+          "duration": 1.3333333333333333,
+          "frames": [
+            "art/boss-frames-v1/sts2_the_insatiable/death_00.png",
+            "art/boss-frames-v1/sts2_the_insatiable/death_01.png",
+            "art/boss-frames-v1/sts2_the_insatiable/death_02.png",
+            "art/boss-frames-v1/sts2_the_insatiable/death_03.png",
+            "art/boss-frames-v1/sts2_the_insatiable/death_04.png",
+            "art/boss-frames-v1/sts2_the_insatiable/death_05.png",
+            "art/boss-frames-v1/sts2_the_insatiable/death_06.png",
+            "art/boss-frames-v1/sts2_the_insatiable/death_07.png",
+            "art/boss-frames-v1/sts2_the_insatiable/death_08.png",
+            "art/boss-frames-v1/sts2_the_insatiable/death_09.png",
+            "art/boss-frames-v1/sts2_the_insatiable/death_10.png",
+            "art/boss-frames-v1/sts2_the_insatiable/death_11.png",
+            "art/boss-frames-v1/sts2_the_insatiable/death_12.png",
+            "art/boss-frames-v1/sts2_the_insatiable/death_13.png",
+            "art/boss-frames-v1/sts2_the_insatiable/death_14.png",
+            "art/boss-frames-v1/sts2_the_insatiable/death_15.png"
+          ],
+          "uniqueFrames": 16,
+          "method": "image_gen_16_consecutive_poses_fixed_cell_camera"
+        }
+      },
+      "effect": {
+        "frameCount": 16,
+        "fps": 16,
+        "loop": false,
+        "holdLastFrame": false,
+        "events": [],
+        "duration": 1,
+        "frames": [
+          "art/boss-frames-v1/sts2_the_insatiable/fx_00.png",
+          "art/boss-frames-v1/sts2_the_insatiable/fx_01.png",
+          "art/boss-frames-v1/sts2_the_insatiable/fx_02.png",
+          "art/boss-frames-v1/sts2_the_insatiable/fx_03.png",
+          "art/boss-frames-v1/sts2_the_insatiable/fx_04.png",
+          "art/boss-frames-v1/sts2_the_insatiable/fx_05.png",
+          "art/boss-frames-v1/sts2_the_insatiable/fx_06.png",
+          "art/boss-frames-v1/sts2_the_insatiable/fx_07.png",
+          "art/boss-frames-v1/sts2_the_insatiable/fx_08.png",
+          "art/boss-frames-v1/sts2_the_insatiable/fx_09.png",
+          "art/boss-frames-v1/sts2_the_insatiable/fx_10.png",
+          "art/boss-frames-v1/sts2_the_insatiable/fx_11.png",
+          "art/boss-frames-v1/sts2_the_insatiable/fx_12.png",
+          "art/boss-frames-v1/sts2_the_insatiable/fx_13.png",
+          "art/boss-frames-v1/sts2_the_insatiable/fx_14.png",
+          "art/boss-frames-v1/sts2_the_insatiable/fx_15.png"
+        ],
+        "uniqueFrames": 16,
+        "method": "image_gen_16_consecutive_poses_fixed_cell_camera"
+      },
+      "audio": {
+        "windup": "audio/sfx/boss-frames-v1/sts2_the_insatiable_windup.mp3",
+        "attack": "audio/sfx/boss-frames-v1/sts2_the_insatiable_attack.mp3",
+        "skill": "audio/sfx/boss-frames-v1/sts2_the_insatiable_skill.mp3",
+        "hit": "audio/sfx/boss-frames-v1/sts2_the_insatiable_hit.mp3",
+        "death": "audio/sfx/boss-frames-v1/sts2_the_insatiable_death.mp3"
+      },
+      "assetReady": true,
+      "visualApproved": true,
+      "signature": "f8b75c81650fe547fc01e4ff0038ad593a970b33c49ae5867d3e999f8d61d372",
+      "sourceIssues": [],
+      "stage": "assets_and_standalone_preview",
+      "design": {
+        "identity": "Enormous low burgundy-violet fleshy maw beast, one huge vertical ivory-toothed mouth occupying front torso, eyeless upper dome, four short hooked supporting limbs, overlapping chitin back ridges, long drooling tongue, no separate humanoid head.",
+        "idle": "Four feet hold, belly heaves visibly, tooth arches open and close slightly, tongue curls and back plates breathe; seamless cycle.",
+        "attack": "Rear torso contracts, mouth opens huge, full body drives LEFT in a great bite, jaw arches clamp and tongue recoils; return.",
+        "cast": "Lower belly presses to ground then upper dome rears, mouth opens almost circular and tongue sweeps a wide spiral, abdomen expands; exhale and reset.",
+        "death": "Mouth tension fails, tooth arches fold inward, body rolls onto side, tongue and back plates settle, no gore."
+      }
+    },
+    {
+      "id": "sts2_aeonglass",
+      "name": "永漏",
+      "act": 3,
+      "region": "glory",
+      "type": "prism",
+      "width": 512,
+      "height": 512,
+      "ground": 430,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.16015625
+      },
+      "still": "art/boss-frames-v1/sts2_aeonglass/still.png",
+      "actions": {
+        "idle": {
+          "frameCount": 16,
+          "fps": 12,
+          "loop": true,
+          "holdLastFrame": false,
+          "events": [],
+          "duration": 1.3333333333333333,
+          "frames": [
+            "art/boss-frames-v1/sts2_aeonglass/idle_00.png",
+            "art/boss-frames-v1/sts2_aeonglass/idle_01.png",
+            "art/boss-frames-v1/sts2_aeonglass/idle_02.png",
+            "art/boss-frames-v1/sts2_aeonglass/idle_03.png",
+            "art/boss-frames-v1/sts2_aeonglass/idle_04.png",
+            "art/boss-frames-v1/sts2_aeonglass/idle_05.png",
+            "art/boss-frames-v1/sts2_aeonglass/idle_06.png",
+            "art/boss-frames-v1/sts2_aeonglass/idle_07.png",
+            "art/boss-frames-v1/sts2_aeonglass/idle_08.png",
+            "art/boss-frames-v1/sts2_aeonglass/idle_09.png",
+            "art/boss-frames-v1/sts2_aeonglass/idle_10.png",
+            "art/boss-frames-v1/sts2_aeonglass/idle_11.png",
+            "art/boss-frames-v1/sts2_aeonglass/idle_12.png",
+            "art/boss-frames-v1/sts2_aeonglass/idle_13.png",
+            "art/boss-frames-v1/sts2_aeonglass/idle_14.png",
+            "art/boss-frames-v1/sts2_aeonglass/idle_15.png"
+          ],
+          "uniqueFrames": 16,
+          "method": "image_gen_16_consecutive_poses_fixed_cell_camera"
+        },
+        "hit": {
+          "frameCount": 16,
+          "fps": 16,
+          "loop": false,
+          "holdLastFrame": false,
+          "events": [
+            {
+              "frame": 3,
+              "type": "sound",
+              "clip": "hit"
+            }
+          ],
+          "duration": 1,
+          "frames": [
+            "art/boss-frames-v1/sts2_aeonglass/hit_00.png",
+            "art/boss-frames-v1/sts2_aeonglass/hit_01.png",
+            "art/boss-frames-v1/sts2_aeonglass/hit_02.png",
+            "art/boss-frames-v1/sts2_aeonglass/hit_03.png",
+            "art/boss-frames-v1/sts2_aeonglass/hit_04.png",
+            "art/boss-frames-v1/sts2_aeonglass/hit_05.png",
+            "art/boss-frames-v1/sts2_aeonglass/hit_06.png",
+            "art/boss-frames-v1/sts2_aeonglass/hit_07.png",
+            "art/boss-frames-v1/sts2_aeonglass/hit_08.png",
+            "art/boss-frames-v1/sts2_aeonglass/hit_09.png",
+            "art/boss-frames-v1/sts2_aeonglass/hit_10.png",
+            "art/boss-frames-v1/sts2_aeonglass/hit_11.png",
+            "art/boss-frames-v1/sts2_aeonglass/hit_12.png",
+            "art/boss-frames-v1/sts2_aeonglass/hit_13.png",
+            "art/boss-frames-v1/sts2_aeonglass/hit_14.png",
+            "art/boss-frames-v1/sts2_aeonglass/hit_15.png"
+          ],
+          "uniqueFrames": 16,
+          "method": "image_gen_16_consecutive_poses_fixed_cell_camera"
+        },
+        "cast": {
+          "frameCount": 16,
+          "fps": 16,
+          "loop": false,
+          "holdLastFrame": false,
+          "events": [
+            {
+              "frame": 3,
+              "type": "sound",
+              "clip": "windup"
+            },
+            {
+              "frame": 7,
+              "type": "effect",
+              "effect": "fx"
+            },
+            {
+              "frame": 8,
+              "type": "sound",
+              "clip": "skill"
+            }
+          ],
+          "duration": 1,
+          "frames": [
+            "art/boss-frames-v1/sts2_aeonglass/cast_00.png",
+            "art/boss-frames-v1/sts2_aeonglass/cast_01.png",
+            "art/boss-frames-v1/sts2_aeonglass/cast_02.png",
+            "art/boss-frames-v1/sts2_aeonglass/cast_03.png",
+            "art/boss-frames-v1/sts2_aeonglass/cast_04.png",
+            "art/boss-frames-v1/sts2_aeonglass/cast_05.png",
+            "art/boss-frames-v1/sts2_aeonglass/cast_06.png",
+            "art/boss-frames-v1/sts2_aeonglass/cast_07.png",
+            "art/boss-frames-v1/sts2_aeonglass/cast_08.png",
+            "art/boss-frames-v1/sts2_aeonglass/cast_09.png",
+            "art/boss-frames-v1/sts2_aeonglass/cast_10.png",
+            "art/boss-frames-v1/sts2_aeonglass/cast_11.png",
+            "art/boss-frames-v1/sts2_aeonglass/cast_12.png",
+            "art/boss-frames-v1/sts2_aeonglass/cast_13.png",
+            "art/boss-frames-v1/sts2_aeonglass/cast_14.png",
+            "art/boss-frames-v1/sts2_aeonglass/cast_15.png"
+          ],
+          "uniqueFrames": 16,
+          "method": "image_gen_16_consecutive_poses_fixed_cell_camera"
+        },
+        "attack": {
+          "frameCount": 16,
+          "fps": 16,
+          "loop": false,
+          "holdLastFrame": false,
+          "events": [
+            {
+              "frame": 3,
+              "type": "sound",
+              "clip": "windup"
+            },
+            {
+              "frame": 7,
+              "type": "effect",
+              "effect": "fx"
+            },
+            {
+              "frame": 8,
+              "type": "sound",
+              "clip": "attack"
+            }
+          ],
+          "duration": 1,
+          "frames": [
+            "art/boss-frames-v1/sts2_aeonglass/attack_00.png",
+            "art/boss-frames-v1/sts2_aeonglass/attack_01.png",
+            "art/boss-frames-v1/sts2_aeonglass/attack_02.png",
+            "art/boss-frames-v1/sts2_aeonglass/attack_03.png",
+            "art/boss-frames-v1/sts2_aeonglass/attack_04.png",
+            "art/boss-frames-v1/sts2_aeonglass/attack_05.png",
+            "art/boss-frames-v1/sts2_aeonglass/attack_06.png",
+            "art/boss-frames-v1/sts2_aeonglass/attack_07.png",
+            "art/boss-frames-v1/sts2_aeonglass/attack_08.png",
+            "art/boss-frames-v1/sts2_aeonglass/attack_09.png",
+            "art/boss-frames-v1/sts2_aeonglass/attack_10.png",
+            "art/boss-frames-v1/sts2_aeonglass/attack_11.png",
+            "art/boss-frames-v1/sts2_aeonglass/attack_12.png",
+            "art/boss-frames-v1/sts2_aeonglass/attack_13.png",
+            "art/boss-frames-v1/sts2_aeonglass/attack_14.png",
+            "art/boss-frames-v1/sts2_aeonglass/attack_15.png"
+          ],
+          "uniqueFrames": 16,
+          "method": "image_gen_16_consecutive_poses_fixed_cell_camera"
+        },
+        "death": {
+          "frameCount": 16,
+          "fps": 12,
+          "loop": false,
+          "holdLastFrame": true,
+          "events": [
+            {
+              "frame": 4,
+              "type": "sound",
+              "clip": "death"
+            }
+          ],
+          "duration": 1.3333333333333333,
+          "frames": [
+            "art/boss-frames-v1/sts2_aeonglass/death_00.png",
+            "art/boss-frames-v1/sts2_aeonglass/death_01.png",
+            "art/boss-frames-v1/sts2_aeonglass/death_02.png",
+            "art/boss-frames-v1/sts2_aeonglass/death_03.png",
+            "art/boss-frames-v1/sts2_aeonglass/death_04.png",
+            "art/boss-frames-v1/sts2_aeonglass/death_05.png",
+            "art/boss-frames-v1/sts2_aeonglass/death_06.png",
+            "art/boss-frames-v1/sts2_aeonglass/death_07.png",
+            "art/boss-frames-v1/sts2_aeonglass/death_08.png",
+            "art/boss-frames-v1/sts2_aeonglass/death_09.png",
+            "art/boss-frames-v1/sts2_aeonglass/death_10.png",
+            "art/boss-frames-v1/sts2_aeonglass/death_11.png",
+            "art/boss-frames-v1/sts2_aeonglass/death_12.png",
+            "art/boss-frames-v1/sts2_aeonglass/death_13.png",
+            "art/boss-frames-v1/sts2_aeonglass/death_14.png",
+            "art/boss-frames-v1/sts2_aeonglass/death_15.png"
+          ],
+          "uniqueFrames": 16,
+          "method": "image_gen_16_consecutive_poses_fixed_cell_camera"
+        }
+      },
+      "effect": {
+        "frameCount": 16,
+        "fps": 16,
+        "loop": false,
+        "holdLastFrame": false,
+        "events": [],
+        "duration": 1,
+        "frames": [
+          "art/boss-frames-v1/sts2_aeonglass/fx_00.png",
+          "art/boss-frames-v1/sts2_aeonglass/fx_01.png",
+          "art/boss-frames-v1/sts2_aeonglass/fx_02.png",
+          "art/boss-frames-v1/sts2_aeonglass/fx_03.png",
+          "art/boss-frames-v1/sts2_aeonglass/fx_04.png",
+          "art/boss-frames-v1/sts2_aeonglass/fx_05.png",
+          "art/boss-frames-v1/sts2_aeonglass/fx_06.png",
+          "art/boss-frames-v1/sts2_aeonglass/fx_07.png",
+          "art/boss-frames-v1/sts2_aeonglass/fx_08.png",
+          "art/boss-frames-v1/sts2_aeonglass/fx_09.png",
+          "art/boss-frames-v1/sts2_aeonglass/fx_10.png",
+          "art/boss-frames-v1/sts2_aeonglass/fx_11.png",
+          "art/boss-frames-v1/sts2_aeonglass/fx_12.png",
+          "art/boss-frames-v1/sts2_aeonglass/fx_13.png",
+          "art/boss-frames-v1/sts2_aeonglass/fx_14.png",
+          "art/boss-frames-v1/sts2_aeonglass/fx_15.png"
+        ],
+        "uniqueFrames": 16,
+        "method": "image_gen_16_consecutive_poses_fixed_cell_camera"
+      },
+      "audio": {
+        "windup": "audio/sfx/boss-frames-v1/sts2_aeonglass_windup.mp3",
+        "attack": "audio/sfx/boss-frames-v1/sts2_aeonglass_attack.mp3",
+        "skill": "audio/sfx/boss-frames-v1/sts2_aeonglass_skill.mp3",
+        "hit": "audio/sfx/boss-frames-v1/sts2_aeonglass_hit.mp3",
+        "death": "audio/sfx/boss-frames-v1/sts2_aeonglass_death.mp3"
+      },
+      "assetReady": true,
+      "visualApproved": true,
+      "signature": "708a72d7c7d068d0950cc19bb2728421d5c2c522bdcef2049fa58b0d00c9e8df",
+      "sourceIssues": [],
+      "stage": "assets_and_standalone_preview",
+      "design": {
+        "identity": "Floating giant ancient hourglass, two cold-silver ornate end caps and three curved obsidian support struts, intact elongated pale violet glass bulbs, bright golden-ivory sand stream, small silver clockwork halo, no humanoid face or limbs.",
+        "idle": "Hover center holds, hourglass tilts through a clear slow cycle, sand swirls visibly, support struts flex subtly and halo turns; seamless.",
+        "attack": "Glass assembly leans back then pivots sharply LEFT, bottom cap aims and releases a narrow attached sand-light needle, returns upright.",
+        "cast": "Hourglass rotates a full half turn through intermediate poses, sand coils upward against gravity, struts spread slightly and halo opens; return original orientation.",
+        "death": "Sand stream stops, bulbs crack into several large pieces, end caps fall and tilt, sand pours into a final settled mound among silver struts."
+      }
+    },
+    {
+      "id": "sts2_torch_head_amalgam",
+      "name": "炬首聚合体",
+      "act": 3,
+      "region": "glory",
+      "type": "mecha",
+      "width": 512,
+      "height": 512,
+      "ground": 430,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.16015625
+      },
+      "still": "art/boss-frames-v1/sts2_torch_head_amalgam/still.png",
+      "actions": {
+        "idle": {
+          "frameCount": 16,
+          "fps": 12,
+          "loop": true,
+          "holdLastFrame": false,
+          "events": [],
+          "duration": 1.3333333333333333,
+          "frames": [
+            "art/boss-frames-v1/sts2_torch_head_amalgam/idle_subtle_00.png",
+            "art/boss-frames-v1/sts2_torch_head_amalgam/idle_subtle_01.png",
+            "art/boss-frames-v1/sts2_torch_head_amalgam/idle_subtle_02.png",
+            "art/boss-frames-v1/sts2_torch_head_amalgam/idle_subtle_03.png",
+            "art/boss-frames-v1/sts2_torch_head_amalgam/idle_subtle_04.png",
+            "art/boss-frames-v1/sts2_torch_head_amalgam/idle_subtle_05.png",
+            "art/boss-frames-v1/sts2_torch_head_amalgam/idle_subtle_06.png",
+            "art/boss-frames-v1/sts2_torch_head_amalgam/idle_subtle_07.png",
+            "art/boss-frames-v1/sts2_torch_head_amalgam/idle_subtle_08.png",
+            "art/boss-frames-v1/sts2_torch_head_amalgam/idle_subtle_09.png",
+            "art/boss-frames-v1/sts2_torch_head_amalgam/idle_subtle_10.png",
+            "art/boss-frames-v1/sts2_torch_head_amalgam/idle_subtle_11.png",
+            "art/boss-frames-v1/sts2_torch_head_amalgam/idle_subtle_12.png",
+            "art/boss-frames-v1/sts2_torch_head_amalgam/idle_subtle_13.png",
+            "art/boss-frames-v1/sts2_torch_head_amalgam/idle_subtle_14.png",
+            "art/boss-frames-v1/sts2_torch_head_amalgam/idle_subtle_15.png"
+          ],
+          "uniqueFrames": 16,
+          "method": "original_art_local_subtle_idle_v1",
+          "fixedRegions": [
+            {
+              "id": "ground-contact",
+              "left": 0,
+              "top": 385,
+              "width": 512,
+              "height": 127
+            },
+            {
+              "id": "armored-core",
+              "left": 208,
+              "top": 247,
+              "width": 103,
+              "height": 138
+            }
+          ]
+        },
+        "hit": {
+          "frameCount": 16,
+          "fps": 16,
+          "loop": false,
+          "holdLastFrame": false,
+          "events": [
+            {
+              "frame": 3,
+              "type": "sound",
+              "clip": "hit"
+            }
+          ],
+          "duration": 1,
+          "frames": [
+            "art/boss-frames-v1/sts2_torch_head_amalgam/hit_00.png",
+            "art/boss-frames-v1/sts2_torch_head_amalgam/hit_01.png",
+            "art/boss-frames-v1/sts2_torch_head_amalgam/hit_02.png",
+            "art/boss-frames-v1/sts2_torch_head_amalgam/hit_03.png",
+            "art/boss-frames-v1/sts2_torch_head_amalgam/hit_04.png",
+            "art/boss-frames-v1/sts2_torch_head_amalgam/hit_05.png",
+            "art/boss-frames-v1/sts2_torch_head_amalgam/hit_06.png",
+            "art/boss-frames-v1/sts2_torch_head_amalgam/hit_07.png",
+            "art/boss-frames-v1/sts2_torch_head_amalgam/hit_08.png",
+            "art/boss-frames-v1/sts2_torch_head_amalgam/hit_09.png",
+            "art/boss-frames-v1/sts2_torch_head_amalgam/hit_10.png",
+            "art/boss-frames-v1/sts2_torch_head_amalgam/hit_11.png",
+            "art/boss-frames-v1/sts2_torch_head_amalgam/hit_12.png",
+            "art/boss-frames-v1/sts2_torch_head_amalgam/hit_13.png",
+            "art/boss-frames-v1/sts2_torch_head_amalgam/hit_14.png",
+            "art/boss-frames-v1/sts2_torch_head_amalgam/hit_15.png"
+          ],
+          "uniqueFrames": 16,
+          "method": "image_gen_16_consecutive_poses_fixed_cell_camera"
+        },
+        "cast": {
+          "frameCount": 16,
+          "fps": 16,
+          "loop": false,
+          "holdLastFrame": false,
+          "events": [
+            {
+              "frame": 3,
+              "type": "sound",
+              "clip": "windup"
+            },
+            {
+              "frame": 7,
+              "type": "effect",
+              "effect": "fx"
+            },
+            {
+              "frame": 8,
+              "type": "sound",
+              "clip": "skill"
+            }
+          ],
+          "duration": 1,
+          "frames": [
+            "art/boss-frames-v1/sts2_torch_head_amalgam/cast_00.png",
+            "art/boss-frames-v1/sts2_torch_head_amalgam/cast_01.png",
+            "art/boss-frames-v1/sts2_torch_head_amalgam/cast_02.png",
+            "art/boss-frames-v1/sts2_torch_head_amalgam/cast_03.png",
+            "art/boss-frames-v1/sts2_torch_head_amalgam/cast_04.png",
+            "art/boss-frames-v1/sts2_torch_head_amalgam/cast_05.png",
+            "art/boss-frames-v1/sts2_torch_head_amalgam/cast_06.png",
+            "art/boss-frames-v1/sts2_torch_head_amalgam/cast_07.png",
+            "art/boss-frames-v1/sts2_torch_head_amalgam/cast_08.png",
+            "art/boss-frames-v1/sts2_torch_head_amalgam/cast_09.png",
+            "art/boss-frames-v1/sts2_torch_head_amalgam/cast_10.png",
+            "art/boss-frames-v1/sts2_torch_head_amalgam/cast_11.png",
+            "art/boss-frames-v1/sts2_torch_head_amalgam/cast_12.png",
+            "art/boss-frames-v1/sts2_torch_head_amalgam/cast_13.png",
+            "art/boss-frames-v1/sts2_torch_head_amalgam/cast_14.png",
+            "art/boss-frames-v1/sts2_torch_head_amalgam/cast_15.png"
+          ],
+          "uniqueFrames": 16,
+          "method": "image_gen_16_consecutive_poses_fixed_cell_camera"
+        },
+        "attack": {
+          "frameCount": 16,
+          "fps": 16,
+          "loop": false,
+          "holdLastFrame": false,
+          "events": [
+            {
+              "frame": 3,
+              "type": "sound",
+              "clip": "windup"
+            },
+            {
+              "frame": 7,
+              "type": "effect",
+              "effect": "fx"
+            },
+            {
+              "frame": 8,
+              "type": "sound",
+              "clip": "attack"
+            }
+          ],
+          "duration": 1,
+          "frames": [
+            "art/boss-frames-v1/sts2_torch_head_amalgam/attack_00.png",
+            "art/boss-frames-v1/sts2_torch_head_amalgam/attack_01.png",
+            "art/boss-frames-v1/sts2_torch_head_amalgam/attack_02.png",
+            "art/boss-frames-v1/sts2_torch_head_amalgam/attack_03.png",
+            "art/boss-frames-v1/sts2_torch_head_amalgam/attack_04.png",
+            "art/boss-frames-v1/sts2_torch_head_amalgam/attack_05.png",
+            "art/boss-frames-v1/sts2_torch_head_amalgam/attack_06.png",
+            "art/boss-frames-v1/sts2_torch_head_amalgam/attack_07.png",
+            "art/boss-frames-v1/sts2_torch_head_amalgam/attack_08.png",
+            "art/boss-frames-v1/sts2_torch_head_amalgam/attack_09.png",
+            "art/boss-frames-v1/sts2_torch_head_amalgam/attack_10.png",
+            "art/boss-frames-v1/sts2_torch_head_amalgam/attack_11.png",
+            "art/boss-frames-v1/sts2_torch_head_amalgam/attack_12.png",
+            "art/boss-frames-v1/sts2_torch_head_amalgam/attack_13.png",
+            "art/boss-frames-v1/sts2_torch_head_amalgam/attack_14.png",
+            "art/boss-frames-v1/sts2_torch_head_amalgam/attack_15.png"
+          ],
+          "uniqueFrames": 16,
+          "method": "image_gen_16_consecutive_poses_fixed_cell_camera"
+        },
+        "death": {
+          "frameCount": 16,
+          "fps": 12,
+          "loop": false,
+          "holdLastFrame": true,
+          "events": [
+            {
+              "frame": 4,
+              "type": "sound",
+              "clip": "death"
+            }
+          ],
+          "duration": 1.3333333333333333,
+          "frames": [
+            "art/boss-frames-v1/sts2_torch_head_amalgam/death_00.png",
+            "art/boss-frames-v1/sts2_torch_head_amalgam/death_01.png",
+            "art/boss-frames-v1/sts2_torch_head_amalgam/death_02.png",
+            "art/boss-frames-v1/sts2_torch_head_amalgam/death_03.png",
+            "art/boss-frames-v1/sts2_torch_head_amalgam/death_04.png",
+            "art/boss-frames-v1/sts2_torch_head_amalgam/death_05.png",
+            "art/boss-frames-v1/sts2_torch_head_amalgam/death_06.png",
+            "art/boss-frames-v1/sts2_torch_head_amalgam/death_07.png",
+            "art/boss-frames-v1/sts2_torch_head_amalgam/death_08.png",
+            "art/boss-frames-v1/sts2_torch_head_amalgam/death_09.png",
+            "art/boss-frames-v1/sts2_torch_head_amalgam/death_10.png",
+            "art/boss-frames-v1/sts2_torch_head_amalgam/death_11.png",
+            "art/boss-frames-v1/sts2_torch_head_amalgam/death_12.png",
+            "art/boss-frames-v1/sts2_torch_head_amalgam/death_13.png",
+            "art/boss-frames-v1/sts2_torch_head_amalgam/death_14.png",
+            "art/boss-frames-v1/sts2_torch_head_amalgam/death_15.png"
+          ],
+          "uniqueFrames": 16,
+          "method": "image_gen_16_consecutive_poses_fixed_cell_camera"
+        }
+      },
+      "effect": {
+        "frameCount": 16,
+        "fps": 16,
+        "loop": false,
+        "holdLastFrame": false,
+        "events": [],
+        "duration": 1,
+        "frames": [
+          "art/boss-frames-v1/sts2_torch_head_amalgam/fx_00.png",
+          "art/boss-frames-v1/sts2_torch_head_amalgam/fx_01.png",
+          "art/boss-frames-v1/sts2_torch_head_amalgam/fx_02.png",
+          "art/boss-frames-v1/sts2_torch_head_amalgam/fx_03.png",
+          "art/boss-frames-v1/sts2_torch_head_amalgam/fx_04.png",
+          "art/boss-frames-v1/sts2_torch_head_amalgam/fx_05.png",
+          "art/boss-frames-v1/sts2_torch_head_amalgam/fx_06.png",
+          "art/boss-frames-v1/sts2_torch_head_amalgam/fx_07.png",
+          "art/boss-frames-v1/sts2_torch_head_amalgam/fx_08.png",
+          "art/boss-frames-v1/sts2_torch_head_amalgam/fx_09.png",
+          "art/boss-frames-v1/sts2_torch_head_amalgam/fx_10.png",
+          "art/boss-frames-v1/sts2_torch_head_amalgam/fx_11.png",
+          "art/boss-frames-v1/sts2_torch_head_amalgam/fx_12.png",
+          "art/boss-frames-v1/sts2_torch_head_amalgam/fx_13.png",
+          "art/boss-frames-v1/sts2_torch_head_amalgam/fx_14.png",
+          "art/boss-frames-v1/sts2_torch_head_amalgam/fx_15.png"
+        ],
+        "uniqueFrames": 16,
+        "method": "image_gen_16_consecutive_poses_fixed_cell_camera"
+      },
+      "audio": {
+        "windup": "audio/sfx/boss-frames-v1/sts2_torch_head_amalgam_windup.mp3",
+        "attack": "audio/sfx/boss-frames-v1/sts2_torch_head_amalgam_attack.mp3",
+        "skill": "audio/sfx/boss-frames-v1/sts2_torch_head_amalgam_skill.mp3",
+        "hit": "audio/sfx/boss-frames-v1/sts2_torch_head_amalgam_hit.mp3",
+        "death": "audio/sfx/boss-frames-v1/sts2_torch_head_amalgam_death.mp3"
+      },
+      "assetReady": true,
+      "visualApproved": true,
+      "signature": "3b21b743450604c41e753500dc5abe28d5c9d1d952f07bc4c41e6d6e3fe14eaf",
+      "sourceIssues": [],
+      "stage": "assets_and_standalone_preview",
+      "design": {
+        "identity": "Preserve reference exactly: torch-headed amalgam, established body shape, joints, appendage count, armor and flame placement, no additional heads or weapons.",
+        "idle": "Feet or visible base hold, torso and head articulate visibly, attached torch flame bends and breathes, arms flex with the reference anatomy in seamless cycle.",
+        "attack": "Lower head and compress supporting limbs, then drive whole torso LEFT into a heavy torch-head ram, attached flame trails modestly, recover.",
+        "cast": "Compress shoulders, lift torch head high, open limbs wide and arch torso as flame elongates vertically, then retract flame and settle.",
+        "death": "Torch head extinguishes progressively, supports buckle and body collapses sideways, attached parts settle as a few embers die."
+      }
+    },
+    {
+      "id": "sts2_queen",
+      "name": "长夜女王",
+      "act": 3,
+      "region": "glory",
+      "type": "knight",
+      "width": 512,
+      "height": 512,
+      "ground": 430,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.16015625
+      },
+      "still": "art/boss-frames-v1/sts2_queen/still.png",
+      "actions": {
+        "idle": {
+          "frameCount": 16,
+          "fps": 12,
+          "loop": true,
+          "holdLastFrame": false,
+          "events": [],
+          "duration": 1.3333333333333333,
+          "frames": [
+            "art/boss-frames-v1/sts2_queen/idle_00.png",
+            "art/boss-frames-v1/sts2_queen/idle_01.png",
+            "art/boss-frames-v1/sts2_queen/idle_02.png",
+            "art/boss-frames-v1/sts2_queen/idle_03.png",
+            "art/boss-frames-v1/sts2_queen/idle_04.png",
+            "art/boss-frames-v1/sts2_queen/idle_05.png",
+            "art/boss-frames-v1/sts2_queen/idle_06.png",
+            "art/boss-frames-v1/sts2_queen/idle_07.png",
+            "art/boss-frames-v1/sts2_queen/idle_08.png",
+            "art/boss-frames-v1/sts2_queen/idle_09.png",
+            "art/boss-frames-v1/sts2_queen/idle_10.png",
+            "art/boss-frames-v1/sts2_queen/idle_11.png",
+            "art/boss-frames-v1/sts2_queen/idle_12.png",
+            "art/boss-frames-v1/sts2_queen/idle_13.png",
+            "art/boss-frames-v1/sts2_queen/idle_14.png",
+            "art/boss-frames-v1/sts2_queen/idle_15.png"
+          ],
+          "uniqueFrames": 16,
+          "method": "image_gen_16_consecutive_poses_fixed_cell_camera"
+        },
+        "hit": {
+          "frameCount": 16,
+          "fps": 16,
+          "loop": false,
+          "holdLastFrame": false,
+          "events": [
+            {
+              "frame": 3,
+              "type": "sound",
+              "clip": "hit"
+            }
+          ],
+          "duration": 1,
+          "frames": [
+            "art/boss-frames-v1/sts2_queen/hit_00.png",
+            "art/boss-frames-v1/sts2_queen/hit_01.png",
+            "art/boss-frames-v1/sts2_queen/hit_02.png",
+            "art/boss-frames-v1/sts2_queen/hit_03.png",
+            "art/boss-frames-v1/sts2_queen/hit_04.png",
+            "art/boss-frames-v1/sts2_queen/hit_05.png",
+            "art/boss-frames-v1/sts2_queen/hit_06.png",
+            "art/boss-frames-v1/sts2_queen/hit_07.png",
+            "art/boss-frames-v1/sts2_queen/hit_08.png",
+            "art/boss-frames-v1/sts2_queen/hit_09.png",
+            "art/boss-frames-v1/sts2_queen/hit_10.png",
+            "art/boss-frames-v1/sts2_queen/hit_11.png",
+            "art/boss-frames-v1/sts2_queen/hit_12.png",
+            "art/boss-frames-v1/sts2_queen/hit_13.png",
+            "art/boss-frames-v1/sts2_queen/hit_14.png",
+            "art/boss-frames-v1/sts2_queen/hit_15.png"
+          ],
+          "uniqueFrames": 16,
+          "method": "image_gen_16_consecutive_poses_fixed_cell_camera"
+        },
+        "cast": {
+          "frameCount": 16,
+          "fps": 16,
+          "loop": false,
+          "holdLastFrame": false,
+          "events": [
+            {
+              "frame": 3,
+              "type": "sound",
+              "clip": "windup"
+            },
+            {
+              "frame": 7,
+              "type": "effect",
+              "effect": "fx"
+            },
+            {
+              "frame": 8,
+              "type": "sound",
+              "clip": "skill"
+            }
+          ],
+          "duration": 1,
+          "frames": [
+            "art/boss-frames-v1/sts2_queen/cast_00.png",
+            "art/boss-frames-v1/sts2_queen/cast_01.png",
+            "art/boss-frames-v1/sts2_queen/cast_02.png",
+            "art/boss-frames-v1/sts2_queen/cast_03.png",
+            "art/boss-frames-v1/sts2_queen/cast_04.png",
+            "art/boss-frames-v1/sts2_queen/cast_05.png",
+            "art/boss-frames-v1/sts2_queen/cast_06.png",
+            "art/boss-frames-v1/sts2_queen/cast_07.png",
+            "art/boss-frames-v1/sts2_queen/cast_08.png",
+            "art/boss-frames-v1/sts2_queen/cast_09.png",
+            "art/boss-frames-v1/sts2_queen/cast_10.png",
+            "art/boss-frames-v1/sts2_queen/cast_11.png",
+            "art/boss-frames-v1/sts2_queen/cast_12.png",
+            "art/boss-frames-v1/sts2_queen/cast_13.png",
+            "art/boss-frames-v1/sts2_queen/cast_14.png",
+            "art/boss-frames-v1/sts2_queen/cast_15.png"
+          ],
+          "uniqueFrames": 16,
+          "method": "image_gen_16_consecutive_poses_fixed_cell_camera"
+        },
+        "attack": {
+          "frameCount": 16,
+          "fps": 16,
+          "loop": false,
+          "holdLastFrame": false,
+          "events": [
+            {
+              "frame": 3,
+              "type": "sound",
+              "clip": "windup"
+            },
+            {
+              "frame": 7,
+              "type": "effect",
+              "effect": "fx"
+            },
+            {
+              "frame": 8,
+              "type": "sound",
+              "clip": "attack"
+            }
+          ],
+          "duration": 1,
+          "frames": [
+            "art/boss-frames-v1/sts2_queen/attack_00.png",
+            "art/boss-frames-v1/sts2_queen/attack_01.png",
+            "art/boss-frames-v1/sts2_queen/attack_02.png",
+            "art/boss-frames-v1/sts2_queen/attack_03.png",
+            "art/boss-frames-v1/sts2_queen/attack_04.png",
+            "art/boss-frames-v1/sts2_queen/attack_05.png",
+            "art/boss-frames-v1/sts2_queen/attack_06.png",
+            "art/boss-frames-v1/sts2_queen/attack_07.png",
+            "art/boss-frames-v1/sts2_queen/attack_08.png",
+            "art/boss-frames-v1/sts2_queen/attack_09.png",
+            "art/boss-frames-v1/sts2_queen/attack_10.png",
+            "art/boss-frames-v1/sts2_queen/attack_11.png",
+            "art/boss-frames-v1/sts2_queen/attack_12.png",
+            "art/boss-frames-v1/sts2_queen/attack_13.png",
+            "art/boss-frames-v1/sts2_queen/attack_14.png",
+            "art/boss-frames-v1/sts2_queen/attack_15.png"
+          ],
+          "uniqueFrames": 16,
+          "method": "image_gen_16_consecutive_poses_fixed_cell_camera"
+        },
+        "death": {
+          "frameCount": 16,
+          "fps": 12,
+          "loop": false,
+          "holdLastFrame": true,
+          "events": [
+            {
+              "frame": 4,
+              "type": "sound",
+              "clip": "death"
+            }
+          ],
+          "duration": 1.3333333333333333,
+          "frames": [
+            "art/boss-frames-v1/sts2_queen/death_00.png",
+            "art/boss-frames-v1/sts2_queen/death_01.png",
+            "art/boss-frames-v1/sts2_queen/death_02.png",
+            "art/boss-frames-v1/sts2_queen/death_03.png",
+            "art/boss-frames-v1/sts2_queen/death_04.png",
+            "art/boss-frames-v1/sts2_queen/death_05.png",
+            "art/boss-frames-v1/sts2_queen/death_06.png",
+            "art/boss-frames-v1/sts2_queen/death_07.png",
+            "art/boss-frames-v1/sts2_queen/death_08.png",
+            "art/boss-frames-v1/sts2_queen/death_09.png",
+            "art/boss-frames-v1/sts2_queen/death_10.png",
+            "art/boss-frames-v1/sts2_queen/death_11.png",
+            "art/boss-frames-v1/sts2_queen/death_12.png",
+            "art/boss-frames-v1/sts2_queen/death_13.png",
+            "art/boss-frames-v1/sts2_queen/death_14.png",
+            "art/boss-frames-v1/sts2_queen/death_15.png"
+          ],
+          "uniqueFrames": 16,
+          "method": "image_gen_16_consecutive_poses_fixed_cell_camera"
+        }
+      },
+      "effect": {
+        "frameCount": 16,
+        "fps": 16,
+        "loop": false,
+        "holdLastFrame": false,
+        "events": [],
+        "duration": 1,
+        "frames": [
+          "art/boss-frames-v1/sts2_queen/fx_00.png",
+          "art/boss-frames-v1/sts2_queen/fx_01.png",
+          "art/boss-frames-v1/sts2_queen/fx_02.png",
+          "art/boss-frames-v1/sts2_queen/fx_03.png",
+          "art/boss-frames-v1/sts2_queen/fx_04.png",
+          "art/boss-frames-v1/sts2_queen/fx_05.png",
+          "art/boss-frames-v1/sts2_queen/fx_06.png",
+          "art/boss-frames-v1/sts2_queen/fx_07.png",
+          "art/boss-frames-v1/sts2_queen/fx_08.png",
+          "art/boss-frames-v1/sts2_queen/fx_09.png",
+          "art/boss-frames-v1/sts2_queen/fx_10.png",
+          "art/boss-frames-v1/sts2_queen/fx_11.png",
+          "art/boss-frames-v1/sts2_queen/fx_12.png",
+          "art/boss-frames-v1/sts2_queen/fx_13.png",
+          "art/boss-frames-v1/sts2_queen/fx_14.png",
+          "art/boss-frames-v1/sts2_queen/fx_15.png"
+        ],
+        "uniqueFrames": 16,
+        "method": "image_gen_16_consecutive_poses_fixed_cell_camera"
+      },
+      "audio": {
+        "windup": "audio/sfx/boss-frames-v1/sts2_queen_windup.mp3",
+        "attack": "audio/sfx/boss-frames-v1/sts2_queen_attack.mp3",
+        "skill": "audio/sfx/boss-frames-v1/sts2_queen_skill.mp3",
+        "hit": "audio/sfx/boss-frames-v1/sts2_queen_hit.mp3",
+        "death": "audio/sfx/boss-frames-v1/sts2_queen_death.mp3"
+      },
+      "assetReady": true,
+      "visualApproved": true,
+      "signature": "a5127c63e610311003c9d74da1d5b1eb83d00edbd108476bb73bcd09bea33199",
+      "sourceIssues": [],
+      "stage": "assets_and_standalone_preview",
+      "design": {
+        "identity": "Tall long-night puppet queen with pale ivory angular face, narrow crimson eyes, cold silver many-spiked crown, deep burgundy court gown over black armor, two long articulated arms, silver finger claws with fine puppet threads, two armored feet and split trailing skirt. No staff or sword.",
+        "idle": "Feet hold, rib cage and shoulders breathe, crowned head turns slightly, finger joints independently curl and puppet threads sway; skirt follows a clear seamless cycle.",
+        "attack": "Right elbow draws behind crown, torso twists and both claw hands snap LEFT in a decisive guillotine pull, threads follow then return.",
+        "cast": "Bow deeply, raise both hands above crown, spread fingers and elbows extremely wide, puppet threads unfurl around torso, straighten and draw threads inward.",
+        "death": "Threads snap sequentially, crown tips, queen drops to knees and falls sideways, gown settles around coherent fallen armor and dim crown."
+      }
+    },
+    {
+      "id": "sts2_test_subject",
+      "name": "实验体·拾肆",
+      "act": 3,
+      "region": "glory",
+      "type": "beast",
+      "width": 512,
+      "height": 512,
+      "ground": 430,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.16015625
+      },
+      "still": "art/boss-frames-v1/sts2_test_subject/still.png",
+      "actions": {
+        "idle": {
+          "frameCount": 16,
+          "fps": 12,
+          "loop": true,
+          "holdLastFrame": false,
+          "events": [],
+          "duration": 1.3333333333333333,
+          "frames": [
+            "art/boss-frames-v1/sts2_test_subject/idle_00.png",
+            "art/boss-frames-v1/sts2_test_subject/idle_01.png",
+            "art/boss-frames-v1/sts2_test_subject/idle_02.png",
+            "art/boss-frames-v1/sts2_test_subject/idle_03.png",
+            "art/boss-frames-v1/sts2_test_subject/idle_04.png",
+            "art/boss-frames-v1/sts2_test_subject/idle_05.png",
+            "art/boss-frames-v1/sts2_test_subject/idle_06.png",
+            "art/boss-frames-v1/sts2_test_subject/idle_07.png",
+            "art/boss-frames-v1/sts2_test_subject/idle_08.png",
+            "art/boss-frames-v1/sts2_test_subject/idle_09.png",
+            "art/boss-frames-v1/sts2_test_subject/idle_10.png",
+            "art/boss-frames-v1/sts2_test_subject/idle_11.png",
+            "art/boss-frames-v1/sts2_test_subject/idle_12.png",
+            "art/boss-frames-v1/sts2_test_subject/idle_13.png",
+            "art/boss-frames-v1/sts2_test_subject/idle_14.png",
+            "art/boss-frames-v1/sts2_test_subject/idle_15.png"
+          ],
+          "uniqueFrames": 16,
+          "method": "image_gen_16_consecutive_poses_fixed_cell_camera"
+        },
+        "hit": {
+          "frameCount": 16,
+          "fps": 16,
+          "loop": false,
+          "holdLastFrame": false,
+          "events": [
+            {
+              "frame": 3,
+              "type": "sound",
+              "clip": "hit"
+            }
+          ],
+          "duration": 1,
+          "frames": [
+            "art/boss-frames-v1/sts2_test_subject/hit_00.png",
+            "art/boss-frames-v1/sts2_test_subject/hit_01.png",
+            "art/boss-frames-v1/sts2_test_subject/hit_02.png",
+            "art/boss-frames-v1/sts2_test_subject/hit_03.png",
+            "art/boss-frames-v1/sts2_test_subject/hit_04.png",
+            "art/boss-frames-v1/sts2_test_subject/hit_05.png",
+            "art/boss-frames-v1/sts2_test_subject/hit_06.png",
+            "art/boss-frames-v1/sts2_test_subject/hit_07.png",
+            "art/boss-frames-v1/sts2_test_subject/hit_08.png",
+            "art/boss-frames-v1/sts2_test_subject/hit_09.png",
+            "art/boss-frames-v1/sts2_test_subject/hit_10.png",
+            "art/boss-frames-v1/sts2_test_subject/hit_11.png",
+            "art/boss-frames-v1/sts2_test_subject/hit_12.png",
+            "art/boss-frames-v1/sts2_test_subject/hit_13.png",
+            "art/boss-frames-v1/sts2_test_subject/hit_14.png",
+            "art/boss-frames-v1/sts2_test_subject/hit_15.png"
+          ],
+          "uniqueFrames": 16,
+          "method": "image_gen_16_consecutive_poses_fixed_cell_camera"
+        },
+        "cast": {
+          "frameCount": 16,
+          "fps": 16,
+          "loop": false,
+          "holdLastFrame": false,
+          "events": [
+            {
+              "frame": 3,
+              "type": "sound",
+              "clip": "windup"
+            },
+            {
+              "frame": 7,
+              "type": "effect",
+              "effect": "fx"
+            },
+            {
+              "frame": 8,
+              "type": "sound",
+              "clip": "skill"
+            }
+          ],
+          "duration": 1,
+          "frames": [
+            "art/boss-frames-v1/sts2_test_subject/cast_00.png",
+            "art/boss-frames-v1/sts2_test_subject/cast_01.png",
+            "art/boss-frames-v1/sts2_test_subject/cast_02.png",
+            "art/boss-frames-v1/sts2_test_subject/cast_03.png",
+            "art/boss-frames-v1/sts2_test_subject/cast_04.png",
+            "art/boss-frames-v1/sts2_test_subject/cast_05.png",
+            "art/boss-frames-v1/sts2_test_subject/cast_06.png",
+            "art/boss-frames-v1/sts2_test_subject/cast_07.png",
+            "art/boss-frames-v1/sts2_test_subject/cast_08.png",
+            "art/boss-frames-v1/sts2_test_subject/cast_09.png",
+            "art/boss-frames-v1/sts2_test_subject/cast_10.png",
+            "art/boss-frames-v1/sts2_test_subject/cast_11.png",
+            "art/boss-frames-v1/sts2_test_subject/cast_12.png",
+            "art/boss-frames-v1/sts2_test_subject/cast_13.png",
+            "art/boss-frames-v1/sts2_test_subject/cast_14.png",
+            "art/boss-frames-v1/sts2_test_subject/cast_15.png"
+          ],
+          "uniqueFrames": 16,
+          "method": "image_gen_16_consecutive_poses_fixed_cell_camera"
+        },
+        "attack": {
+          "frameCount": 16,
+          "fps": 16,
+          "loop": false,
+          "holdLastFrame": false,
+          "events": [
+            {
+              "frame": 3,
+              "type": "sound",
+              "clip": "windup"
+            },
+            {
+              "frame": 7,
+              "type": "effect",
+              "effect": "fx"
+            },
+            {
+              "frame": 8,
+              "type": "sound",
+              "clip": "attack"
+            }
+          ],
+          "duration": 1,
+          "frames": [
+            "art/boss-frames-v1/sts2_test_subject/attack_00.png",
+            "art/boss-frames-v1/sts2_test_subject/attack_01.png",
+            "art/boss-frames-v1/sts2_test_subject/attack_02.png",
+            "art/boss-frames-v1/sts2_test_subject/attack_03.png",
+            "art/boss-frames-v1/sts2_test_subject/attack_04.png",
+            "art/boss-frames-v1/sts2_test_subject/attack_05.png",
+            "art/boss-frames-v1/sts2_test_subject/attack_06.png",
+            "art/boss-frames-v1/sts2_test_subject/attack_07.png",
+            "art/boss-frames-v1/sts2_test_subject/attack_08.png",
+            "art/boss-frames-v1/sts2_test_subject/attack_09.png",
+            "art/boss-frames-v1/sts2_test_subject/attack_10.png",
+            "art/boss-frames-v1/sts2_test_subject/attack_11.png",
+            "art/boss-frames-v1/sts2_test_subject/attack_12.png",
+            "art/boss-frames-v1/sts2_test_subject/attack_13.png",
+            "art/boss-frames-v1/sts2_test_subject/attack_14.png",
+            "art/boss-frames-v1/sts2_test_subject/attack_15.png"
+          ],
+          "uniqueFrames": 16,
+          "method": "image_gen_16_consecutive_poses_fixed_cell_camera"
+        },
+        "death": {
+          "frameCount": 16,
+          "fps": 12,
+          "loop": false,
+          "holdLastFrame": true,
+          "events": [
+            {
+              "frame": 4,
+              "type": "sound",
+              "clip": "death"
+            }
+          ],
+          "duration": 1.3333333333333333,
+          "frames": [
+            "art/boss-frames-v1/sts2_test_subject/death_00.png",
+            "art/boss-frames-v1/sts2_test_subject/death_01.png",
+            "art/boss-frames-v1/sts2_test_subject/death_02.png",
+            "art/boss-frames-v1/sts2_test_subject/death_03.png",
+            "art/boss-frames-v1/sts2_test_subject/death_04.png",
+            "art/boss-frames-v1/sts2_test_subject/death_05.png",
+            "art/boss-frames-v1/sts2_test_subject/death_06.png",
+            "art/boss-frames-v1/sts2_test_subject/death_07.png",
+            "art/boss-frames-v1/sts2_test_subject/death_08.png",
+            "art/boss-frames-v1/sts2_test_subject/death_09.png",
+            "art/boss-frames-v1/sts2_test_subject/death_10.png",
+            "art/boss-frames-v1/sts2_test_subject/death_11.png",
+            "art/boss-frames-v1/sts2_test_subject/death_12.png",
+            "art/boss-frames-v1/sts2_test_subject/death_13.png",
+            "art/boss-frames-v1/sts2_test_subject/death_14.png",
+            "art/boss-frames-v1/sts2_test_subject/death_15.png"
+          ],
+          "uniqueFrames": 16,
+          "method": "image_gen_16_consecutive_poses_fixed_cell_camera"
+        }
+      },
+      "effect": {
+        "frameCount": 16,
+        "fps": 16,
+        "loop": false,
+        "holdLastFrame": false,
+        "events": [],
+        "duration": 1,
+        "frames": [
+          "art/boss-frames-v1/sts2_test_subject/fx_00.png",
+          "art/boss-frames-v1/sts2_test_subject/fx_01.png",
+          "art/boss-frames-v1/sts2_test_subject/fx_02.png",
+          "art/boss-frames-v1/sts2_test_subject/fx_03.png",
+          "art/boss-frames-v1/sts2_test_subject/fx_04.png",
+          "art/boss-frames-v1/sts2_test_subject/fx_05.png",
+          "art/boss-frames-v1/sts2_test_subject/fx_06.png",
+          "art/boss-frames-v1/sts2_test_subject/fx_07.png",
+          "art/boss-frames-v1/sts2_test_subject/fx_08.png",
+          "art/boss-frames-v1/sts2_test_subject/fx_09.png",
+          "art/boss-frames-v1/sts2_test_subject/fx_10.png",
+          "art/boss-frames-v1/sts2_test_subject/fx_11.png",
+          "art/boss-frames-v1/sts2_test_subject/fx_12.png",
+          "art/boss-frames-v1/sts2_test_subject/fx_13.png",
+          "art/boss-frames-v1/sts2_test_subject/fx_14.png",
+          "art/boss-frames-v1/sts2_test_subject/fx_15.png"
+        ],
+        "uniqueFrames": 16,
+        "method": "image_gen_16_consecutive_poses_fixed_cell_camera"
+      },
+      "audio": {
+        "windup": "audio/sfx/boss-frames-v1/sts2_test_subject_windup.mp3",
+        "attack": "audio/sfx/boss-frames-v1/sts2_test_subject_attack.mp3",
+        "skill": "audio/sfx/boss-frames-v1/sts2_test_subject_skill.mp3",
+        "hit": "audio/sfx/boss-frames-v1/sts2_test_subject_hit.mp3",
+        "death": "audio/sfx/boss-frames-v1/sts2_test_subject_death.mp3"
+      },
+      "assetReady": true,
+      "visualApproved": true,
+      "signature": "2a98c291bec5062334e10e67d6d6a16b2dc793481e4af4bebe4be200eee1ff62",
+      "sourceIssues": [],
+      "stage": "assets_and_standalone_preview",
+      "design": {
+        "identity": "Massive experimental quadruped beast with pale ivory stitched skull mask, charcoal-violet sinewy torso, two enormous front claw arms and two smaller hind legs, cold silver restraints, burgundy back plates and one sealed orange furnace in chest. Exactly four limbs, one skull.",
+        "idle": "Four limb contacts hold, huge chest visibly inflates, skull dips and neck stretches, front claws flex and restraints sway; seamless cycle.",
+        "attack": "Lower hindquarters, draw one giant foreclaw high behind skull then perform two heavy LEFT claw rakes and jaw snap; recover.",
+        "cast": "Rear strongly onto hind legs, spread huge front arms, skull arches back and chest furnace opens, whole back flexes in a powerful roar; return four limbs.",
+        "death": "Furnace fades, restraints loosen, forelimbs collapse, heavy body rolls onto side and skull lowers to ground, coherent stable corpse without gore."
+      }
+    }
+  ],
+  "scenes": [
+    {
+      "id": "sts2_ceremonial_beast_boss",
+      "name": "伪冠兽 · 断冠祭庭",
+      "region": "overgrowth",
+      "scene": "Ruined woodland coronation courtyard, broken enormous antler throne at back right, mossy ivory pillars, deep green forest, torn burgundy ceremonial ribbons",
+      "members": [
+        "sts2_ceremonial_beast"
+      ],
+      "image": "art/boss-frames-v1/scenes/sts2_ceremonial_beast_boss.png",
+      "source": "C:\\Users\\DELL\\Desktop\\sljt-demo\\docs\\art-source\\boss-frames-v1\\raw\\sts2_ceremonial_beast_boss-scene.png",
+      "sha256": "e8f46bfdae6ac07689a99a914ed62a70c51329361c5388fb07935a41512cd430",
+      "runtimeSha256": "90f6394d5589d39fb1eb3d29c99c27b7587f1b2893d91c4b5c50398688c98c85",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "id": "sts2_the_kin_boss",
+      "name": "蚀林祭仪 · 三席祭坛",
+      "region": "overgrowth",
+      "scene": "Three-tier woodland ritual altar, hollow bone-ring monolith at back right, two smaller follower stones, tangled black roots, subdued jade votives",
+      "members": [
+        "sts2_kin_follower",
+        "sts2_kin_follower",
+        "sts2_kin_priest"
+      ],
+      "image": "art/boss-frames-v1/scenes/sts2_the_kin_boss.png",
+      "source": "C:\\Users\\DELL\\Desktop\\sljt-demo\\docs\\art-source\\boss-frames-v1\\raw\\sts2_the_kin_boss-scene.png",
+      "sha256": "79b9e36ed52af0abe7ed109bcc8b4c48a4a64fbe15ec206e1860c570b2646fb7",
+      "runtimeSha256": "9f415dbb0c0307611ada601522ed511fb79b79a8cb7289b566a9ce7d30640584",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "id": "sts2_vantom_boss",
+      "name": "噬面之影 · 无面剧场",
+      "region": "overgrowth",
+      "scene": "Abandoned forest theater with hanging blank ivory masks in distant canopy, ruined stage arch at right, violet mist, scattered broken seats along rear",
+      "members": [
+        "sts2_vantom"
+      ],
+      "image": "art/boss-frames-v1/scenes/sts2_vantom_boss.png",
+      "source": "C:\\Users\\DELL\\Desktop\\sljt-demo\\docs\\art-source\\boss-frames-v1\\raw\\sts2_vantom_boss-scene.png",
+      "sha256": "297286615fc11b82eb34c3ab4e4abfe37934826b1e91b5aecc1c8929cbf8a5f3",
+      "runtimeSha256": "be73a481b976cb2069203dc27074aece53a72d18eb2bfd95eb93206e75f4efc8",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "id": "sts2_lagavulin_matriarch_boss",
+      "name": "礁壳母 · 沉壳礁穴",
+      "region": "underdocks",
+      "scene": "Flooded reef cave, gigantic fossil shell alcove at right, slate barnacle ridges, drooping algae, cold cyan brine pools behind combat floor",
+      "members": [
+        "sts2_lagavulin_matriarch"
+      ],
+      "image": "art/boss-frames-v1/scenes/sts2_lagavulin_matriarch_boss.png",
+      "source": "C:\\Users\\DELL\\Desktop\\sljt-demo\\docs\\art-source\\boss-frames-v1\\raw\\sts2_lagavulin_matriarch_boss-scene.png",
+      "sha256": "fe6373bb21b5c54427349e85f245fb6230f80b183826456037b20b6741c174ed",
+      "runtimeSha256": "11a9ef27a2d5ab2538d90526a46edf6247863fb982807d9e2aef9b350818dc9f",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "id": "sts2_soul_fysh_boss",
+      "name": "啖魂鱼 · 引魂深潭",
+      "region": "underdocks",
+      "scene": "Drowned subterranean wharf beside abyssal soul pool, ghostly lure lights far in background, bent mooring poles, pale cyan reflections, dark distant water",
+      "members": [
+        "sts2_soul_fysh"
+      ],
+      "image": "art/boss-frames-v1/scenes/sts2_soul_fysh_boss.png",
+      "source": "C:\\Users\\DELL\\Desktop\\sljt-demo\\docs\\art-source\\boss-frames-v1\\raw\\sts2_soul_fysh_boss-scene.png",
+      "sha256": "94403994c4b6d8d22d3dedff31721d65b3b70e287dfa35d78718ac6eb2e57e86",
+      "runtimeSha256": "7996560dbaf8b6860815bb448310a2a682a4dd3fe1ec42ab547efa31bfe76a37",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "id": "sts2_waterfall_giant_boss",
+      "name": "瀑衡巨像 · 失衡水闸",
+      "region": "underdocks",
+      "scene": "Ancient hydraulic floodgate chamber, immense broken waterwheel at back right, waterfall descending behind machinery, oxidized bronze pressure pipes, slate stone",
+      "members": [
+        "sts2_waterfall_giant"
+      ],
+      "image": "art/boss-frames-v1/scenes/sts2_waterfall_giant_boss.png",
+      "source": "C:\\Users\\DELL\\Desktop\\sljt-demo\\docs\\art-source\\boss-frames-v1\\raw\\sts2_waterfall_giant_boss-scene.png",
+      "sha256": "024fa0fe2709a21574e35d929360930b03b52ef078a97caeda88ab6f2987652f",
+      "runtimeSha256": "3e6e93b11f33588e13d810e004ebb6a9cd868150b4259817faea10180da0d293",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "id": "sts2_kaiser_crab_boss",
+      "name": "帝钳双生 · 赤壳熔巢",
+      "region": "hive",
+      "scene": "Colossal burgundy chitin foundry nest, two matching huge pincer-shaped shell arches at right rear, amber furnace channels, smoke-violet joint columns",
+      "members": [
+        "sts2_crusher",
+        "sts2_rocket"
+      ],
+      "image": "art/boss-frames-v1/scenes/sts2_kaiser_crab_boss.png",
+      "source": "C:\\Users\\DELL\\Desktop\\sljt-demo\\docs\\art-source\\boss-frames-v1\\raw\\sts2_kaiser_crab_boss-scene.png",
+      "sha256": "96d81a919569d8dfb2db4f1cab3f6b25f35643890557d4f369cb342db49152d1",
+      "runtimeSha256": "2865cc70d004f252e5ba4ad0363800d66e85d10665ec3f64cabfa06932aa5c09",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "id": "sts2_knowledge_demon_boss",
+      "name": "知厄魔 · 禁页书窟",
+      "region": "hive",
+      "scene": "Subterranean forbidden archive grown inside chitin hive, ivory book stacks and chained giant folio at right rear, amber slits, violet organic arches",
+      "members": [
+        "sts2_knowledge_demon"
+      ],
+      "image": "art/boss-frames-v1/scenes/sts2_knowledge_demon_boss.png",
+      "source": "C:\\Users\\DELL\\Desktop\\sljt-demo\\docs\\art-source\\boss-frames-v1\\raw\\sts2_knowledge_demon_boss-scene.png",
+      "sha256": "b51d4610bc5149fefce73890f0f73f46ce00194f3e317b15ee040f08a4eb6419",
+      "runtimeSha256": "9af0da5ee84ccf30e3adb29cbeb424f9242dbf30e9ab358510fe6fdfbce0d892",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "id": "sts2_the_insatiable_boss",
+      "name": "无厌之口 · 饥门腹庭",
+      "region": "hive",
+      "scene": "Huge tooth-lined organic gate hall, distant concentric burgundy chitin ribs arch over empty arena, ivory fossil teeth at perimeter, dark violet throat mist",
+      "members": [
+        "sts2_the_insatiable"
+      ],
+      "image": "art/boss-frames-v1/scenes/sts2_the_insatiable_boss.png",
+      "source": "C:\\Users\\DELL\\Desktop\\sljt-demo\\docs\\art-source\\boss-frames-v1\\raw\\sts2_the_insatiable_boss-scene.png",
+      "sha256": "8d4687d8e857343d9e507efa57726cf4021a619b38e20111d0017b8df8ea06b5",
+      "runtimeSha256": "b66d29d153077227dbf622776b158f34289549b169a9c24bbf7b0b12c496ac75",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "id": "sts2_aeonglass_boss",
+      "name": "永漏 · 逆时钟厅",
+      "region": "glory",
+      "scene": "Ruined gothic clock observatory, enormous cold silver broken clock face at upper right, flowing golden sand behind pillars, violet sky through pointed windows",
+      "members": [
+        "sts2_aeonglass"
+      ],
+      "image": "art/boss-frames-v1/scenes/sts2_aeonglass_boss.png",
+      "source": "C:\\Users\\DELL\\Desktop\\sljt-demo\\docs\\art-source\\boss-frames-v1\\raw\\sts2_aeonglass_boss-scene.png",
+      "sha256": "b7d4e03854d84066446eba8d68ddb0b36a401e15d75f9fbe02527d0d72ae2b08",
+      "runtimeSha256": "cfe75e5370d7985741760eab5fde0ca5a9a116a4457e44202ae823c365f2a565",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "id": "sts2_queen_boss",
+      "name": "长夜女王 · 焚线王座",
+      "region": "glory",
+      "scene": "Long-night gothic throne court, cold silver thorn throne at far right, hanging puppet threads above rear pillars, burgundy banners and distant ivory candles",
+      "members": [
+        "sts2_torch_head_amalgam",
+        "sts2_queen"
+      ],
+      "image": "art/boss-frames-v1/scenes/sts2_queen_boss.png",
+      "source": "C:\\Users\\DELL\\Desktop\\sljt-demo\\docs\\art-source\\boss-frames-v1\\raw\\sts2_queen_boss-scene.png",
+      "sha256": "1085a58ab6a9904a5c4be2fb45440de4ece33864fcdf05affb9cb37277dc5bda",
+      "runtimeSha256": "00b98464d52864b284147510d440bda96136c83c0c925c0d39b1eb128ccd795a",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "id": "sts2_test_subject_boss",
+      "name": "实验体·拾肆 · 禁制试场",
+      "region": "glory",
+      "scene": "Gothic abandoned restraint laboratory, broken huge silver containment frame at rear right, burgundy hanging seals, cold stone columns, dim orange furnace behind glass",
+      "members": [
+        "sts2_test_subject"
+      ],
+      "image": "art/boss-frames-v1/scenes/sts2_test_subject_boss.png",
+      "source": "C:\\Users\\DELL\\Desktop\\sljt-demo\\docs\\art-source\\boss-frames-v1\\raw\\sts2_test_subject_boss-scene.png",
+      "sha256": "d0ff4dc0187a44f7f0eb6dbd62cbee67f4a547ac314b47a0fee215f4f873f0dd",
+      "runtimeSha256": "7d44485bf8dd6c470f3e6c9038bab6496c87e16fc87ed56bfbb7c1c9a6bcf6d3",
+      "width": 1280,
+      "height": 720
+    }
+  ],
+  "encounters": [
+    {
+      "id": "sts2_ceremonial_beast_boss",
+      "name": "伪冠兽 · 断冠祭庭",
+      "region": "overgrowth",
+      "scene": "Ruined woodland coronation courtyard, broken enormous antler throne at back right, mossy ivory pillars, deep green forest, torn burgundy ceremonial ribbons",
+      "members": [
+        "sts2_ceremonial_beast"
+      ]
+    },
+    {
+      "id": "sts2_the_kin_boss",
+      "name": "蚀林祭仪 · 三席祭坛",
+      "region": "overgrowth",
+      "scene": "Three-tier woodland ritual altar, hollow bone-ring monolith at back right, two smaller follower stones, tangled black roots, subdued jade votives",
+      "members": [
+        "sts2_kin_follower",
+        "sts2_kin_follower",
+        "sts2_kin_priest"
+      ]
+    },
+    {
+      "id": "sts2_vantom_boss",
+      "name": "噬面之影 · 无面剧场",
+      "region": "overgrowth",
+      "scene": "Abandoned forest theater with hanging blank ivory masks in distant canopy, ruined stage arch at right, violet mist, scattered broken seats along rear",
+      "members": [
+        "sts2_vantom"
+      ]
+    },
+    {
+      "id": "sts2_lagavulin_matriarch_boss",
+      "name": "礁壳母 · 沉壳礁穴",
+      "region": "underdocks",
+      "scene": "Flooded reef cave, gigantic fossil shell alcove at right, slate barnacle ridges, drooping algae, cold cyan brine pools behind combat floor",
+      "members": [
+        "sts2_lagavulin_matriarch"
+      ]
+    },
+    {
+      "id": "sts2_soul_fysh_boss",
+      "name": "啖魂鱼 · 引魂深潭",
+      "region": "underdocks",
+      "scene": "Drowned subterranean wharf beside abyssal soul pool, ghostly lure lights far in background, bent mooring poles, pale cyan reflections, dark distant water",
+      "members": [
+        "sts2_soul_fysh"
+      ]
+    },
+    {
+      "id": "sts2_waterfall_giant_boss",
+      "name": "瀑衡巨像 · 失衡水闸",
+      "region": "underdocks",
+      "scene": "Ancient hydraulic floodgate chamber, immense broken waterwheel at back right, waterfall descending behind machinery, oxidized bronze pressure pipes, slate stone",
+      "members": [
+        "sts2_waterfall_giant"
+      ]
+    },
+    {
+      "id": "sts2_kaiser_crab_boss",
+      "name": "帝钳双生 · 赤壳熔巢",
+      "region": "hive",
+      "scene": "Colossal burgundy chitin foundry nest, two matching huge pincer-shaped shell arches at right rear, amber furnace channels, smoke-violet joint columns",
+      "members": [
+        "sts2_crusher",
+        "sts2_rocket"
+      ]
+    },
+    {
+      "id": "sts2_knowledge_demon_boss",
+      "name": "知厄魔 · 禁页书窟",
+      "region": "hive",
+      "scene": "Subterranean forbidden archive grown inside chitin hive, ivory book stacks and chained giant folio at right rear, amber slits, violet organic arches",
+      "members": [
+        "sts2_knowledge_demon"
+      ]
+    },
+    {
+      "id": "sts2_the_insatiable_boss",
+      "name": "无厌之口 · 饥门腹庭",
+      "region": "hive",
+      "scene": "Huge tooth-lined organic gate hall, distant concentric burgundy chitin ribs arch over empty arena, ivory fossil teeth at perimeter, dark violet throat mist",
+      "members": [
+        "sts2_the_insatiable"
+      ]
+    },
+    {
+      "id": "sts2_aeonglass_boss",
+      "name": "永漏 · 逆时钟厅",
+      "region": "glory",
+      "scene": "Ruined gothic clock observatory, enormous cold silver broken clock face at upper right, flowing golden sand behind pillars, violet sky through pointed windows",
+      "members": [
+        "sts2_aeonglass"
+      ]
+    },
+    {
+      "id": "sts2_queen_boss",
+      "name": "长夜女王 · 焚线王座",
+      "region": "glory",
+      "scene": "Long-night gothic throne court, cold silver thorn throne at far right, hanging puppet threads above rear pillars, burgundy banners and distant ivory candles",
+      "members": [
+        "sts2_torch_head_amalgam",
+        "sts2_queen"
+      ]
+    },
+    {
+      "id": "sts2_test_subject_boss",
+      "name": "实验体·拾肆 · 禁制试场",
+      "region": "glory",
+      "scene": "Gothic abandoned restraint laboratory, broken huge silver containment frame at rear right, burgundy hanging seals, cold stone columns, dim orange furnace behind glass",
+      "members": [
+        "sts2_test_subject"
+      ]
+    }
+  ],
+  "failures": [],
+  "remaining": []
+}

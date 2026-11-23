@@ -1,0 +1,264 @@
+{
+  "id": "sts2_lagavulin_matriarch",
+  "name": "礁壳母",
+  "act": 1,
+  "region": "underdocks",
+  "type": "coral",
+  "width": 512,
+  "height": 512,
+  "ground": 430,
+  "pivot": {
+    "x": 0.5,
+    "y": 0.16015625
+  },
+  "still": "art/boss-frames-v1/sts2_lagavulin_matriarch/still.png",
+  "actions": {
+    "idle": {
+      "frameCount": 16,
+      "fps": 12,
+      "loop": true,
+      "holdLastFrame": false,
+      "events": [],
+      "duration": 1.3333333333333333,
+      "frames": [
+        "art/boss-frames-v1/sts2_lagavulin_matriarch/idle_subtle_00.png",
+        "art/boss-frames-v1/sts2_lagavulin_matriarch/idle_subtle_01.png",
+        "art/boss-frames-v1/sts2_lagavulin_matriarch/idle_subtle_02.png",
+        "art/boss-frames-v1/sts2_lagavulin_matriarch/idle_subtle_03.png",
+        "art/boss-frames-v1/sts2_lagavulin_matriarch/idle_subtle_04.png",
+        "art/boss-frames-v1/sts2_lagavulin_matriarch/idle_subtle_05.png",
+        "art/boss-frames-v1/sts2_lagavulin_matriarch/idle_subtle_06.png",
+        "art/boss-frames-v1/sts2_lagavulin_matriarch/idle_subtle_07.png",
+        "art/boss-frames-v1/sts2_lagavulin_matriarch/idle_subtle_08.png",
+        "art/boss-frames-v1/sts2_lagavulin_matriarch/idle_subtle_09.png",
+        "art/boss-frames-v1/sts2_lagavulin_matriarch/idle_subtle_10.png",
+        "art/boss-frames-v1/sts2_lagavulin_matriarch/idle_subtle_11.png",
+        "art/boss-frames-v1/sts2_lagavulin_matriarch/idle_subtle_12.png",
+        "art/boss-frames-v1/sts2_lagavulin_matriarch/idle_subtle_13.png",
+        "art/boss-frames-v1/sts2_lagavulin_matriarch/idle_subtle_14.png",
+        "art/boss-frames-v1/sts2_lagavulin_matriarch/idle_subtle_15.png"
+      ],
+      "uniqueFrames": 16,
+      "method": "original_art_local_subtle_idle_v1",
+      "fixedRegions": [
+        {
+          "id": "ground-contact",
+          "left": 0,
+          "top": 393,
+          "width": 512,
+          "height": 119
+        },
+        {
+          "id": "reef-shell",
+          "left": 253,
+          "top": 258,
+          "width": 100,
+          "height": 135
+        }
+      ]
+    },
+    "hit": {
+      "frameCount": 16,
+      "fps": 16,
+      "loop": false,
+      "holdLastFrame": false,
+      "events": [
+        {
+          "frame": 3,
+          "type": "sound",
+          "clip": "hit"
+        }
+      ],
+      "duration": 1,
+      "frames": [
+        "art/boss-frames-v1/sts2_lagavulin_matriarch/hit_00.png",
+        "art/boss-frames-v1/sts2_lagavulin_matriarch/hit_01.png",
+        "art/boss-frames-v1/sts2_lagavulin_matriarch/hit_02.png",
+        "art/boss-frames-v1/sts2_lagavulin_matriarch/hit_03.png",
+        "art/boss-frames-v1/sts2_lagavulin_matriarch/hit_04.png",
+        "art/boss-frames-v1/sts2_lagavulin_matriarch/hit_05.png",
+        "art/boss-frames-v1/sts2_lagavulin_matriarch/hit_06.png",
+        "art/boss-frames-v1/sts2_lagavulin_matriarch/hit_07.png",
+        "art/boss-frames-v1/sts2_lagavulin_matriarch/hit_08.png",
+        "art/boss-frames-v1/sts2_lagavulin_matriarch/hit_09.png",
+        "art/boss-frames-v1/sts2_lagavulin_matriarch/hit_10.png",
+        "art/boss-frames-v1/sts2_lagavulin_matriarch/hit_11.png",
+        "art/boss-frames-v1/sts2_lagavulin_matriarch/hit_12.png",
+        "art/boss-frames-v1/sts2_lagavulin_matriarch/hit_13.png",
+        "art/boss-frames-v1/sts2_lagavulin_matriarch/hit_14.png",
+        "art/boss-frames-v1/sts2_lagavulin_matriarch/hit_15.png"
+      ],
+      "uniqueFrames": 16,
+      "method": "image_gen_16_consecutive_poses_fixed_cell_camera"
+    },
+    "cast": {
+      "frameCount": 16,
+      "fps": 16,
+      "loop": false,
+      "holdLastFrame": false,
+      "events": [
+        {
+          "frame": 3,
+          "type": "sound",
+          "clip": "windup"
+        },
+        {
+          "frame": 7,
+          "type": "effect",
+          "effect": "fx"
+        },
+        {
+          "frame": 8,
+          "type": "sound",
+          "clip": "skill"
+        }
+      ],
+      "duration": 1,
+      "frames": [
+        "art/boss-frames-v1/sts2_lagavulin_matriarch/cast_00.png",
+        "art/boss-frames-v1/sts2_lagavulin_matriarch/cast_01.png",
+        "art/boss-frames-v1/sts2_lagavulin_matriarch/cast_02.png",
+        "art/boss-frames-v1/sts2_lagavulin_matriarch/cast_03.png",
+        "art/boss-frames-v1/sts2_lagavulin_matriarch/cast_04.png",
+        "art/boss-frames-v1/sts2_lagavulin_matriarch/cast_05.png",
+        "art/boss-frames-v1/sts2_lagavulin_matriarch/cast_06.png",
+        "art/boss-frames-v1/sts2_lagavulin_matriarch/cast_07.png",
+        "art/boss-frames-v1/sts2_lagavulin_matriarch/cast_08.png",
+        "art/boss-frames-v1/sts2_lagavulin_matriarch/cast_09.png",
+        "art/boss-frames-v1/sts2_lagavulin_matriarch/cast_10.png",
+        "art/boss-frames-v1/sts2_lagavulin_matriarch/cast_11.png",
+        "art/boss-frames-v1/sts2_lagavulin_matriarch/cast_12.png",
+        "art/boss-frames-v1/sts2_lagavulin_matriarch/cast_13.png",
+        "art/boss-frames-v1/sts2_lagavulin_matriarch/cast_14.png",
+        "art/boss-frames-v1/sts2_lagavulin_matriarch/cast_15.png"
+      ],
+      "uniqueFrames": 16,
+      "method": "image_gen_16_consecutive_poses_fixed_cell_camera"
+    },
+    "attack": {
+      "frameCount": 16,
+      "fps": 16,
+      "loop": false,
+      "holdLastFrame": false,
+      "events": [
+        {
+          "frame": 3,
+          "type": "sound",
+          "clip": "windup"
+        },
+        {
+          "frame": 7,
+          "type": "effect",
+          "effect": "fx"
+        },
+        {
+          "frame": 8,
+          "type": "sound",
+          "clip": "attack"
+        }
+      ],
+      "duration": 1,
+      "frames": [
+        "art/boss-frames-v1/sts2_lagavulin_matriarch/attack_00.png",
+        "art/boss-frames-v1/sts2_lagavulin_matriarch/attack_01.png",
+        "art/boss-frames-v1/sts2_lagavulin_matriarch/attack_02.png",
+        "art/boss-frames-v1/sts2_lagavulin_matriarch/attack_03.png",
+        "art/boss-frames-v1/sts2_lagavulin_matriarch/attack_04.png",
+        "art/boss-frames-v1/sts2_lagavulin_matriarch/attack_05.png",
+        "art/boss-frames-v1/sts2_lagavulin_matriarch/attack_06.png",
+        "art/boss-frames-v1/sts2_lagavulin_matriarch/attack_07.png",
+        "art/boss-frames-v1/sts2_lagavulin_matriarch/attack_08.png",
+        "art/boss-frames-v1/sts2_lagavulin_matriarch/attack_09.png",
+        "art/boss-frames-v1/sts2_lagavulin_matriarch/attack_10.png",
+        "art/boss-frames-v1/sts2_lagavulin_matriarch/attack_11.png",
+        "art/boss-frames-v1/sts2_lagavulin_matriarch/attack_12.png",
+        "art/boss-frames-v1/sts2_lagavulin_matriarch/attack_13.png",
+        "art/boss-frames-v1/sts2_lagavulin_matriarch/attack_14.png",
+        "art/boss-frames-v1/sts2_lagavulin_matriarch/attack_15.png"
+      ],
+      "uniqueFrames": 16,
+      "method": "image_gen_16_consecutive_poses_fixed_cell_camera"
+    },
+    "death": {
+      "frameCount": 16,
+      "fps": 12,
+      "loop": false,
+      "holdLastFrame": true,
+      "events": [
+        {
+          "frame": 4,
+          "type": "sound",
+          "clip": "death"
+        }
+      ],
+      "duration": 1.3333333333333333,
+      "frames": [
+        "art/boss-frames-v1/sts2_lagavulin_matriarch/death_00.png",
+        "art/boss-frames-v1/sts2_lagavulin_matriarch/death_01.png",
+        "art/boss-frames-v1/sts2_lagavulin_matriarch/death_02.png",
+        "art/boss-frames-v1/sts2_lagavulin_matriarch/death_03.png",
+        "art/boss-frames-v1/sts2_lagavulin_matriarch/death_04.png",
+        "art/boss-frames-v1/sts2_lagavulin_matriarch/death_05.png",
+        "art/boss-frames-v1/sts2_lagavulin_matriarch/death_06.png",
+        "art/boss-frames-v1/sts2_lagavulin_matriarch/death_07.png",
+        "art/boss-frames-v1/sts2_lagavulin_matriarch/death_08.png",
+        "art/boss-frames-v1/sts2_lagavulin_matriarch/death_09.png",
+        "art/boss-frames-v1/sts2_lagavulin_matriarch/death_10.png",
+        "art/boss-frames-v1/sts2_lagavulin_matriarch/death_11.png",
+        "art/boss-frames-v1/sts2_lagavulin_matriarch/death_12.png",
+        "art/boss-frames-v1/sts2_lagavulin_matriarch/death_13.png",
+        "art/boss-frames-v1/sts2_lagavulin_matriarch/death_14.png",
+        "art/boss-frames-v1/sts2_lagavulin_matriarch/death_15.png"
+      ],
+      "uniqueFrames": 16,
+      "method": "image_gen_16_consecutive_poses_fixed_cell_camera"
+    }
+  },
+  "effect": {
+    "frameCount": 16,
+    "fps": 16,
+    "loop": false,
+    "holdLastFrame": false,
+    "events": [],
+    "duration": 1,
+    "frames": [
+      "art/boss-frames-v1/sts2_lagavulin_matriarch/fx_00.png",
+      "art/boss-frames-v1/sts2_lagavulin_matriarch/fx_01.png",
+      "art/boss-frames-v1/sts2_lagavulin_matriarch/fx_02.png",
+      "art/boss-frames-v1/sts2_lagavulin_matriarch/fx_03.png",
+      "art/boss-frames-v1/sts2_lagavulin_matriarch/fx_04.png",
+      "art/boss-frames-v1/sts2_lagavulin_matriarch/fx_05.png",
+      "art/boss-frames-v1/sts2_lagavulin_matriarch/fx_06.png",
+      "art/boss-frames-v1/sts2_lagavulin_matriarch/fx_07.png",
+      "art/boss-frames-v1/sts2_lagavulin_matriarch/fx_08.png",
+      "art/boss-frames-v1/sts2_lagavulin_matriarch/fx_09.png",
+      "art/boss-frames-v1/sts2_lagavulin_matriarch/fx_10.png",
+      "art/boss-frames-v1/sts2_lagavulin_matriarch/fx_11.png",
+      "art/boss-frames-v1/sts2_lagavulin_matriarch/fx_12.png",
+      "art/boss-frames-v1/sts2_lagavulin_matriarch/fx_13.png",
+      "art/boss-frames-v1/sts2_lagavulin_matriarch/fx_14.png",
+      "art/boss-frames-v1/sts2_lagavulin_matriarch/fx_15.png"
+    ],
+    "uniqueFrames": 16,
+    "method": "image_gen_16_consecutive_poses_fixed_cell_camera"
+  },
+  "audio": {
+    "windup": "audio/sfx/boss-frames-v1/sts2_lagavulin_matriarch_windup.mp3",
+    "attack": "audio/sfx/boss-frames-v1/sts2_lagavulin_matriarch_attack.mp3",
+    "skill": "audio/sfx/boss-frames-v1/sts2_lagavulin_matriarch_skill.mp3",
+    "hit": "audio/sfx/boss-frames-v1/sts2_lagavulin_matriarch_hit.mp3",
+    "death": "audio/sfx/boss-frames-v1/sts2_lagavulin_matriarch_death.mp3"
+  },
+  "assetReady": true,
+  "visualApproved": true,
+  "signature": "91b6053ce25ea138a91c98641a38c3fd370ab4df373007aabb8abca215de9a1b",
+  "sourceIssues": [],
+  "stage": "assets_and_standalone_preview",
+  "design": {
+    "identity": "Preserve reference exactly: massive coiled slate-blue ridged reef shell with pale barnacle holes, long ivory bony neck and hooked face, single cyan eye, hanging green algae, two long ivory scythe foreclaws and short supporting shell legs.",
+    "idle": "Shell remains planted while long neck lifts and curls, foreclaw joints open and fold, algae swings with breathing in a clear seamless cycle.",
+    "attack": "Retract head, raise both scythe foreclaws high, slash them LEFT in alternating heavy arcs, neck follows then recoil.",
+    "cast": "Neck extends very high, shell mantle hinges open slightly, claws spread wide and cyan soul siphon gathers at mouth; close and lower.",
+    "death": "Cyan eye extinguishes, scythe limbs fold inward, long neck slumps over grounded shell, algae and foreclaws settle coherently."
+  }
+}

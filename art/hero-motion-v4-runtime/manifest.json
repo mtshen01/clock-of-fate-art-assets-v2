@@ -1,0 +1,3600 @@
+{
+  "version": 4,
+  "actors": [
+    {
+      "id": "emberforged",
+      "sourceId": "emberforged",
+      "sourceSize": [
+        768,
+        768
+      ],
+      "pivot": [
+        384,
+        640
+      ],
+      "unitsPerPixel": 0.33,
+      "actions": {
+        "still": {
+          "frames": [
+            "art/hero-motion-v4-runtime/emberforged/still.png"
+          ],
+          "order": [
+            0
+          ],
+          "fps": 1,
+          "loop": false,
+          "holdLast": true,
+          "durationMs": 0,
+          "atlasRects": [
+            {
+              "x": 0,
+              "y": 0,
+              "width": 262,
+              "height": 400,
+              "offsetX": 253,
+              "offsetY": 241
+            }
+          ]
+        },
+        "attack": {
+          "frames": [
+            "art/hero-motion-v4-runtime/emberforged/attack.png"
+          ],
+          "order": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "fps": 14.285714285714285,
+          "loop": false,
+          "holdLast": false,
+          "durationMs": 1120,
+          "atlasRects": [
+            {
+              "x": 0,
+              "y": 421,
+              "width": 303,
+              "height": 400,
+              "offsetX": 233,
+              "offsetY": 241
+            },
+            {
+              "x": 621,
+              "y": 421,
+              "width": 311,
+              "height": 381,
+              "offsetX": 224,
+              "offsetY": 260
+            },
+            {
+              "x": 934,
+              "y": 421,
+              "width": 323,
+              "height": 376,
+              "offsetX": 223,
+              "offsetY": 265
+            },
+            {
+              "x": 1259,
+              "y": 421,
+              "width": 356,
+              "height": 372,
+              "offsetX": 207,
+              "offsetY": 269
+            },
+            {
+              "x": 1607,
+              "y": 0,
+              "width": 351,
+              "height": 400,
+              "offsetX": 198,
+              "offsetY": 241
+            },
+            {
+              "x": 344,
+              "y": 0,
+              "width": 337,
+              "height": 416,
+              "offsetX": 210,
+              "offsetY": 225
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "width": 342,
+              "height": 419,
+              "offsetX": 203,
+              "offsetY": 222
+            },
+            {
+              "x": 768,
+              "y": 823,
+              "width": 420,
+              "height": 358,
+              "offsetX": 202,
+              "offsetY": 283
+            },
+            {
+              "x": 333,
+              "y": 823,
+              "width": 433,
+              "height": 361,
+              "offsetX": 201,
+              "offsetY": 280
+            },
+            {
+              "x": 1190,
+              "y": 823,
+              "width": 389,
+              "height": 356,
+              "offsetX": 211,
+              "offsetY": 285
+            },
+            {
+              "x": 0,
+              "y": 823,
+              "width": 331,
+              "height": 364,
+              "offsetX": 211,
+              "offsetY": 277
+            },
+            {
+              "x": 1617,
+              "y": 421,
+              "width": 323,
+              "height": 369,
+              "offsetX": 210,
+              "offsetY": 272
+            },
+            {
+              "x": 305,
+              "y": 421,
+              "width": 314,
+              "height": 381,
+              "offsetX": 212,
+              "offsetY": 260
+            },
+            {
+              "x": 1307,
+              "y": 0,
+              "width": 298,
+              "height": 402,
+              "offsetX": 233,
+              "offsetY": 239
+            },
+            {
+              "x": 996,
+              "y": 0,
+              "width": 309,
+              "height": 403,
+              "offsetX": 220,
+              "offsetY": 238
+            },
+            {
+              "x": 683,
+              "y": 0,
+              "width": 311,
+              "height": 406,
+              "offsetX": 222,
+              "offsetY": 235
+            }
+          ]
+        },
+        "defense": {
+          "frames": [
+            "art/hero-motion-v4-runtime/emberforged/defense.png"
+          ],
+          "order": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "fps": 16,
+          "loop": false,
+          "holdLast": false,
+          "durationMs": 1000,
+          "atlasRects": [
+            {
+              "x": 0,
+              "y": 0,
+              "width": 252,
+              "height": 400,
+              "offsetX": 258,
+              "offsetY": 241
+            },
+            {
+              "x": 787,
+              "y": 0,
+              "width": 268,
+              "height": 387,
+              "offsetX": 250,
+              "offsetY": 254
+            },
+            {
+              "x": 0,
+              "y": 402,
+              "width": 278,
+              "height": 361,
+              "offsetX": 239,
+              "offsetY": 280
+            },
+            {
+              "x": 1213,
+              "y": 402,
+              "width": 292,
+              "height": 348,
+              "offsetX": 242,
+              "offsetY": 293
+            },
+            {
+              "x": 916,
+              "y": 402,
+              "width": 295,
+              "height": 353,
+              "offsetX": 241,
+              "offsetY": 288
+            },
+            {
+              "x": 610,
+              "y": 402,
+              "width": 304,
+              "height": 360,
+              "offsetX": 233,
+              "offsetY": 281
+            },
+            {
+              "x": 0,
+              "y": 765,
+              "width": 324,
+              "height": 347,
+              "offsetX": 221,
+              "offsetY": 294
+            },
+            {
+              "x": 1029,
+              "y": 765,
+              "width": 365,
+              "height": 332,
+              "offsetX": 208,
+              "offsetY": 309
+            },
+            {
+              "x": 1396,
+              "y": 765,
+              "width": 373,
+              "height": 325,
+              "offsetX": 213,
+              "offsetY": 316
+            },
+            {
+              "x": 670,
+              "y": 765,
+              "width": 357,
+              "height": 337,
+              "offsetX": 216,
+              "offsetY": 304
+            },
+            {
+              "x": 326,
+              "y": 765,
+              "width": 342,
+              "height": 341,
+              "offsetX": 226,
+              "offsetY": 300
+            },
+            {
+              "x": 280,
+              "y": 402,
+              "width": 328,
+              "height": 360,
+              "offsetX": 236,
+              "offsetY": 281
+            },
+            {
+              "x": 1341,
+              "y": 0,
+              "width": 296,
+              "height": 374,
+              "offsetX": 247,
+              "offsetY": 267
+            },
+            {
+              "x": 1057,
+              "y": 0,
+              "width": 282,
+              "height": 381,
+              "offsetX": 257,
+              "offsetY": 260
+            },
+            {
+              "x": 512,
+              "y": 0,
+              "width": 273,
+              "height": 390,
+              "offsetX": 257,
+              "offsetY": 251
+            },
+            {
+              "x": 254,
+              "y": 0,
+              "width": 256,
+              "height": 399,
+              "offsetX": 263,
+              "offsetY": 244
+            }
+          ]
+        },
+        "skill": {
+          "frames": [
+            "art/hero-motion-v4-runtime/emberforged/skill.png"
+          ],
+          "order": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "fps": 11.11111111111111,
+          "loop": false,
+          "holdLast": false,
+          "durationMs": 1440,
+          "atlasRects": [
+            {
+              "x": 0,
+              "y": 0,
+              "width": 245,
+              "height": 400,
+              "offsetX": 262,
+              "offsetY": 241
+            },
+            {
+              "x": 0,
+              "y": 788,
+              "width": 278,
+              "height": 378,
+              "offsetX": 249,
+              "offsetY": 263
+            },
+            {
+              "x": 573,
+              "y": 788,
+              "width": 273,
+              "height": 371,
+              "offsetX": 250,
+              "offsetY": 270
+            },
+            {
+              "x": 0,
+              "y": 1168,
+              "width": 275,
+              "height": 360,
+              "offsetX": 254,
+              "offsetY": 281
+            },
+            {
+              "x": 277,
+              "y": 1168,
+              "width": 279,
+              "height": 344,
+              "offsetX": 247,
+              "offsetY": 297
+            },
+            {
+              "x": 558,
+              "y": 1168,
+              "width": 273,
+              "height": 334,
+              "offsetX": 251,
+              "offsetY": 307
+            },
+            {
+              "x": 833,
+              "y": 1168,
+              "width": 288,
+              "height": 309,
+              "offsetX": 247,
+              "offsetY": 332
+            },
+            {
+              "x": 650,
+              "y": 402,
+              "width": 296,
+              "height": 381,
+              "offsetX": 245,
+              "offsetY": 260
+            },
+            {
+              "x": 764,
+              "y": 0,
+              "width": 332,
+              "height": 384,
+              "offsetX": 243,
+              "offsetY": 257
+            },
+            {
+              "x": 284,
+              "y": 402,
+              "width": 364,
+              "height": 383,
+              "offsetX": 235,
+              "offsetY": 258
+            },
+            {
+              "x": 948,
+              "y": 402,
+              "width": 312,
+              "height": 378,
+              "offsetX": 236,
+              "offsetY": 263
+            },
+            {
+              "x": 280,
+              "y": 788,
+              "width": 291,
+              "height": 371,
+              "offsetX": 247,
+              "offsetY": 270
+            },
+            {
+              "x": 848,
+              "y": 788,
+              "width": 295,
+              "height": 368,
+              "offsetX": 250,
+              "offsetY": 273
+            },
+            {
+              "x": 0,
+              "y": 402,
+              "width": 282,
+              "height": 384,
+              "offsetX": 251,
+              "offsetY": 257
+            },
+            {
+              "x": 496,
+              "y": 0,
+              "width": 266,
+              "height": 386,
+              "offsetX": 253,
+              "offsetY": 255
+            },
+            {
+              "x": 247,
+              "y": 0,
+              "width": 247,
+              "height": 388,
+              "offsetX": 262,
+              "offsetY": 253
+            }
+          ]
+        },
+        "taunt": {
+          "frames": [
+            "art/hero-motion-v4-runtime/emberforged/taunt.png"
+          ],
+          "order": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "fps": 12.5,
+          "loop": false,
+          "holdLast": false,
+          "durationMs": 1280,
+          "atlasRects": [
+            {
+              "x": 274,
+              "y": 807,
+              "width": 264,
+              "height": 400,
+              "offsetX": 252,
+              "offsetY": 241
+            },
+            {
+              "x": 845,
+              "y": 1209,
+              "width": 281,
+              "height": 396,
+              "offsetX": 237,
+              "offsetY": 245
+            },
+            {
+              "x": 561,
+              "y": 1209,
+              "width": 282,
+              "height": 397,
+              "offsetX": 219,
+              "offsetY": 244
+            },
+            {
+              "x": 540,
+              "y": 807,
+              "width": 343,
+              "height": 399,
+              "offsetX": 209,
+              "offsetY": 242
+            },
+            {
+              "x": 0,
+              "y": 405,
+              "width": 360,
+              "height": 400,
+              "offsetX": 239,
+              "offsetY": 241
+            },
+            {
+              "x": 362,
+              "y": 405,
+              "width": 357,
+              "height": 400,
+              "offsetX": 234,
+              "offsetY": 241
+            },
+            {
+              "x": 721,
+              "y": 405,
+              "width": 311,
+              "height": 400,
+              "offsetX": 222,
+              "offsetY": 241
+            },
+            {
+              "x": 1034,
+              "y": 405,
+              "width": 275,
+              "height": 400,
+              "offsetX": 217,
+              "offsetY": 241
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "width": 279,
+              "height": 403,
+              "offsetX": 245,
+              "offsetY": 238
+            },
+            {
+              "x": 633,
+              "y": 0,
+              "width": 323,
+              "height": 401,
+              "offsetX": 239,
+              "offsetY": 240
+            },
+            {
+              "x": 281,
+              "y": 0,
+              "width": 350,
+              "height": 401,
+              "offsetX": 229,
+              "offsetY": 240
+            },
+            {
+              "x": 885,
+              "y": 807,
+              "width": 340,
+              "height": 399,
+              "offsetX": 232,
+              "offsetY": 242
+            },
+            {
+              "x": 267,
+              "y": 1209,
+              "width": 292,
+              "height": 397,
+              "offsetX": 258,
+              "offsetY": 244
+            },
+            {
+              "x": 0,
+              "y": 807,
+              "width": 272,
+              "height": 400,
+              "offsetX": 250,
+              "offsetY": 241
+            },
+            {
+              "x": 0,
+              "y": 1209,
+              "width": 265,
+              "height": 399,
+              "offsetX": 238,
+              "offsetY": 242
+            },
+            {
+              "x": 958,
+              "y": 0,
+              "width": 272,
+              "height": 401,
+              "offsetX": 227,
+              "offsetY": 240
+            }
+          ]
+        },
+        "death": {
+          "frames": [
+            "art/hero-motion-v4-runtime/emberforged/death.png"
+          ],
+          "order": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "fps": 9.090909090909092,
+          "loop": false,
+          "holdLast": true,
+          "durationMs": 1760,
+          "atlasRects": [
+            {
+              "x": 0,
+              "y": 0,
+              "width": 260,
+              "height": 400,
+              "offsetX": 254,
+              "offsetY": 241
+            },
+            {
+              "x": 262,
+              "y": 0,
+              "width": 240,
+              "height": 364,
+              "offsetX": 250,
+              "offsetY": 277
+            },
+            {
+              "x": 504,
+              "y": 0,
+              "width": 217,
+              "height": 324,
+              "offsetX": 259,
+              "offsetY": 317
+            },
+            {
+              "x": 723,
+              "y": 0,
+              "width": 250,
+              "height": 297,
+              "offsetX": 236,
+              "offsetY": 344
+            },
+            {
+              "x": 0,
+              "y": 402,
+              "width": 271,
+              "height": 284,
+              "offsetX": 230,
+              "offsetY": 360
+            },
+            {
+              "x": 273,
+              "y": 402,
+              "width": 279,
+              "height": 266,
+              "offsetX": 215,
+              "offsetY": 383
+            },
+            {
+              "x": 554,
+              "y": 402,
+              "width": 290,
+              "height": 247,
+              "offsetX": 209,
+              "offsetY": 402
+            },
+            {
+              "x": 0,
+              "y": 688,
+              "width": 321,
+              "height": 216,
+              "offsetX": 215,
+              "offsetY": 435
+            },
+            {
+              "x": 323,
+              "y": 688,
+              "width": 312,
+              "height": 207,
+              "offsetX": 214,
+              "offsetY": 439
+            },
+            {
+              "x": 637,
+              "y": 688,
+              "width": 319,
+              "height": 195,
+              "offsetX": 200,
+              "offsetY": 456
+            },
+            {
+              "x": 0,
+              "y": 906,
+              "width": 341,
+              "height": 171,
+              "offsetX": 180,
+              "offsetY": 477
+            },
+            {
+              "x": 343,
+              "y": 906,
+              "width": 386,
+              "height": 160,
+              "offsetX": 175,
+              "offsetY": 487
+            },
+            {
+              "x": 390,
+              "y": 1079,
+              "width": 374,
+              "height": 133,
+              "offsetX": 193,
+              "offsetY": 512
+            },
+            {
+              "x": 0,
+              "y": 1079,
+              "width": 388,
+              "height": 133,
+              "offsetX": 184,
+              "offsetY": 512
+            },
+            {
+              "x": 0,
+              "y": 1214,
+              "width": 405,
+              "height": 122,
+              "offsetX": 173,
+              "offsetY": 521
+            },
+            {
+              "x": 407,
+              "y": 1214,
+              "width": 416,
+              "height": 117,
+              "offsetX": 174,
+              "offsetY": 526
+            }
+          ]
+        }
+      },
+      "selection": "art/hero-motion-v4-runtime/emberforged/selection.png",
+      "portrait": "art/hero-motion-v4-runtime/emberforged/portrait.png"
+    },
+    {
+      "id": "lamplighter",
+      "sourceId": "guest",
+      "sourceSize": [
+        768,
+        768
+      ],
+      "pivot": [
+        384,
+        640
+      ],
+      "unitsPerPixel": 0.33,
+      "actions": {
+        "still": {
+          "frames": [
+            "art/hero-motion-v4-runtime/lamplighter/still.png"
+          ],
+          "order": [
+            0
+          ],
+          "fps": 1,
+          "loop": false,
+          "holdLast": true,
+          "durationMs": 0,
+          "atlasRects": [
+            {
+              "x": 0,
+              "y": 0,
+              "width": 238,
+              "height": 400,
+              "offsetX": 265,
+              "offsetY": 241
+            }
+          ]
+        },
+        "attack": {
+          "frames": [
+            "art/hero-motion-v4-runtime/lamplighter/attack.png"
+          ],
+          "order": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "fps": 10,
+          "loop": false,
+          "holdLast": false,
+          "durationMs": 1600,
+          "atlasRects": [
+            {
+              "x": 684,
+              "y": 0,
+              "width": 196,
+              "height": 400,
+              "offsetX": 286,
+              "offsetY": 241
+            },
+            {
+              "x": 882,
+              "y": 0,
+              "width": 202,
+              "height": 397,
+              "offsetX": 285,
+              "offsetY": 244
+            },
+            {
+              "x": 972,
+              "y": 416,
+              "width": 228,
+              "height": 382,
+              "offsetX": 257,
+              "offsetY": 259
+            },
+            {
+              "x": 945,
+              "y": 1188,
+              "width": 266,
+              "height": 363,
+              "offsetX": 236,
+              "offsetY": 278
+            },
+            {
+              "x": 661,
+              "y": 1188,
+              "width": 282,
+              "height": 368,
+              "offsetX": 229,
+              "offsetY": 273
+            },
+            {
+              "x": 404,
+              "y": 1188,
+              "width": 255,
+              "height": 375,
+              "offsetX": 249,
+              "offsetY": 266
+            },
+            {
+              "x": 805,
+              "y": 805,
+              "width": 312,
+              "height": 378,
+              "offsetX": 227,
+              "offsetY": 263
+            },
+            {
+              "x": 0,
+              "y": 805,
+              "width": 395,
+              "height": 381,
+              "offsetX": 204,
+              "offsetY": 260
+            },
+            {
+              "x": 0,
+              "y": 1188,
+              "width": 402,
+              "height": 375,
+              "offsetX": 205,
+              "offsetY": 266
+            },
+            {
+              "x": 397,
+              "y": 805,
+              "width": 406,
+              "height": 379,
+              "offsetX": 198,
+              "offsetY": 262
+            },
+            {
+              "x": 624,
+              "y": 416,
+              "width": 346,
+              "height": 382,
+              "offsetX": 192,
+              "offsetY": 259
+            },
+            {
+              "x": 0,
+              "y": 416,
+              "width": 317,
+              "height": 387,
+              "offsetX": 226,
+              "offsetY": 254
+            },
+            {
+              "x": 319,
+              "y": 416,
+              "width": 303,
+              "height": 387,
+              "offsetX": 240,
+              "offsetY": 254
+            },
+            {
+              "x": 424,
+              "y": 0,
+              "width": 258,
+              "height": 408,
+              "offsetX": 260,
+              "offsetY": 233
+            },
+            {
+              "x": 204,
+              "y": 0,
+              "width": 218,
+              "height": 413,
+              "offsetX": 278,
+              "offsetY": 228
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "width": 202,
+              "height": 414,
+              "offsetX": 290,
+              "offsetY": 227
+            }
+          ]
+        },
+        "defense": {
+          "frames": [
+            "art/hero-motion-v4-runtime/lamplighter/defense.png"
+          ],
+          "order": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "fps": 10,
+          "loop": false,
+          "holdLast": false,
+          "durationMs": 1600,
+          "atlasRects": [
+            {
+              "x": 207,
+              "y": 0,
+              "width": 208,
+              "height": 400,
+              "offsetX": 280,
+              "offsetY": 241
+            },
+            {
+              "x": 622,
+              "y": 0,
+              "width": 215,
+              "height": 377,
+              "offsetX": 281,
+              "offsetY": 264
+            },
+            {
+              "x": 945,
+              "y": 407,
+              "width": 248,
+              "height": 349,
+              "offsetX": 262,
+              "offsetY": 292
+            },
+            {
+              "x": 983,
+              "y": 770,
+              "width": 246,
+              "height": 321,
+              "offsetX": 266,
+              "offsetY": 320
+            },
+            {
+              "x": 737,
+              "y": 770,
+              "width": 244,
+              "height": 323,
+              "offsetX": 275,
+              "offsetY": 318
+            },
+            {
+              "x": 497,
+              "y": 770,
+              "width": 238,
+              "height": 331,
+              "offsetX": 268,
+              "offsetY": 310
+            },
+            {
+              "x": 256,
+              "y": 770,
+              "width": 239,
+              "height": 333,
+              "offsetX": 268,
+              "offsetY": 308
+            },
+            {
+              "x": 0,
+              "y": 770,
+              "width": 254,
+              "height": 333,
+              "offsetX": 269,
+              "offsetY": 308
+            },
+            {
+              "x": 695,
+              "y": 407,
+              "width": 248,
+              "height": 356,
+              "offsetX": 272,
+              "offsetY": 285
+            },
+            {
+              "x": 222,
+              "y": 407,
+              "width": 239,
+              "height": 359,
+              "offsetX": 276,
+              "offsetY": 282
+            },
+            {
+              "x": 1049,
+              "y": 0,
+              "width": 233,
+              "height": 362,
+              "offsetX": 278,
+              "offsetY": 280
+            },
+            {
+              "x": 463,
+              "y": 407,
+              "width": 230,
+              "height": 359,
+              "offsetX": 282,
+              "offsetY": 283
+            },
+            {
+              "x": 0,
+              "y": 407,
+              "width": 220,
+              "height": 361,
+              "offsetX": 278,
+              "offsetY": 280
+            },
+            {
+              "x": 839,
+              "y": 0,
+              "width": 208,
+              "height": 377,
+              "offsetX": 294,
+              "offsetY": 264
+            },
+            {
+              "x": 417,
+              "y": 0,
+              "width": 203,
+              "height": 395,
+              "offsetX": 288,
+              "offsetY": 246
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "width": 205,
+              "height": 405,
+              "offsetX": 284,
+              "offsetY": 236
+            }
+          ]
+        },
+        "skill": {
+          "frames": [
+            "art/hero-motion-v4-runtime/lamplighter/skill.png"
+          ],
+          "order": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "fps": 8.333333333333334,
+          "loop": false,
+          "holdLast": false,
+          "durationMs": 1920,
+          "atlasRects": [
+            {
+              "x": 0,
+              "y": 0,
+              "width": 202,
+              "height": 400,
+              "offsetX": 283,
+              "offsetY": 241
+            },
+            {
+              "x": 620,
+              "y": 0,
+              "width": 215,
+              "height": 394,
+              "offsetX": 285,
+              "offsetY": 247
+            },
+            {
+              "x": 330,
+              "y": 786,
+              "width": 249,
+              "height": 373,
+              "offsetX": 268,
+              "offsetY": 268
+            },
+            {
+              "x": 262,
+              "y": 1532,
+              "width": 257,
+              "height": 342,
+              "offsetX": 261,
+              "offsetY": 299
+            },
+            {
+              "x": 521,
+              "y": 1532,
+              "width": 255,
+              "height": 341,
+              "offsetX": 256,
+              "offsetY": 300
+            },
+            {
+              "x": 0,
+              "y": 1532,
+              "width": 260,
+              "height": 350,
+              "offsetX": 253,
+              "offsetY": 293
+            },
+            {
+              "x": 631,
+              "y": 1161,
+              "width": 277,
+              "height": 357,
+              "offsetX": 247,
+              "offsetY": 284
+            },
+            {
+              "x": 303,
+              "y": 1161,
+              "width": 326,
+              "height": 359,
+              "offsetX": 230,
+              "offsetY": 282
+            },
+            {
+              "x": 581,
+              "y": 786,
+              "width": 323,
+              "height": 372,
+              "offsetX": 221,
+              "offsetY": 269
+            },
+            {
+              "x": 516,
+              "y": 402,
+              "width": 331,
+              "height": 373,
+              "offsetX": 225,
+              "offsetY": 268
+            },
+            {
+              "x": 0,
+              "y": 786,
+              "width": 328,
+              "height": 373,
+              "offsetX": 230,
+              "offsetY": 268
+            },
+            {
+              "x": 0,
+              "y": 1161,
+              "width": 301,
+              "height": 369,
+              "offsetX": 242,
+              "offsetY": 272
+            },
+            {
+              "x": 253,
+              "y": 402,
+              "width": 261,
+              "height": 375,
+              "offsetX": 255,
+              "offsetY": 266
+            },
+            {
+              "x": 0,
+              "y": 402,
+              "width": 251,
+              "height": 382,
+              "offsetX": 264,
+              "offsetY": 259
+            },
+            {
+              "x": 404,
+              "y": 0,
+              "width": 214,
+              "height": 396,
+              "offsetX": 273,
+              "offsetY": 245
+            },
+            {
+              "x": 204,
+              "y": 0,
+              "width": 198,
+              "height": 397,
+              "offsetX": 288,
+              "offsetY": 244
+            }
+          ]
+        },
+        "taunt": {
+          "frames": [
+            "art/hero-motion-v4-runtime/lamplighter/taunt.png"
+          ],
+          "order": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "fps": 10,
+          "loop": false,
+          "holdLast": false,
+          "durationMs": 1600,
+          "atlasRects": [
+            {
+              "x": 1186,
+              "y": 0,
+              "width": 207,
+              "height": 400,
+              "offsetX": 280,
+              "offsetY": 241
+            },
+            {
+              "x": 1599,
+              "y": 0,
+              "width": 199,
+              "height": 395,
+              "offsetX": 288,
+              "offsetY": 246
+            },
+            {
+              "x": 834,
+              "y": 407,
+              "width": 223,
+              "height": 381,
+              "offsetX": 280,
+              "offsetY": 260
+            },
+            {
+              "x": 1564,
+              "y": 407,
+              "width": 236,
+              "height": 363,
+              "offsetX": 275,
+              "offsetY": 278
+            },
+            {
+              "x": 1314,
+              "y": 407,
+              "width": 248,
+              "height": 369,
+              "offsetX": 271,
+              "offsetY": 272
+            },
+            {
+              "x": 1059,
+              "y": 407,
+              "width": 253,
+              "height": 377,
+              "offsetX": 270,
+              "offsetY": 264
+            },
+            {
+              "x": 553,
+              "y": 407,
+              "width": 279,
+              "height": 381,
+              "offsetX": 266,
+              "offsetY": 260
+            },
+            {
+              "x": 256,
+              "y": 407,
+              "width": 295,
+              "height": 384,
+              "offsetX": 270,
+              "offsetY": 257
+            },
+            {
+              "x": 0,
+              "y": 407,
+              "width": 254,
+              "height": 392,
+              "offsetX": 275,
+              "offsetY": 249
+            },
+            {
+              "x": 1395,
+              "y": 0,
+              "width": 202,
+              "height": 395,
+              "offsetX": 283,
+              "offsetY": 246
+            },
+            {
+              "x": 203,
+              "y": 0,
+              "width": 196,
+              "height": 403,
+              "offsetX": 288,
+              "offsetY": 238
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "width": 201,
+              "height": 405,
+              "offsetX": 296,
+              "offsetY": 236
+            },
+            {
+              "x": 401,
+              "y": 0,
+              "width": 196,
+              "height": 403,
+              "offsetX": 288,
+              "offsetY": 238
+            },
+            {
+              "x": 988,
+              "y": 0,
+              "width": 196,
+              "height": 402,
+              "offsetX": 284,
+              "offsetY": 239
+            },
+            {
+              "x": 797,
+              "y": 0,
+              "width": 189,
+              "height": 403,
+              "offsetX": 292,
+              "offsetY": 238
+            },
+            {
+              "x": 599,
+              "y": 0,
+              "width": 196,
+              "height": 403,
+              "offsetX": 286,
+              "offsetY": 238
+            }
+          ]
+        },
+        "death": {
+          "frames": [
+            "art/hero-motion-v4-runtime/lamplighter/death.png"
+          ],
+          "order": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "fps": 6.666666666666667,
+          "loop": false,
+          "holdLast": true,
+          "durationMs": 2400,
+          "atlasRects": [
+            {
+              "x": 0,
+              "y": 0,
+              "width": 167,
+              "height": 400,
+              "offsetX": 301,
+              "offsetY": 241
+            },
+            {
+              "x": 169,
+              "y": 0,
+              "width": 170,
+              "height": 390,
+              "offsetX": 296,
+              "offsetY": 251
+            },
+            {
+              "x": 341,
+              "y": 0,
+              "width": 188,
+              "height": 370,
+              "offsetX": 292,
+              "offsetY": 271
+            },
+            {
+              "x": 531,
+              "y": 0,
+              "width": 217,
+              "height": 351,
+              "offsetX": 275,
+              "offsetY": 290
+            },
+            {
+              "x": 750,
+              "y": 0,
+              "width": 231,
+              "height": 329,
+              "offsetX": 266,
+              "offsetY": 312
+            },
+            {
+              "x": 983,
+              "y": 0,
+              "width": 235,
+              "height": 313,
+              "offsetX": 261,
+              "offsetY": 328
+            },
+            {
+              "x": 0,
+              "y": 402,
+              "width": 271,
+              "height": 280,
+              "offsetX": 229,
+              "offsetY": 361
+            },
+            {
+              "x": 273,
+              "y": 402,
+              "width": 317,
+              "height": 261,
+              "offsetX": 190,
+              "offsetY": 380
+            },
+            {
+              "x": 592,
+              "y": 402,
+              "width": 332,
+              "height": 238,
+              "offsetX": 186,
+              "offsetY": 403
+            },
+            {
+              "x": 926,
+              "y": 402,
+              "width": 339,
+              "height": 221,
+              "offsetX": 187,
+              "offsetY": 420
+            },
+            {
+              "x": 0,
+              "y": 684,
+              "width": 372,
+              "height": 200,
+              "offsetX": 172,
+              "offsetY": 441
+            },
+            {
+              "x": 374,
+              "y": 684,
+              "width": 456,
+              "height": 181,
+              "offsetX": 154,
+              "offsetY": 460
+            },
+            {
+              "x": 832,
+              "y": 684,
+              "width": 449,
+              "height": 150,
+              "offsetX": 181,
+              "offsetY": 491
+            },
+            {
+              "x": 0,
+              "y": 886,
+              "width": 457,
+              "height": 139,
+              "offsetX": 171,
+              "offsetY": 502
+            },
+            {
+              "x": 459,
+              "y": 886,
+              "width": 459,
+              "height": 136,
+              "offsetX": 168,
+              "offsetY": 505
+            },
+            {
+              "x": 920,
+              "y": 886,
+              "width": 461,
+              "height": 134,
+              "offsetX": 166,
+              "offsetY": 507
+            }
+          ]
+        }
+      },
+      "selection": "art/hero-motion-v4-runtime/lamplighter/selection.png",
+      "portrait": "art/hero-motion-v4-runtime/lamplighter/portrait.png"
+    },
+    {
+      "id": "guest_demon",
+      "sourceId": "shadow-demon",
+      "sourceSize": [
+        768,
+        768
+      ],
+      "pivot": [
+        384,
+        640
+      ],
+      "unitsPerPixel": 0.32,
+      "actions": {
+        "still": {
+          "frames": [
+            "art/hero-motion-v4-runtime/guest_demon/still-rear.png"
+          ],
+          "order": [
+            0
+          ],
+          "fps": 1,
+          "loop": false,
+          "holdLast": true,
+          "durationMs": 0,
+          "atlasRects": [
+            {
+              "x": 0,
+              "y": 0,
+              "width": 348,
+              "height": 400,
+              "offsetX": 210,
+              "offsetY": 200
+            }
+          ]
+        },
+        "attack": {
+          "frames": [
+            "art/hero-motion-v4-runtime/guest_demon/attack-rear.png"
+          ],
+          "order": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "fps": 10,
+          "loop": false,
+          "holdLast": false,
+          "durationMs": 1600,
+          "atlasRects": [
+            {
+              "x": 1169,
+              "y": 0,
+              "width": 389,
+              "height": 391,
+              "offsetX": 190,
+              "offsetY": 200
+            },
+            {
+              "x": 780,
+              "y": 0,
+              "width": 387,
+              "height": 396,
+              "offsetX": 186,
+              "offsetY": 207
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "width": 377,
+              "height": 427,
+              "offsetX": 173,
+              "offsetY": 207
+            },
+            {
+              "x": 0,
+              "y": 1182,
+              "width": 402,
+              "height": 338,
+              "offsetX": 153,
+              "offsetY": 208
+            },
+            {
+              "x": 897,
+              "y": 1182,
+              "width": 369,
+              "height": 311,
+              "offsetX": 176,
+              "offsetY": 220
+            },
+            {
+              "x": 1329,
+              "y": 819,
+              "width": 402,
+              "height": 341,
+              "offsetX": 173,
+              "offsetY": 229
+            },
+            {
+              "x": 861,
+              "y": 819,
+              "width": 466,
+              "height": 343,
+              "offsetX": 150,
+              "offsetY": 224
+            },
+            {
+              "x": 0,
+              "y": 819,
+              "width": 463,
+              "height": 361,
+              "offsetX": 145,
+              "offsetY": 225
+            },
+            {
+              "x": 404,
+              "y": 1182,
+              "width": 491,
+              "height": 316,
+              "offsetX": 150,
+              "offsetY": 229
+            },
+            {
+              "x": 1080,
+              "y": 429,
+              "width": 447,
+              "height": 367,
+              "offsetX": 160,
+              "offsetY": 226
+            },
+            {
+              "x": 1268,
+              "y": 1182,
+              "width": 395,
+              "height": 307,
+              "offsetX": 165,
+              "offsetY": 221
+            },
+            {
+              "x": 333,
+              "y": 429,
+              "width": 353,
+              "height": 377,
+              "offsetX": 165,
+              "offsetY": 217
+            },
+            {
+              "x": 0,
+              "y": 429,
+              "width": 331,
+              "height": 388,
+              "offsetX": 170,
+              "offsetY": 216
+            },
+            {
+              "x": 379,
+              "y": 0,
+              "width": 399,
+              "height": 417,
+              "offsetX": 170,
+              "offsetY": 211
+            },
+            {
+              "x": 465,
+              "y": 819,
+              "width": 394,
+              "height": 352,
+              "offsetX": 173,
+              "offsetY": 208
+            },
+            {
+              "x": 688,
+              "y": 429,
+              "width": 390,
+              "height": 375,
+              "offsetX": 188,
+              "offsetY": 203
+            }
+          ]
+        },
+        "defense": {
+          "frames": [
+            "art/hero-motion-v4-runtime/guest_demon/defense-rear.png"
+          ],
+          "order": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "fps": 10,
+          "loop": false,
+          "holdLast": false,
+          "durationMs": 1600,
+          "atlasRects": [
+            {
+              "x": 1331,
+              "y": 889,
+              "width": 334,
+              "height": 366,
+              "offsetX": 215,
+              "offsetY": 200
+            },
+            {
+              "x": 1241,
+              "y": 469,
+              "width": 346,
+              "height": 397,
+              "offsetX": 210,
+              "offsetY": 200
+            },
+            {
+              "x": 434,
+              "y": 1283,
+              "width": 359,
+              "height": 345,
+              "offsetX": 193,
+              "offsetY": 200
+            },
+            {
+              "x": 0,
+              "y": 1283,
+              "width": 432,
+              "height": 363,
+              "offsetX": 158,
+              "offsetY": 200
+            },
+            {
+              "x": 1232,
+              "y": 1283,
+              "width": 477,
+              "height": 317,
+              "offsetX": 144,
+              "offsetY": 204
+            },
+            {
+              "x": 852,
+              "y": 889,
+              "width": 477,
+              "height": 387,
+              "offsetX": 142,
+              "offsetY": 204
+            },
+            {
+              "x": 795,
+              "y": 1283,
+              "width": 435,
+              "height": 327,
+              "offsetX": 162,
+              "offsetY": 190
+            },
+            {
+              "x": 417,
+              "y": 0,
+              "width": 413,
+              "height": 459,
+              "offsetX": 178,
+              "offsetY": 179
+            },
+            {
+              "x": 832,
+              "y": 0,
+              "width": 384,
+              "height": 458,
+              "offsetX": 204,
+              "offsetY": 171
+            },
+            {
+              "x": 465,
+              "y": 889,
+              "width": 385,
+              "height": 391,
+              "offsetX": 202,
+              "offsetY": 171
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "width": 415,
+              "height": 467,
+              "offsetX": 183,
+              "offsetY": 174
+            },
+            {
+              "x": 1218,
+              "y": 0,
+              "width": 449,
+              "height": 437,
+              "offsetX": 158,
+              "offsetY": 204
+            },
+            {
+              "x": 0,
+              "y": 469,
+              "width": 463,
+              "height": 418,
+              "offsetX": 156,
+              "offsetY": 223
+            },
+            {
+              "x": 0,
+              "y": 889,
+              "width": 463,
+              "height": 392,
+              "offsetX": 139,
+              "offsetY": 216
+            },
+            {
+              "x": 465,
+              "y": 469,
+              "width": 415,
+              "height": 416,
+              "offsetX": 162,
+              "offsetY": 213
+            },
+            {
+              "x": 882,
+              "y": 469,
+              "width": 357,
+              "height": 412,
+              "offsetX": 193,
+              "offsetY": 213
+            }
+          ]
+        },
+        "skill": {
+          "frames": [
+            "art/hero-motion-v4-runtime/guest_demon/skill-rear.png"
+          ],
+          "order": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "fps": 8,
+          "loop": false,
+          "holdLast": false,
+          "durationMs": 2000,
+          "atlasRects": [
+            {
+              "x": 0,
+              "y": 822,
+              "width": 354,
+              "height": 378,
+              "offsetX": 207,
+              "offsetY": 200
+            },
+            {
+              "x": 1145,
+              "y": 419,
+              "width": 357,
+              "height": 378,
+              "offsetX": 211,
+              "offsetY": 198
+            },
+            {
+              "x": 748,
+              "y": 822,
+              "width": 356,
+              "height": 357,
+              "offsetX": 210,
+              "offsetY": 198
+            },
+            {
+              "x": 1106,
+              "y": 822,
+              "width": 326,
+              "height": 334,
+              "offsetX": 226,
+              "offsetY": 194
+            },
+            {
+              "x": 0,
+              "y": 1202,
+              "width": 312,
+              "height": 334,
+              "offsetX": 235,
+              "offsetY": 193
+            },
+            {
+              "x": 711,
+              "y": 1202,
+              "width": 306,
+              "height": 328,
+              "offsetX": 237,
+              "offsetY": 191
+            },
+            {
+              "x": 1019,
+              "y": 1202,
+              "width": 321,
+              "height": 320,
+              "offsetX": 224,
+              "offsetY": 196
+            },
+            {
+              "x": 356,
+              "y": 822,
+              "width": 390,
+              "height": 369,
+              "offsetX": 211,
+              "offsetY": 196
+            },
+            {
+              "x": 726,
+              "y": 419,
+              "width": 417,
+              "height": 378,
+              "offsetX": 196,
+              "offsetY": 198
+            },
+            {
+              "x": 372,
+              "y": 0,
+              "width": 420,
+              "height": 411,
+              "offsetX": 197,
+              "offsetY": 200
+            },
+            {
+              "x": 314,
+              "y": 1202,
+              "width": 395,
+              "height": 328,
+              "offsetX": 198,
+              "offsetY": 202
+            },
+            {
+              "x": 362,
+              "y": 419,
+              "width": 362,
+              "height": 381,
+              "offsetX": 191,
+              "offsetY": 202
+            },
+            {
+              "x": 1141,
+              "y": 0,
+              "width": 351,
+              "height": 402,
+              "offsetX": 185,
+              "offsetY": 204
+            },
+            {
+              "x": 794,
+              "y": 0,
+              "width": 345,
+              "height": 410,
+              "offsetX": 189,
+              "offsetY": 202
+            },
+            {
+              "x": 0,
+              "y": 419,
+              "width": 360,
+              "height": 401,
+              "offsetX": 190,
+              "offsetY": 201
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "width": 370,
+              "height": 417,
+              "offsetX": 195,
+              "offsetY": 198
+            }
+          ]
+        },
+        "taunt": {
+          "frames": [
+            "art/hero-motion-v4-runtime/guest_demon/taunt-rear.png"
+          ],
+          "order": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "fps": 8.88888888888889,
+          "loop": false,
+          "holdLast": false,
+          "durationMs": 1800,
+          "atlasRects": [
+            {
+              "x": 822,
+              "y": 831,
+              "width": 364,
+              "height": 379,
+              "offsetX": 202,
+              "offsetY": 200
+            },
+            {
+              "x": 391,
+              "y": 1214,
+              "width": 372,
+              "height": 368,
+              "offsetX": 189,
+              "offsetY": 187
+            },
+            {
+              "x": 436,
+              "y": 831,
+              "width": 384,
+              "height": 380,
+              "offsetX": 181,
+              "offsetY": 187
+            },
+            {
+              "x": 1209,
+              "y": 0,
+              "width": 397,
+              "height": 399,
+              "offsetX": 161,
+              "offsetY": 225
+            },
+            {
+              "x": 792,
+              "y": 0,
+              "width": 415,
+              "height": 403,
+              "offsetX": 175,
+              "offsetY": 197
+            },
+            {
+              "x": 1188,
+              "y": 831,
+              "width": 446,
+              "height": 374,
+              "offsetX": 159,
+              "offsetY": 215
+            },
+            {
+              "x": 768,
+              "y": 430,
+              "width": 459,
+              "height": 392,
+              "offsetX": 143,
+              "offsetY": 227
+            },
+            {
+              "x": 1229,
+              "y": 430,
+              "width": 426,
+              "height": 382,
+              "offsetX": 155,
+              "offsetY": 232
+            },
+            {
+              "x": 0,
+              "y": 1214,
+              "width": 389,
+              "height": 368,
+              "offsetX": 181,
+              "offsetY": 218
+            },
+            {
+              "x": 0,
+              "y": 831,
+              "width": 434,
+              "height": 381,
+              "offsetX": 159,
+              "offsetY": 218
+            },
+            {
+              "x": 382,
+              "y": 0,
+              "width": 408,
+              "height": 415,
+              "offsetX": 157,
+              "offsetY": 201
+            },
+            {
+              "x": 765,
+              "y": 1214,
+              "width": 402,
+              "height": 344,
+              "offsetX": 158,
+              "offsetY": 198
+            },
+            {
+              "x": 0,
+              "y": 430,
+              "width": 383,
+              "height": 399,
+              "offsetX": 175,
+              "offsetY": 182
+            },
+            {
+              "x": 1169,
+              "y": 1214,
+              "width": 384,
+              "height": 344,
+              "offsetX": 168,
+              "offsetY": 177
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "width": 380,
+              "height": 428,
+              "offsetX": 168,
+              "offsetY": 184
+            },
+            {
+              "x": 385,
+              "y": 430,
+              "width": 381,
+              "height": 399,
+              "offsetX": 168,
+              "offsetY": 185
+            }
+          ]
+        },
+        "death": {
+          "frames": [
+            "art/hero-motion-v4-runtime/guest_demon/death-rear.png"
+          ],
+          "order": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "fps": 6.666666666666667,
+          "loop": false,
+          "holdLast": true,
+          "durationMs": 2400,
+          "atlasRects": [
+            {
+              "x": 0,
+              "y": 0,
+              "width": 347,
+              "height": 440,
+              "offsetX": 210,
+              "offsetY": 200
+            },
+            {
+              "x": 349,
+              "y": 0,
+              "width": 356,
+              "height": 425,
+              "offsetX": 184,
+              "offsetY": 212
+            },
+            {
+              "x": 707,
+              "y": 0,
+              "width": 360,
+              "height": 406,
+              "offsetX": 169,
+              "offsetY": 227
+            },
+            {
+              "x": 0,
+              "y": 442,
+              "width": 368,
+              "height": 398,
+              "offsetX": 153,
+              "offsetY": 248
+            },
+            {
+              "x": 370,
+              "y": 442,
+              "width": 357,
+              "height": 358,
+              "offsetX": 194,
+              "offsetY": 275
+            },
+            {
+              "x": 729,
+              "y": 442,
+              "width": 346,
+              "height": 347,
+              "offsetX": 183,
+              "offsetY": 283
+            },
+            {
+              "x": 336,
+              "y": 842,
+              "width": 345,
+              "height": 334,
+              "offsetX": 170,
+              "offsetY": 293
+            },
+            {
+              "x": 0,
+              "y": 842,
+              "width": 334,
+              "height": 338,
+              "offsetX": 164,
+              "offsetY": 290
+            },
+            {
+              "x": 683,
+              "y": 842,
+              "width": 315,
+              "height": 305,
+              "offsetX": 217,
+              "offsetY": 265
+            },
+            {
+              "x": 0,
+              "y": 1182,
+              "width": 277,
+              "height": 279,
+              "offsetX": 213,
+              "offsetY": 266
+            },
+            {
+              "x": 279,
+              "y": 1182,
+              "width": 274,
+              "height": 277,
+              "offsetX": 186,
+              "offsetY": 262
+            },
+            {
+              "x": 555,
+              "y": 1182,
+              "width": 275,
+              "height": 264,
+              "offsetX": 183,
+              "offsetY": 270
+            },
+            {
+              "x": 832,
+              "y": 1182,
+              "width": 248,
+              "height": 251,
+              "offsetX": 228,
+              "offsetY": 250
+            },
+            {
+              "x": 0,
+              "y": 1463,
+              "width": 204,
+              "height": 198,
+              "offsetX": 240,
+              "offsetY": 276
+            },
+            {
+              "x": 206,
+              "y": 1463,
+              "width": 99,
+              "height": 83,
+              "offsetX": 285,
+              "offsetY": 326
+            },
+            {
+              "x": 307,
+              "y": 1463,
+              "width": 54,
+              "height": 68,
+              "offsetX": 313,
+              "offsetY": 337
+            }
+          ]
+        },
+        "revive": {
+          "frames": [
+            "art/hero-motion-v4-runtime/guest_demon/revive-rear.png"
+          ],
+          "order": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "fps": 5.714285714285714,
+          "loop": false,
+          "holdLast": false,
+          "durationMs": 2800,
+          "atlasRects": [
+            {
+              "x": 1391,
+              "y": 726,
+              "width": 49,
+              "height": 63,
+              "offsetX": 316,
+              "offsetY": 340
+            },
+            {
+              "x": 1332,
+              "y": 726,
+              "width": 57,
+              "height": 70,
+              "offsetX": 312,
+              "offsetY": 337
+            },
+            {
+              "x": 1269,
+              "y": 726,
+              "width": 61,
+              "height": 160,
+              "offsetX": 308,
+              "offsetY": 327
+            },
+            {
+              "x": 1123,
+              "y": 726,
+              "width": 144,
+              "height": 223,
+              "offsetX": 278,
+              "offsetY": 325
+            },
+            {
+              "x": 884,
+              "y": 726,
+              "width": 237,
+              "height": 227,
+              "offsetX": 236,
+              "offsetY": 319
+            },
+            {
+              "x": 604,
+              "y": 726,
+              "width": 278,
+              "height": 251,
+              "offsetX": 202,
+              "offsetY": 308
+            },
+            {
+              "x": 309,
+              "y": 726,
+              "width": 293,
+              "height": 255,
+              "offsetX": 190,
+              "offsetY": 302
+            },
+            {
+              "x": 334,
+              "y": 403,
+              "width": 313,
+              "height": 321,
+              "offsetX": 181,
+              "offsetY": 278
+            },
+            {
+              "x": 649,
+              "y": 403,
+              "width": 298,
+              "height": 318,
+              "offsetX": 202,
+              "offsetY": 259
+            },
+            {
+              "x": 0,
+              "y": 726,
+              "width": 307,
+              "height": 270,
+              "offsetX": 208,
+              "offsetY": 264
+            },
+            {
+              "x": 949,
+              "y": 403,
+              "width": 316,
+              "height": 288,
+              "offsetX": 205,
+              "offsetY": 255
+            },
+            {
+              "x": 0,
+              "y": 403,
+              "width": 332,
+              "height": 321,
+              "offsetX": 207,
+              "offsetY": 229
+            },
+            {
+              "x": 720,
+              "y": 0,
+              "width": 342,
+              "height": 380,
+              "offsetX": 210,
+              "offsetY": 221
+            },
+            {
+              "x": 367,
+              "y": 0,
+              "width": 351,
+              "height": 381,
+              "offsetX": 204,
+              "offsetY": 206
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "width": 365,
+              "height": 401,
+              "offsetX": 190,
+              "offsetY": 208
+            },
+            {
+              "x": 1064,
+              "y": 0,
+              "width": 396,
+              "height": 369,
+              "offsetX": 186,
+              "offsetY": 200
+            }
+          ]
+        }
+      },
+      "frontActions": {
+        "still": {
+          "frames": [
+            "art/hero-motion-v4-runtime/guest_demon/still-front.png"
+          ],
+          "order": [
+            0
+          ],
+          "fps": 1,
+          "loop": false,
+          "holdLast": true,
+          "durationMs": 0,
+          "atlasRects": [
+            {
+              "x": 0,
+              "y": 0,
+              "width": 286,
+              "height": 225,
+              "offsetX": 262,
+              "offsetY": 415
+            }
+          ]
+        },
+        "attack": {
+          "frames": [
+            "art/hero-motion-v4-runtime/guest_demon/attack-front.png"
+          ],
+          "order": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "fps": 10,
+          "loop": false,
+          "holdLast": false,
+          "durationMs": 1600,
+          "atlasRects": [
+            {
+              "x": 0,
+              "y": 0,
+              "width": 331,
+              "height": 234,
+              "offsetX": 248,
+              "offsetY": 406
+            },
+            {
+              "x": 667,
+              "y": 0,
+              "width": 329,
+              "height": 229,
+              "offsetX": 244,
+              "offsetY": 410
+            },
+            {
+              "x": 1335,
+              "y": 0,
+              "width": 321,
+              "height": 227,
+              "offsetX": 229,
+              "offsetY": 408
+            },
+            {
+              "x": 0,
+              "y": 236,
+              "width": 342,
+              "height": 220,
+              "offsetX": 213,
+              "offsetY": 402
+            },
+            {
+              "x": 628,
+              "y": 236,
+              "width": 313,
+              "height": 209,
+              "offsetX": 231,
+              "offsetY": 405
+            },
+            {
+              "x": 1336,
+              "y": 236,
+              "width": 341,
+              "height": 201,
+              "offsetX": 234,
+              "offsetY": 407
+            },
+            {
+              "x": 943,
+              "y": 236,
+              "width": 391,
+              "height": 201,
+              "offsetX": 219,
+              "offsetY": 402
+            },
+            {
+              "x": 643,
+              "y": 458,
+              "width": 394,
+              "height": 196,
+              "offsetX": 214,
+              "offsetY": 398
+            },
+            {
+              "x": 1039,
+              "y": 458,
+              "width": 418,
+              "height": 195,
+              "offsetX": 223,
+              "offsetY": 401
+            },
+            {
+              "x": 1459,
+              "y": 458,
+              "width": 380,
+              "height": 194,
+              "offsetX": 227,
+              "offsetY": 398
+            },
+            {
+              "x": 0,
+              "y": 458,
+              "width": 333,
+              "height": 201,
+              "offsetX": 224,
+              "offsetY": 399
+            },
+            {
+              "x": 335,
+              "y": 458,
+              "width": 306,
+              "height": 200,
+              "offsetX": 218,
+              "offsetY": 394
+            },
+            {
+              "x": 344,
+              "y": 236,
+              "width": 282,
+              "height": 216,
+              "offsetX": 219,
+              "offsetY": 407
+            },
+            {
+              "x": 1658,
+              "y": 0,
+              "width": 340,
+              "height": 222,
+              "offsetX": 229,
+              "offsetY": 407
+            },
+            {
+              "x": 998,
+              "y": 0,
+              "width": 335,
+              "height": 227,
+              "offsetX": 232,
+              "offsetY": 409
+            },
+            {
+              "x": 333,
+              "y": 0,
+              "width": 332,
+              "height": 232,
+              "offsetX": 246,
+              "offsetY": 408
+            }
+          ]
+        },
+        "defense": {
+          "frames": [
+            "art/hero-motion-v4-runtime/guest_demon/defense-front.png"
+          ],
+          "order": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "fps": 10,
+          "loop": false,
+          "holdLast": false,
+          "durationMs": 1600,
+          "atlasRects": [
+            {
+              "x": 0,
+              "y": 739,
+              "width": 287,
+              "height": 352,
+              "offsetX": 265,
+              "offsetY": 288
+            },
+            {
+              "x": 1037,
+              "y": 378,
+              "width": 295,
+              "height": 352,
+              "offsetX": 262,
+              "offsetY": 288
+            },
+            {
+              "x": 729,
+              "y": 378,
+              "width": 306,
+              "height": 352,
+              "offsetX": 246,
+              "offsetY": 288
+            },
+            {
+              "x": 370,
+              "y": 378,
+              "width": 357,
+              "height": 352,
+              "offsetX": 233,
+              "offsetY": 288
+            },
+            {
+              "x": 684,
+              "y": 739,
+              "width": 402,
+              "height": 348,
+              "offsetX": 219,
+              "offsetY": 291
+            },
+            {
+              "x": 1088,
+              "y": 739,
+              "width": 380,
+              "height": 348,
+              "offsetX": 240,
+              "offsetY": 291
+            },
+            {
+              "x": 0,
+              "y": 378,
+              "width": 368,
+              "height": 359,
+              "offsetX": 229,
+              "offsetY": 279
+            },
+            {
+              "x": 1014,
+              "y": 0,
+              "width": 352,
+              "height": 368,
+              "offsetX": 239,
+              "offsetY": 271
+            },
+            {
+              "x": 330,
+              "y": 0,
+              "width": 327,
+              "height": 376,
+              "offsetX": 261,
+              "offsetY": 265
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "width": 328,
+              "height": 376,
+              "offsetX": 259,
+              "offsetY": 265
+            },
+            {
+              "x": 659,
+              "y": 0,
+              "width": 353,
+              "height": 374,
+              "offsetX": 245,
+              "offsetY": 267
+            },
+            {
+              "x": 289,
+              "y": 739,
+              "width": 393,
+              "height": 350,
+              "offsetX": 227,
+              "offsetY": 291
+            },
+            {
+              "x": 1031,
+              "y": 1093,
+              "width": 393,
+              "height": 335,
+              "offsetX": 226,
+              "offsetY": 306
+            },
+            {
+              "x": 659,
+              "y": 1093,
+              "width": 370,
+              "height": 338,
+              "offsetX": 232,
+              "offsetY": 301
+            },
+            {
+              "x": 306,
+              "y": 1093,
+              "width": 351,
+              "height": 342,
+              "offsetX": 226,
+              "offsetY": 298
+            },
+            {
+              "x": 0,
+              "y": 1093,
+              "width": 304,
+              "height": 343,
+              "offsetX": 246,
+              "offsetY": 298
+            }
+          ]
+        },
+        "skill": {
+          "frames": [
+            "art/hero-motion-v4-runtime/guest_demon/skill-front.png"
+          ],
+          "order": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "fps": 8,
+          "loop": false,
+          "holdLast": false,
+          "durationMs": 2000,
+          "atlasRects": [
+            {
+              "x": 1236,
+              "y": 0,
+              "width": 301,
+              "height": 234,
+              "offsetX": 260,
+              "offsetY": 406
+            },
+            {
+              "x": 625,
+              "y": 0,
+              "width": 304,
+              "height": 235,
+              "offsetX": 264,
+              "offsetY": 405
+            },
+            {
+              "x": 931,
+              "y": 0,
+              "width": 303,
+              "height": 235,
+              "offsetX": 263,
+              "offsetY": 406
+            },
+            {
+              "x": 296,
+              "y": 240,
+              "width": 278,
+              "height": 231,
+              "offsetX": 274,
+              "offsetY": 398
+            },
+            {
+              "x": 576,
+              "y": 240,
+              "width": 266,
+              "height": 229,
+              "offsetX": 281,
+              "offsetY": 396
+            },
+            {
+              "x": 844,
+              "y": 240,
+              "width": 261,
+              "height": 229,
+              "offsetX": 282,
+              "offsetY": 394
+            },
+            {
+              "x": 1406,
+              "y": 240,
+              "width": 272,
+              "height": 226,
+              "offsetX": 272,
+              "offsetY": 396
+            },
+            {
+              "x": 0,
+              "y": 473,
+              "width": 331,
+              "height": 225,
+              "offsetX": 270,
+              "offsetY": 394
+            },
+            {
+              "x": 333,
+              "y": 473,
+              "width": 355,
+              "height": 224,
+              "offsetX": 258,
+              "offsetY": 395
+            },
+            {
+              "x": 690,
+              "y": 473,
+              "width": 357,
+              "height": 223,
+              "offsetX": 260,
+              "offsetY": 397
+            },
+            {
+              "x": 1049,
+              "y": 473,
+              "width": 336,
+              "height": 222,
+              "offsetX": 257,
+              "offsetY": 398
+            },
+            {
+              "x": 1387,
+              "y": 473,
+              "width": 308,
+              "height": 222,
+              "offsetX": 245,
+              "offsetY": 398
+            },
+            {
+              "x": 1107,
+              "y": 240,
+              "width": 297,
+              "height": 227,
+              "offsetX": 237,
+              "offsetY": 405
+            },
+            {
+              "x": 0,
+              "y": 240,
+              "width": 294,
+              "height": 231,
+              "offsetX": 240,
+              "offsetY": 405
+            },
+            {
+              "x": 317,
+              "y": 0,
+              "width": 306,
+              "height": 235,
+              "offsetX": 244,
+              "offsetY": 409
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "width": 315,
+              "height": 238,
+              "offsetX": 250,
+              "offsetY": 408
+            }
+          ]
+        },
+        "taunt": {
+          "frames": [
+            "art/hero-motion-v4-runtime/guest_demon/taunt-front.png"
+          ],
+          "order": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "fps": 8.88888888888889,
+          "loop": false,
+          "holdLast": false,
+          "durationMs": 1800,
+          "atlasRects": [
+            {
+              "x": 637,
+              "y": 193,
+              "width": 306,
+              "height": 185,
+              "offsetX": 256,
+              "offsetY": 455
+            },
+            {
+              "x": 657,
+              "y": 0,
+              "width": 305,
+              "height": 190,
+              "offsetX": 244,
+              "offsetY": 448
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "width": 326,
+              "height": 191,
+              "offsetX": 238,
+              "offsetY": 449
+            },
+            {
+              "x": 692,
+              "y": 382,
+              "width": 338,
+              "height": 174,
+              "offsetX": 220,
+              "offsetY": 464
+            },
+            {
+              "x": 945,
+              "y": 193,
+              "width": 353,
+              "height": 179,
+              "offsetX": 237,
+              "offsetY": 442
+            },
+            {
+              "x": 1032,
+              "y": 382,
+              "width": 380,
+              "height": 171,
+              "offsetX": 225,
+              "offsetY": 451
+            },
+            {
+              "x": 371,
+              "y": 560,
+              "width": 391,
+              "height": 165,
+              "offsetX": 211,
+              "offsetY": 454
+            },
+            {
+              "x": 1095,
+              "y": 560,
+              "width": 362,
+              "height": 164,
+              "offsetX": 218,
+              "offsetY": 457
+            },
+            {
+              "x": 764,
+              "y": 560,
+              "width": 329,
+              "height": 165,
+              "offsetX": 239,
+              "offsetY": 444
+            },
+            {
+              "x": 0,
+              "y": 560,
+              "width": 369,
+              "height": 166,
+              "offsetX": 224,
+              "offsetY": 446
+            },
+            {
+              "x": 344,
+              "y": 382,
+              "width": 346,
+              "height": 175,
+              "offsetX": 218,
+              "offsetY": 441
+            },
+            {
+              "x": 0,
+              "y": 382,
+              "width": 342,
+              "height": 176,
+              "offsetX": 218,
+              "offsetY": 441
+            },
+            {
+              "x": 325,
+              "y": 193,
+              "width": 310,
+              "height": 187,
+              "offsetX": 232,
+              "offsetY": 440
+            },
+            {
+              "x": 328,
+              "y": 0,
+              "width": 327,
+              "height": 190,
+              "offsetX": 225,
+              "offsetY": 438
+            },
+            {
+              "x": 0,
+              "y": 193,
+              "width": 323,
+              "height": 187,
+              "offsetX": 225,
+              "offsetY": 442
+            },
+            {
+              "x": 964,
+              "y": 0,
+              "width": 324,
+              "height": 187,
+              "offsetX": 225,
+              "offsetY": 443
+            }
+          ]
+        },
+        "death": {
+          "frames": [
+            "art/hero-motion-v4-runtime/guest_demon/death-front.png"
+          ],
+          "order": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "fps": 6.666666666666667,
+          "loop": false,
+          "holdLast": true,
+          "durationMs": 2400,
+          "atlasRects": [
+            {
+              "x": 0,
+              "y": 0,
+              "width": 295,
+              "height": 216,
+              "offsetX": 262,
+              "offsetY": 424
+            },
+            {
+              "x": 297,
+              "y": 0,
+              "width": 303,
+              "height": 213,
+              "offsetX": 237,
+              "offsetY": 432
+            },
+            {
+              "x": 0,
+              "y": 218,
+              "width": 306,
+              "height": 199,
+              "offsetX": 223,
+              "offsetY": 434
+            },
+            {
+              "x": 308,
+              "y": 218,
+              "width": 313,
+              "height": 195,
+              "offsetX": 208,
+              "offsetY": 451
+            },
+            {
+              "x": 0,
+              "y": 419,
+              "width": 304,
+              "height": 177,
+              "offsetX": 247,
+              "offsetY": 458
+            },
+            {
+              "x": 306,
+              "y": 419,
+              "width": 295,
+              "height": 171,
+              "offsetX": 234,
+              "offsetY": 459
+            },
+            {
+              "x": 286,
+              "y": 598,
+              "width": 294,
+              "height": 164,
+              "offsetX": 221,
+              "offsetY": 462
+            },
+            {
+              "x": 0,
+              "y": 598,
+              "width": 284,
+              "height": 166,
+              "offsetX": 214,
+              "offsetY": 461
+            },
+            {
+              "x": 0,
+              "y": 766,
+              "width": 268,
+              "height": 150,
+              "offsetX": 264,
+              "offsetY": 420
+            },
+            {
+              "x": 270,
+              "y": 766,
+              "width": 236,
+              "height": 137,
+              "offsetX": 254,
+              "offsetY": 408
+            },
+            {
+              "x": 0,
+              "y": 918,
+              "width": 233,
+              "height": 136,
+              "offsetX": 227,
+              "offsetY": 403
+            },
+            {
+              "x": 235,
+              "y": 918,
+              "width": 234,
+              "height": 130,
+              "offsetX": 224,
+              "offsetY": 404
+            },
+            {
+              "x": 471,
+              "y": 918,
+              "width": 1,
+              "height": 1,
+              "offsetX": 0,
+              "offsetY": 0
+            },
+            {
+              "x": 474,
+              "y": 918,
+              "width": 1,
+              "height": 1,
+              "offsetX": 0,
+              "offsetY": 0
+            },
+            {
+              "x": 477,
+              "y": 918,
+              "width": 1,
+              "height": 1,
+              "offsetX": 0,
+              "offsetY": 0
+            },
+            {
+              "x": 480,
+              "y": 918,
+              "width": 1,
+              "height": 1,
+              "offsetX": 0,
+              "offsetY": 0
+            }
+          ]
+        },
+        "revive": {
+          "frames": [
+            "art/hero-motion-v4-runtime/guest_demon/revive-front.png"
+          ],
+          "order": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "fps": 5.714285714285714,
+          "loop": false,
+          "holdLast": false,
+          "durationMs": 2800,
+          "atlasRects": [
+            {
+              "x": 695,
+              "y": 580,
+              "width": 1,
+              "height": 1,
+              "offsetX": 0,
+              "offsetY": 0
+            },
+            {
+              "x": 698,
+              "y": 580,
+              "width": 1,
+              "height": 1,
+              "offsetX": 0,
+              "offsetY": 0
+            },
+            {
+              "x": 701,
+              "y": 580,
+              "width": 1,
+              "height": 1,
+              "offsetX": 0,
+              "offsetY": 0
+            },
+            {
+              "x": 704,
+              "y": 580,
+              "width": 1,
+              "height": 1,
+              "offsetX": 0,
+              "offsetY": 0
+            },
+            {
+              "x": 491,
+              "y": 580,
+              "width": 202,
+              "height": 126,
+              "offsetX": 271,
+              "offsetY": 444
+            },
+            {
+              "x": 252,
+              "y": 580,
+              "width": 237,
+              "height": 134,
+              "offsetX": 243,
+              "offsetY": 443
+            },
+            {
+              "x": 0,
+              "y": 580,
+              "width": 250,
+              "height": 147,
+              "offsetX": 233,
+              "offsetY": 448
+            },
+            {
+              "x": 0,
+              "y": 414,
+              "width": 267,
+              "height": 164,
+              "offsetX": 227,
+              "offsetY": 441
+            },
+            {
+              "x": 532,
+              "y": 414,
+              "width": 254,
+              "height": 162,
+              "offsetX": 246,
+              "offsetY": 421
+            },
+            {
+              "x": 269,
+              "y": 414,
+              "width": 261,
+              "height": 162,
+              "offsetX": 254,
+              "offsetY": 426
+            },
+            {
+              "x": 578,
+              "y": 222,
+              "width": 269,
+              "height": 172,
+              "offsetX": 252,
+              "offsetY": 427
+            },
+            {
+              "x": 293,
+              "y": 222,
+              "width": 283,
+              "height": 187,
+              "offsetX": 256,
+              "offsetY": 415
+            },
+            {
+              "x": 0,
+              "y": 222,
+              "width": 291,
+              "height": 190,
+              "offsetX": 261,
+              "offsetY": 411
+            },
+            {
+              "x": 652,
+              "y": 0,
+              "width": 299,
+              "height": 201,
+              "offsetX": 256,
+              "offsetY": 407
+            },
+            {
+              "x": 339,
+              "y": 0,
+              "width": 311,
+              "height": 210,
+              "offsetX": 244,
+              "offsetY": 418
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "width": 337,
+              "height": 220,
+              "offsetX": 245,
+              "offsetY": 420
+            }
+          ]
+        }
+      },
+      "selection": "art/hero-motion-v4-runtime/guest_demon/selection.png",
+      "portrait": "art/hero-motion-v4-runtime/guest_demon/portrait.png"
+    }
+  ]
+}
