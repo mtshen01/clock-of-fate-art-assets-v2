@@ -1,0 +1,246 @@
+{
+  "review": "docs/screenshots/home-lobby-concepts/index.html",
+  "source": "approved 目录逐字节保留实际通过的裁片。native 目录保存本轮对应的生成原图。其余裁片来自评审页复用的物件、角色头像和品牌字标。",
+  "nativeSha256": {
+    "dock-party.png": "ca68fdfee71a5785a6749cf7916f8787ae24de6044837d4d591f7a41bc3236f5",
+    "dock-solo.png": "fc2b29e91c8dafabf22e8205b77bd5a4722e6a2208c3d4fbdf7bb1c704b5bf2e",
+    "dock-daily.png": "3c626c11c603ee6259c9ce6cad24d2abe5a05e93bb926ac32d82148d1b31d404",
+    "dock-fun.png": "bfdece0eaaf5d93b08720dce1c48f51573ebae4ff6ff3aca1bba7393a98c1855",
+    "exec-8ecfdaca-dc14-429d-83e8-195f9c1a1452.png": "571c17582bbe1a9992e39b57ae01efe0a612219fbc756c5af3e11e635a429077",
+    "exec-8763db8e-cf8b-47ab-a267-ae48800b1d42.png": "9f8f647e286c31a1050acd3d23147f2dabc909a7717bfe5d75848416d9727a52",
+    "exec-2dafb72b-00fa-4171-9231-695dc2660fe1.png": "5ed8f6d935870744f0279aca75fd11eb67a4ca1da0df5fd6cef5bea00fba72f9",
+    "exec-e4d333c0-0716-46f9-9c92-ed715cb75903.png": "9d8f9c2b644644805e50f176ddc33bf0c6cb2c79e680ecdc7422cc6970d3b0b5",
+    "exec-17b03771-70bc-4eb5-aa89-f8ace3f1995b.png": "418714d63727907ec6ff2514cb0bfc1c95454ff8abb00502f5274a87a15b0a35",
+    "exec-27c0de0a-1c42-4000-b532-1b230e7013d0.png": "5eb41802e7005d4d63105cde5eeebec992ba80363586a9f7c01807ed5d2314aa",
+    "exec-4e2c228b-7544-4cb6-9af3-eef0e43a1c5e.png": "1b51406bf77d477ebdd4bfad4af2d71df1de1e3a9563fac166c6d8ebe169e4d7",
+    "exec-71032fdf-1c38-47b9-91a1-e720e19bacad.png": "51fdf5140759a95cef7dd5701613e51b915b0395f6b58ed71daf70030760202d",
+    "exec-72ae8d07-2482-4f65-b47b-e4a8849cd880.png": "b5d71fa8f194ed34c6fa28357817aa200fb55c188fd65300a212fa14b44ade16",
+    "exec-8f71b405-0b48-49b5-abb0-397400b76b06.png": "f1d518cf6f67ad38d688ead7d18ee0ca6c8eb801b519c33088983e2f8a5990f8",
+    "exec-94e8274e-f69f-45c1-9084-589addac7349.png": "ed51972855b9af89fdeed08ad962f47cb9a9c967a2b73e98edc9e26e93a819f6",
+    "exec-bb3c5ef3-cd6c-4fe1-afc8-1bc314b34f91.png": "8acfe4be2952c6ad1f4dfa7d4b68805afaaf1fffad23d94639fae83dc62a7244",
+    "exec-c4bbf24f-413f-4692-95b3-e14dbdceedd1.png": "327374f139c3ba8c74a8ef42dbce18c561ced7e6a793dd9a9d900761b5e4a68a",
+    "exec-eb6a7e9e-ea47-4471-b503-99d66304a649.png": "28d8e564d654298496e3af772e757c9ac58075f74e1cba91117e8212fbeeee0c",
+    "exec-f463ae96-ec7b-4e3e-8eda-847d493a593e.png": "e2f6cd9781383e3c7ff0f1057105527f5ed5257711279a719397370a5882053e",
+    "exec-8264af27-9978-4bca-81e5-ace93d0c320e.png": "38df5897e6a208f9bb32196c8a08a0b4984c34b2bd4c671e30a276a8b18e6eb1",
+    "exec-8e15edef-c404-4553-9bc3-759b59a7d362.png": "bfd4c2010a9f592c0ad135aca11bae2f6ae8a52f5904a6f9dbf9b54742594d38",
+    "exec-0158d4df-1d0f-40a0-a695-74093f1f8b0b.png": "961aa13c84f27416286b9c582f5a900d47341fcbc99f4805911a39032fe6b599",
+    "exec-190b2dbe-f41b-4b8c-aa0b-b754704d192c.png": "a93caf9045d3c99fe6265dc3f935378198e614f10fa201c31bfdb0c849e8051a"
+  },
+  "frames": {
+    "dock-solo": {
+      "native": "dock-solo.png",
+      "nativeSize": [2172, 724],
+      "generator": "ImageGen",
+      "generatedOn": "2026-11-20",
+      "generatedFile": "exec-51b35e3b-02c3-4992-9e41-e78433084a26.png",
+      "prompt": "用途 stylized-concept。制作一张独立的无字游戏底栏模式卡背景，3:1 比例全幅横向绘画（例如 2172×724），落地尺寸约 137×58 到 255×68 像素，要在手机上清晰。画一整张横幅插画，不画卡纸、实体框、外边框、金属亮边、装饰角、标记、按钮、图标、文字、数字或 UI。以左到右的构图安排内容：画布左侧至 64% 必须是深暗、哑光、低对比的连续留白，方便程序叠加象牙白标题和物件图标，在 64%–72% 温和过渡；可辨主体全部放在横向 74%–96%、纵向 28%–74% 内，供高宽不同比例等比截取。最清楚的轮廓与有限的小片照明在右端，右端仍整体中暗，不要在字区画亮斑、亮直线或繁碎纹理。手绘哥特奇幻旅行图册，以大块色面交代材质，主次清楚，有接触影，少量笔触用于暗部转面。干净高清画面，平滑动画渲染，细腻材质，纯净色彩，清晰边缘，无瑕疵背景，均匀光照。排除颗粒感、噪点、污点、脏纹理、杂色斑点、胶片颗粒、压缩痕迹、像素化、过度锐化、碎片感。无钟楼、时钟、钟面、指针刻度、发条、沙漏、余烬或灰烬。只交付这张全幅横向插画。\n主题「单人挑战／独自启程」。让左半幅是几乎纯净的深蓝青城墙转面和河面倒影。右端是沿老城外墙斜升的灰石台阶，一位提着短灯的小小披旅行斗篷人物独自上行，背影侧面朝右；远处露一段旧拱券轮廓和散入深青暮色的河岸。让短灯的暖光仅照近旁的斗篷接缝与两级石阶。石板转面和旅人剪影都干净简洁，避免事件性动作，无其他旅人、船、幻想光环或华丽武器。",
+      "crop": {"left":0,"top":0,"width":2172,"height":724}
+    },
+    "dock-daily": {
+      "native": "dock-daily.png",
+      "nativeSize": [2172, 724],
+      "generator": "ImageGen",
+      "generatedOn": "2026-11-20",
+      "generatedFile": "exec-60033ff4-0e0d-4f2d-b03a-20b03f70ff7c.png",
+      "prompt": "用途 stylized-concept。制作一张独立的无字游戏底栏模式卡背景，3:1 比例全幅横向绘画（例如 2172×724），落地尺寸约 137×58 到 255×68 像素，要在手机上清晰。画一整张横幅插画，不画卡纸、实体框、外边框、金属亮边、装饰角、标记、按钮、图标、文字、数字或 UI。以左到右的构图安排内容：画布左侧至 64% 必须是深暗、哑光、低对比的连续留白，方便程序叠加象牙白标题和物件图标，在 64%–72% 温和过渡；可辨主体全部放在横向 74%–96%、纵向 28%–74% 内，供高宽不同比例等比截取。最清楚的轮廓与有限的小片照明在右端，右端仍整体中暗，不要在字区画亮斑、亮直线或繁碎纹理。手绘哥特奇幻旅行图册，以大块色面交代材质，主次清楚，有接触影，少量笔触用于暗部转面。干净高清画面，平滑动画渲染，细腻材质，纯净色彩，清晰边缘，无瑕疵背景，均匀光照。排除颗粒感、噪点、污点、脏纹理、杂色斑点、胶片颗粒、压缩痕迹、像素化、过度锐化、碎片感。无钟楼、时钟、钟面、指针刻度、发条、沙漏、余烬或灰烬。只交付这张全幅横向插画。\n主题「每日挑战」。以略偏蓝灰的深色旧木墙和青灰窗影铺出整个安静左侧，右端近处立着一张较大的实物折角挑战告示，靠在石窗与木托板的交界。无字纸面的清楚折角、一个较小的压扁暗酒红封蜡、纸边上的三角折痕是识别点。右窗射入窄幅冷天光，在纸面留下柔和不同明度，纸张为压低的暖灰米色、不用亮白。灰阶后也应能辨认斜折纸面和暗木阴影。没有其他文具、时间设备或有字的东西。",
+      "crop": {"left":0,"top":0,"width":2172,"height":724}
+    },
+    "dock-fun": {
+      "native": "dock-fun.png",
+      "nativeSize": [2172, 724],
+      "generator": "ImageGen",
+      "generatedOn": "2026-11-20",
+      "generatedFile": "exec-6867632e-68a9-43bf-8f12-0664c40467d1.png",
+      "prompt": "用途 stylized-concept。制作一张独立的无字游戏底栏模式卡背景，3:1 比例全幅横向绘画（例如 2172×724），落地尺寸约 137×58 到 255×68 像素，要在手机上清晰。画一整张横幅插画，不画卡纸、实体框、外边框、金属亮边、装饰角、标记、按钮、图标、文字、数字或 UI。以左到右的构图安排内容：画布左侧至 64% 必须是深暗、哑光、低对比的连续留白，方便程序叠加象牙白标题和物件图标，在 64%–72% 温和过渡；可辨主体全部放在横向 74%–96%、纵向 28%–74% 内，供高宽不同比例等比截取。最清楚的轮廓与有限的小片照明在右端，右端仍整体中暗，不要在字区画亮斑、亮直线或繁碎纹理。手绘哥特奇幻旅行图册，以大块色面交代材质，主次清楚，有接触影，少量笔触用于暗部转面。干净高清画面，平滑动画渲染，细腻材质，纯净色彩，清晰边缘，无瑕疵背景，均匀光照。排除颗粒感、噪点、污点、脏纹理、杂色斑点、胶片颗粒、压缩痕迹、像素化、过度锐化、碎片感。无钟楼、时钟、钟面、指针刻度、发条、沙漏、余烬或灰烬。只交付这张全幅横向插画。\n主题「娱乐模式」。从最左侧到约 66% 保持深蓝灰、不反光的木桌侧面及低对比室内阴影，右端是体量明确的一枚烟灰紫水晶球，坐在矮深色木托上，球右下或前下有一对叠放面朝下的纸牌。只让河边窗光在球肩形成克制的哑银大面柔反光，球内有两层平滑雾面，无符文、发光圆环或碎光。桌面用少量宽笔触表现木纹，灰阶后依旧能分开球、托座、牌面与背景。无人物和其他器物。",
+      "crop": {"left":0,"top":0,"width":2172,"height":724}
+    },
+    "dock-party": {
+      "native": "dock-party.png",
+      "nativeSize": [2172, 724],
+      "generator": "ImageGen",
+      "generatedOn": "2026-11-20",
+      "generatedFile": "exec-ae72484e-f0cc-45e1-9a46-de7c975f4efb.png",
+      "prompt": "用途：stylized-concept，游戏运行素材。请从零绘制一张无字的横向手绘奇幻游戏模式卡底图，主题「多人联机／组队远征」，用于带图标、标题和副标题的矮宽卡，实际显示约 140×58 到 255×68。只画背景，平视的横向小幅风景，不画界面预览、物理卡片、边框、镀铜围边、徽章、按钮、字母、汉字、数字、图标。构图预留精确区域：最终有效画面为中央横向 3:1 条幅，图中上下两端是可裁掉的延伸暗部；将远景地平线和全部关键主体压在画面正中约 42% 的高度内。条幅左端到横向约 65% 保持连贯、干净、极深低对比的蓝青色临水石阶/阴影水面，供另叠图标和亮文字；左侧任何纹理与明度变化都非常克制。将右侧约 70%-95% 画为简洁可辨的哥特古渡口：靠岸的木制小渡船、两三位很小且姿态各异的包袱旅人剪影、石拱底面和一盏沿石壁投出微弱琥珀光的灯。人物面孔不清晰。右端的船桨与摆渡缆绳给出斜向轮廓，水色从青蓝微微转为灰青。所有亮部压低，右端不出现金白高光；即使缩成手机小卡也能一眼辨认船、同伴与石拱。整体接近临河老城的手绘动画背景，少量清楚的水粉笔触用来说明转面，冷青主调与少量有实际光源的昏暖色，不加纹样。干净高清画面、平滑动画渲染、细腻材质、纯净色彩、清晰边缘、无瑕疵背景、均匀光照。排除颗粒感、噪点、污点、脏纹理、杂色斑点、胶片颗粒、压缩痕迹、像素化、过度锐化、碎片感；无钟楼、时钟、钟面、指针刻度、发条、沙漏、余烬或灰烬。整张画填满画布，无边距，强烈横向构图。",
+      "crop": {"left":0,"top":0,"width":2172,"height":724}
+    },
+    "book": {
+      "approvedSha256": "618849ce38f95ba8aa4cda30417df19b64b813fdbb845a48f593f88a8a5a1dec",
+      "native": "exec-27c0de0a-1c42-4000-b532-1b230e7013d0.png"
+    },
+    "brand": {
+      "approvedSha256": "561b308b27306c3c18e1a574f8bdb0ad401ae1df11a1a5b03c529aecba8759b2"
+    },
+    "daily": {
+      "approvedSha256": "3df8fd798f7f3eaf74113cd9f1b0559855945a4a5bf00a767caadb2cb325fca6",
+      "native": "exec-94e8274e-f69f-45c1-9084-589addac7349.png"
+    },
+    "deck": {
+      "approvedSha256": "14cb25f803c8df5b47cc6109ebfe6635627c93e8fa08db8b3196d7074f186697"
+    },
+    "fun": {
+      "approvedSha256": "91b785b7596845427c943704aee5460d1a41e146f4fb9f86ab6f272213195407",
+      "native": "exec-94e8274e-f69f-45c1-9084-589addac7349.png"
+    },
+    "hall": {
+      "approvedSha256": "49f5017f63dd55cca737b0ce0e4793e60cbb9678321706bfb748c3dfd88eb139",
+      "native": "exec-eb6a7e9e-ea47-4471-b503-99d66304a649.png"
+    },
+    "hunter": {
+      "approvedSha256": "cb9862966442f405b904639515b72f5277f1b81d18253a1de8a669f5259a1d80"
+    },
+    "invite-tab": {
+      "approvedSha256": "d48892c6879a7d2496d90da28e985b84938614ee3e047543f2c49f7a6e5b73b4",
+      "native": "exec-71032fdf-1c38-47b9-91a1-e720e19bacad.png"
+    },
+    "knight": {
+      "approvedSha256": "5eb5a14ca223dcb881b964923ad019e54b4e0afd83fff6d37240d5e27595eadb"
+    },
+    "leather": {
+      "approvedSha256": "94ce57b7f81274b41dd5c0a7a73f76a488a6e84f3e6eab0a63e6458270e91afe",
+      "native": "exec-c4bbf24f-413f-4692-95b3-e14dbdceedd1.png"
+    },
+    "ledger": {
+      "approvedSha256": "1b874413ee067447a35b2456863844e54977ab0e8cbda572d60fa50e80259776",
+      "native": "exec-72ae8d07-2482-4f65-b47b-e4a8849cd880.png"
+    },
+    "letter": {
+      "approvedSha256": "b7a26e40e7de7b64d8acf575234a94655b5d92d851e4f66c1f90915779046220",
+      "native": "exec-bb3c5ef3-cd6c-4fe1-afc8-1bc314b34f91.png"
+    },
+    "new-run-ticket": {
+      "approvedSha256": "85f5ff8c997f8f9c96a978cf9fe9b3b7adcbea5843702fb3d9b451743f45783c",
+      "native": "exec-71032fdf-1c38-47b9-91a1-e720e19bacad.png"
+    },
+    "paper": {
+      "approvedSha256": "aaaf6196db6cbee1642e3f713472df806c3b6aa8e5265d51de1c1d00757f1707",
+      "native": "exec-c4bbf24f-413f-4692-95b3-e14dbdceedd1.png"
+    },
+    "party": {
+      "approvedSha256": "be3261fb4c31e89bce996a1969c8bfd282b2c191ace6a65954eef585f10b44f7",
+      "native": "exec-94e8274e-f69f-45c1-9084-589addac7349.png"
+    },
+    "potion": {
+      "approvedSha256": "469a26dcd4dc8bd3d7e78b88ec674b9dfdc5d355c2fbd78c6f2d2370028f6c37"
+    },
+    "print-daily": {
+      "native": "exec-8ecfdaca-dc14-429d-83e8-195f9c1a1452.png",
+      "nativeSize": [1054, 1493],
+      "generator": "ImageGen",
+      "generatedOn": "2026-11-20",
+      "prompt": "Create one standalone full-bleed portrait background illustration for a Chinese hand-painted gothic-fantasy travel folio game, part of a quartet of artwork cards in the same in-game mode picker. Intended crop is 9:16, about 137×245 CSS pixels in the smallest actual card. Keep all identity-bearing silhouettes inside the central horizontal 65% and vertical 14–73%, with a calm continuous dark foreground in the bottom 23% for ivory engine-rendered title text. Strong readable silhouette, three clean depth planes, broad opaque matte gouache color shapes with controlled hard edges in the focal subject and softer air perspective behind it. A clear warm right-side light across cool slate-blue shadows, muted ochre and warm ivory light, weathered deep teal and slate blue, restrained saturation, physically coherent contact shadows. Contemporary hand-painted animated-film background, clean materials, legible at a thumbnail. Portrait rectangle, no outer frame, no border, no UI, no typography, no numerals, no glyphs, no logos. Positive quality: 干净高清画面，平滑动画渲染，细腻材质，纯净色彩，清晰边缘，无瑕疵背景，均匀光照. Negative quality: 颗粒感、噪点、污点、脏纹理、杂色斑点、胶片颗粒、压缩痕迹、像素化、过度锐化、碎片感. Exclude all clocks, clock towers, clock-face silhouettes, dials, hands, marks, springs, hourglasses, mechanisms, ashes, sparks, floating particles, and glowing rings. Deliver only the illustration.\nFor the DAILY CHALLENGE card: a simple hand-set ivory folded task notice with a single raised, deep brick-red wax seal hangs vertically on a dark wooden rail beside a weathered stone inn window. The notice is unmistakably an unprinted slip, ivory against darker wood, with just one large legible silhouette and a subtle folded upper edge; no words, marks, emblems or decorative scribbles. Position it at about 47% of the image height, centrally, entirely within the middle 58% horizontally. The warm right-side morning light divides the still life into easily readable panels: a quiet distant river town, the shutter and paper, a broad dark empty lower-foreground timber sill under the paper. Keep the bottom quarter low-detail and shadowed. Three-value shapes must still be legible when converted to grayscale. No calendar, no timekeeping object, no quill, no extra paper sheets, no people.",
+      "crop": {"left":68,"top":0,"width":920,"height":1493}
+    },
+    "print-fun": {
+      "native": "exec-8763db8e-cf8b-47ab-a267-ae48800b1d42.png",
+      "nativeSize": [1052, 1495],
+      "generator": "ImageGen",
+      "generatedOn": "2026-11-20",
+      "prompt": "Create one standalone full-bleed portrait background illustration for a Chinese hand-painted gothic-fantasy travel folio game, part of a quartet of artwork cards in the same in-game mode picker. Intended crop is 9:16, about 137×245 CSS pixels in the smallest actual card. Keep all identity-bearing silhouettes inside the central horizontal 65% and vertical 14–73%, with a calm continuous dark foreground in the bottom 23% for ivory engine-rendered title text. Strong readable silhouette, three clean depth planes, broad opaque matte gouache color shapes with controlled hard edges in the focal subject and softer air perspective behind it. A clear warm right-side light across cool slate-blue shadows, muted ochre and warm ivory light, weathered deep teal and slate blue, restrained saturation, physically coherent contact shadows. Contemporary hand-painted animated-film background, clean materials, legible at a thumbnail. Portrait rectangle, no outer frame, no border, no UI, no typography, no numerals, no glyphs, no logos. Positive quality: 干净高清画面，平滑动画渲染，细腻材质，纯净色彩，清晰边缘，无瑕疵背景，均匀光照. Negative quality: 颗粒感、噪点、污点、脏纹理、杂色斑点、胶片颗粒、压缩痕迹、像素化、过度锐化、碎片感. Exclude all clocks, clock towers, clock-face silhouettes, dials, hands, marks, springs, hourglasses, mechanisms, ashes, sparks, floating particles, and glowing rings. Deliver only the illustration.\nFor the ENTERTAINMENT MODE card: an intimate riverside tavern corner with a single large smoky lavender crystal ball on a low charcoal carved wooden cradle on a matte wood tabletop. Two staggered face-down divination cards with simple ink-stained backs sit immediately beside it, with no symbols, marks or printed detail. The orb is the clear large silhouette at around 45% image height and the cards occupy 57–68%; both sit in the central horizontal 58%. Paint clean translucent glass with pale layered reflections and dim lavender mist held inside. Warm right-side window light edges the sphere and card paper, cool slate-blue and deep teal wood shadows, soft far wall and simple window light behind. Lower quarter is quiet empty matte wood in shadow for white titles. Bold separation in grayscale. No dice, no people, no magic halos, no particles, no engraving or ornate gold trim.",
+      "crop": {"left":92,"top":0,"width":960,"height":1495}
+    },
+    "print-party": {
+      "native": "exec-2dafb72b-00fa-4171-9231-695dc2660fe1.png",
+      "nativeSize": [941, 1672],
+      "generator": "ImageGen",
+      "generatedOn": "2026-11-20",
+      "prompt": "Create one standalone full-bleed portrait background illustration for a Chinese hand-painted gothic-fantasy travel folio game, part of a quartet of artwork cards in the same in-game mode picker. Intended crop is 9:16, about 137×245 CSS pixels in the smallest actual card. Keep all identity-bearing silhouettes inside the central horizontal 65% and vertical 14–73%, with a calm continuous dark foreground in the bottom 23% for ivory engine-rendered title text. Strong readable silhouette, three clean depth planes, broad opaque matte gouache color shapes with controlled hard edges in the focal subject and softer air perspective behind it. A clear warm right-side light across cool slate-blue shadows, muted ochre and warm ivory light, weathered deep teal and slate blue, restrained saturation, physically coherent contact shadows. Contemporary hand-painted animated-film background, clean materials, legible at a thumbnail. Portrait rectangle, no outer frame, no border, no UI, no typography, no numerals, no glyphs, no logos. Positive quality: 干净高清画面，平滑动画渲染，细腻材质，纯净色彩，清晰边缘，无瑕疵背景，均匀光照. Negative quality: 颗粒感、噪点、污点、脏纹理、杂色斑点、胶片颗粒、压缩痕迹、像素化、过度锐化、碎片感. Exclude all clocks, clock towers, clock-face silhouettes, dials, hands, marks, springs, hourglasses, mechanisms, ashes, sparks, floating particles, and glowing rings. Deliver only the illustration.\nFor the MULTIPLAYER EXPEDITION card: three distinct small back- or side-view travelers are grouped tightly on a slate-paved riverside quay, calmly embarking on one low wooden ferry. The group is the readable subject just below center: exactly three dockside silhouettes side by side, in muted rust-red, pine-teal and warm umber traveling cloaks and packs. A ferryman is not present. A single cream sail rises behind them on one simple mast, catching warm right-side light, and there are cool muted blue-green water and low hazy stone shore buildings behind. Keep the entire important group in the central 54% of the canvas width and safely above the dark bottom quarter. A cool, simple quayside flagstone plane runs through the lower quarter, dark enough for text. Use subdued midtones and broad shapes, no bright saturation, no weapons. Composition emphasizes the three people and ferry silhouette, not distant structures.",
+      "crop": {"left":0,"top":0,"width":941,"height":1672}
+    },
+    "print-solo": {
+      "native": "exec-e4d333c0-0716-46f9-9c92-ed715cb75903.png",
+      "nativeSize": [1190, 1322],
+      "generator": "ImageGen",
+      "generatedOn": "2026-11-20",
+      "prompt": "Create one standalone full-bleed portrait background illustration for a Chinese hand-painted gothic-fantasy travel folio game, part of a quartet of artwork cards in the same in-game mode picker. Intended crop is 9:16, about 137×245 CSS pixels in the smallest actual card. Keep all identity-bearing silhouettes inside the central horizontal 65% and vertical 14–73%, with a calm continuous dark foreground in the bottom 23% for ivory engine-rendered title text. Strong readable silhouette, three clean depth planes, broad opaque matte gouache color shapes with controlled hard edges in the focal subject and softer air perspective behind it. A clear warm right-side light across cool slate-blue shadows, muted ochre and warm ivory light, weathered deep teal and slate blue, restrained saturation, physically coherent contact shadows. Contemporary hand-painted animated-film background, clean materials, legible at a thumbnail. Portrait rectangle, no outer frame, no border, no UI, no typography, no numerals, no glyphs, no logos. Positive quality: 干净高清画面，平滑动画渲染，细腻材质，纯净色彩，清晰边缘，无瑕疵背景，均匀光照. Negative quality: 颗粒感、噪点、污点、脏纹理、杂色斑点、胶片颗粒、压缩痕迹、像素化、过度锐化、碎片感. Exclude all clocks, clock towers, clock-face silhouettes, dials, hands, marks, springs, hourglasses, mechanisms, ashes, sparks, floating particles, and glowing rings. Deliver only the illustration.\nFor the SOLO CHALLENGE card: a single small hooded traveler seen from behind in a muted oxblood cloak with one modest satchel, climbing old wet slate steps beside a river toward a tall pointed stone water gate. The one traveler silhouette and the passage through the arch are the clear focal pair; traveler head near the middle of the composition, steps carry the eye to a restrained amber wall lantern and pale light beyond the opening. A cool river glimpse through the opening and quiet rooflines add distance. One traveler only, no faces, no banners or foreground props. Lower quarter falls into dark blue-grey slate in broad quiet steps.",
+      "crop": {"left":202,"top":0,"width":800,"height":1322}
+    },
+    "quay": {
+      "approvedSha256": "fe4dfb58e66fe2ddc7d01396d87fd1cb8261678358db1806ae8da3373e9b7b82",
+      "native": "exec-8f71b405-0b48-49b5-abb0-397400b76b06.png"
+    },
+    "red": {
+      "approvedSha256": "8763471752d38b269a5c7eaf2b84768938f85519b107986e4fb0da85d725700b",
+      "native": "exec-c4bbf24f-413f-4692-95b3-e14dbdceedd1.png"
+    },
+    "regent": {
+      "approvedSha256": "8c4bf7648c317f37f1fe9fc0706c71f5a2cf004e359b3177c54b185864e8336d"
+    },
+    "settings": {
+      "approvedSha256": "d48974509fca92004fa279cb4f5e913b9ba6a73f3dc8e19c05b726eac9098cef",
+      "native": "exec-27c0de0a-1c42-4000-b532-1b230e7013d0.png"
+    },
+    "solo": {
+      "approvedSha256": "6a6fc1cf779ae909e06f59ef30761460b31d7217a007e210fd60980bb1ebb1ee",
+      "native": "exec-94e8274e-f69f-45c1-9084-589addac7349.png"
+    },
+    "token": {
+      "approvedSha256": "573ec7105bcfbbd609ceec3bbd791abb3a148c305142841b6550ca434fe3fa2a"
+    },
+    "download-close": {
+      "approvedSha256": "4a2ef368ea5cf3d6e064f8bed7a4fee2c48cf3f648cbebf4ee57f8da5951bf84",
+      "native": "exec-8264af27-9978-4bca-81e5-ace93d0c320e.png",
+      "generatedOn": "2026-11-20",
+      "generator": "ImageGen",
+      "reference": {
+        "native": "exec-f463ae96-ec7b-4e3e-8eda-847d493a593e.png",
+        "prompt": "一枚专为手绘奇幻旅行图册的下载清单绘制的关闭按钮图标，用于浅麦色纸面右上角。只画一个物件，正面正视、正方形构图、大轮廓，四周透明。物件是一枚小巧厚实的深墨青色漆木方扣，切去四个短角，边沿略见深色木胎，像旅行皮夹随身的小配件。中央是醒目、粗实、对称、笔端平整的暖白色手绘乘号 ×，两道笔画都为完整的对角线，交点居中，叉号占扣面约三分之二宽高。深色面配白色叉记，缩到32像素也必须一眼识别为关闭。哑光不反光，少量有意的水粉笔触，仅左上木棱略受光，右下边沿稍厚，图形简明。物件占方画布约85%，上下左右完整，边缘利落。透明背景，无地面、无纸页、无场景、无投影底板，无红色、布料、缎带、细金属包边、铆钉、装饰纹样或其他文字。仅一枚独立完成的游戏 UI 原画。"
+      },
+      "prompt": "将这张透明游戏 UI 关闭图标的墨青色木扣正面改绘为清晰饱满的朱砂红漆面，中间色约 #A53329，受光处稍亮，阴面深绛红。中央米白色粗叉、方扣切角轮廓、同一正视比例、光影朝向和木质水粉笔触沿用参考图。四边只有原先木胎的微弱明暗折面。严格为一枚独立的红漆木扣白叉，透明底，物件居中且完整，缩小到36像素清晰可读。没有布、缎带、金属亮框、文字、额外装饰、背景或外部投影。",
+      "nativeSize": [
+        1254,
+        1254
+      ],
+      "crop": {
+        "left": 120,
+        "top": 139,
+        "width": 1008,
+        "height": 1008
+      },
+      "approvedSize": [
+        256,
+        256
+      ]
+    },
+    "new-run-journey": {
+      "native": "exec-17b03771-70bc-4eb5-aa89-f8ace3f1995b.png",
+      "nativeSize": [2172, 724],
+      "tool": "ImageGen",
+      "generatedOn": "2026-11-20",
+      "prompt": "Generate one production-ready isolated game UI button blank for a hand-painted gothic travel folio game. The existing screen is a warm cream parchment notice with a dark brick-red wax seal at its upper-left corner and a quiet desaturated sage-grey paper tab as the secondary action. Design the main confirmation button as a single low-profile, horizontal strip of oxblood dyed matte bookbinding leather, cut like a small travel docket with one very subtle clipped/folded right tip, almost rectangular. Shape ratio about 4.1:1 wide to high, centered in the canvas, generous transparent space around it; show it perfectly face-on in orthographic view, no perspective. Hand-painted gouache with warm dark burgundy (#722c28 to #913e35), near even and dark across the central 75% for four cream Chinese characters to be typeset later by the engine. A simple tactile top edge on the upper-left and a tiny folded leather edge on the far right are enough. Pigment texture restrained at edges and fine enough to shrink to 160 x 39 UI units; use a very soft thin contact shadow immediately beneath, baked into the isolated alpha only if subtle. This is ONE clean cohesive rectangular tab, no detached objects, no separate wax medallion, no flying ribbons, no weapons, no straps or clasps, no border of brass/gold or glossy accents, no rivets, no elaborate ornamental motifs, no clock/time motifs, no letters, numbers, symbols or watermarks. True transparent background. Exactly one element.",
+      "crop": {
+        "left": 74,
+        "top": 132,
+        "width": 2022,
+        "height": 459
+      }
+    },
+    "rank-board": {
+      "native": "exec-8e15edef-c404-4553-9bc3-759b59a7d362.png",
+      "crop": {
+        "left": 24,
+        "top": 28,
+        "width": 1612,
+        "height": 887
+      }
+    },
+    "rank-tab": {
+      "native": "exec-0158d4df-1d0f-40a0-a695-74093f1f8b0b.png",
+      "crop": {
+        "left": 106,
+        "top": 96,
+        "width": 1571,
+        "height": 420
+      }
+    },
+    "rank-card": {
+      "native": "exec-190b2dbe-f41b-4b8c-aa0b-b754704d192c.png",
+      "crop": {
+        "left": 83,
+        "top": 242,
+        "width": 1390,
+        "height": 510
+      }
+    }
+  },
+  "seasonStandings": "season-standings-generation.json"
+}

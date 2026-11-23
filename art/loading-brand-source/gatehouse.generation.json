@@ -1,0 +1,18 @@
+{
+  "dateShanghai": "2026-11-19",
+  "tool": "image_gen.imagegen",
+  "output": "gatehouse.png",
+  "nativeFile": "exec-489bc336-f60d-4f38-8582-45a4e3b40d7f.png",
+  "sha256": "e8b5b60fec38374023cd0fdf2ef414c6e178d93d3fb394bf9f982309eafc7d4e",
+  "references": [
+    {
+      "file": "art/loading-v1/bg_loading.jpg",
+      "sha256": "232e79a8905c5326fdca411684a1cdbf04c42d4c9acf55102d4df8c901ac3e0e"
+    },
+    {
+      "file": "art/home-v1/bg_home.png",
+      "sha256": "135b5726e5ca1d08caee14b039b28d58adb92ebd7b02063de7e1ca15e573c64b"
+    }
+  ],
+  "prompt": "Use case: precise-object-edit\nAsset type: final opaque 16:9 landscape backdrop for a hand-painted gothic fantasy game startup screen, artwork only.\nInput image 1 is the project's current startup artwork, for camera framing, depth, and dark left-side negative space. Input image 2 is the project's approved home artwork, for the riverside stone gateway, lamps, water, and material palette.\nReplace the entire identifiable right-hand tower facade and its dominant circular face in image 1 with a broad riverside stone gatehouse. Use one tall pointed open stone arch at about x=76% of the frame, y=60%, and a diagonal run of damp steps down to the right foreground waterfront. Frame the entrance by low lateral wings, buttresses, and just two or three old amber wall lanterns. Build the edit into the perspective and stone courses. Reflect that light in dark blue still water in the bottom sixth. Across the hazy river faintly show the same modest arched bridge and staggered slate roofs. Keep the left 45 percent very dark, simple, low contrast, with no large bright sky opening, strongly readable golden title and loading information will be rendered there separately. Retain natural atmosphere and controlled value hierarchy. The wide camera sees the entire key arch even if the far edges are cropped. No people, words, letters, marks, UI or watermark.\nStyle: refined clean hand-painted gothic storybook game background, painterly stone and smooth animation-style rendering, crisp structural edges, cool navy air and stone blue-greys, sparse source-bound amber light, smooth fog graded in broad shapes, no yellow glowing haze. 干净高清画面，平滑动画渲染，细腻材质，纯净色彩，清晰边缘，无瑕疵背景，均匀光照.\nStrict avoid: any clock tower, belfry, clock face, circular rosette centerpiece, gears, hands, radial ticks, dial, bell, hourglass, ember, ash, floating sparks, lens flare; 颗粒感、噪点、污点、脏纹理、杂色斑点、胶片颗粒、压缩痕迹、像素化、过度锐化、碎片感."
+}

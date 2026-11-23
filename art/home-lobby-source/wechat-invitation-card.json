@@ -1,0 +1,33 @@
+{
+  "generatedOn": "2026-11-20",
+  "generator": "ImageGen",
+  "native": "exec-bf293931-56f0-4d2d-b0b5-d8e1b3eb0eb3.png",
+  "sha256": "a82b4db85ddb7f8f4440be1e20fce146313f1ee547ee4e13cbefe8e5f6ee866c",
+  "nativeSize": [
+    1402,
+    1122
+  ],
+  "crop": {
+    "left": 1,
+    "top": 1,
+    "width": 1400,
+    "height": 1120
+  },
+  "outputSize": [
+    500,
+    400
+  ],
+  "references": [
+    {
+      "file": "client/assets/startup-brand/home.jpg",
+      "role": "临河港口色彩、石材、水面与画风",
+      "sha256": "5c34c38c3f7a0d949ead5beb72b9346ba1d79c760c1f00eb97516a03dcae5754"
+    },
+    {
+      "file": "client/assets/startup-brand/letter.png",
+      "role": "折纸信笺、墨青信封与朱红蜡封",
+      "sha256": "7825648e04b3a8643f660df3cd0f3a2b4ebd2fb77a0e81d9f4dfdc2cbbe2c9e9"
+    }
+  ],
+  "prompt": "Use case: stylized-concept. Create a new, finished 5:4 landscape illustration cover for a WeChat mini-game friend invitation, full bleed, specifically designed for a tiny 200px wide chat thumbnail. The first reference is for the established painted riverside city visual language, composition and materials; the second is a reference for the recognizable folded ivory letter, dark teal envelope and red wax. These are visual references for a NEW artwork.\nScene: seen close-up from a quiet landing of the same riverside stone port, looking across still, clean turquoise water through a single old stone arch. In the middle foreground, one large sealed cream invitation letter and its understated deep-teal envelope rest on a pale worn stone landing rail, tilted slightly toward the viewer with one irregular oval warm red wax seal, an understated embossed sprig and a short red ribbon. The letter fills about 45 percent of frame width, with a clear perimeter and bright matte edges. The soft middle distance reveals an ochre mooring post and a single small red-and-cream sail. Warm daylight glances across the letter and nearest stone from the upper right. Restrained natural colors of faded teal, slate-blue shadow, warm limestone, ivory paper and a single rich vermilion accent. Professionally hand-painted matte gouache game art, simplified intentional silhouettes, clean high definition, smooth animated rendering, refined materials, clean colors, crisp edges, pristine background and even readable lighting. Aim the eye first to the invitation seal, then to the port beyond. Keep all important subject shapes within the central 75 percent for fit and trimming. No people, no typography, no numbers, no UI, no logo, no watermark, no borders, no decorative gold or copper frames. No clock towers, clock faces, hands, ticks, springs, hourglasses, ashes or embers anywhere. No grain, noise, smudges, dirty textures, speckles, film grain, compression artifacts, pixelation, oversharpening or fragment detail. Render only one invitation cover, no mockup of a chat app."
+}
